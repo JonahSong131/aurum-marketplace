@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #05060a;
+  color: #e9e6df;
+  font-family: var(--font-sans, "Inter", system-ui, sans-serif);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* 自定义滚动条 —— 奢华金调 */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0c14;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #d4af37, #a67c1f);
+  border-radius: 999px;
+}
+
+@layer components {
+  .glass {
+    background: rgba(16, 19, 31, 0.6);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(212, 175, 55, 0.18);
+  }
+  .gold-text {
+    background: linear-gradient(135deg, #f7ecc9 0%, #d4af37 45%, #a67c1f 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-semibold text-ink-900 transition;
+    background: linear-gradient(135deg, #f7ecc9 0%, #d4af37 50%, #a67c1f 100%);
+    box-shadow: 0 0 40px -10px rgba(212, 175, 55, 0.55);
+  }
+  .btn-gold:hover {
+    filter: brightness(1.06);
+    transform: translateY(-1px);
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-gold-400/40 px-6 py-3 font-medium text-gold-100 transition;
+  }
+  .btn-ghost:hover {
+    background: rgba(212, 175, 55, 0.1);
+  }
+  .card {
+    @apply rounded-2xl border border-white/5 bg-ink-700/60 transition;
+  }
+  .card:hover {
+    border-color: rgba(212, 175, 55, 0.35);
+    transform: translateY(-4px);
+  }
+}
+
+.bg-grid {
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.04) 1px,
+    transparent 1px
+  );
+  background-size: 28px 28px;
+}
+
+/* 让 3D 画布铺满容器 */
+canvas {
+  display: block;
+}
+
+/* 电影级颗粒（动态噪点） */
+.hero-grain {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.06;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 160px 160px;
+  animation: grainShift 1.2s steps(4) infinite;
+}
+
+@keyframes grainShift {
+  0% { transform: translate(0, 0); }
+  25% { transform: translate(-3%, 2%); }
+  50% { transform: translate(2%, -3%); }
+  75% { transform: translate(-2%, -2%); }
+  100% { transform: translate(3%, 1%); }
+}
+
+/* 电影级暗角，聚焦中央内容 */
+.hero-vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 38%,
+    rgba(5, 6, 10, 0.55) 100%
+  );
+}

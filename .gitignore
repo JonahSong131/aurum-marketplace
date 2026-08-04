@@ -1,0 +1,34 @@
+node_modules
+.next
+.build
+.next_export
+out
+.env
+.env.local
+.DS_Store
+*.log
+next-env.d.ts
+# 临时备份目录（沙盒构建清理产生）
+*_bak
+*_dead
+
+
+# 沙盒构建产生的临时备份目录（带随机后缀）
+*_bak_*/
+
+# 沙盒构建产生的临时备份目录（带随机后缀）
+*_bak_*/
+
+# 构建产物缓存
+*.tsbuildinfo
+
+# 临时/部署脚本
+_freshbuild/
+deploy-fresh/
+deploy/
+dist_old_*/
+export-manual.js
+serve-static.js
+cleanup-i18n.js
+patch-links.js
+out-old-backup/
