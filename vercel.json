@@ -4,5 +4,5 @@
   "outputDirectory": "out",
   "installCommand": "npm install",
   "framework": null,
-  "regions": ["hkg1", "sin1", "sfo1"]
+  "regions": ["hkg1"]
 }

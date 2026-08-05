@@ -11,6 +11,10 @@ body {
   padding: 0;
   margin: 0;
   background: #05060a;
+  background-image: url("/images/backgrounds/page-misty-forest.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   color: #e9e6df;
   font-family: var(--font-sans, "Inter", system-ui, sans-serif);
   -webkit-font-smoothing: antialiased;
@@ -112,6 +116,50 @@ canvas {
   background: radial-gradient(
     ellipse at center,
     transparent 38%,
-    rgba(5, 6, 10, 0.55) 100%
+    rgba(5, 6, 10, 0.45) 100%
   );
+}
+
+/* ========== 中国风景动态背景（Ken Burns 效果） ========== */
+.hero-scenery-bg {
+  z-index: 0;
+  background-image: url("/images/backgrounds/hero-misty-mountains.jpg");
+  background-size: cover;
+  background-position: center;
+  transform: scale(1.08);
+  animation: kenBurns 20s ease-in-out infinite alternate;
+  filter: brightness(0.7) contrast(1.1);
+}
+
+@keyframes kenBurns {
+  0% {
+    transform: scale(1.05) translate(0, 0);
+  }
+  50% {
+    transform: scale(1.12) translate(-1%, -0.5%);
+  }
+  100% {
+    transform: scale(1.08) translate(0.5%, 0.5%);
+  }
+}
+
+/* 全站页面风景背景叠加层（保证文字可读性） */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 6, 10, 0.60);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* 让主要内容区的深色背景半透明，透出风景 */
+main > section {
+  background: rgba(5, 6, 10, 0.55) !important;
+}
+.glass {
+  background: rgba(16, 19, 31, 0.45) !important;
+}
+.card {
+  background: rgba(16, 19, 31, 0.40) !important;
 }

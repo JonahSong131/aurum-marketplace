@@ -32,3 +32,6 @@ serve-static.js
 cleanup-i18n.js
 patch-links.js
 out-old-backup/
+
+.vercel
+.env*

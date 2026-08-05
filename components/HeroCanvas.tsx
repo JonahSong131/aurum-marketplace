@@ -49,7 +49,13 @@ export default function HeroCanvas() {
       className="relative h-screen w-full overflow-hidden bg-ink-900"
       onMouseMove={onMove}
     >
-      {/* 3D 画布（含全屏流体着色器背景） */}
+      {/* 中国风景动态背景（Ken Burns 缓慢缩放+位移） */}
+      <div
+        className="absolute inset-0 hero-scenery-bg"
+        aria-hidden="true"
+      />
+
+      {/* 3D 画布（中央晶体 + 粒子 + 光环，叠加在风景之上） */}
       <Scene />
 
       {/* 电影级颗粒 + 暗角叠层 */}
