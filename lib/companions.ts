@@ -562,7 +562,7 @@ export const companionCities: CompanionCity[] = [
           zh: "本地学生的那股劲儿，便宜又好玩。想要深夜烧烤版西安而不是博物馆版西安的背包客，选他。",
         },
         halfDayUSD: 75,
-        fullDayUSD: 145,
+        fullDayUSD: 150,
       },
     ],
     charter: [
@@ -681,7 +681,7 @@ export const companionCities: CompanionCity[] = [
           zh: "副业开了个小汉服租赁店。如果你的杭州计划本质上就是「拍好看的照片、喝点东西」，找她。",
         },
         halfDayUSD: 78,
-        fullDayUSD: 148,
+        fullDayUSD: 152,
       },
     ],
     charter: [
@@ -756,7 +756,7 @@ export const companionCities: CompanionCity[] = [
           zh: "白族，喜洲人。她带你去环湖村子的赶集日——那种只有本地人才记得住的轮转日程。",
         },
         halfDayUSD: 75,
-        fullDayUSD: 142,
+        fullDayUSD: 150,
       },
       {
         id: "dl-river",
@@ -778,7 +778,7 @@ export const companionCities: CompanionCity[] = [
           zh: "六年前从深圳搬来就没回去过。洱海环线上每个没标记但光线很好的停车点，他都知道。",
         },
         halfDayUSD: 78,
-        fullDayUSD: 148,
+        fullDayUSD: 155,
       },
       {
         id: "dl-nina",
@@ -800,7 +800,7 @@ export const companionCities: CompanionCity[] = [
           zh: "在古城开过四年客栈。如果你在考虑在大理待一个月而不是三天，跟她聊聊。",
         },
         halfDayUSD: 77,
-        fullDayUSD: 146,
+        fullDayUSD: 150,
       },
     ],
     charter: [
