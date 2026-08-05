@@ -42,6 +42,7 @@ export default function Reveal({
   return (
     <motion.div
       className={className}
+      style={{ pointerEvents: "auto" }}
       initial={{ opacity: 0, x: o.x, y: o.y, filter: "blur(10px)" }}
       whileInView={{ opacity: 1, x: 0, y: 0, filter: "blur(0px)" }}
       viewport={{ once, amount }}
