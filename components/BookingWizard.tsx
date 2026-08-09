@@ -88,7 +88,7 @@ export default function BookingWizard({
       .map((l) => likeOptions.find((o) => o.id === l)?.label ?? l)
       .join(", ");
     return [
-      "Hi AURUM! Here is my travel profile:",
+      "Hi Ximi! Here is my travel profile:",
       "",
       `• City: ${cityEn}`,
       `• Party: ${labelOf(partyOptions, party)}`,

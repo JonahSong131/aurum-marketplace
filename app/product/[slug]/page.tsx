@@ -11,7 +11,7 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const p = getProductBySlug(params.slug);
-  return { title: p ? `${loc(p.title, DEFAULT_LOCALE)} · AURUM` : "AURUM" };
+  return { title: p ? `${loc(p.title, DEFAULT_LOCALE)} · Ximi` : "Ximi" };
 }
 
 export default function ProductPage({ params }: { params: { slug: string } }) {

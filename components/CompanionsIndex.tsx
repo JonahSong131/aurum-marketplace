@@ -89,13 +89,22 @@ export default function CompanionsIndex() {
                 href={`/companions/${c.slug}`}
                 className="group relative block aspect-[4/5] overflow-hidden rounded-2xl border border-white/8 shadow-lg shadow-black/20"
               >
-                {/* 城市大图 */}
-                <img
-                  src={`/images/cities/${c.slug}.jpg`}
-                  alt={loc(c.name, locale)}
-                  className="absolute inset-0 h-full w-full object-cover transition-transform duration-800 group-hover:scale-110"
-                  loading="lazy"
-                />
+                {/* 城市大图 / 暂无实拍图时回退到品牌渐变 */}
+                {c.image ? (
+                  <img
+                    src={c.image}
+                    alt={loc(c.name, locale)}
+                    className="absolute inset-0 h-full w-full object-cover transition-transform duration-800 group-hover:scale-110"
+                    loading="lazy"
+                  />
+                ) : (
+                  <div
+                    className="absolute inset-0"
+                    style={{
+                      background: `linear-gradient(135deg, ${c.from} 0%, ${c.to} 120%)`,
+                    }}
+                  />
+                )}
                 {/* 多层渐变遮罩 */}
                 <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/40 to-transparent" />
                 <div

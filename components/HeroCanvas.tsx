@@ -78,7 +78,7 @@ export default function HeroCanvas() {
 
         <motion.div variants={item} className="mt-6">
           <span className="gold-text font-serif text-2xl font-bold tracking-[0.35em] sm:text-3xl">
-            AURUM
+            Ximi
           </span>
         </motion.div>
 

@@ -8,37 +8,40 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        // 暖近黑，比纯黑更有质感（墨韵）
         ink: {
-          900: "#05060a",
-          800: "#0a0c14",
-          700: "#10131f",
-          600: "#171b2b",
+          900: "#0c0d10",
+          800: "#121319",
+          700: "#1a1d27",
+          600: "#242836",
         },
+        // 香槟金 / 古铜金（克制高级，非黄铜金）
         gold: {
-          100: "#f7ecc9",
-          200: "#efdc9a",
-          300: "#e6c977",
-          400: "#d4af37",
-          500: "#c79a2b",
-          600: "#a67c1f",
+          100: "#f5edd9",
+          200: "#ecdcb4",
+          300: "#ddc78c",
+          400: "#c9a96a",
+          500: "#b8924f",
+          600: "#987237",
         },
         jade: {
-          300: "#7ff0d4",
-          400: "#3fd9b6",
-          500: "#1fb89a",
+          300: "#9fe6d0",
+          400: "#5fc9aa",
+          500: "#34a98c",
         },
       },
       fontFamily: {
-        serif: ["Playfair Display", "Georgia", "serif"],
+        // 优雅高对比衬线，替代过曝的 Playfair
+        serif: ["Cormorant Garamond", "Noto Serif SC", "Georgia", "serif"],
         sans: ["Inter", "system-ui", "sans-serif"],
       },
       boxShadow: {
-        glow: "0 0 40px -10px rgba(212,175,55,0.45)",
-        "glow-lg": "0 0 80px -20px rgba(212,175,55,0.55)",
+        glow: "0 0 36px -12px rgba(201,169,106,0.40)",
+        "glow-lg": "0 0 70px -18px rgba(201,169,106,0.45)",
       },
       backgroundImage: {
-        "gold-grad": "linear-gradient(135deg,#f7ecc9 0%,#d4af37 45%,#a67c1f 100%)",
-        "radial-lux": "radial-gradient(1200px 600px at 50% -10%, rgba(212,175,55,0.18), transparent 60%)",
+        "gold-grad": "linear-gradient(135deg,#f5edd9 0%,#c9a96a 50%,#987237 100%)",
+        "radial-lux": "radial-gradient(1200px 600px at 50% -10%, rgba(201,169,106,0.14), transparent 60%)",
       },
       keyframes: {
         shimmer: {

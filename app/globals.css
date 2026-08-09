@@ -10,65 +10,72 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background: #05060a;
+  background: #0c0d10;
   background-image: url("/images/backgrounds/page-misty-forest.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  color: #e9e6df;
+  color: #ece6d8;
   font-family: var(--font-sans, "Inter", system-ui, sans-serif);
+  line-height: 1.65;
   -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 * {
   box-sizing: border-box;
 }
 
-/* 自定义滚动条 —— 奢华金调 */
+::selection {
+  background: rgba(201, 169, 106, 0.32);
+  color: #fff;
+}
+
+/* 自定义滚动条 —— 香槟金调 */
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #0a0c14;
+  background: #121319;
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #d4af37, #a67c1f);
+  background: linear-gradient(180deg, #ddc78c, #987237);
   border-radius: 999px;
 }
 
 @layer components {
   .glass {
-    background: rgba(16, 19, 31, 0.6);
-    backdrop-filter: blur(14px);
-    border: 1px solid rgba(212, 175, 55, 0.18);
+    background: rgba(22, 25, 34, 0.55);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(221, 199, 140, 0.16);
   }
   .gold-text {
-    background: linear-gradient(135deg, #f7ecc9 0%, #d4af37 45%, #a67c1f 100%);
+    background: linear-gradient(135deg, #f5edd9 0%, #ddc78c 45%, #987237 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
   .btn-gold {
-    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-semibold text-ink-900 transition;
-    background: linear-gradient(135deg, #f7ecc9 0%, #d4af37 50%, #a67c1f 100%);
-    box-shadow: 0 0 40px -10px rgba(212, 175, 55, 0.55);
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 font-semibold text-ink-900 transition;
+    background: linear-gradient(135deg, #f5edd9 0%, #c9a96a 50%, #987237 100%);
+    box-shadow: 0 10px 34px -12px rgba(201, 169, 106, 0.55);
   }
   .btn-gold:hover {
-    filter: brightness(1.06);
+    filter: brightness(1.05);
     transform: translateY(-1px);
   }
   .btn-ghost {
-    @apply inline-flex items-center justify-center gap-2 rounded-full border border-gold-400/40 px-6 py-3 font-medium text-gold-100 transition;
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-gold-400/35 px-7 py-3.5 font-medium text-gold-100 transition;
   }
   .btn-ghost:hover {
-    background: rgba(212, 175, 55, 0.1);
+    background: rgba(201, 169, 106, 0.1);
   }
   .card {
-    @apply rounded-2xl border border-white/5 bg-ink-700/60 transition;
+    @apply rounded-2xl border border-white/5 bg-ink-700/50 transition;
   }
   .card:hover {
-    border-color: rgba(212, 175, 55, 0.35);
+    border-color: rgba(201, 169, 106, 0.35);
     transform: translateY(-4px);
   }
 }
@@ -86,13 +93,13 @@ canvas {
   display: block;
 }
 
-/* 电影级颗粒（动态噪点） */
+/* 电影级颗粒（动态噪点，调淡避免脏感） */
 .hero-grain {
   position: absolute;
   inset: 0;
   z-index: 2;
   pointer-events: none;
-  opacity: 0.06;
+  opacity: 0.045;
   mix-blend-mode: overlay;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   background-size: 160px 160px;
@@ -115,20 +122,20 @@ canvas {
   pointer-events: none;
   background: radial-gradient(
     ellipse at center,
-    transparent 38%,
-    rgba(5, 6, 10, 0.45) 100%
+    transparent 40%,
+    rgba(12, 13, 16, 0.5) 100%
   );
 }
 
-/* ========== 中国风景动态背景（Ken Burns 效果） ========== */
+/* ========== 中国风景动态背景（Ken Burns 效果，调亮让山脉透出高级感） ========== */
 .hero-scenery-bg {
   z-index: 0;
   background-image: url("/images/backgrounds/hero-misty-mountains.jpg");
   background-size: cover;
   background-position: center;
   transform: scale(1.08);
-  animation: kenBurns 20s ease-in-out infinite alternate;
-  filter: brightness(0.7) contrast(1.1);
+  animation: kenBurns 22s ease-in-out infinite alternate;
+  filter: brightness(0.82) contrast(1.04) saturate(1.06);
 }
 
 @keyframes kenBurns {
@@ -143,23 +150,28 @@ canvas {
   }
 }
 
-/* 全站页面风景背景叠加层（保证文字可读性） */
+/* 全站页面风景背景叠加层（更通透，让风景透出来，同时保证文字可读） */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: rgba(5, 6, 10, 0.60);
+  background: rgba(12, 13, 16, 0.42);
   pointer-events: none;
   z-index: -1;
 }
 
-/* 让主要内容区的深色背景半透明，透出风景 */
+/* 让主要内容区的深色背景半透明，透出风景（比旧版更轻，不再死黑） */
 main > section {
-  background: rgba(5, 6, 10, 0.55) !important;
+  background: rgba(12, 13, 16, 0.30) !important;
 }
 .glass {
-  background: rgba(16, 19, 31, 0.45) !important;
+  background: rgba(22, 25, 34, 0.42) !important;
 }
 .card {
-  background: rgba(16, 19, 31, 0.40) !important;
+  background: rgba(22, 25, 34, 0.30) !important;
+}
+
+/* 标题层级微调：更利落的高级感 */
+h1, h2, h3, h4 {
+  letter-spacing: -0.01em;
 }

@@ -14,10 +14,10 @@ export function generateMetadata({
   params: { city: string };
 }): Metadata {
   const c = getCompanionCity(params.city);
-  if (!c) return { title: "AURUM" };
+  if (!c) return { title: "Ximi" };
   const name = loc(c.name, DEFAULT_LOCALE);
   return {
-    title: `Local Companions in ${name} · AURUM`,
+    title: `Local Companions in ${name} · Ximi`,
     description: `${loc(c.tagline, DEFAULT_LOCALE)} — verified local companions and private-car day trips in ${name}. Book directly on WhatsApp.`,
   };
 }

@@ -16,7 +16,7 @@ export default function TravelPage() {
   ).map((s) => JSON.parse(s) as (typeof list)[number]["section"]);
 
   useEffect(() => {
-    document.title = t("travel.head.title") + " · AURUM";
+    document.title = t("travel.head.title") + " · Ximi";
   }, [t]);
 
   return (

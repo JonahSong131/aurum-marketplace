@@ -25,7 +25,7 @@ interface LangContextValue {
 
 const LangContext = createContext<LangContextValue | null>(null);
 
-const STORAGE_KEY = "aurum-locale";
+const STORAGE_KEY = "ximi-locale";
 
 function metaOf(locale: Locale): LocaleMeta {
   return LOCALES.find((l) => l.code === locale) ?? LOCALES[0];

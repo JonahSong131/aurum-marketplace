@@ -1,4 +1,4 @@
-// 全局类型定义 —— AURUM · 锦市
+// 全局类型定义 —— Ximi · 私人定制游
 import type { Localized } from "./i18n";
 
 export type Category = "travel";

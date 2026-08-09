@@ -18,14 +18,23 @@ export default function CityCompanions({ city }: { city: CompanionCity }) {
     <div>
       {/* 城市头图 —— 全宽大图 Hero */}
       <div className="relative overflow-hidden">
-        {/* 城市风景大图 */}
+        {/* 城市风景大图 / 暂无实拍图时回退到品牌渐变 */}
         <div className="relative h-[50vh] min-h-[380px] max-h-[520px]">
-          <img
-            src={`/images/cities/${city.slug}.jpg`}
-            alt={loc(city.name, locale)}
-            className="absolute inset-0 h-full w-full object-cover"
-            loading="eager"
-          />
+          {city.image ? (
+            <img
+              src={city.image}
+              alt={loc(city.name, locale)}
+              className="absolute inset-0 h-full w-full object-cover"
+              loading="eager"
+            />
+          ) : (
+            <div
+              className="absolute inset-0"
+              style={{
+                background: `linear-gradient(135deg, ${city.from} 0%, ${city.to} 120%)`,
+              }}
+            />
+          )}
           {/* 多层遮罩：底部深 + 两侧暗角 */}
           <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/70 to-ink-900/30" />
           <div className="absolute inset-0 bg-gradient-to-r from-ink-900/60 via-transparent to-ink-900/60" />

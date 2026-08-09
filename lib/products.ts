@@ -11,7 +11,7 @@ export const products: Product[] = [
   {
     id: "travel-beijing",
     slug: "china-travel-beijing",
-    image: "/images/products/china-travel-beijing.png",
+    image: "/images/cities/beijing.jpg",
     title: {
       en: "Beijing In-Depth Travel Guide",
       zh: "北京深度旅行指南",
@@ -71,7 +71,7 @@ export const products: Product[] = [
   {
     id: "travel-shanghai",
     slug: "china-travel-shanghai",
-    image: "/images/products/china-travel-shanghai.png",
+    image: "/images/cities/shanghai.jpg",
     title: {
       en: "Shanghai City Wandering Guide",
       zh: "上海城市漫游指南",
@@ -130,7 +130,7 @@ export const products: Product[] = [
   {
     id: "travel-chengdu",
     slug: "china-travel-chengdu",
-    image: "/images/products/china-travel-chengdu.png",
+    image: "/images/cities/chengdu.jpg",
     title: {
       en: "Chengdu Slow-Living Guide",
       zh: "成都慢生活指南",
@@ -190,7 +190,7 @@ export const products: Product[] = [
   {
     id: "travel-xian",
     slug: "china-travel-xian",
-    image: "/images/products/china-travel-xian.png",
+    image: "/images/cities/xian.jpg",
     title: {
       en: "Xi'an Past-and-Present Guide",
       zh: "西安古今穿越指南",
@@ -249,7 +249,7 @@ export const products: Product[] = [
   {
     id: "travel-hangzhou",
     slug: "china-travel-hangzhou",
-    image: "/images/products/china-travel-hangzhou.png",
+    image: "/images/cities/hangzhou.jpg",
     title: {
       en: "Hangzhou West Lake Guide",
       zh: "杭州西湖雅集指南",
@@ -308,7 +308,7 @@ export const products: Product[] = [
   {
     id: "travel-dali",
     slug: "china-travel-dali",
-    image: "/images/products/china-travel-dali.png",
+    image: "/images/cities/dali.jpg",
     title: {
       en: "Dali Wind-Flower-Snow-Moon Guide",
       zh: "大理风花雪月指南",

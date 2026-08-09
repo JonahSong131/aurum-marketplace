@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { LanguageProvider } from "@/components/LanguageProvider";
 
 export const metadata: Metadata = {
-  title: "AURUM · China Travel Guides & Local Companions",
+  title: "Ximi Private Travel · 中国私人定制游",
   description:
     "Expert China travel guides and real local companions across 6 cities. Plan free, book everything on WhatsApp. Available in 8 languages.",
   keywords: [
@@ -14,7 +14,8 @@ export const metadata: Metadata = {
     "local companion",
     "China tour",
     "WhatsApp",
-    "AURUM",
+    "Ximi Private Travel",
+    "私人定制游",
   ],
 };
 
@@ -33,7 +34,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&family=Noto+Serif+SC:wght@500;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;700&display=swap"
           rel="stylesheet"
         />
       </head>

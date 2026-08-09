@@ -48,6 +48,16 @@ export default function HomePage() {
     { n: "03", title: t("home.stepC.title"), desc: t("home.stepC.desc") },
   ];
 
+  // 精选地陪：每城挑 1-2 位有真人照的代表
+  const featuredCompanions = [
+    ...companionCities.flatMap((city) =>
+      city.companions
+        .filter((c) => c.photo)
+        .slice(0, 2)
+        .map((c) => ({ ...c, citySlug: city.slug, cityName: city.name }))
+    ),
+  ];
+
   return (
     <>
       <HeroCanvas />
@@ -63,6 +73,72 @@ export default function HomePage() {
           ))}
         </div>
       </div>
+
+      {/* 精选地陪真人照片墙 */}
+      <section className="relative mx-auto max-w-7xl px-5 py-16">
+        <Reveal className="text-center">
+          <p className="text-xs uppercase tracking-[0.3em] text-gold-400">
+            {t("comp.cities.eyebrow")}
+          </p>
+          <h2 className="mt-2 font-serif text-3xl font-bold text-gold-100 sm:text-4xl">
+            {locale === "zh" ? "遇见你的专属向导" : "Meet Your Local Guides"}
+          </h2>
+          <p className="mx-auto mt-2 max-w-xl text-gold-100/55">
+            {locale === "zh"
+              ? "每位地陪都经过实名认证，照片即本人 —— 陌生的城市，从一张熟悉的面孔开始。"
+              : "Every companion is ID-verified. The face you see is the person who shows up — let a familiar face guide you through a new city."}
+          </p>
+        </Reveal>
+
+        <div className="mt-10 flex gap-4 overflow-x-auto pb-4 scrollbar-hide [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
+          {featuredCompanions.map((c, i) => (
+            <Reveal key={c.id} dir="up" delay={i * 0.06}>
+              <Link
+                href={`/companions/${c.citySlug}`}
+                className="group relative flex w-[200px] shrink-0 flex-col overflow-hidden rounded-2xl border border-white/5 sm:w-[220px]"
+              >
+                {/* 真人照片 */}
+                <div className="relative aspect-[3/4] overflow-hidden">
+                  <img
+                    src={c.photo}
+                    alt={c.name}
+                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    loading="lazy"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-ink-900/90 via-ink-900/10 to-transparent" />
+                  {/* 城市标签 */}
+                  <span className="absolute left-3 top-3 rounded-full bg-gold-400/15 backdrop-blur-md px-2.5 py-1 text-[11px] font-medium text-gold-200 border border-gold-400/20">
+                    {loc(c.cityName, locale)}
+                  </span>
+                  {/* 在线状态 */}
+                  <span className="absolute right-3 top-3 flex items-center gap-1 rounded-full bg-jade-500/15 backdrop-blur-md px-2 py-1 text-[11px] text-jade-300 border border-jade-500/20">
+                    <span className="h-1.5 w-1.5 rounded-full bg-jade-400 animate-pulse" />
+                    Available
+                  </span>
+                  {/* 底部信息 */}
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <h3 className="font-serif text-lg font-bold text-white drop-shadow">
+                      {c.name}
+                      {c.cnName && <span className="ml-1.5 text-sm font-normal text-white/70">{c.cnName}</span>}
+                    </h3>
+                    <p className="mt-0.5 text-xs text-white/60 drop-shadow line-clamp-2">
+                      {loc(c.intro, locale)}
+                    </p>
+                    <div className="mt-2 flex items-center gap-2">
+                      <span className="rounded-full bg-white/10 backdrop-blur px-2 py-0.5 text-[10px] text-white/80">
+                        {c.languages[0]}
+                      </span>
+                      <span className="text-[11px] text-gold-300 font-semibold">
+                        ${c.halfDayUSD}/half-day
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </Reveal>
+          ))}
+        </div>
+      </section>
 
       {/* 分类展示区（大卡片：中国旅行指南 / 本地陪玩） */}
       <CategoryShowcase />

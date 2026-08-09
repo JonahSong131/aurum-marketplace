@@ -14,14 +14,14 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-5 py-12">
         <div className="grid gap-8 md:grid-cols-4">
           <div>
-            <div className="flex items-center gap-2">
-              <span className="grid h-9 w-9 place-items-center rounded-full bg-gold-grad font-serif text-lg font-bold text-ink-900">
-                A
-              </span>
-              <span className="font-serif text-xl font-bold text-gold-100">
-                AURUM{locale === "zh" && <span className="ml-1 text-gold-300">锦市</span>}
-              </span>
-            </div>
+          <div className="flex items-center gap-2">
+            <span className="grid h-9 w-9 place-items-center rounded-full bg-gold-grad font-serif text-lg font-bold text-ink-900">
+              X
+            </span>
+            <span className="font-serif text-xl font-bold text-gold-100">
+              Ximi{locale === "zh" && <span className="ml-1 text-gold-300">私人定制游</span>}
+            </span>
+          </div>
             <p className="mt-3 max-w-xs text-sm text-gold-100/50">
               {t("footer.tagline")}
             </p>
