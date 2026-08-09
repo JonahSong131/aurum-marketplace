@@ -220,7 +220,7 @@ export const companionCities: CompanionCity[] = [
       },
       {
         id: "sh-leo",
-        photo: "/images/companions/shanghai_leo.png",
+        photo: "/images/companions/xian_kevin.png",
         name: "Leo", cnName: "周乐", emoji: "📷",
         gender: "male", age: 27, years: 4,
         languages: ["English", "中文"],
@@ -369,7 +369,7 @@ export const companionCities: CompanionCity[] = [
       },
       {
         id: "xa-kevin",
-        photo: "/images/companions/xian_kevin.png",
+        photo: "/images/companions/shanghai_leo.png",
         name: "Kevin", cnName: "秦凯", emoji: "🚲",
         gender: "male", age: 24, years: 3,
         languages: ["English", "中文"],
@@ -602,7 +602,7 @@ export const companionCities: CompanionCity[] = [
   {
     slug: "zhangjiajie",
     emoji: "⛰️",
-    image: "/images/cities/zhangjiajie.jpg",
+    image: undefined,  // was zhangjiajie.jpg (dup of beijing)
     from: "#1a2a1e",
     to: "#c7a030",
     name: { en: "Zhangjiajie", zh: "张家界" },
@@ -670,7 +670,7 @@ export const companionCities: CompanionCity[] = [
   {
     slug: "lijiang",
     emoji: "🏔️",
-    image: "/images/cities/lijiang.jpg",
+    image: undefined,  // was lijiang.jpg (dup of shanghai)
     from: "#2a2520",
     to: "#c7b040",
     name: { en: "Lijiang", zh: "丽江" },
@@ -806,7 +806,7 @@ export const companionCities: CompanionCity[] = [
   {
     slug: "harbin",
     emoji: "❄️",
-    image: "/images/cities/harbin.jpg",
+    image: undefined,  // was harbin.jpg (dup of sanya)
     from: "#1a2030",
     to: "#c8c040",
     name: { en: "Harbin", zh: "哈尔滨" },
@@ -874,7 +874,7 @@ export const companionCities: CompanionCity[] = [
   {
     slug: "xiamen",
     emoji: "🏝️",
-    image: "/images/cities/xiamen.jpg",
+    image: undefined,  // was xiamen.jpg (dup of chengdu)
     from: "#1a3540",
     to: "#c7c840",
     name: { en: "Xiamen", zh: "厦门" },
