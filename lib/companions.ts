@@ -602,7 +602,7 @@ export const companionCities: CompanionCity[] = [
   {
     slug: "zhangjiajie",
     emoji: "⛰️",
-    image: undefined,  // was zhangjiajie.jpg (dup of beijing)
+    image: "/images/cities/zhangjiajie.jpg",
     from: "#1a2a1e",
     to: "#c7a030",
     name: { en: "Zhangjiajie", zh: "张家界" },
@@ -670,7 +670,7 @@ export const companionCities: CompanionCity[] = [
   {
     slug: "lijiang",
     emoji: "🏔️",
-    image: undefined,  // was lijiang.jpg (dup of shanghai)
+    image: "/images/cities/lijiang.jpg",
     from: "#2a2520",
     to: "#c7b040",
     name: { en: "Lijiang", zh: "丽江" },
@@ -806,7 +806,7 @@ export const companionCities: CompanionCity[] = [
   {
     slug: "harbin",
     emoji: "❄️",
-    image: undefined,  // was harbin.jpg (dup of sanya)
+    image: "/images/cities/harbin.jpg",
     from: "#1a2030",
     to: "#c8c040",
     name: { en: "Harbin", zh: "哈尔滨" },
@@ -874,7 +874,7 @@ export const companionCities: CompanionCity[] = [
   {
     slug: "xiamen",
     emoji: "🏝️",
-    image: undefined,  // was xiamen.jpg (dup of chengdu)
+    image: "/images/cities/xiamen.jpg",
     from: "#1a3540",
     to: "#c7c840",
     name: { en: "Xiamen", zh: "厦门" },
