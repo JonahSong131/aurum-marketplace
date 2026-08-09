@@ -139,7 +139,7 @@ export const companionCities: CompanionCity[] = [
     companions: [
       {
         id: "bj-lina",
-        photo: "/images/companions/sanya_lan.png",
+        photo: "/images/companions/beijing_lina.png",
         name: "Lina", cnName: "李娜", emoji: "🧣",
         gender: "female", age: 28, years: 5,
         languages: ["English", "中文"],
@@ -220,7 +220,7 @@ export const companionCities: CompanionCity[] = [
       },
       {
         id: "sh-leo",
-        photo: "/images/companions/xiamen_gu.png",
+        photo: "/images/companions/shanghai_leo.png",
         name: "Leo", cnName: "周乐", emoji: "📷",
         gender: "male", age: 27, years: 4,
         languages: ["English", "中文"],
@@ -505,7 +505,7 @@ export const companionCities: CompanionCity[] = [
       },
       {
         id: "dl-nina",
-        photo: "/images/companions/shanghai_leo.png",
+        photo: "/images/companions/dali_nina.png",
         name: "Nina", cnName: "林霓", emoji: "🎸",
         gender: "female", age: 33, years: 6,
         languages: ["English", "中文", "Deutsch"],
@@ -768,7 +768,7 @@ export const companionCities: CompanionCity[] = [
       },
       {
         id: "sy-lan",
-        photo: "/images/companions/dali_nina.png",
+        photo: "/images/companions/sanya_lan.png",
         name: "Lan", cnName: "椰妹", emoji: "🥥",
         gender: "female", age: 26, years: 4,
         languages: ["English", "中文"],
@@ -904,7 +904,7 @@ export const companionCities: CompanionCity[] = [
       },
       {
         id: "xm-gu",
-        photo: "/images/companions/beijing_lina.png",
+        photo: "/images/companions/xiamen_gu.png",
         name: "Gu", cnName: "鼓浪屿", emoji: "🎹",
         gender: "male", age: 26, years: 3,
         languages: ["English", "中文"],
