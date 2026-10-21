@@ -22,5 +22,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...productPages];
+  const blogSlugs = [
+    "beijing-travel-guide",
+    "shanghai-travel-guide",
+    "chengdu-travel-guide",
+    "xian-travel-guide",
+    "hangzhou-travel-guide",
+    "dali-travel-guide",
+    "china-multi-city-itinerary",
+    "guilin-travel-guide",
+    "sanya-travel-guide",
+    "zhangjiajie-travel-guide",
+    "lijiang-travel-guide",
+    "xiamen-travel-guide",
+    "china-first-time-tips",
+    "china-visa-guide",
+    "best-time-visit-china",
+    "chinese-breakfast-recipes",
+    "hot-pot-at-home-guide",
+  ];
+
+  const blogPages: MetadataRoute.Sitemap = blogSlugs.map((slug) => ({
+    url: `${baseUrl}/blog/${slug}.html`,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...productPages, ...blogPages];
 }

@@ -17,6 +17,10 @@ export const metadata: Metadata = {
     "Ximi Private Travel",
     "私人定制游",
   ],
+  icons: {
+    icon: { url: "/favicon.svg", type: "image/svg+xml" },
+    apple: { url: "/favicon.svg", type: "image/svg+xml" },
+  },
 };
 
 export default function RootLayout({
