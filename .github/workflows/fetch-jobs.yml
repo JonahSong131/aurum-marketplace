@@ -1,0 +1,42 @@
+name: fetch-jobs
+
+# 每 3 小时自动抓一次海外线上岗位 → 提交 data/jobs.json → Vercel 自动重新部署
+# 也可以在 GitHub 网页上手动触发（Run workflow 按钮）
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-jobs
+  cancel-in-progress: true
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 抓取岗位
+        env:
+          GITHUB_ACTIONS: "true"
+        run: python scripts/fetch_jobs.py
+
+      - name: 提交数据（有变化才提交）
+        run: |
+          git config user.name "jobs-bot"
+          git config user.email "actions@github.com"
+          git add data/jobs.json
+          if git diff --cached --quiet; then
+            echo "没有新岗位，跳过提交"
+          else
+            git commit -m "chore: 自动更新岗位数据 ($(date -u '+%Y-%m-%d %H:%M') UTC)"
+            git push
+          fi

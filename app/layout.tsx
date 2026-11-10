@@ -5,17 +5,19 @@ import Footer from "@/components/Footer";
 import { LanguageProvider } from "@/components/LanguageProvider";
 
 export const metadata: Metadata = {
-  title: "Ximi Private Travel · 中国私人定制游",
+  title: "锦市 Jobs · 全球线上工作，每天自动上新",
   description:
-    "Expert China travel guides and real local companions across 6 cities. Plan free, book everything on WhatsApp. Available in 8 languages.",
+    "从 Reddit、Telegram、Freelancer 等海外平台自动抓取的真实远程岗位：开发、设计、客服、运营、币圈、写作翻译、数据录入。看中岗位加微信即可对接，不用投简历。每 3 小时自动更新。",
   keywords: [
-    "China travel",
-    "travel guide",
-    "local companion",
-    "China tour",
-    "WhatsApp",
-    "Ximi Private Travel",
-    "私人定制游",
+    "远程工作",
+    "线上工作",
+    "海外工作",
+    "remote jobs",
+    "online jobs",
+    "work from home",
+    "兼职",
+    "跨境工作",
+    "锦市 Jobs",
   ],
   icons: {
     icon: { url: "/favicon.svg", type: "image/svg+xml" },

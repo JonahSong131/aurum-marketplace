@@ -2,22 +2,40 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { MessageCircle, Mail, Phone } from "lucide-react";
-import { useLang } from "@/components/LanguageProvider";
-import LanguageSwitcher from "@/components/LanguageSwitcher";
-import { WHATSAPP_DISPLAY, WHATSAPP_DISPLAY_2, EMAIL, waLink, waLink2 } from "@/lib/contact";
+import { Mail, Copy, Check, Briefcase } from "lucide-react";
+import { useState } from "react";
+import { WECHAT_ID } from "@/lib/jobs";
+import { EMAIL } from "@/lib/contact";
 
-function waGeneralMessage() {
-  return "Hi! I'm planning a trip to China and would like to know more about your local companion service.";
+function WeChatBadge() {
+  const [copied, setCopied] = useState(false);
+  const copy = async () => {
+    try {
+      await navigator.clipboard.writeText(WECHAT_ID);
+    } catch {
+      /* 忽略：手动选中也行 */
+    }
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+  return (
+    <button
+      onClick={copy}
+      className="flex items-center gap-1.5 text-gold-100/55 transition hover:text-gold-200"
+      title="点击复制微信号"
+    >
+      {copied ? <Check size={12} /> : <Copy size={12} />}
+      <span>微信: {WECHAT_ID}</span>
+    </button>
+  );
 }
 
 export default function Navbar() {
   const pathname = usePathname();
-  const { t, locale } = useLang();
 
   const links = [
-    { href: "/travel", label: t("nav.travel") },
-    { href: "/companions", label: t("nav.companions") },
+    { href: "/", label: "岗位大厅" },
+    { href: "/travel", label: "私人定制游" },
   ];
 
   return (
@@ -26,24 +44,7 @@ export default function Navbar() {
       <div className="border-b border-white/5 bg-ink-900/90 backdrop-blur-md">
         <div className="mx-auto flex h-9 max-w-7xl items-center justify-between px-5 text-xs">
           <div className="hidden items-center gap-5 sm:flex">
-            <a
-              href={waLink()}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1.5 text-gold-100/55 transition hover:text-gold-200"
-            >
-              <MessageCircle size={12} />
-              <span>WhatsApp: {WHATSAPP_DISPLAY}</span>
-            </a>
-            <a
-              href={waLink2()}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-1.5 text-gold-100/55 transition hover:text-gold-200"
-            >
-              <MessageCircle size={12} />
-              <span>{WHATSAPP_DISPLAY_2}</span>
-            </a>
+            <WeChatBadge />
             <a
               href={`mailto:${EMAIL}`}
               className="flex items-center gap-1.5 text-gold-100/55 transition hover:text-gold-200"
@@ -52,23 +53,16 @@ export default function Navbar() {
               <span>{EMAIL}</span>
             </a>
           </div>
-          {/* 移动端只显示 WhatsApp */}
+          {/* 移动端只显示微信 */}
+          <div className="sm:hidden">
+            <WeChatBadge />
+          </div>
           <a
-            href={waLink()}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1.5 text-gold-100/55 transition hover:text-gold-200 sm:hidden"
+            href="#jobs"
+            className="flex items-center gap-1.5 rounded-full bg-gold-grad px-3 py-1 text-[11px] font-semibold text-ink-900 shadow-glow transition hover:scale-105"
           >
-            <Phone size={12} />
-            <span>{WHATSAPP_DISPLAY}</span>
-          </a>
-          <a
-            href={waLink(waGeneralMessage())}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-full bg-gold-grad px-3 py-1 text-[11px] font-semibold text-ink-900 shadow-glow transition hover:scale-105"
-          >
-            {locale === "zh" ? "立即预约" : "Book Now"}
+            <Briefcase size={11} />
+            看岗位
           </a>
         </div>
       </div>
@@ -78,11 +72,11 @@ export default function Navbar() {
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-5">
           <Link href="/" className="group flex items-center gap-2">
             <span className="grid h-9 w-9 place-items-center rounded-full bg-gold-grad font-serif text-lg font-bold text-ink-900 shadow-glow">
-              X
+              锦
             </span>
             <span className="font-serif text-xl font-bold tracking-wide text-gold-100">
-              Ximi
-              {locale === "zh" && <span className="ml-1 text-gold-300">私人定制游</span>}
+              锦市
+              <span className="ml-1 text-sm text-gold-300">Jobs</span>
             </span>
           </Link>
 
@@ -106,7 +100,7 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center gap-2">
-            <LanguageSwitcher />
+            <WeChatBadge />
           </div>
         </div>
       </nav>
