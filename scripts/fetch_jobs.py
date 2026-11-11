@@ -154,6 +154,62 @@ def scrub(text):
 
 
 
+# ============================================================
+# 站主利润规则：对外统一少报 20%（差价是站主利润）。
+# 公开版里一切"钱"（薪资字段、标题、描述里的价格）一律 ×0.8；
+# 私人版保留真实价，另加 quote 字段 = 对外建议报价。
+# ============================================================
+PROFIT_RATE = 0.8
+
+
+def _scale_nums(seg):
+    """把一段文本里的所有数字 ×0.8（千分位/小数保持原样格式）"""
+    def repl(m):
+        n = m.group(0)
+        try:
+            v = float(n.replace(",", "")) * PROFIT_RATE
+        except ValueError:
+            return n
+        had_comma = "," in n
+        if "." in n:
+            s = ("%.1f" % v).rstrip("0").rstrip(".")
+        else:
+            s = str(int(round(v)))
+        if had_comma:
+            try:
+                if "." in s:
+                    whole, frac = s.split(".")
+                    s = "{:,}.{}".format(int(whole), frac)
+                else:
+                    s = "{:,}".format(int(s))
+            except ValueError:
+                pass
+        return s
+    return re.sub(r"\d+(?:,\d{3})*(?:\.\d+)?|\d+", repl, seg)
+
+
+def discount_salary(s):
+    """薪资字段整体打折：'USD 5000-10000' → 'USD 4000-8000'"""
+    return _scale_nums(s) if s else s
+
+
+# 描述/标题里的价格表达式（带货币前缀 + 可选区间 + 可选单位后缀）
+_NUM = r"\d+(?:,\d{3})*(?:\.\d+)?"
+RE_MONEY_EXPR = re.compile(
+    r"(?<![A-Za-z0-9])(?:USD|RM)\s?" + _NUM + r"(?:\s?[-–~]\s?" + _NUM + r")?"
+    r"|[$€£₱₽]\s?" + _NUM + r"(?:\s?[-–~]\s?" + _NUM + r")?"
+    r"|(?:佣金|月薪|时薪|日薪)\s?" + _NUM + r"(?:\s?[-–~]\s?" + _NUM + r")?"
+    r"|\$\d[\d,.]*k\b"
+    r"|(?<![A-Za-z0-9])" + _NUM + r"(?:\s?[-–~]\s?" + _NUM + r")?\s?(?:USD|EUR|GBP|RMB|CNY)\b", re.I)
+
+
+def discount_money_text(t):
+    """标题/描述里的价格打折：只动带货币上下文的数字，普通数字（年限、数量）不动"""
+    if not t:
+        return t
+    return RE_MONEY_EXPR.sub(lambda m: _scale_nums(m.group(0)), t)
+
+
 def classify(text):
     if RE_WEB3.search(text):
         return "web3"
@@ -189,7 +245,7 @@ def make_job(title, desc, source, source_name, published_dt, url,
     # 指纹带上来源：不同频道的同名帖（如 #PR_специалист）不能被合并掉
     fp = re.sub(r"[^a-z0-9\u4e00-\u9fff]", "", (title.lower() + source_name))[:80]
     jid = hashlib.sha1((fp + cat).encode()).hexdigest()[:12]
-    # 私人版：原样全保留（含联系方式、原帖链接、精确来源）——只写进本地文件，不上传
+    # 私人版：真实价格 + 建议报价（quote = 打过 8 折的对外价）——只写进本地文件，不上传
     private = {
         "id": jid,
         "title": title,
@@ -199,19 +255,21 @@ def make_job(title, desc, source, source_name, published_dt, url,
         "url": url or "",
         "published": published_dt.astimezone(timezone.utc).isoformat(timespec="seconds"),
         "salary": salary,
+        "quote": discount_salary(salary),
     }
     # 公开版：联系方式全部抹掉，来源只写大类（不写具体版块，免得被人顺藤摸瓜）
+    # 价格统一 ×0.8（站主利润），标题和描述里的价格也一起打折
     generic = {"reddit": "Reddit", "telegram": "Telegram", "freelancer": "Freelancer",
                "hn": "Hacker News", "v2ex": "V2EX", "rss": "Job Board"}.get(source, source)
     pub_dt = published_dt.astimezone(timezone.utc).isoformat(timespec="seconds")
     return {
         "id": jid,
-        "title": scrub(title)[:140],
-        "desc": scrub(clean_text(desc, 500)),
+        "title": discount_money_text(scrub(title))[:140],
+        "desc": discount_money_text(scrub(clean_text(desc, 500))),
         "cat": cat,
         "source": generic,
         "published": pub_dt,
-        "salary": salary,
+        "salary": discount_salary(salary),
         "remote": remote,
         "web3": cat == "web3",
     }, private
@@ -516,8 +574,9 @@ def fetch_freelancer():
                 link = "https://www.freelancer.com/projects/%s" % (p.get("seo_url") or p.get("id"))
                 j, pv = make_job(title, desc, "freelancer", "Freelancer.com", pub, link) or (None, None)
                 if j:
-                    j["salary"] = j["salary"] or money
+                    j["salary"] = j["salary"] or discount_salary(money)
                     pv["salary"] = pv["salary"] or money
+                    pv["quote"] = discount_salary(pv["salary"])
                     pv["contact"] = "Freelancer 平台投标（登录后 bid）"
                     out.append((j, pv))
         except Exception as e:
@@ -569,14 +628,18 @@ def main():
         json.dump(data, f, ensure_ascii=False, indent=1)
     print("完成：%d 条岗位 → %s" % (len(public), OUT))
 
-    # 私人版：只在本机生成，绝不上传 GitHub（.gitignore 已排除）。
-    # 在 GitHub Actions 里跑时跳过（CI 环境写了也没用，直接不写）。
-    if os.environ.get("GITHUB_ACTIONS") != "true":
-        pv_path = os.path.join(os.path.dirname(OUT), "jobs-private.json")
-        with open(pv_path, "w", encoding="utf-8") as f:
-            json.dump({"updated": data["updated"], "count": len(private), "jobs": private},
-                      f, ensure_ascii=False, indent=1)
-        print("私人版（含联系方式+原帖链接）：%d 条 → %s（仅本地，不上传）" % (len(private), pv_path))
+    # 私人版：含联系方式+原帖链接+真实价+建议报价。
+    # 在 GitHub Actions 里跑时也会生成（但 .gitignore 排除了它，
+    # 公共仓库的提交步骤只 add jobs.json，所以绝不会传到公共仓库；
+    # 它会由工作流里的"同步私人数据"步骤推到站主的私有仓库）。
+    pv_path = os.path.join(os.path.dirname(OUT), "jobs-private.json")
+    with open(pv_path, "w", encoding="utf-8") as f:
+        json.dump({"updated": data["updated"], "count": len(private), "jobs": private},
+                  f, ensure_ascii=False, indent=1)
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        print("私人版已生成（CI）：待工作流同步到私有仓库，不会进公共仓库）")
+    else:
+        print("私人版（含联系方式+真实价+建议报价）：%d 条 → %s（仅本地）" % (len(private), pv_path))
 
     from collections import Counter
     print("分类分布:", dict(Counter(p["cat"] for p in public)))

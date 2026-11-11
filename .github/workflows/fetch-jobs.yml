@@ -40,3 +40,30 @@ jobs:
             git commit -m "chore: 自动更新岗位数据 ($(date -u '+%Y-%m-%d %H:%M') UTC)"
             git push
           fi
+
+      # 私人数据（含联系方式+真实价）同步到站主的私有仓库。
+      # 没配置 PRIVATE_REPO_URL 秘钥时自动跳过，不影响主流程。
+      - name: 同步私人数据到私有仓库
+        env:
+          PRIVATE_REPO_URL: ${{ secrets.PRIVATE_REPO_URL }}
+        if: ${{ env.PRIVATE_REPO_URL != '' }}
+        run: |
+          set -e
+          TMP=$(mktemp -d)
+          if git clone --depth 1 "$PRIVATE_REPO_URL" "$TMP/repo" 2>/dev/null; then
+            echo "已连接私有仓库"
+          else
+            git init -b main "$TMP/repo"
+            git -C "$TMP/repo" remote add origin "$PRIVATE_REPO_URL"
+          fi
+          cp data/jobs-private.json "$TMP/repo/jobs-private.json"
+          cd "$TMP/repo"
+          git config user.name "jobs-bot"
+          git config user.email "actions@github.com"
+          git add jobs-private.json
+          if git diff --cached --quiet; then
+            echo "私人数据无变化"
+          else
+            git commit -m "私人数据更新 ($(date -u '+%Y-%m-%d %H:%M') UTC)"
+            git push origin HEAD
+          fi

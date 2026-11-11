@@ -1,7 +1,51 @@
 {
- "updated": "2026-11-11T15:22:30+00:00",
- "count": 475,
+ "updated": "2026-11-11T15:50:05+00:00",
+ "count": 538,
  "jobs": [
+  {
+   "id": "bf364e120455",
+   "title": "Business Promo Video Editing",
+   "desc": "I'm looking for a skilled video editor to create a professional promotional video for my business. T",
+   "cat": "design",
+   "source": "Freelancer",
+   "published": "2026-11-11T15:44:14+00:00",
+   "salary": "USD 480 - 1200",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "a68855206661",
+   "title": "Data Entry",
+   "desc": "I need a dependable writer who can produce clear, engaging articles and blog posts focused on educat",
+   "cat": "writing",
+   "source": "Freelancer",
+   "published": "2026-11-11T15:29:14+00:00",
+   "salary": "USD 600 - 1000",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "970212bfab1e",
+   "title": "[OFFER] Fix SSL errors & “Not secure” warnings $24 | Website fixes from $16 | One-page business site $96 | PayPal / Stripe / Revolut",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-11T15:24:01+00:00",
+   "salary": "$24",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "0740c7470914",
+   "title": "[TASK] US TikTok creators wanted for dating skits, POV dating scenarios and dating vlogs - $6 per video + bonuses",
+   "desc": "[removed]",
+   "cat": "marketing",
+   "source": "Reddit",
+   "published": "2026-11-11T15:22:31+00:00",
+   "salary": "$6",
+   "remote": false,
+   "web3": false
+  },
   {
    "id": "47e7afe6f909",
    "title": "Hemant Singh | Software Engineer / Backend Engineer | India (REMOTE / ONSITE) I'm a software engineer focused on backend development, primar",
@@ -26,12 +70,12 @@
   },
   {
    "id": "65fc7d9262d7",
-   "title": "[OFFER] After Effects Animator & Motion Designer | Intros, Ads & Motion Graphics — Starting at $90",
+   "title": "[OFFER] After Effects Animator & Motion Designer | Intros, Ads & Motion Graphics — Starting at $72",
    "desc": "Hey everyone! 👋\n\nI'm a freelance motion designer specializing in **Adobe After Effects**, creating engaging animations and visual content for brands, creators, and businesses.\n\nI'm currently available for new projects!\n\n**What I can help you with:**\n\n* YouTube intros and animated branding.\n* Logo animations.\n* Promotional videos and animated advertisements.\n* Social media motion graphics.\n* Animated typography and text effects.\n* Product and brand animations.\n* Short-form video animations.\n\n**So",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-11T14:56:06+00:00",
-   "salary": "$90",
+   "salary": "$72",
    "remote": false,
    "web3": false
   },
@@ -97,7 +141,7 @@
    "cat": "design",
    "source": "Freelancer",
    "published": "2026-11-11T14:33:50+00:00",
-   "salary": "USD 5000.0 - 10000.0",
+   "salary": "USD 4000 - 8000",
    "remote": false,
    "web3": false
   },
@@ -114,12 +158,12 @@
   },
   {
    "id": "2bbcfe176dd5",
-   "title": "[OFFER] For hire NSFW/SFW virtual assistant here, $15/hr",
+   "title": "[OFFER] For hire NSFW/SFW virtual assistant here, $12/hr",
    "desc": "I'm looking for casual, flexible, and preferably long term work.\n\nI've been working with adult industry models and websites for nearly 3 years now. My tasks include content moderation (checking if videos/content are suitable for approval), finding websites that contain copyrighted videos, uploading and file management, and managing ad postings for certain adult websites.\n\nBut if you're not in the adult industry, that's fine too! I'm open to other types of admin work since the tasks are usually q",
    "cat": "support",
    "source": "Reddit",
    "published": "2026-11-11T14:29:08+00:00",
-   "salary": "$15/hr",
+   "salary": "$12/hr",
    "remote": false,
    "web3": false
   },
@@ -130,19 +174,41 @@
    "cat": "support",
    "source": "Freelancer",
    "published": "2026-11-11T14:26:11+00:00",
-   "salary": "USD 250.0 - 750.0",
+   "salary": "USD 200 - 600",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "ab5b406c796f",
+   "title": "Looking for a client!!",
+   "desc": "",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-11T14:25:33+00:00",
+   "salary": "",
    "remote": false,
    "web3": false
   },
   {
    "id": "58b118139fbc",
-   "title": "[Hiring] Software Engineer for VA Work | $30/hr | Remote",
-   "desc": "I'm looking for someone with a software engineering background who wants to make some extra money doing VA work.\n\nThe pay is $30/hr and it's fully remote.\n\nBasically, I need someone to help me with my LinkedIn, emails, and scheduling calls. Nothing too complicated, mostly checking messages, managing connection requests, engaging with people on LinkedIn, and arranging meetings.\n\nYou might wonder why I'm looking for a software engineer instead of a regular VA. It's because most of the people I dea",
+   "title": "[Hiring] Software Engineer for VA Work | $24/hr | Remote",
+   "desc": "I'm looking for someone with a software engineering background who wants to make some extra money doing VA work.\n\nThe pay is $24/hr and it's fully remote.\n\nBasically, I need someone to help me with my LinkedIn, emails, and scheduling calls. Nothing too complicated, mostly checking messages, managing connection requests, engaging with people on LinkedIn, and arranging meetings.\n\nYou might wonder why I'm looking for a software engineer instead of a regular VA. It's because most of the people I dea",
    "cat": "tech",
    "source": "Reddit",
    "published": "2026-11-11T14:22:52+00:00",
-   "salary": "$30/hr",
+   "salary": "$24/hr",
    "remote": true,
+   "web3": false
+  },
+  {
+   "id": "1f04e1173eba",
+   "title": "[Hiring]: AI Character Creator / AI Adult Content Creator",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-11T14:11:33+00:00",
+   "salary": "",
+   "remote": false,
    "web3": false
   },
   {
@@ -180,25 +246,36 @@
   },
   {
    "id": "43588cd78647",
-   "title": "[OFFER] Daniel Lugo - Brand Identities for Personal Projects, Tech, Web3, Startups & Gaming. Full Brand Ecosystems from $350",
-   "desc": "I've been building visual identities for web3 projects, gaming brands, and tech startups for over 6 years. Not templates, not stock mockups - systems that actually work across every surface. You can see the real thing at [clocdesign.net]( \n\nThe way I work comes in three sizes depending on where your project is right now.\n\n**The Quick Start — $100** A solid YouTube thumbnail or a clean social media banner. Exactly what you need, delivered ready to use. Good entry point if yo",
+   "title": "[OFFER] Daniel Lugo - Brand Identities for Personal Projects, Tech, Web3, Startups & Gaming. Full Brand Ecosystems from $280",
+   "desc": "I've been building visual identities for web3 projects, gaming brands, and tech startups for over 6 years. Not templates, not stock mockups - systems that actually work across every surface. You can see the real thing at [clocdesign.net]( \n\nThe way I work comes in three sizes depending on where your project is right now.\n\n**The Quick Start — $80** A solid YouTube thumbnail or a clean social media banner. Exactly what you need, delivered ready to use. Good entry point if yo",
    "cat": "web3",
    "source": "Reddit",
    "published": "2026-11-11T13:33:15+00:00",
-   "salary": "$350",
+   "salary": "$280",
    "remote": false,
    "web3": true
   },
   {
-   "id": "06f5ade64e51",
-   "title": "SAP-Berater:in Einkauf mit BTP- & Integrationsfokus SRM - S/4HANA (m/w/d) — parasus GmbH",
-   "desc": "Über parasus Die parasus GmbH ist ein zukunftsorientiertes Beratungsunternehmen, spezialisiert auf SAP-basierte Beschaffungslösungen und digitale Transformation. Bekannt für den innovativen Einsatz von Tools wie SAP S/4HANA, Ivalua und BeNeering, arbeitet parasus mit führenden Unternehmen branchenübergreifend zusammen, um Einkaufsprozesse zu optimieren und zu automatisieren. Das Unternehmen zeichnet sich durch sein Engagement für Nachhaltigkeit, eine moderne Arbeitskultur und kontinuierliche Wei",
-   "cat": "web3",
-   "source": "arbeitnow",
-   "published": "2026-11-11T13:31:09+00:00",
+   "id": "68934c09a514",
+   "title": "[Hiring] Full-Time Video Editor – Remote – ₹15,000–₹30,000/month (Fixed Salary)",
+   "desc": "",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-11T13:17:28+00:00",
    "salary": "",
    "remote": true,
-   "web3": true
+   "web3": false
+  },
+  {
+   "id": "e9d436ecb1bb",
+   "title": "[HIRING] Short-Form Video Editors Needed 🎬",
+   "desc": "",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-11T13:13:16+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
   },
   {
    "id": "a068889fcc7a",
@@ -224,23 +301,23 @@
   },
   {
    "id": "66c5f2d2dab7",
-   "title": "[Hiring] Indian UGC Creators – India, Remote, Part-time | $90–$300/month + view bonuses",
+   "title": "[Hiring] Indian UGC Creators – India, Remote, Part-time | $72–$240/month + view bonuses",
    "desc": "[removed]",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-11T13:07:39+00:00",
-   "salary": "$90",
+   "salary": "$72",
    "remote": true,
    "web3": false
   },
   {
    "id": "98fe7673021b",
-   "title": "[OFFER] I will write Python Web Scraping Scripts, Data Cleaning & Automation for $5 - $15",
+   "title": "[OFFER] I will write Python Web Scraping Scripts, Data Cleaning & Automation for $4 - $12",
    "desc": "[removed]",
    "cat": "tech",
    "source": "Reddit",
    "published": "2026-11-11T13:03:26+00:00",
-   "salary": "$5",
+   "salary": "$4",
    "remote": false,
    "web3": false
   },
@@ -256,39 +333,6 @@
    "web3": false
   },
   {
-   "id": "ddb3dcce268e",
-   "title": "Influencer und Social Media Lead (all genders) — mammaly",
-   "desc": "Deine Aufgaben \n Wenn ein Hund ein Problem hat, sucht sein Mensch nach einer Antwort. Wir wollen, dass er sie bei uns findet — auf Social, auf YouTube, in Google, in KI-Antworten, in Fachmagazinen, in Bewertungen.\nKampagnen erzeugen Aufmerksamkeit in Wellen. Du baust das, was bleibt: Inhalte, die in zwölf Monaten noch gefunden werden, und Sichtbarkeit, die sich auf addiert statt zu verpuffen. Du führst dabei unser Creator-Team und steuerst Influencer, Redaktionen und Agenturen. \n \n Social-Kanala",
-   "cat": "marketing",
-   "source": "arbeitnow",
-   "published": "2026-11-11T13:00:46+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "96bd3ab86ffb",
-   "title": "CRM & E-Mail Marketing Manager (m/w/d) | 100 % Remote — Just Hiring",
-   "desc": "Du bist richtig gut im E-Mail-Marketing, aber bei deinem jetzigen Arbeitgeber ist CRM eher Nebensache? Kaum Unterstützung, wenig Budget, und jede Idee muss erst dreimal abgestimmt werden? Unser Partner ist eine der bekanntesten Marken für Darmgesundheit in Deutschland. Bekannt aus „Die Höhle der Löwen“, über 1 Million Kundinnen und Kunden und ein Abo-Geschäft, das schnell wächst. E-Mail spielt hier eine große Rolle. Eine externe Agentur unterstützt dich bei der Umsetzung, und du hast vom ersten",
-   "cat": "marketing",
-   "source": "arbeitnow",
-   "published": "2026-11-11T13:00:46+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "f001d7ad7e69",
-   "title": "Environment Artist — Techtive Games GmbH",
-   "desc": "About Techtive Games Techtive Games is a Germany-based video game developer creating Ardem , an open-world survival game. Built by former modding veterans, the studio combines AA-level ambition with an independent mindset to push development practices forward and build immersive worlds built to be played, modified, and expanded. We're looking for an Environment Artist to join our team as we move into full production on our debut game Ardem, an open world survival game developed in Unreal Engine",
-   "cat": "tech",
-   "source": "arbeitnow",
-   "published": "2026-11-11T13:00:45+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
    "id": "b10b536a275d",
    "title": "[远程工作] 初中数学教师，初中英语教师，幼儿园渠道经理（珠三角），CRA-肿瘤项目，招聘专员，西班牙语翻译等14个职位",
    "desc": "分享最近的远程工作机会：初中数学教师, 初中英语教师, 幼儿园渠道经理（珠三角）, CRA-肿瘤项目, 招聘专员, 西班牙语翻译, 授课老师, 短剧编剧, 活动策划, 工程造价师, 英译简中法律以及保险翻译, 制作PPT课件, 产品经理助理（北京）, AI全栈工程师\n\n 微信公众号发布的远程工作机会可以付费不到 1 元钱解锁当日全部职位的原始链接",
@@ -300,35 +344,24 @@
    "web3": false
   },
   {
-   "id": "4ed04ec5bf3f",
-   "title": "Technical Integrations Manager — Vio",
-   "desc": "At Vio we believe booking accommodation should feel smart, fair, and effortless — never overwhelming or unclear. As one of the world’s fastest-growing travel tech platforms, we help millions of users make smarter travel decisions by comparing stays across 100+ booking sites — so they can find the perfect place, at the best price, anywhere in the world. We cut through the noise and complexity of hotel and vacation rental booking, surfacing real value with clarity, transparency, and full support.",
-   "cat": "tech",
-   "source": "arbeitnow",
-   "published": "2026-11-11T12:40:11+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
    "id": "4d2649a3d153",
-   "title": "[Hiring] Software Engineer for VA Role | $30/hr | Remote",
+   "title": "[Hiring] Software Engineer for VA Role | $24/hr | Remote",
    "desc": "[removed]",
    "cat": "tech",
    "source": "Reddit",
    "published": "2026-11-11T12:39:36+00:00",
-   "salary": "$30/hr",
+   "salary": "$24/hr",
    "remote": true,
    "web3": false
   },
   {
    "id": "192c6455c434",
    "title": "家教",
-   "desc": "来源: BOSS直聘\n团队: \n湖南特导教育科技有限公司\n薪资: 时薪 30-200 元\n摘要: 教育培训行业，辅导老师，学科培训，一对一教学，K12，语言类，职业教育类课程，兼职日结\n\n #远程工作 #招聘 \n\n “远程工作者”不是招聘方，仅筛选整理网络信息，请自行甄别，投递请访问来源链接联系招聘方。",
+   "desc": "来源: BOSS直聘\n团队: \n湖南特导教育科技有限公司\n薪资: 时薪 24-160 元\n摘要: 教育培训行业，辅导老师，学科培训，一对一教学，K12，语言类，职业教育类课程，兼职日结\n\n #远程工作 #招聘 \n\n “远程工作者”不是招聘方，仅筛选整理网络信息，请自行甄别，投递请访问来源链接联系招聘方。",
    "cat": "misc",
    "source": "Telegram",
    "published": "2026-11-11T12:37:44+00:00",
-   "salary": "时薪 30",
+   "salary": "时薪 24",
    "remote": true,
    "web3": false
   },
@@ -350,7 +383,7 @@
    "cat": "design",
    "source": "Freelancer",
    "published": "2026-11-11T12:22:36+00:00",
-   "salary": "USD 1500.0 - 12500.0",
+   "salary": "USD 1200 - 10000",
    "remote": false,
    "web3": false
   },
@@ -410,39 +443,6 @@
    "web3": false
   },
   {
-   "id": "30f933edcae7",
-   "title": "(Senior) Finance Manager:in (m/w/d) — fairafric AG",
-   "desc": "Deine Rolle Du bist die zentrale Finance-Person der fairafric-Gruppe und Sparringspartner:in des Vorstands. Du sorgst dafür, dass wir jederzeit wissen, wo wir stehen – und was wir uns als Nächstes leisten können. Was du bewegst Liquidität & Planung: Du steuerst die Cashflow-Planung für AG und Gruppe und gestaltest Budget, Businessplan und Mehrjahresplanung gemeinsam mit dem Vorstand. Abschlüsse: Du verantwortest die Monats- und Jahresabschlüsse der AG nach HGB – gemeinsam mit unserer Steuerberat",
-   "cat": "misc",
-   "source": "arbeitnow",
-   "published": "2026-11-11T12:01:01+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "79a28d2fb69d",
-   "title": "Co-Founder & COO (m/w/d) gesucht für Corporate Philanthropy Plattform | Düsseldorf/Remote — Bonoboo GmbH",
-   "desc": "Über Bonoboo \nBei Bonoboo bauen wir die Plattform für Corporate Philanthropy. Mit KI-gestütztem Matchmaking verbinden wir Unternehmen gezielt mit passenden gemeinnützigen Organisationen. Das Ziel: messbare Wirkung, effizientere Spendenprozesse und datenbasiertes gesellschaftliches Engagement. Wir sind ein wachsendes, internationales Team mit Hauptsitz in Düsseldorf und wollen die Spendenbranche nachhaltig verändern. Wo wir stehen \nUnser Produkt ist validiert, und erste Unternehmen setzen Bonoboo",
-   "cat": "misc",
-   "source": "arbeitnow",
-   "published": "2026-11-11T12:01:01+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "b8b9767af075",
-   "title": "Developer Relations Engineer — Nextcloud",
-   "desc": "At Nextcloud we help our users achieve a safe home for all their data, secure, under your control, and developed in an open, transparent, and trustworthy way. We work remotely, and our work culture is shaped by mutual trust, enthusiasm, and a strong belief in the principles of open source. We're looking for an engineer who has built Nextcloud apps to join our Developer Relations Team and help grow the Nextcloud app ecosystem ! Responsibilities Growing the number of apps in the Nextcloud App Stor",
-   "cat": "tech",
-   "source": "arbeitnow",
-   "published": "2026-11-11T12:01:01+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
    "id": "e37bf3407be2",
    "title": "Open for freelancing",
    "desc": "I am looking for freelancing for part-time \nTechnology F5 LTM/GTM \nDeep and in-depth knowledge for mirror, plates, installation, troubleshooting day-to-day, BAU,",
@@ -476,6 +476,28 @@
    "web3": false
   },
   {
+   "id": "c36d768950a1",
+   "title": "Hiring: YouTube Shorts Video Editor (English)",
+   "desc": "Requirements: (India only)\n\nGood English short video editing skills\n\nMust know Adobe Premiere Pro\n\nAfter Effects and Photoshop are a plus (optional)\n\nMust have a learning mindset and be willing to improve\n\nMust be able to speak Hindi and join a quick voice call\n\nShould be interested in long-term work\n\nWork Details:\n\n2 videos per day.\n\nWork from home \n\nSalary:\n\n₹20,000/month for beginners.\n\nUp to ₹1,00,000/month for experienced editors.\n\nHow to Apply:\n\nSend us your best-edited YouTube Shorts vide",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-11T11:49:54+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "e510856eb5c9",
+   "title": "[HIRING] Thumbnail Strategist | $2,800/Month | Education, B2B & SaaS YouTube | Full-Time",
+   "desc": "",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-11T11:46:01+00:00",
+   "salary": "$2,800/Mo",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "9ddd77cc2caf",
    "title": "Java开发",
    "desc": "来源: BOSS直聘\n团队: \n上海淳南信息技术有限公司\n薪资: 8-10k\n摘要: 软件外包行业，后端开发工程师，java，Spring Cloud，微服务，分布式，有 Kafka/MQTT 经验优先，有社保\n\n #远程工作 #招聘 \n\n “远程工作者”不是招聘方，仅筛选整理网络信息，请自行甄别，投递请访问来源链接联系招聘方。",
@@ -485,17 +507,6 @@
    "salary": "",
    "remote": true,
    "web3": false
-  },
-  {
-   "id": "6b7f574d35db",
-   "title": "社区运营 | Brightline Labs",
-   "desc": "🌍 Remote: Worldwide (全球远程)\n 🇨🇳 中国候选人: 接受\n 💼 类型: 全职\n 💰 薪资: $1-2k/月\n 🗓 源发布日期: \n\n ⚠️ 注意: Web3/VC 行业波动较大，请注意项目合规性及长期稳定性风险。\n\n岗位职责:\n• 社区日常管理：负责 Discord、Telegram 等平台维护，执行群规及清理垃圾信息。\n• 活跃氛围与话题引导：发起讨论，回应用户，鼓励分享体验与建议。\n• 用户答疑与支持：解答常见问题，收集反馈并跟进处理结果。\n• 新用户引导：完善欢迎消息与入门指南，帮助用户完成首次使用。\n• 社区活动执行：策划执行 AMA、主题讨论及任务活动。\n• 用户反馈与核心成员维护：整理产品问题建议，维护活跃用户与贡献者。\n• 数据与安全管理：跟踪运营数据，识别钓鱼链接等安全风险并及时处理。\n\n岗位要求:\n• Web3 社区运营经验，熟悉 Discord/Telegram，提供过往案例。\n• 良好沟通能力，能主动带动讨论并处理负面情绪。\n• 快速理解产品，清晰表达功能与规则，不随意承诺。\n• 熟悉社区权限配置及反垃圾机制。\n• 具备",
-   "cat": "web3",
-   "source": "Telegram",
-   "published": "2026-11-11T11:41:14+00:00",
-   "salary": "$1",
-   "remote": true,
-   "web3": true
   },
   {
    "id": "db027d187f8b",
@@ -520,17 +531,6 @@
    "web3": false
   },
   {
-   "id": "fba5bd73dcdf",
-   "title": "资深产品经理（数据） | Nodexx",
-   "desc": "🌍 Remote: 全球远程\n 🇨🇳 中国候选人: 接受度未明确\n 💼 类型: 全职\n 💰 薪资: USD / 月\n 🗓 源发布日期: \n\n ⚠️ 注意: 本岗位属于加密（CEX）行业，存在行业波动及合规风险，请求职者谨慎评估。\n\n岗位职责:\n• 负责交易所数据产品规划与建设，覆盖现货、合约、用户增长、运营等业务场景。\n• 负责核心指标体系建设，包括交易量、交易额、手续费、用户转化、留存等。\n• 负责数据看板、报表平台、自助取数、数据查询及分析工具的产品设计与落地。\n• 负责数据埋点、指标口径、数据权限及数据质量管理，推动业务数据标准化。\n• 结合业务场景开展数据分析，识别业务问题，为产品优化及业务增长提供数据支持。\n• 参与交易所中后台产品设计与建设，涵盖业务配置、运营管理、权限管理等。\n• 协同研发、数据开发及业务团队，推动数据平台和中后台系统持续迭代。\n\n岗位要求:\n• 具备 5 年以上数据产品或金融产品相关经验，有数字资产交易所、金融科技经验者优先。\n• 熟悉交易所核心业务及数据链路，理解现货、合约、账户、订单等业务逻辑。\n• 熟悉数",
-   "cat": "web3",
-   "source": "Telegram",
-   "published": "2026-11-11T11:21:47+00:00",
-   "salary": "USD 5000",
-   "remote": true,
-   "web3": true
-  },
-  {
    "id": "a5c6d18c7ba2",
    "title": "招聘：\r\n高级区块链开发工程师（跨链方向），\r\n高级服务端开发工程师，\r\n链上数据开发工程师，\r\nEVM 交易路由工程师。",
    "desc": "Hot/New Jobs:\r\n ：\r\nJob Type: Full-Time ，Onsite-HK （提供签证）\r\n\r\nPosition 一：高级区块链开发工程师（跨链方向）\r\nPS：\r\n1 、负责跨链交易执行全流程，包括源链入金识别、目标链执行、状态跟踪与失败恢复。\r\n2 、建设协议接入、费用计算和高并发 Gas 代付能力，并完善结算对账与资金安全机制。\r\n3 、要求 3 年以上后端或区块链经验，有已上线的跨链或 Gas Sponsor 生产经验，熟悉 EVM 或 Solana 及多阶段异步流程。\r\n\r\nPosition 二：高级服务端开发工程师\r\nPS：\r\n1 、负责链上交易系统服务端开发，重点治理性能瓶颈、稳定性、请求延迟和并发能力。\r\n2 、工作涵盖慢查询、锁竞争、任务调度、幂等重试、RPC 故障切换、监控告警和压测容量。\r\n3 、要求 3 年以上服务端经验，有已上线生产系统的性能优化或稳定性治理案例。\r\n\r\nPosition 三：链上数据开发工程师\r\nPS：\r\n1 、负责新增 EVM 链与 Solana 生态的数据采集接入，以及 DEX/Launchpad 协议解析和",
@@ -542,13 +542,24 @@
    "web3": true
   },
   {
+   "id": "47add42cee94",
+   "title": "WE'RE HIRING: SHORT-FORM VIDEO EDITORS (3 POSITIONS)",
+   "desc": "Company: Client Reach AI\n\nLocation: Remote\n\nEmployment: Full-Time | Long-Term | In-House\n\nCompensation: Fixed Monthly Salary + Performance-Based Commissions\n\nAbout Client Reach AI\n\nClient Reach AI is a fast-growing UK-based AI, marketing and technology agency. We help ambitious businesses scale, generate qualified leads and increase revenue through AI systems, automations and high-performing content.\n\nWe're building our in-house creative team, and we're looking for 3 talented short-form editors",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-11T11:17:00+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
    "id": "69f4d75f40dd",
-   "title": "[offer] Photo Editing & Custom YouTube Thumbnails | From $5",
+   "title": "[offer] Photo Editing & Custom YouTube Thumbnails | From $4",
    "desc": "Need a photo fixed or a custom thumbnail for your next YouTube video? I offer photo editing and YouTube thumbnail design, tailored to your image, audience, and idea.\n\n**Photo editing portfolio — Explore my professional website :** [My website]( \n\nI’m Valentín Peralta. I work with Photoshop and AI-assisted tools where appropriate, and you’ll communicate directly with me throughout your project.\n\n**PHOTO EDITING**\n\n* Object and people removal or addition.\n*",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-11T11:06:21+00:00",
-   "salary": "$5",
+   "salary": "$4",
    "remote": false,
    "web3": false
   },
@@ -559,7 +570,7 @@
    "cat": "web3",
    "source": "jobicy",
    "published": "2026-11-11T11:05:39+00:00",
-   "salary": "$20",
+   "salary": "$16",
    "remote": true,
    "web3": true
   },
@@ -581,7 +592,7 @@
    "cat": "web3",
    "source": "jobicy",
    "published": "2026-11-11T11:05:16+00:00",
-   "salary": "$20",
+   "salary": "$16",
    "remote": true,
    "web3": true
   },
@@ -603,7 +614,7 @@
    "cat": "web3",
    "source": "jobicy",
    "published": "2026-11-11T11:05:12+00:00",
-   "salary": "$20",
+   "salary": "$16",
    "remote": true,
    "web3": true
   },
@@ -663,24 +674,13 @@
    "web3": true
   },
   {
-   "id": "367c8179355d",
-   "title": "内控经理",
-   "desc": "🌍 Remote: 全球远程（未明确是否排斥中国候选人，需联系确认）\n 🇨🇳 中国候选人: 未明确（建议咨询渠道方）\n 💼 类型: 全职/合同 (未知具体类型)\n 💰 薪资: CNY 30-50k/月\n 🗓 源发布日期: \n\n ⚠️ 注意: Web3/加密行业岗位存在合规与价格波动风险；中国候选人接受度未明确，需联系HR确认；发布者为招聘聚合频道，非雇主直招。\n\n岗位职责:\n• 建立内控体系，负责风险识别、控制设计与制度建设\n• 覆盖资金、资产、交易、费用、权限等高风险领域，提出优化方案\n• 开展日常内控检查与专项审计，对异常数据进行穿透分析\n• 建立问题台账，推动责任部门整改闭环\n• 运用数据分析工具建立风险监控及异常预警机制\n\n岗位要求:\n• 3-5年以上内控、内审、风险管理、财务管理经验（有Web3/Crypto/金融经验优先）\n• 熟悉内控、风险管理及审计方法，强业务流程分析能力\n• 强数据分析能力（Excel、SQL、BI等）\n• 能独立开展风险识别、专项检查及整改推动\n• 跨部门沟通推动能力强\n\n 📮 [联系方式已隐藏 · 咨询请加微信]: [联系方式已隐藏 · 咨询请加微信]历：DM",
-   "cat": "web3",
-   "source": "Telegram",
-   "published": "2026-11-11T11:01:42+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
    "id": "a657e1b39dd4",
    "title": "Associate General Counsel",
    "desc": "About Pair Team \n Pair Team is a public benefit company reimagining care for the safety net. As an AI-enabled medical group for Medicaid and Medicare, we deliver medical, behavioral, and social care by integrating shelters, pantries and other community-based organizations into our whole-person model. As California’s largest complex care provider, we’ve proven our impact to reduce avoidable emergency care, including a 52% and 26% reduction in ER visits and hospitalizations respectively. Once scal",
    "cat": "writing",
    "source": "jobicy",
    "published": "2026-11-11T10:53:05+00:00",
-   "salary": "$150",
+   "salary": "$120",
    "remote": true,
    "web3": false
   },
@@ -724,7 +724,7 @@
    "cat": "web3",
    "source": "jobicy",
    "published": "2026-11-11T10:52:36+00:00",
-   "salary": "$300",
+   "salary": "$240",
    "remote": true,
    "web3": true
   },
@@ -763,12 +763,12 @@
   },
   {
    "id": "736691cb8bd8",
-   "title": "[Hiring] remote operation assistant [$20/hr] & Account manager [$25/hr]",
+   "title": "[Hiring] remote operation assistant [$16/hr] & Account manager [$20/hr]",
    "desc": "[removed]",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-11T10:23:22+00:00",
-   "salary": "$20/hr",
+   "salary": "$16/hr",
    "remote": true,
    "web3": false
   },
@@ -863,11 +863,11 @@
   {
    "id": "7f24af972000",
    "title": "Account Executive - Sales",
-   "desc": "This position requires a presence in Los Angeles \n This position offers a salary $85,000 - $110,000 plus commission \n About the Job: \n The Real Deal is looking for a Sales Account Executive to join a rapidly growing media company focused \n on real estate journalism and headquartered in New York City. The ideal candidate will have a track \n record of closing new business and at least 2-3 years selling advertising solutions with a consultative \n approach. Typical deal size ranges from $10K - $100K",
+   "desc": "This position requires a presence in Los Angeles \n This position offers a salary $68,000 - $88,000 plus commission \n About the Job: \n The Real Deal is looking for a Sales Account Executive to join a rapidly growing media company focused \n on real estate journalism and headquartered in New York City. The ideal candidate will have a track \n record of closing new business and at least 2-3 years selling advertising solutions with a consultative \n approach. Typical deal size ranges from $8K - $80K",
    "cat": "marketing",
    "source": "jobicy",
    "published": "2026-11-11T09:48:20+00:00",
-   "salary": "$85,000",
+   "salary": "$68,000",
    "remote": true,
    "web3": false
   },
@@ -885,11 +885,11 @@
   {
    "id": "b837a3d5182f",
    "title": "Mission Director - USASOC (FedS059)",
-   "desc": "This position offers a base salary of $145,000 - $185,000. (Total on-target earnings of $290,000 to $370,000) \n Role Description: \n The Mission Director is a quota-carrying, full-lifecycle business owner responsible for identifying, shaping, closing, and executing new business within the US Army Special Operations Command (USASOC) ecosystem. \n You will build trusted relationships with Mission Heroes (our customers), identify meaningful problems, shape solutions using Defense Unicorns products, a",
+   "desc": "This position offers a base salary of $116,000 - $148,000. (Total on-target earnings of $232,000 to $296,000) \n Role Description: \n The Mission Director is a quota-carrying, full-lifecycle business owner responsible for identifying, shaping, closing, and executing new business within the US Army Special Operations Command (USASOC) ecosystem. \n You will build trusted relationships with Mission Heroes (our customers), identify meaningful problems, shape solutions using Defense Unicorns products, a",
    "cat": "web3",
    "source": "jobicy",
    "published": "2026-11-11T09:48:17+00:00",
-   "salary": "$145,000",
+   "salary": "$116,000",
    "remote": true,
    "web3": true
   },
@@ -911,7 +911,7 @@
    "cat": "web3",
    "source": "jobicy",
    "published": "2026-11-11T09:42:06+00:00",
-   "salary": "$20",
+   "salary": "$16",
    "remote": true,
    "web3": true
   },
@@ -933,7 +933,7 @@
    "cat": "web3",
    "source": "jobicy",
    "published": "2026-11-11T09:41:44+00:00",
-   "salary": "$20",
+   "salary": "$16",
    "remote": true,
    "web3": true
   },
@@ -955,7 +955,7 @@
    "cat": "web3",
    "source": "jobicy",
    "published": "2026-11-11T09:41:41+00:00",
-   "salary": "$20",
+   "salary": "$16",
    "remote": true,
    "web3": true
   },
@@ -977,7 +977,7 @@
    "cat": "web3",
    "source": "jobicy",
    "published": "2026-11-11T09:41:37+00:00",
-   "salary": "$20",
+   "salary": "$16",
    "remote": true,
    "web3": true
   },
@@ -999,7 +999,7 @@
    "cat": "web3",
    "source": "jobicy",
    "published": "2026-11-11T09:41:34+00:00",
-   "salary": "$20",
+   "salary": "$16",
    "remote": true,
    "web3": true
   },
@@ -1021,7 +1021,7 @@
    "cat": "web3",
    "source": "jobicy",
    "published": "2026-11-11T09:41:31+00:00",
-   "salary": "$20",
+   "salary": "$16",
    "remote": true,
    "web3": true
   },
@@ -1043,7 +1043,7 @@
    "cat": "web3",
    "source": "jobicy",
    "published": "2026-11-11T09:40:59+00:00",
-   "salary": "$20",
+   "salary": "$16",
    "remote": true,
    "web3": true
   },
@@ -1065,7 +1065,7 @@
    "cat": "web3",
    "source": "jobicy",
    "published": "2026-11-11T09:40:56+00:00",
-   "salary": "$20",
+   "salary": "$16",
    "remote": true,
    "web3": true
   },
@@ -1087,7 +1087,7 @@
    "cat": "web3",
    "source": "jobicy",
    "published": "2026-11-11T09:40:53+00:00",
-   "salary": "$20",
+   "salary": "$16",
    "remote": true,
    "web3": true
   },
@@ -1131,7 +1131,7 @@
    "cat": "web3",
    "source": "jobicy",
    "published": "2026-11-11T09:40:21+00:00",
-   "salary": "$20",
+   "salary": "$16",
    "remote": true,
    "web3": true
   },
@@ -1235,17 +1235,6 @@
    "web3": false
   },
   {
-   "id": "abe638f7cab5",
-   "title": "💗 Your job application was going well, but the company suddenly put the position “on hold.”",
-   "desc": "What does that mean? 👀 \n\nA hiring hold happens when a company temporarily pauses recruitment for a position, sometimes even after interviews have started.\n\nThere are several possible reasons:\n\n• Budget changes: The company needs to review spending or secure additional hiring approval.\n\n• Changing priorities: The team may be reconsidering the role, its responsibilities or the experience required.\n\n• Internal delays: Decision-makers may need more time to agree on the next steps.\n\n Does this mean y",
-   "cat": "misc",
-   "source": "Telegram",
-   "published": "2026-11-11T09:36:04+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
    "id": "8b6f1852bf6d",
    "title": "[Task] Need an accountant US based only 100-200 per hour 5 hours a day Part Time",
    "desc": "[removed]",
@@ -1257,13 +1246,24 @@
    "web3": false
   },
   {
+   "id": "a4888b3843e5",
+   "title": "Need an Editor for my GTA 6 YT videos in india",
+   "desc": "I'm currently a student, so I have a relatively limited budget for this project. I'm looking for a video editor who would be comfortable working within a modest budget. While I may not be able to offer a high professional rate at this stage, I'm happy to discuss fair compensation based on the editor's skills, experience, and the scope of work.\n\nI'm looking to build a long-term working relationship with someone who is passionate about video editing and interested in growing together.",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-11T09:22:36+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "2f3e8608c031",
-   "title": "[HIRING] UK creators: £350/month for one short video a day on a new BookBase account (remote, no followers needed)",
+   "title": "[HIRING] UK creators: £280/month for one short video a day on a new BookBase account (remote, no followers needed)",
    "desc": "[removed]",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-11T09:17:12+00:00",
-   "salary": "£350/mo",
+   "salary": "£280/mo",
    "remote": true,
    "web3": false
   },
@@ -1290,6 +1290,17 @@
    "web3": false
   },
   {
+   "id": "47cd12203f98",
+   "title": "HIRING: LONG-FORM FACELESS VIDEO EDITORS",
+   "desc": "",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-11T08:39:57+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "fb5545271e4c",
    "title": "[TASK] TV SHOW CLIPPER",
    "desc": "[removed]",
@@ -1303,46 +1314,68 @@
   {
    "id": "f893fb3be174",
    "title": "[HIRING] logo + app icon + Splash screen (India only)",
-   "desc": "Looking for a graphic designer for 2 mobile apps (customer + vendor).\n\nScope:\n\n1 simple, clean logo (used for both apps with slight variations)\n\nApp icons (Play Store + App Store)\n\nSplash screens (basic, minimal animation)\n\nStyle: Clean, modern, minimal\n\nDeliverables:\n\nSource files (.AI/.SVG)\n\nPNG exports\n\nApp icon sizes\n\nRequirements: Share relevant logo/app work\n\nAt least 2-3 initial logo concepts before revisions\n\nThen 2-3 revisions on the selected concept\n\nBudget: ₹5000 / $50 to ₹7000 /$70 (",
+   "desc": "Looking for a graphic designer for 2 mobile apps (customer + vendor).\n\nScope:\n\n1 simple, clean logo (used for both apps with slight variations)\n\nApp icons (Play Store + App Store)\n\nSplash screens (basic, minimal animation)\n\nStyle: Clean, modern, minimal\n\nDeliverables:\n\nSource files (.AI/.SVG)\n\nPNG exports\n\nApp icon sizes\n\nRequirements: Share relevant logo/app work\n\nAt least 2-3 initial logo concepts before revisions\n\nThen 2-3 revisions on the selected concept\n\nBudget: ₹5000 / $40 to ₹7000 /$56 (",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-11T08:16:10+00:00",
-   "salary": "$50",
+   "salary": "$40",
    "remote": false,
    "web3": false
   },
   {
    "id": "5a6316c6374d",
-   "title": "[Hiring] (Remote) WordPress SEO Audit Specialist - $100-$200 Fixed",
+   "title": "[Hiring] (Remote) WordPress SEO Audit Specialist - $80-$160 Fixed",
    "desc": "[removed]",
    "cat": "marketing",
    "source": "Reddit",
    "published": "2026-11-11T07:57:42+00:00",
-   "salary": "$100",
+   "salary": "$80",
    "remote": true,
+   "web3": false
+  },
+  {
+   "id": "59d99e1a1244",
+   "title": "[HIRING / PARTNERSHIP] Looking for a Long-Term Clipper & Growth Partner (Daily Shorts/TikToks)",
+   "desc": "Hey everyone,\n\nI’m a new Twitch streamer looking for a dedicated clipper to team up with and grow alongside, not just a one-off freelancer. I want to build a real partnership where we grow the channels together and scale your pay as the content takes off.\n\nAbout our content: We’re basically two funny guys streaming everything, and we’re quite easy to clip, I would say.\n\nWhat I’m looking for:\n\nDaily output: Edit 3 short-form clips daily.\n\nGrowth mindset: Brainstorm hooks, captions and viral ideas",
+   "cat": "marketing",
+   "source": "Reddit",
+   "published": "2026-11-11T07:44:58+00:00",
+   "salary": "$80",
+   "remote": false,
    "web3": false
   },
   {
    "id": "bc34a44eccad",
    "title": "[Hiring] We need Reddit Community Builder!",
-   "desc": "Hi, we're looking for an experienced Reddit community builder to help build and grow a subreddit focused on topics related AI.\n\nWe're looking for:\n\n\\- Experience building and growing subreddits from scratch (not just moderating existing communities)\n\n\\- Ability to attract new members and drive communities engagement. Creating and publishing content to keep the community active.\n\nTimeline: In 2-3 months, flexible working schedule \n\nCompensation: up to $1200 - discussion is open!\n\nIf you intereste",
+   "desc": "Hi, we're looking for an experienced Reddit community builder to help build and grow a subreddit focused on topics related AI.\n\nWe're looking for:\n\n\\- Experience building and growing subreddits from scratch (not just moderating existing communities)\n\n\\- Ability to attract new members and drive communities engagement. Creating and publishing content to keep the community active.\n\nTimeline: In 2-3 months, flexible working schedule \n\nCompensation: up to $960 - discussion is open!\n\nIf you intereste",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-11T07:43:31+00:00",
-   "salary": "$1200",
+   "salary": "$960",
    "remote": false,
    "web3": false
   },
   {
-   "id": "c8f9affe89e8",
-   "title": "资管 BD / 机构募资负责人",
-   "desc": "🌍 Remote: 全球远程\n 🇨🇳 中国候选人: 不明确 (建议主动联系咨询)\n 💼 类型: 全职/合作 (底薪 + 分成)\n 💰 薪资: 底薪 + 业绩激励 / 管理费分成\n 🗓 源发布日期: \n\n ⚠️ 注意: Web3/DeFi行业波动较大，业务合规性存在不确定性；发布者可能为招聘中介而非直接雇主，请核实。\n\n岗位职责:\n• 拓展高净值客户、家办、机构投资人及财富管理机构资源\n• 推动投资人沟通、产品介绍、尽调支持及后续跟进\n• 建立并维护长期募资渠道（家办/私行/基金销售等）\n\n岗位要求:\n• 拥有资管/私募/家办/机构BD/IR相关经验\n• 手握真实可转化的机构、高净值客户或家办渠道资源\n• 熟悉私募/对冲/跨境资管产品募资流程\n• 具备未来一年数千万至1亿美元募资潜力\n\n 📮 [联系方式已隐藏 · 咨询请加微信]: DM \n\n 📌 来源: Bossjob Web3 Jobs\n 🔗 申请: \n\n #RemoteJobs #BossjobWeb3Jobs #Web3 #BD",
-   "cat": "web3",
-   "source": "Telegram",
-   "published": "2026-11-11T07:41:31+00:00",
+   "id": "60f3c1e54a43",
+   "title": "[HIRING] COLD CALLERS WANTED | WASL®",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-11T07:07:00+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "9e63568df7bf",
+   "title": "WE'RE HIRING: VIDEO EDITORS 🇮🇳",
+   "desc": "**WE'RE HIRING: VIDEO EDITORS 🇮🇳**\n\n**Location:** Remote | India only. We are hiring Indian editors only and are not accepting applications from outside India.\n\nSimplyy Samjho is looking for creative editors for long-form documentaries and Instagram Reels.\n\n**1. Long-form Documentary Editors**\n\nYou should be comfortable with:\n\n* AI-generated visuals\n* Motion graphics\n* Images, footage and archival videos\n* Articles and on-screen references\n* Map animations\n* Documentary-style storytelling\n\n**Pay",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-11T06:58:09+00:00",
    "salary": "",
    "remote": true,
-   "web3": true
+   "web3": false
   },
   {
    "id": "6d5419a9cb12",
@@ -1351,19 +1384,19 @@
    "cat": "support",
    "source": "Freelancer",
    "published": "2026-11-11T06:56:59+00:00",
-   "salary": "USD 750.0 - 1500.0",
+   "salary": "USD 600 - 1200",
    "remote": false,
    "web3": false
   },
   {
-   "id": "0019f389f26e",
-   "title": "项目经理 | StarPago",
-   "desc": "🌍 Remote: Worldwide (全球远程)\n 🇨🇳 中国候选人: 接受\n 💼 类型: 全职\n 💰 薪资: $2.2-4.5k/月\n 🗓 源发布日期: \n\n ⚠️ 注意: 涉及区块链及跨境支付领域，需注意行业合规政策波动风险。\n\n岗位职责:\n• 负责跨境支付及企业多币种账户产品的规划、设计与落地。\n• 梳理资金流转路径，设计账户权限、费率额度及交易报表等核心功能。\n• 将业务需求转化为可开发的产品方案，制定优先级及交付计划。\n• 独立负责项目从需求分析到上线的完整流程。\n• 协调研发、运营、合规及销售团队，跟踪进度并推动问题解决。\n• 深入业务一线收集反馈，持续优化支付体验。\n\n岗位要求:\n• 具有跨境支付、企业资金管理、多币种账户或金融科技产品经验。\n• 熟悉企业开户、清结算、对账等业务流程。\n• 具备独立负责完整产品模块或项目闭环的经验。\n• 具备项目管理及跨部门协调能力。\n• 逻辑清晰，沟通能力强，责任心强。\n• 加分项：熟悉KYC合规、资金管理经验或跨时区协作经验。\n\n 📮 申请链接:",
-   "cat": "tech",
-   "source": "Telegram",
-   "published": "2026-11-11T06:42:45+00:00",
-   "salary": "$2.2",
-   "remote": true,
+   "id": "9337afedebe6",
+   "title": "Please Help Me Find Editing Work – I Really Need a Job Right Now",
+   "desc": "",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-11T06:35:31+00:00",
+   "salary": "",
+   "remote": false,
    "web3": false
   },
   {
@@ -1395,7 +1428,18 @@
    "cat": "tech",
    "source": "Freelancer",
    "published": "2026-11-11T05:38:43+00:00",
-   "salary": "USD 15.0 - 25.0",
+   "salary": "USD 12 - 20",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "42cc8af055dc",
+   "title": "💼 [hiring] VOICE & NON-VOICE ACCOUNTS",
+   "desc": "🎁 FREE MEAL + GIFT VOUCHER 🏥 HMO ON DAY 1 🌙 18% NIGHT DIFFERENTIAL 📍 McKinley & Pasig Sites 💰Salary offer UP TO 24K\n\n✨ **WITH OR WITHOUT BPO EXPERIENCE!** Freshers are welcome!\n\n📩 **READY TO APPLY?** [联系方式已隐藏 · 咨询请加微信] or send your resume to: 📧 [*** ***](mailto: )\n\n**Email Subject:** \\[Account\\_Site\\]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-11T05:19:48+00:00",
+   "salary": "",
    "remote": false,
    "web3": false
   },
@@ -1433,6 +1477,17 @@
    "web3": false
   },
   {
+   "id": "eae464dd9e0e",
+   "title": "[Hiring] AI video editor for kids cartoon shorts.",
+   "desc": "",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-11T04:30:40+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "7613e8478a8c",
    "title": "招聘：\r\n预测市场做市与对冲负责人，\r\nBD/Senior BD（预测市场）",
    "desc": "Position 一：预测市场做市与对冲负责人\r\nJob Type: Full-Time ，remote\r\nPS：\r\n1 、寻找拥有 Prediction Market 真实做市经验和 Cryp-交易所内部做市经历，同时做过 options 、0DTE 、binary 或其他短到期非线性产品，亲自负责定价、报价、库存、对冲、风控及 PnL ，并操作过期权、0DTE 、二元等短到期非线性产品的实战型人才。\r\n2 、必须 hands-on ，能独立设计策略与系统（ Python/C++），具备从 0 到 1 搭建内部 MM 系统并处理实盘成交、对冲、异常及事故的全流程能力。\r\n3 、要求中文流利、Cryp-背景扎实，排除仅做 FoF/CTA 、团队管理或外部对接者；需确认能接受短周期市场前期高强度 on-call 及亲自下场的工作强度。\r\n\r\nPosition 二：BD/Senior BD （预测市场）\r\n拉丁美洲：巴西、阿根廷\r\n中东：土耳其、沙特阿拉伯、巴基斯坦\r\n英语、越南\r\nJob Type: Full-Time ，remote\r\nPS：\r\n1 、负责拉丁美洲：巴西、阿根廷；中东：",
@@ -1444,14 +1499,25 @@
    "web3": true
   },
   {
-   "id": "cd005a383fe6",
-   "title": "GPU 数据中心网络工程师",
-   "desc": "🌍 Remote: 全球远程\n 🇨🇳 中国候选人: 未明确（需确认是否接受）\n 💼 类型: 未知\n 💰 薪资: 未明确\n 🗓 源发布日期: \n\n ⚠️ 注意: 工作地点涉及东南亚出差（马来西亚，印尼），且公司身份不明，请谨慎核实。行业波动风险。\n\n岗位职责:\n• 负责数据中心网络及 GPU 集群互联网络的部署支持与日常运维\n• 执行二线故障处理并与设备厂家协作解决复杂问题\n• 按已批准方案完成交换机、路由器、防火墙的网络部署与变更\n\n岗位要求:\n• 需前往马来西亚、印尼等项目现场出差\n\n 📮 [联系方式已隐藏 · 咨询请加微信]: 无\n\n 📌 来源: eleduck\n 🔗 申请: \n\n #RemoteJobs #eleduck #NetworkEngineer",
-   "cat": "tech",
-   "source": "Telegram",
-   "published": "2026-11-11T03:33:23+00:00",
+   "id": "f84e9c14851c",
+   "title": "[HIRING] Video Editor – DTC Ads / AI VSL / Clay Animation / AI UGC / PIXAR Animation",
+   "desc": "",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-11T03:51:01+00:00",
    "salary": "",
-   "remote": true,
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "983cee9eef7c",
+   "title": "Why the \"job board\" model is broken for video editors (and how we’re building a alternative model)",
+   "desc": "If you’ve spent any time on job boards recently, you know the cycle: 50+ editors competing for low-paying gigs, race-to-the-bottom pricing, and clients who don't respect post-production labor.\n\nMost Discord creative communities end up the exact same way... a \\`#job-board\\` channel flooded with hundreds of people fighting over $16 client briefs.\n\nI'm building \\*\\*EXCELER8\\*\\*, a modern creative network designed to solve this exact bottleneck.\n\n\\*\\*The Model:\\*\\*\n\n\\* \\*\\*Direct Client Distribution",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-11T03:36:40+00:00",
+   "salary": "$16",
+   "remote": false,
    "web3": false
   },
   {
@@ -1467,24 +1533,35 @@
   },
   {
    "id": "9c3f9e7ed8e5",
-   "title": "[HIRING] Paid AI Research Survey – $20 Compensation (15–20 Minutes)",
+   "title": "[HIRING] Paid AI Research Survey – $16 Compensation (15–20 Minutes)",
    "desc": "[removed]",
    "cat": "data",
    "source": "Reddit",
    "published": "2026-11-11T03:19:02+00:00",
-   "salary": "$20",
+   "salary": "$16",
    "remote": false,
    "web3": false
   },
   {
    "id": "9753ce456146",
-   "title": "[Hiring] Long-form YouTube video editor for a data career education channel | $400–550 per video | Remote",
+   "title": "[Hiring] Long-form YouTube video editor for a data career education channel | $320–440 per video | Remote",
    "desc": "[removed]",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-11T03:17:41+00:00",
-   "salary": "$400–550",
+   "salary": "$320–440",
    "remote": true,
+   "web3": false
+  },
+  {
+   "id": "f942ce31fb10",
+   "title": "[Hiring] Logo Designer Needed – $40 Budget – No AI Designs",
+   "desc": "[removed]",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-11T03:10:42+00:00",
+   "salary": "$40",
+   "remote": false,
    "web3": false
   },
   {
@@ -1500,12 +1577,12 @@
   },
   {
    "id": "1b8fe87b7662",
-   "title": "[TASK] $12 – Simple typing job (about 10 minutes)",
+   "title": "[TASK] $10 – Simple typing job (about 10 minutes)",
    "desc": "[removed]",
    "cat": "data",
    "source": "Reddit",
    "published": "2026-11-11T03:05:11+00:00",
-   "salary": "$12",
+   "salary": "$10",
    "remote": false,
    "web3": false
   },
@@ -1522,45 +1599,45 @@
   },
   {
    "id": "7bc4c8617dfa",
-   "title": "[Hiring] Creator who films with a partner — ongoing 2-person challenge videos, $60-$100/video DOE, up to 5/month + viral bonus up to $1,000",
+   "title": "[Hiring] Creator who films with a partner — ongoing 2-person challenge videos, $48-$80/video DOE, up to 5/month + viral bonus up to $800",
    "desc": "[removed]",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-11T03:03:33+00:00",
-   "salary": "$60",
+   "salary": "$48",
    "remote": false,
    "web3": false
   },
   {
    "id": "2369a7943d55",
    "title": "[Offer] Video Editor for Creators & Small Businesses.",
-   "desc": "Hi. I edit talking head, daily vlog, and explainer videos for creators and businesses. My focus is tight pacing, strong hooks, intros, and clean visuals.\n\n**Things I do:**\n\n\\- Clean cuts and pacing that hold attention\n\n\\- Text animation and motion graphics\n\n\\- Sound design (music, SFX, audio cleanup/adjust)\n\n**Turnaround time:** 24-48h\n\n**Price:**\n\n\\- Short form (60 sec): $15\n\n\\- Long form (8-12 min): $35\n\nI'll put in extra effort to make sure you're satisfied with the result, and I'm open to a",
+   "desc": "Hi. I edit talking head, daily vlog, and explainer videos for creators and businesses. My focus is tight pacing, strong hooks, intros, and clean visuals.\n\n**Things I do:**\n\n\\- Clean cuts and pacing that hold attention\n\n\\- Text animation and motion graphics\n\n\\- Sound design (music, SFX, audio cleanup/adjust)\n\n**Turnaround time:** 24-48h\n\n**Price:**\n\n\\- Short form (60 sec): $12\n\n\\- Long form (8-12 min): $28\n\nI'll put in extra effort to make sure you're satisfied with the result, and I'm open to a",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-11T03:02:57+00:00",
-   "salary": "$15",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "ca4ce207bcbe",
-   "title": "[TASK] $12 – Short copy-paste data entry (5–10 min, own device)",
-   "desc": "[removed]",
-   "cat": "data",
-   "source": "Reddit",
-   "published": "2026-11-11T03:02:39+00:00",
    "salary": "$12",
    "remote": false,
    "web3": false
   },
   {
+   "id": "ca4ce207bcbe",
+   "title": "[TASK] $10 – Short copy-paste data entry (5–10 min, own device)",
+   "desc": "[removed]",
+   "cat": "data",
+   "source": "Reddit",
+   "published": "2026-11-11T03:02:39+00:00",
+   "salary": "$10",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "86ba336e14e6",
-   "title": "[TASK] $10 – Edit one field on your own LinkedIn Experience section (data entry)",
+   "title": "[TASK] $8 – Edit one field on your own LinkedIn Experience section (data entry)",
    "desc": "[removed]",
    "cat": "data",
    "source": "Reddit",
    "published": "2026-11-11T02:55:31+00:00",
-   "salary": "$10",
+   "salary": "$8",
    "remote": false,
    "web3": false
   },
@@ -1666,11 +1743,11 @@
   {
    "id": "c95b28519a6e",
    "title": "Country Manager, Australia & New Zealand",
-   "desc": "1Password is growing. We’ve surpassed $400M in ARR and we’re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up with iconic partners like Oracle Red Bull Racing. \r\n \r\n About 1Password \r\n At 1Password, we’re building the foundation for a safe, productive digital future. Our mission is to unleash employee productivity without compromising security by ensuring every identity is authentic, every application sign-in is secure, and every device is t",
+   "desc": "1Password is growing. We’ve surpassed $320M in ARR and we’re continuing to accelerate, earning a spot on the Forbes Cloud 100 for four years in a row and teaming up with iconic partners like Oracle Red Bull Racing. \r\n \r\n About 1Password \r\n At 1Password, we’re building the foundation for a safe, productive digital future. Our mission is to unleash employee productivity without compromising security by ensuring every identity is authentic, every application sign-in is secure, and every device is t",
    "cat": "tech",
    "source": "jobicy",
    "published": "2026-11-11T02:55:03+00:00",
-   "salary": "$400",
+   "salary": "$320",
    "remote": true,
    "web3": false
   },
@@ -1721,11 +1798,11 @@
   {
    "id": "ec1b647fe5ce",
    "title": "Talent Analyst Specialist (Fully Remote)",
-   "desc": "Luxury Presence is building the AI growth platform for real estate. Backed by Bessemer Venture Partners and other top investors, we're a Series C company that has hit $100M in annual recurring revenue. More than 90,000 real estate professionals, including over 30% of the WSJ Real Trends top 100 agents in the United States, use us to run and grow their business. \n\n Talent Analyst Specialist \n Remote (Philippines) | Reports to: VP of People \n ABOUT THE ROLE \n We hire fast, and we're getting bigger",
+   "desc": "Luxury Presence is building the AI growth platform for real estate. Backed by Bessemer Venture Partners and other top investors, we're a Series C company that has hit $80M in annual recurring revenue. More than 90,000 real estate professionals, including over 30% of the WSJ Real Trends top 100 agents in the United States, use us to run and grow their business. \n\n Talent Analyst Specialist \n Remote (Philippines) | Reports to: VP of People \n ABOUT THE ROLE \n We hire fast, and we're getting bigger",
    "cat": "web3",
    "source": "jobicy",
    "published": "2026-11-11T02:50:22+00:00",
-   "salary": "$100",
+   "salary": "$80",
    "remote": true,
    "web3": true
   },
@@ -1791,7 +1868,7 @@
    "cat": "tech",
    "source": "jobicy",
    "published": "2026-11-11T02:50:13+00:00",
-   "salary": "$100",
+   "salary": "$80",
    "remote": true,
    "web3": false
   },
@@ -1820,11 +1897,11 @@
   {
    "id": "c255f97a1d38",
    "title": "Account Executive - Korea",
-   "desc": "About ElevenLabs \n ElevenLabs is an AI research and product company transforming how we interact with technology. \n We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $",
+   "desc": "About ElevenLabs \n ElevenLabs is an AI research and product company transforming how we interact with technology. \n We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $625M in funding and our last valuation was $",
    "cat": "tech",
    "source": "jobicy",
    "published": "2026-11-11T02:50:08+00:00",
-   "salary": "$781",
+   "salary": "$625",
    "remote": true,
    "web3": false
   },
@@ -1864,11 +1941,11 @@
   {
    "id": "9253642db353",
    "title": "Legal Operations Lead",
-   "desc": "About ElevenLabs \n ElevenLabs is an AI research and product company transforming how we interact with technology. \n We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $",
+   "desc": "About ElevenLabs \n ElevenLabs is an AI research and product company transforming how we interact with technology. \n We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $625M in funding and our last valuation was $",
    "cat": "tech",
    "source": "jobicy",
    "published": "2026-11-11T02:45:16+00:00",
-   "salary": "$781",
+   "salary": "$625",
    "remote": true,
    "web3": false
   },
@@ -1907,34 +1984,34 @@
   },
   {
    "id": "859efef71fc4",
-   "title": "[Hiring]FRONTEND / UI ENGINEER | $80–$100 PER HOUR",
+   "title": "[Hiring]FRONTEND / UI ENGINEER | $64–$80 PER HOUR",
    "desc": "[removed]",
    "cat": "tech",
    "source": "Reddit",
    "published": "2026-11-11T02:33:51+00:00",
-   "salary": "$80",
+   "salary": "$64",
    "remote": false,
    "web3": false
   },
   {
    "id": "db8523c0917d",
-   "title": "[OFFER] Virtual Assistant with 5 years of experience | $5/hr",
+   "title": "[OFFER] Virtual Assistant with 5 years of experience | $4/hr",
    "desc": "Hello! I have 5 years of experience working as a Virtual Assistant for various clients across multiple industries, which has allowed me to develop experience in a wide range of areas.\n\nI can assist with multiple tasks, including but not limited to:\n\n* Designing, developing, and maintaining websites on WordPress, Shopify, and Wix\n* Creating social media graphics, website assets, promotional materials, etc.\n* Managing spreadsheets\n* Conducting online research\n* Setting up and managing Zapier autom",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-11T02:17:36+00:00",
-   "salary": "$5/hr",
+   "salary": "$4/hr",
    "remote": false,
    "web3": false
   },
   {
    "id": "d6a90fb79c84",
-   "title": "[OFFER] Verified B2B Lead List: Top US E-Commerce Brands, Marketing Agencies, or AI Startups in Formatted Excel ($15 Each / Instant Delivery",
+   "title": "[OFFER] Verified B2B Lead List: Top US E-Commerce Brands, Marketing Agencies, or AI Startups in Formatted Excel ($12 Each / Instant Delivery",
    "desc": "[removed]",
    "cat": "marketing",
    "source": "Reddit",
    "published": "2026-11-11T02:13:49+00:00",
-   "salary": "$15",
+   "salary": "$12",
    "remote": false,
    "web3": false
   },
@@ -1947,6 +2024,17 @@
    "published": "2026-11-11T02:13:04+00:00",
    "salary": "",
    "remote": true,
+   "web3": false
+  },
+  {
+   "id": "f93e11e0b806",
+   "title": "Hiring short form editor, $4-$6 per clip + $40-$80 monthly bonuses",
+   "desc": "We’re looking for a short form editor to do simple edits like this video. They will be for short form content as well as ads. \n\nThis will be a continuous role with lots of room for growth in terms of pay and management, plus bonuses \n\nExpect 20-30 edits a month. \n\nIf this is something up your alley, send me a dm with your work and we’ll go from there🤝",
+   "cat": "marketing",
+   "source": "Reddit",
+   "published": "2026-11-11T01:59:47+00:00",
+   "salary": "$4",
+   "remote": false,
    "web3": false
   },
   {
@@ -1994,13 +2082,35 @@
    "web3": false
   },
   {
+   "id": "879604b2fc45",
+   "title": "AI UGC Ads Video Editor | India",
+   "desc": "\\*\\*\\\\\\[HIRING\\\\\\] AI UGC Ads Video Editor | India 🇮🇳\\*\\*\n\nWe're looking for skilled video editors experienced in \\*\\*UGC, DTC/performance ads and AI-assisted video creation\\*\\*.\n\n\\*\\*What we're looking for:\\*\\*\n\n\\* 1–3 years of video editing experience\n\n\\* Strong editing fundamentals, hooks, pacing and storytelling\n\n\\* Experience with AI tools like Higgsfield, Kling, Runway or similar\n\n\\* Portfolio with \\*\\*2–3 relevant live ads\\*\\* you've worked on\n\n💰 \\*\\*Pay:\\*\\* ₹45K–₹60K/month (flexible for",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-11T01:14:44+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
    "id": "136b215f93c1",
-   "title": "[task] Part-time social media assistant, replying and managing accounts $50 - $100 per month",
+   "title": "[task] Part-time social media assistant, replying and managing accounts $40 - $80 per month",
    "desc": "[removed]",
    "cat": "marketing",
    "source": "Reddit",
    "published": "2026-11-11T01:05:47+00:00",
-   "salary": "$50",
+   "salary": "$40",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "0f293d381a0b",
+   "title": "[HIRING] Editor Short Form",
+   "desc": "[removed]",
+   "cat": "writing",
+   "source": "Reddit",
+   "published": "2026-11-11T01:02:16+00:00",
+   "salary": "",
    "remote": false,
    "web3": false
   },
@@ -2011,40 +2121,51 @@
    "cat": "design",
    "source": "Freelancer",
    "published": "2026-11-11T00:32:18+00:00",
-   "salary": "USD 1500.0 - 3000.0",
+   "salary": "USD 1200 - 2400",
    "remote": false,
    "web3": false
   },
   {
-   "id": "4742a1523c21",
-   "title": "Product Designer — SkyCell AG",
-   "desc": "Software is not just vital but a strategic cornerstone of our operations. We’re looking for a Product Designer to set the cross-application UX direction for our commercial software - from pharma cold-chain visibility that helps temperature-sensitive medicines move safely around the world, to ULD tracking for airlines. You’ll define a consistent, high-quality experience across our modules and applications and support our specialised designers in bringing that experience to life, while remaining h",
-   "cat": "web3",
-   "source": "arbeitnow",
-   "published": "2026-11-11T00:31:23+00:00",
+   "id": "62eea3cfb1dc",
+   "title": "Opening commissions for NSFW/SFW! cheap and cheerful artwork including: fanart, OC's and Characters!!",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-10T23:58:52+00:00",
    "salary": "",
-   "remote": true,
-   "web3": true
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "3e61bd8be7ba",
+   "title": "Looking for a video editor",
+   "desc": "",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-10T23:52:04+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
   },
   {
    "id": "3941cb690648",
-   "title": "[OFFER] I will build Python scripts, Web Scrapers, Discord/Telegram Bots (with hosting), or Full-Stack Websites starting at $15",
+   "title": "[OFFER] I will build Python scripts, Web Scrapers, Discord/Telegram Bots (with hosting), or Full-Stack Websites starting at $12",
    "desc": "[removed]",
    "cat": "tech",
    "source": "Reddit",
    "published": "2026-11-10T23:50:10+00:00",
-   "salary": "$15",
+   "salary": "$12",
    "remote": false,
    "web3": false
   },
   {
    "id": "77e21ddcc912",
-   "title": "[Hiring] Junior-Mid level Designer $30-40/hr 15-30 hrs/week",
+   "title": "[Hiring] Junior-Mid level Designer $24-32/hr 15-30 hrs/week",
    "desc": "Looking for a junior to mid level designer to join our team at[ Darkmatter!]( \n\nWe primarily work in the gaming/sportswear space, but also have other clients in other industries.\n\nWe are looking for someone to come on board for a freelanacer role over the coming months, potentially into the new year. 15-30 hrs a week. possibly more.\n\nLooking for someone who is able to work across multiple projects, assisting our team in presentation/deck design, branding, and general",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-10T23:15:43+00:00",
-   "salary": "$30",
+   "salary": "$24",
    "remote": false,
    "web3": false
   },
@@ -2056,6 +2177,17 @@
    "source": "Job Board",
    "published": "2026-11-10T22:32:18+00:00",
    "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "e6a7d18f1c0d",
+   "title": "[HIRING] Get Paid to Test AI | $480 | Remote | US",
+   "desc": "At Pulse Voices, we’re recruiting US residents 18+ for a 100% remote paid research study where you’ll test AI tools and share your feedback. No previous AI or research experience is needed.\n\n* Earn up to **$480**\n* **100%** online and remote\n\n**>> Apply for free:** [ \n\nSafety note: Pulse Voices will never ask you to pay to apply, participate, or receive payment for our research studies. There is no fee to join.",
+   "cat": "data",
+   "source": "Reddit",
+   "published": "2026-11-10T22:16:14+00:00",
+   "salary": "$480",
    "remote": true,
    "web3": false
   },
@@ -2088,18 +2220,29 @@
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-10T21:36:13+00:00",
-   "salary": "$7",
+   "salary": "$6",
    "remote": false,
    "web3": false
   },
   {
    "id": "fcdf99287147",
    "title": "[HIRING] Seasoned writers wanted for content agency – 15c/per word for top tier",
-   "desc": "We are a content agency-as-a-platform (AaaP) that produces the full range of content, from thought leadership pieces down to sanitized AI drafts, for a wide range of clients.\n\nWe are looking for professional freelance writers with a stellar portfolio of original, human-written pieces. AI portfolio samples will not be considered.\n\nBonus points for published writers.\n\nThe pay rate varies based on the tier of content, but just to tease an example, a max 1,200-word assignment pays $180 for original",
+   "desc": "We are a content agency-as-a-platform (AaaP) that produces the full range of content, from thought leadership pieces down to sanitized AI drafts, for a wide range of clients.\n\nWe are looking for professional freelance writers with a stellar portfolio of original, human-written pieces. AI portfolio samples will not be considered.\n\nBonus points for published writers.\n\nThe pay rate varies based on the tier of content, but just to tease an example, a max 1,200-word assignment pays $144 for original",
    "cat": "writing",
    "source": "Reddit",
    "published": "2026-11-10T20:43:34+00:00",
-   "salary": "$180",
+   "salary": "$144",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "97b6d22f2504",
+   "title": "HIRING AN ARIST FOR AN INDIE COMIC BOOK",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-10T20:25:01+00:00",
+   "salary": "",
    "remote": false,
    "web3": false
   },
@@ -2127,56 +2270,56 @@
   },
   {
    "id": "6518afc8d789",
-   "title": "[TASK] Hiring AI Video Editor (Omni + Nano Banana) | $5/Video + Performance Bonuses | Long-Term",
+   "title": "[TASK] Hiring AI Video Editor (Omni + Nano Banana) | $4/Video + Performance Bonuses | Long-Term",
    "desc": "[removed]",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-10T19:03:50+00:00",
-   "salary": "$5",
+   "salary": "$4",
    "remote": false,
    "web3": false
   },
   {
    "id": "0a6136c79930",
-   "title": "[TASK] $5 per batch of 5 short raw video clips around 10s long each to use for social media content. Women preferred",
+   "title": "[TASK] $4 per batch of 5 short raw video clips around 10s long each to use for social media content. Women preferred",
    "desc": "No editing whatsoever. Just raw video clips via email. Payment via Venmo. \n\nNot looking for a professional content creator, or anyone to edit. If you have some cute stuff or an aesthetically pleasing closet, I’d love to use some short videos for content! \n\nOffering for a batch of 5 short clips (around 10 seconds or less each). \n\nExamples of the types of footage I’m looking for:\n\n\\* Aesthetic closet and wardrobe videos \n\\* Close-up shots of designer bags, shoes, accessories, and clothing details",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-10T19:01:43+00:00",
-   "salary": "$5",
+   "salary": "$4",
    "remote": false,
    "web3": false
   },
   {
    "id": "05a361f68371",
-   "title": "[Task] AI Video Creator/Editor – Omni + Nano Banana | $5 per Video + Performance Bonuses | Ongoing Work",
+   "title": "[Task] AI Video Creator/Editor – Omni + Nano Banana | $4 per Video + Performance Bonuses | Ongoing Work",
    "desc": "[removed]",
    "cat": "writing",
    "source": "Reddit",
    "published": "2026-11-10T18:52:39+00:00",
-   "salary": "$5",
+   "salary": "$4",
    "remote": false,
    "web3": false
   },
   {
    "id": "09689ce7450e",
-   "title": "[Hiring] Designer to create mood board templates ($50 a template)",
+   "title": "[Hiring] Designer to create mood board templates ($40 a template)",
    "desc": "Hey everyone!\n\nWe're looking for designers for our template design gig for Onton, an SF-based tech startup building a product search engine specifically for interior design.\n\nWe recently launched a digital **Canvas feature** that lets users build mood boards for home projects. We’re looking a few design students with a strong visual eye to help us build out our initial library of featured templates. You can think early days of Canva when they were launching their template ecosystem, but tailored",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-10T18:28:47+00:00",
-   "salary": "$50",
+   "salary": "$40",
    "remote": true,
    "web3": false
   },
   {
    "id": "c77eae69b2b0",
-   "title": "[offer] Training $20/hr — today, samples attached",
+   "title": "[offer] Training $16/hr — today, samples attached",
    "desc": "[removed]",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-10T18:12:24+00:00",
-   "salary": "$20/hr",
+   "salary": "$16/hr",
    "remote": false,
    "web3": false
   },
@@ -2198,8 +2341,19 @@
    "cat": "marketing",
    "source": "Reddit",
    "published": "2026-11-10T17:58:55+00:00",
-   "salary": "$400–600",
+   "salary": "$320–480",
    "remote": true,
+   "web3": false
+  },
+  {
+   "id": "6576349a25ac",
+   "title": "Urgently video editor",
+   "desc": "I've been working as a video editor for almost 1 year, and I'm currently going through a difficult financial situation. I recently lost my job and need to pay my bills. Right now, video editing is my only way to earn money.\n\nI urgently need to make $166 before November 20.\n\nI'm willing to edit almost any type of video – YouTube, TikTok, Reels, Shorts, ads, or promotional content.\n\nI'm available to start immediately.\n\nIf you need an editor or know someone who does, please reach out. Even sharing",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-10T17:53:07+00:00",
+   "salary": "$166",
+   "remote": false,
    "web3": false
   },
   {
@@ -2220,51 +2374,29 @@
    "cat": "tech",
    "source": "Freelancer",
    "published": "2026-11-10T17:29:05+00:00",
-   "salary": "USD 1500.0 - 2500.0",
+   "salary": "USD 1200 - 2000",
    "remote": false,
-   "web3": false
-  },
-  {
-   "id": "392b2eb6a681",
-   "title": "Senior Business Analyst / Requirements Engineer (76080) — IQ Plus AG",
-   "desc": "Wir suchen für einen Kunden einen erfahrenen Business Analyst / Requirements Engineer. Dabei übernimmst du eine zentrale Rolle zwischen Business und Technologie: Du verstehst Geschäftsprozesse und Bedürfnisse im Kern, strukturierst komplexe Anforderungen und schaffst die Grundlage für Lösungen, die fachlich sinnvoll und technisch umsetzbar sind. Dabei bist du nicht einfach Anforderungsmanager, sondern Sparringspartner für unsere Kunden und unsere interdisziplinären Teams. Folgende Aufgaben warte",
-   "cat": "tech",
-   "source": "arbeitnow",
-   "published": "2026-11-10T17:00:50+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "2ba221a53f93",
-   "title": "PEGA Spezialist als Lead Business & System Architect (76037) — IQ Plus AG",
-   "desc": "Für einen Kunden aus der öffentlichen Verwaltung suchen wir einen erfahrenen Pega Lead Business & System Architect. Bei diesem langfristigen Projekteinsatz spielen Sie eine zentrale Rolle bei der Gestaltung und Weiterentwicklung moderner Geschäftsanwendungen. Wir suchen eine erfahrene Persönlichkeit mit 5–10 Jahren Praxiserfahrung, die unsere Kunden bei der erfolgreichen Umsetzung innovativer Pega-Lösungen begleitet und nachhaltige digitale Transformationen vorantreibt. \n In dieser Position verb",
-   "cat": "design",
-   "source": "arbeitnow",
-   "published": "2026-11-10T17:00:48+00:00",
-   "salary": "",
-   "remote": true,
    "web3": false
   },
   {
    "id": "aeff082f3c0f",
    "title": "EdgeQ Technologies Private Limited: IT Support Specialist",
-   "desc": "Headquarters: United States\n\n IT Support Specialist Job Title: IT Support Specialist\n Location: United States (Remote)\n Work Mode: 100% Remote\n Experience: 1–5 Years\n Salary Range: $45,000 – $75,000 per year (USD)\n Employment Type: Full-Time\n Job Category: Information Technology / Technical Support Job Summary We are seeking a motivated and customer-focused IT Support Specialist to join our growing IT team in the United States. The ideal candidate will provide technical assistance, troubleshoo",
+   "desc": "Headquarters: United States\n\n IT Support Specialist Job Title: IT Support Specialist\n Location: United States (Remote)\n Work Mode: 100% Remote\n Experience: 1–5 Years\n Salary Range: $36,000 – $60,000 per year (USD)\n Employment Type: Full-Time\n Job Category: Information Technology / Technical Support Job Summary We are seeking a motivated and customer-focused IT Support Specialist to join our growing IT team in the United States. The ideal candidate will provide technical assistance, troubleshoo",
    "cat": "support",
    "source": "Job Board",
    "published": "2026-11-10T17:00:28+00:00",
-   "salary": "$45,000",
+   "salary": "$36,000",
    "remote": true,
    "web3": false
   },
   {
    "id": "c6bbbc6dbec2",
    "title": "EdgeQ Technologies Private Limited: Help Desk Analyst",
-   "desc": "Headquarters: United States\n\n Help Desk Analyst Job Title: Help Desk Analyst\n Location: United States (Remote)\n Work Mode: 100% Remote\n Experience: 2–6 Years\n Salary Range: $50,000 – $80,000 per year (USD)\n Employment Type: Full-Time\n Job Category: Information Technology / Technical Support Job Summary We are seeking a motivated and customer-oriented Help Desk Analyst to join our IT support team in the United States. The ideal candidate will provide first-level and second-level technical suppo",
+   "desc": "Headquarters: United States\n\n Help Desk Analyst Job Title: Help Desk Analyst\n Location: United States (Remote)\n Work Mode: 100% Remote\n Experience: 2–6 Years\n Salary Range: $40,000 – $64,000 per year (USD)\n Employment Type: Full-Time\n Job Category: Information Technology / Technical Support Job Summary We are seeking a motivated and customer-oriented Help Desk Analyst to join our IT support team in the United States. The ideal candidate will provide first-level and second-level technical suppo",
    "cat": "support",
    "source": "Job Board",
    "published": "2026-11-10T17:00:26+00:00",
-   "salary": "$50,000",
+   "salary": "$40,000",
    "remote": true,
    "web3": false
   },
@@ -2277,6 +2409,17 @@
    "published": "2026-11-10T17:00:03+00:00",
    "salary": "",
    "remote": false,
+   "web3": false
+  },
+  {
+   "id": "44b4e1a78efa",
+   "title": "[Hiring] Creative Strategist, Paid Social (Meta video), Remote, approx 8 hrs/week, target at least $3,200/month",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-10T16:59:15+00:00",
+   "salary": "$3,200/mo",
+   "remote": true,
    "web3": false
   },
   {
@@ -2313,17 +2456,6 @@
    "web3": false
   },
   {
-   "id": "5e291c8941e9",
-   "title": "远程视频剪辑师",
-   "desc": "🌍 Remote: 世界范围内（明确面向中国地区求职者）\n 🇨🇳 中国候选人: 接受\n 💼 类型: 全职\n 💰 薪资: 每天10–15美元（根据经验确定）\n 🗓 源发布日期: \n\n ⚠️ 注意: 薪资以美元结算，支付方式为国际银行转账或协商支付，可能存在汇率波动及跨境收款合规风险。\n\n岗位职责:\n• 创作有吸引力的视觉内容\n• 通过视频讲述故事\n\n岗位要求:\n• 热爱创作与视频剪辑\n• 适应快节奏电子商务工作环境\n\n 📌 来源: eleduck\n 🔗 申请: \n\n #RemoteJobs #eleduck #VideoEditor",
-   "cat": "design",
-   "source": "Telegram",
-   "published": "2026-11-10T16:05:57+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
    "id": "fab06fb2d455",
    "title": "[OFFER] take it cuh",
    "desc": "[removed]",
@@ -2331,6 +2463,17 @@
    "source": "Reddit",
    "published": "2026-11-10T15:55:15+00:00",
    "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "3db9ec227bed",
+   "title": "[HIRING] Long-form Editor | $160-240/Video ($480-1K/Month) | VR Group Game Show Content | 3-4 Videos/Month",
+   "desc": "",
+   "cat": "writing",
+   "source": "Reddit",
+   "published": "2026-11-10T15:54:40+00:00",
+   "salary": "$160",
    "remote": false,
    "web3": false
   },
@@ -2346,35 +2489,46 @@
    "web3": false
   },
   {
+   "id": "62c9cc54e92d",
+   "title": "[hiring]Press Operator - Metal Stamping",
+   "desc": "We’re looking for dependable, detail-oriented Press Operators to join our 2nd shift team. In this role, you’ll safely load, operate, and monitor mechanical stamping presses to produce high-quality metal components for demanding industries, including aerospace, automotive, and commercial trucking.\n\nThis is a great opportunity for someone who takes pride in precision work, values safety, and wants to grow their career in a fast-paced manufacturing environment. Four-day work week and comprehensive",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-10T15:31:05+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "af054c7f66ce",
-   "title": "[Offer] Customer Support Specialist | Remote, US Time Zone Hours | $1,000 USD/month",
+   "title": "[Offer] Customer Support Specialist | Remote, US Time Zone Hours | $800 USD/month",
    "desc": "[removed]",
    "cat": "support",
    "source": "Reddit",
    "published": "2026-11-10T15:26:55+00:00",
-   "salary": "$1,000",
+   "salary": "$800",
    "remote": true,
    "web3": false
   },
   {
    "id": "b23c28b95d0d",
-   "title": "Epsilon |Hybrid (Chicago, IL) | Full time | $150-$160K USD Hello everyone, Epsilon is hiring for a Lead Software Engineer. This is a hybrid",
+   "title": "Epsilon |Hybrid (Chicago, IL) | Full time | $120-$128K USD Hello everyone, Epsilon is hiring for a Lead Software Engineer. This is a hybrid",
    "desc": "",
    "cat": "tech",
    "source": "Hacker News",
    "published": "2026-11-10T15:11:57+00:00",
-   "salary": "$150",
+   "salary": "$120",
    "remote": true,
    "web3": false
   },
   {
    "id": "fe6e6bf31978",
-   "title": "[OFFER] Arabic ⇄ English translation from $5 | CVs $10 | Landing pages from $30",
+   "title": "[OFFER] Arabic ⇄ English translation from $4 | CVs $8 | Landing pages from $24",
    "desc": "[removed]",
    "cat": "writing",
    "source": "Reddit",
    "published": "2026-11-10T15:10:08+00:00",
-   "salary": "$5",
+   "salary": "$4",
    "remote": false,
    "web3": false
   },
@@ -2385,31 +2539,20 @@
    "cat": "marketing",
    "source": "Reddit",
    "published": "2026-11-10T14:44:46+00:00",
-   "salary": "£20",
+   "salary": "£16",
    "remote": false,
    "web3": false
   },
   {
-   "id": "32552a3e6e01",
-   "title": "高级区块链协议工程师（Go / Rust） | Arch Network",
-   "desc": "🌍 Remote: 全球远程 (世界范围内)\n 🇨🇳 中国候选人: 是 (明确接受中国大陆候选人)\n 💼 类型: 全职\n 💰 薪资: 人民币 40,000–60,000 元/月\n 🗓 源发布日期: \n\n ⚠️ 注意: Web3/区块链行业存在波动风险和合规不确定性，请了解相关法规。\n\n岗位职责:\n• 负责区块链核心协议组件及底层基础设施的设计、开发和维护。\n• 使用 Go 和/或 Rust 构建高性能、高可靠性的系统。\n• 参与分布式系统、共识机制、P2P 网络及状态管理等相关技术的研发。\n• 分析协议性能瓶颈，持续优化系统的可扩展性、稳定性和运行效率。\n• 参与代码审查、技术方案设计及核心架构决策。\n• 独立分析并解决复杂的协议层和系统级技术问题。\n\n岗位要求:\n• 5 年以上专业软件开发经验，在区块链或分布式系统领域有扎实的实践经验。\n• 精通 Go 或 Rust，熟悉两种语言者优先。\n• 深入理解区块链架构及底层协议原理。\n• 具备分布式系统、网络服务或高性能后端基础设施的实际开发经验。\n• 熟悉数据结构、算法、并发编程及系统设计。\n• 具备良好的沟通能力和远",
-   "cat": "web3",
-   "source": "Telegram",
-   "published": "2026-11-10T14:01:22+00:00",
-   "salary": "",
+   "id": "6c7914f41ba0",
+   "title": "Project Manager | London | £36,000-£41,600 [hiring]",
+   "desc": "Project Manager | London | £36,000-£41,600\n\nI'm recruiting for a Senior Project Manager on behalf of a London-based gifting and brand experience business working with major global brands.\n\nThis role will suit someone who has hands-on experience managing custom production and overseas manufacturing rather than purely digital or agency project management.\n\nKey experience:\n\n• Far East supplier management\n\n• Custom product manufacturing\n\n• Sampling and approvals\n\n• Global logistics\n\n• Import/export",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-10T13:35:03+00:00",
+   "salary": "£36,000",
    "remote": true,
-   "web3": true
-  },
-  {
-   "id": "7d995dfe693a",
-   "title": "Senior Web3 Frontend Developer | Starclub",
-   "desc": "🌍 Remote: 全球远程\n 🇨🇳 中国候选人: 接受\n 💼 类型: 未明确\n 💰 薪资: 每月 10,000 美元\n 🗓 源发布日期: \n\n ⚠️ 注意: 该职位属于 Web3/AI 领域，行业波动较大且合规政策存在不确定性；招聘方为早期项目团队，稳定性需自行评估。\n\n岗位职责:\n• 开发与维护以 AI Agent + Web3 功能为重点的可扩展前端应用\n• 构建响应式、用户友好的界面，展示 AI Agent 的执行流程（工具调用、审批、任务恢复）\n• 集成区块链网络、智能合约与 Web3 钱包\n• 设计与实现前端状态管理、数据流与 API 集成\n• 优化前端性能、可靠性与安全性\n• 与产品经理、设计师、后端及合约开发者协作，参与代码评审与技术讨论\n\n岗位要求:\n• 5 年以上前端开发经验，其中至少 2 年 Web3 领域经验\n• 精通 JavaScript/TypeScript，熟悉 React 或 Next.js\n• 具备 Web3 前端集成经验（钱包连接、交易签名、链上数据读取），熟悉 ethers.js/viem/Web3.js\n• 了解 LLM/AI",
-   "cat": "web3",
-   "source": "Telegram",
-   "published": "2026-11-10T13:31:29+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
+   "web3": false
   },
   {
    "id": "a39dec70fabf",
@@ -2453,6 +2596,17 @@
    "published": "2026-11-10T12:47:36+00:00",
    "salary": "",
    "remote": true,
+   "web3": false
+  },
+  {
+   "id": "ea4d410721a5",
+   "title": "Looking for a Short Form Video Editor for YouTube Shorts",
+   "desc": "[removed]",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-10T12:46:46+00:00",
+   "salary": "",
+   "remote": false,
    "web3": false
   },
   {
@@ -2501,12 +2655,12 @@
   },
   {
    "id": "e930bd82a628",
-   "title": "[OFFER] Fast AI Illustrations, YouTube Thumbnails, EN/RU Translation, Content Writing & Simple Landing Pages — Starting at $10 (1–2 Hour Tur",
+   "title": "[OFFER] Fast AI Illustrations, YouTube Thumbnails, EN/RU Translation, Content Writing & Simple Landing Pages — Starting at $8 (1–2 Hour Tur",
    "desc": "[removed]",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-10T12:37:34+00:00",
-   "salary": "$10",
+   "salary": "$8",
    "remote": false,
    "web3": false
   },
@@ -2517,18 +2671,18 @@
    "cat": "support",
    "source": "Freelancer",
    "published": "2026-11-10T11:49:42+00:00",
-   "salary": "USD 750.0 - 1250.0",
+   "salary": "USD 600 - 1000",
    "remote": false,
    "web3": false
   },
   {
    "id": "0448afabaeee",
-   "title": "[Hiring] Presentation designer with a technical / software background – remote, freelance, $150–350/hr (US, UK, Canada)",
+   "title": "[Hiring] Presentation designer with a technical / software background – remote, freelance, $120–280/hr (US, UK, Canada)",
    "desc": "[removed]",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-10T11:45:49+00:00",
-   "salary": "$150–350",
+   "salary": "$120–280",
    "remote": true,
    "web3": false
   },
@@ -2539,7 +2693,7 @@
    "cat": "marketing",
    "source": "Reddit",
    "published": "2026-11-10T11:38:58+00:00",
-   "salary": "$400",
+   "salary": "$320",
    "remote": false,
    "web3": false
   },
@@ -2553,6 +2707,17 @@
    "salary": "",
    "remote": false,
    "web3": true
+  },
+  {
+   "id": "0102bdfdb281",
+   "title": "[Hiring] YouTube Shorts Video Editor + Part-Time Opportunity for Students",
+   "desc": "Hey Redditors!\n\nI'm looking for people to work with my YouTube channel.\n\n🎬 **Video Editor:** Looking for someone who can edit engaging YouTube Shorts with captions, transitions, effects, and good pacing.\n\n🎓 **Students:** If you're a college student looking for a part-time income opportunity, there's a chance to earn up to ₹2,500/month.\n\n**What I'm offering:**\n\n\\- Flexible working hours\n\n\\- Part-time work\n\n\\- Opportunity to learn and gain experience\n\n\\- Monthly earning opportunity up to ₹2,500 fo",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-10T10:44:42+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
   },
   {
    "id": "38b33e5e3225",
@@ -2583,14 +2748,14 @@
    "cat": "writing",
    "source": "Reddit",
    "published": "2026-11-10T09:56:43+00:00",
-   "salary": "€150.",
+   "salary": "€120.",
    "remote": false,
    "web3": false
   },
   {
    "id": "3c3a53f33a7a",
    "title": "[task] Looking for people offering services submitting job applications",
-   "desc": "There's people here who have offered services submitting job applications for people before and I wanted to hire you if you are one of those people. \n\nI highly prefer someone who already has experience doing so in American markets because it's not just always a spam and click process\n\nCan pay 10 cents per application, $1 per interview and $20 if the job was landed. It adds up quickly since it is high volume. \n\nCan do PayPal, crypto, cashapp.",
+   "desc": "There's people here who have offered services submitting job applications for people before and I wanted to hire you if you are one of those people. \n\nI highly prefer someone who already has experience doing so in American markets because it's not just always a spam and click process\n\nCan pay 10 cents per application, $1 per interview and $16 if the job was landed. It adds up quickly since it is high volume. \n\nCan do PayPal, crypto, cashapp.",
    "cat": "web3",
    "source": "Reddit",
    "published": "2026-11-10T09:52:51+00:00",
@@ -2610,23 +2775,34 @@
    "web3": false
   },
   {
-   "id": "1204fc0b9d62",
-   "title": "OTC专员 / 市场 | OpenCrypto",
-   "desc": "🌍 Remote: Global Remote (Worldwide)\n 🇨🇳 中国候选人: 不明确 (明确接受中文者优先)\n 💼 类型: 兼职 / 远程\n 💰 薪资: 面议（薪资 + 佣金）\n 🗓 源发布日期: \n\n ⚠️ 注意: 本岗位属于 Web3/Crypto 行业，存在政策波动，监管不确定性及资金安全风险，请仔细甄别合规性与安全性。\n\n岗位职责:\n• 开发并拓展 OTC 客户及推荐合作伙伴，涵盖支付公司、经纪商、钱包服务商和 Web3 项目方等领域。\n• 深入了解客户需求（如交易币对、交易规模、结算周期等），并协调流动性合作伙伴提供报价。\n• 协助客户完成接入流程（包括 KYB 文档审核等），并与合规团队紧密配合。\n• 负责日常交易协调及结算跟进工作。\n• 维护良好的客户关系，挖掘并促成持续的交易业务。\n\n岗位要求:\n• 具备 2 年以上 OTC、加密货币交易、支付行业或 Web3/金融科技（Fintech）领域的 B2B 销售经验。\n• 深入了解稳定币、法币出入金流程以及 OTC 交易的全生命周期。\n• 在加密支付、交易所或经纪商领域拥有现有行业人脉者优",
-   "cat": "web3",
-   "source": "Telegram",
-   "published": "2026-11-10T09:41:35+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
    "id": "5649765e8806",
    "title": "[Offer] I will grind your games for you",
    "desc": "I can play your game for you and grind the mundane tasks that are boring. Whether you're a single player or a company that sells resources, I'm available.\n\nI recently was offered to grind resources in a popular game. Long story short, I quit my job and was ghosted. I'm now desperate for work and fully capable of any grind necessary. \n\n[联系方式已隐藏 · 咨询请加微信] and we can chat about yout requirements. I can work hard for your gaming needs.",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-10T09:33:34+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "d19ae05038e0",
+   "title": "[Hiring] Senior Python / SWE roles in AI evaluation and agentic coding (remote, $64-80/hr)",
+   "desc": "Sharing two remote contract roles in AI that might interest senior engineers here. Full disclosure: I have a link to apply for. You’re also free to apply directly on the company’s site.\n\n**1. Senior Software Engineer, AI Evaluation & Benchmarks**\n\n* Build benchmarks that test frontier AI models\n* Python-heavy\n* $64-80/hr, fully remote\n\n**2. Senior Software Engineer, Agentic Coding**\n\n* Build AI agents that write code autonomously\n* Flexible, fully remote\n\n**Who it fits:** experienced engineers",
+   "cat": "tech",
+   "source": "Reddit",
+   "published": "2026-11-10T09:04:41+00:00",
+   "salary": "$64",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "52e6d90cc53e",
+   "title": "[HIRING] Looking for a Sales Partner for My AI Automation Agency 🤝",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-10T08:50:22+00:00",
    "salary": "",
    "remote": false,
    "web3": false
@@ -2666,34 +2842,56 @@
   },
   {
    "id": "47c2eb2d8149",
-   "title": "[TASK] US-based TikTok poster for an app account – $1.50/post + view bonuses up to $200/post, ongoing (~10 min/day)",
+   "title": "[TASK] US-based TikTok poster for an app account – $1.2/post + view bonuses up to $160/post, ongoing (~10 min/day)",
    "desc": "[removed]",
    "cat": "marketing",
    "source": "Reddit",
    "published": "2026-11-10T08:09:15+00:00",
-   "salary": "$1.50",
+   "salary": "$1.2",
    "remote": false,
    "web3": false
   },
   {
-   "id": "24524b15aac3",
-   "title": "AI Engineer / Full Stack / R&D Lead / iOS / Android / PM",
-   "desc": "🌍 Remote: Global Remote (Worldwide)\n 🇨🇳 中国候选人: 不明确（公司在上海和美国设有办公室，但未明确声明接受所有中国候选人）\n 💼 类型: 全职/合同\n 💰 薪资: 未明确\n 🗓 源发布日期: \n\n ⚠️ 注意: 初创公司早期阶段（1-30人），薪资结构不透明，无融资需求可能影响长期稳定性；全球远程岗位需确认中国地区具体合规性及税务处理；技术密集型AI项目存在行业波动风险。\n\n岗位职责:\n• 担任Applied AI Engineer、Applied Machine Learning Engineer或Technical Member角色，参与AI原生消费级应用开发\n• 负责前后端全栈开发、移动端（iOS/Android）研发及产品研发经理（PM）工作\n\n岗位要求:\n• 具备全栈工程能力，熟悉AI工程化落地\n• 拥有iOS、Android或ML工程师相关经验\n• 有产品管理（PM）经验者优先\n\n 📮 [联系方式已隐藏 · 咨询请加微信]：原文未提供明确联系邮箱或微信，建议通过链接查看是否有补充信息。\n\n 📌 来源: eleduck\n 🔗 申请: https",
-   "cat": "tech",
-   "source": "Telegram",
-   "published": "2026-11-10T08:03:02+00:00",
+   "id": "976670d9063c",
+   "title": "[Hiring] a job for Saudi dialect speakers. The link in comments",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-10T08:05:26+00:00",
    "salary": "",
-   "remote": true,
+   "remote": false,
    "web3": false
   },
   {
    "id": "38b570b15049",
-   "title": "[OFFER] WordPress landing page for $199 or 5-page website for $299, 2 slots",
+   "title": "[OFFER] WordPress landing page for $159 or 5-page website for $239, 2 slots",
    "desc": "[removed]",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-10T08:00:31+00:00",
-   "salary": "$199",
+   "salary": "$159",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "55f63278538d",
+   "title": "Title: Looking for Freelance Video Editors from India | Instagram Reels & Short-Form Content",
+   "desc": "",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-10T07:39:34+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "1419f57be09a",
+   "title": "[hiring]- $12/post | $Up to $8,000 per month",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-10T07:35:15+00:00",
+   "salary": "$12",
    "remote": false,
    "web3": false
   },
@@ -2726,7 +2924,7 @@
    "cat": "marketing",
    "source": "Freelancer",
    "published": "2026-11-10T07:20:42+00:00",
-   "salary": "USD 8.0 - 15.0",
+   "salary": "USD 6.4 - 12",
    "remote": false,
    "web3": false
   },
@@ -2753,35 +2951,57 @@
    "web3": true
   },
   {
+   "id": "d42ecbbc9564",
+   "title": "[Hiring] : Hiring a telecaller in VDN (Jaipur)",
+   "desc": "Hey we are hiring for telecaller for cleanato in VDN Jaipur only girls \n\nFresher can apply.\n\nIf interested please share ur resume in dm",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-10T06:59:25+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "3a2c58f49aa7",
+   "title": "[Hiring] Data annotation and prompt-quality contractors — Remote (US) — $28/hr",
+   "desc": "We're building annotation capacity for an ongoing AI training pipeline and adding\n\nseveral contractors on a rolling basis. Six months of work queued, not a single batch.\n\nThe work\n\nAnnotating and reviewing AI training data against a written rubric: labeling model\n\noutputs, flagging errors, writing short prompt/response pairs. Batches of 200-400\n\nitems on a weekly cadence.\n\nTo be clear about what this is not: it isn't survey work, sign-up work, or click-work.\n\nEvery batch ships with a written spe",
+   "cat": "writing",
+   "source": "Reddit",
+   "published": "2026-11-10T06:48:21+00:00",
+   "salary": "$28/hr",
+   "remote": true,
+   "web3": false
+  },
+  {
    "id": "6f5d4707fb5d",
    "title": "Winning Writing Proposal Plan Needed",
    "desc": "I’ve identified a writing / translation project that fits my skills perfectly, but I need a polished",
    "cat": "writing",
    "source": "Freelancer",
    "published": "2026-11-10T06:46:07+00:00",
-   "salary": "USD 250.0 - 750.0",
+   "salary": "USD 200 - 600",
    "remote": false,
    "web3": false
   },
   {
    "id": "574bd7fbd382",
-   "title": "[TASK] Annotation work at $35/hr — flat rate, paid in 7 days, rubric before you accept",
+   "title": "[TASK] Annotation work at $28/hr — flat rate, paid in 7 days, rubric before you accept",
    "desc": "[removed]",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-10T06:09:35+00:00",
-   "salary": "$35/hr",
+   "salary": "$28/hr",
    "remote": false,
    "web3": false
   },
   {
    "id": "c08cb9169407",
    "title": "[task] Hiring on-camera host/voiceover",
-   "desc": "Hiring a beginner host for on-camera recordings and reading provided scripts for 6-8 mins. This is for youtube content. \n\nLongterm position. \n\nRequirements:\n\nClear english accent, your accent must be understood by everyone easily. \n\nHave a good quality phone or webcam to record yourself \n\nAvailable daily to record\n\nRate $7-$10 based on experience + bonuses if the videos do well. Long term opportunity to become a co-owner and franchise other channels. \n\nTo apply:\n\nsend a video of you speaking eng",
+   "desc": "Hiring a beginner host for on-camera recordings and reading provided scripts for 6-8 mins. This is for youtube content. \n\nLongterm position. \n\nRequirements:\n\nClear english accent, your accent must be understood by everyone easily. \n\nHave a good quality phone or webcam to record yourself \n\nAvailable daily to record\n\nRate $6-$8 based on experience + bonuses if the videos do well. Long term opportunity to become a co-owner and franchise other channels. \n\nTo apply:\n\nsend a video of you speaking eng",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-10T06:06:03+00:00",
-   "salary": "$7",
+   "salary": "$6",
    "remote": false,
    "web3": false
   },
@@ -2792,18 +3012,40 @@
    "cat": "support",
    "source": "Freelancer",
    "published": "2026-11-10T05:21:55+00:00",
-   "salary": "USD 100.0 - 400.0",
+   "salary": "USD 80 - 320",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "8ddeaf9e55f3",
+   "title": "HIRING Sticker/emoji for my YouTube channel.",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-10T04:55:04+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "31d5e2123ac4",
+   "title": "[VOLUNTEER COLLABORATION] Looking for a Long-Term YouTube Video Editor",
+   "desc": "Hey everyone!\n\nI'm the creator behind It's Aero, a YouTube channel focused on challenges, entertainment and self-improvement.\n\nI'm looking for a creative editor interested in collaborating on the channel.\n\n**Workflow:**\n\nI provide raw clips and the exact video concept.\n\nI provide the complete voiceover script.\n\nI record and send my own voiceover.\n\nYou edit the footage around the voiceover.\n\nI review and approve the finished video.\n\nI'm hoping to find someone who enjoys creative collaboration and",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-10T04:49:18+00:00",
+   "salary": "",
    "remote": false,
    "web3": false
   },
   {
    "id": "37a6e454f405",
-   "title": "[Task] Looking for an Ecommerce Store Manager - $50/Month",
+   "title": "[Task] Looking for an Ecommerce Store Manager - $40/Month",
    "desc": "I'm looking for an experienced store manager who will save me time by adding new products, updating inventory, researching keywords, and managing an Ecommerce Store.\n\nThis could pay more depending on your qualifications. Please let me know your experience working with ecommerce stores.\n\nIt isnt required, but anyone who has expertise in creating and setting up Ad Campaigns would also be highly desired. \n\nWe would like to find someone with experience so that we can rely on you. \n\nOur shops are alr",
    "cat": "marketing",
    "source": "Reddit",
    "published": "2026-11-10T04:44:01+00:00",
-   "salary": "$50/Mo",
+   "salary": "$40/Mo",
    "remote": false,
    "web3": false
   },
@@ -2820,45 +3062,111 @@
   },
   {
    "id": "5a9d3981a2cc",
-   "title": "[OFFER] Native Arabic Transcription - Audio to Text - $5 per 10 min",
+   "title": "[OFFER] Native Arabic Transcription - Audio to Text - $4 per 10 min",
    "desc": "[removed]",
    "cat": "data",
    "source": "Reddit",
    "published": "2026-11-10T04:20:55+00:00",
-   "salary": "$5",
+   "salary": "$4",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "d119031a3d14",
+   "title": "[HIRING] YouTube Shorts Editor – Deagz Style | $16/Short | Long-Term",
+   "desc": "I'm looking for an experienced **YouTube Shorts editor** who can consistently produce high-quality edits in the **Deagz editing style**.\n\n**Job Details:**\n\n* **Pay:** $16 USD per Short (via Wise)\n* **Workload:** 1 YouTube Short per day\n* **Position:** Long-term, consistent work\n* **Software:** Adobe After Effects ONLY\n\n**Requirements:**\n\n* MUST have previous experience editing Deagz-style Shorts.\n* Must be able to replicate the editing style shown in the reference channel.\n* Must use Adobe After",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-10T03:55:53+00:00",
+   "salary": "$16",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "b3352556b5bc",
+   "title": "[HIRING] Remote Appointment Setters | Commission Only | Canada",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-10T03:35:03+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "2b21c2030e16",
+   "title": "Hello Hiring Team, I’m interested",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-10T02:51:06+00:00",
+   "salary": "",
    "remote": false,
    "web3": false
   },
   {
    "id": "3eb8cd36e0c0",
-   "title": "[OFFER] Developer & Tech Freelancer | Web Development, Automation, Custom Tools, Photo & Video Editing | From $15/hr to fixed prices",
+   "title": "[OFFER] Developer & Tech Freelancer | Web Development, Automation, Custom Tools, Photo & Video Editing | From $12/hr to fixed prices",
    "desc": "I'm a developer and freelancer based in Brazil, currently available for new projects!\n\nI work most with programming, web development, automation and some custom software. I also have some experience with basic photo and video editing.\n\nIf you need something to be done, fixed, automated or even improved, I'd be happy to discuss your project! Big or not a project is a project\n\n**Programming & Web Development**\n\n* Backend and full-stack web development\n* Websites, dashboards, and admin panels\n* API",
    "cat": "tech",
    "source": "Reddit",
    "published": "2026-11-10T02:09:48+00:00",
-   "salary": "$15/hr",
+   "salary": "$12/hr",
    "remote": false,
    "web3": false
   },
   {
    "id": "d12e08b4197a",
-   "title": "[OFFER] Data entry/research/virtual assistant/accountability partner, $3-4 per hour",
+   "title": "[OFFER] Data entry/research/virtual assistant/accountability partner, $2-3 per hour",
    "desc": "[removed]",
    "cat": "support",
    "source": "Reddit",
    "published": "2026-11-10T01:42:43+00:00",
-   "salary": "$3",
+   "salary": "$2",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "e58038ccdff6",
+   "title": "[Hiring] Door-to-door petition crew, San Diego, $160-480/day based on performance",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-10T01:27:55+00:00",
+   "salary": "$160",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "d98c4822e255",
+   "title": "[HIRING] Senior Video Editor / Motion Graphics Designer – Cairo, Egypt (On-site)",
+   "desc": "\\​\n\nHi everyone!\n\nI'm recruiting on behalf of an employer in Cairo for an experienced Senior Video Editor / Motion Graphics Designer.\n\nWe're looking for someone with 7–8+ years of professional experience who can handle both high-quality video editing and advanced motion graphics.\n\nRequirements:\n\n\\\\- 7–8+ years of professional experience in video editing and motion graphics.\n\n\\\\- Advanced proficiency in Adobe Premiere Pro and After Effects.\n\n\\\\- Good knowledge of Photoshop.\n\n\\\\- Strong experience",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-10T01:26:12+00:00",
+   "salary": "",
    "remote": false,
    "web3": false
   },
   {
    "id": "0a43a192c041",
-   "title": "[OFFER] Reliable VA for Bookkeeping, Research and Administrative Tasks | $7/hr",
+   "title": "[OFFER] Reliable VA for Bookkeeping, Research and Administrative Tasks | $6/hr",
    "desc": "I help busy professionals and business owners save time by taking care of the tasks that keep their day-to-day operations organised and on track.\n\nHere's how I can help:\n\n\\- Admin, email & calendar management\n\n\\- Bookkeeping & expense tracking using Xero\n\n\\- Data entry, spreadsheets & reporting\n\n\\- Online research & data analysis\n\n\\- Document preparation & professional writing\n\n\\- Canva graphics, CapCut video editing & social media support\n\n\\- Website/product testing & general VA support\n\nWith a",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-10T01:18:28+00:00",
-   "salary": "$7/hr",
+   "salary": "$6/hr",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "24037ab5cedf",
+   "title": "[HIRING] Freelance video editor for business reels and brand videos",
+   "desc": "I’m a videographer in BC, Canada. I shoot brand videos and Instagram reels for local trades, gyms, clinics and other owner-run businesses, and I need an editor so I can spend my time on prospecting and booking clients.\n\nJobs range from 30 to 60 second reels to 2 to 4 minute brand and testimonial videos. For each one I send you the footage and a short style sheet, and you send back a finished edit. Each job gets its own brief with the deliverable, price, deadline and number of revision rounds. Yo",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-10T00:34:58+00:00",
+   "salary": "$40",
    "remote": false,
    "web3": false
   },
@@ -2897,12 +3205,12 @@
   },
   {
    "id": "9f7b143a7ed8",
-   "title": "[OFFER] Senior dev: landing page live in 24h, or bug fix / script today — $50–150, pay after you approve",
+   "title": "[OFFER] Senior dev: landing page live in 24h, or bug fix / script today — $40–120, pay after you approve",
    "desc": "[removed]",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-09T23:50:45+00:00",
-   "salary": "$50–150,",
+   "salary": "$40–120,",
    "remote": false,
    "web3": false
   },
@@ -2913,7 +3221,7 @@
    "cat": "web3",
    "source": "Reddit",
    "published": "2026-11-09T23:35:41+00:00",
-   "salary": "$4",
+   "salary": "$3",
    "remote": false,
    "web3": true
   },
@@ -2930,30 +3238,30 @@
   },
   {
    "id": "3c39fe77c1f0",
-   "title": "[Task] Looking for a productivity / accountability assistant, $5-10 weekly",
+   "title": "[Task] Looking for a productivity / accountability assistant, $4-8 weekly",
    "desc": "I'm looking for someone who can help keep me accountable throughout the day by sending regular reminders, checking in on my tasks, and genuinely pushing me to get things done. I need someone who will bug me a little, check in when I'm procrastinating, and encourage me to actually get started and stay on track.\n\nI struggle with severe ADHD, particularly with task initiation and consistency. Someone who is also neurodivergent or kinda generally understands the ND experience would be a huge plus.",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-09T23:14:25+00:00",
-   "salary": "$5",
+   "salary": "$4",
    "remote": false,
    "web3": false
   },
   {
    "id": "353d65a4f45d",
-   "title": "Polymath | Founding MTS, Full-Stack | San Francisco | ONSITE (5 days) | $160K–$220K + 0.75%–1.5% equity | Polymath",
+   "title": "Polymath | Founding MTS, Full-Stack | San Francisco | ONSITE (5 days) | $128K–$176K + 0.75%–1.5% equity | Polymath",
    "desc": "",
    "cat": "tech",
    "source": "Hacker News",
    "published": "2026-11-09T22:07:39+00:00",
-   "salary": "$160K",
+   "salary": "$128K",
    "remote": true,
    "web3": false
   },
   {
    "id": "adf75f721dc3",
    "title": "Senior Software Engineer â Kubernetes Control Plane — Buoyant",
-   "desc": "San Francisco, United States - Senior Software Engineer â Kubernetes Control Plane (Go / Golang)REMOTE: United States, Canada, or South America ONLYExperience: 7+ yearsIMPORTANT â PLEASE READ BEFORE APPLYINGBuoyant is seeking experienced software engineers who have personally designed ...\n\nPlease mention the word **FECILITOUS** and tag RMjAuOTkuMjQ1Ljgy when applying to show you read the job post completely (#RMjAuOTkuMjQ1Ljgy). This is a beta feature to avoid spam applicants. Companies can",
+   "desc": "San Francisco, United States - Senior Software Engineer â Kubernetes Control Plane (Go / Golang)REMOTE: United States, Canada, or South America ONLYExperience: 7+ yearsIMPORTANT â PLEASE READ BEFORE APPLYINGBuoyant is seeking experienced software engineers who have personally designed ...\n\nPlease mention the word **FECILITOUS** and tag RMTQuMjMuMjEzLjk3 when applying to show you read the job post completely (#RMTQuMjMuMjEzLjk3). This is a beta feature to avoid spam applicants. Companies can",
    "cat": "tech",
    "source": "remoteok",
    "published": "2026-11-09T22:00:02+00:00",
@@ -2974,12 +3282,23 @@
   },
   {
    "id": "aaee101f96b2",
-   "title": "[OFFER] 3D Modelling/Renders starting at $5 | Blender",
+   "title": "[OFFER] 3D Modelling/Renders starting at $4 | Blender",
    "desc": "[removed]",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-09T21:00:32+00:00",
-   "salary": "$5",
+   "salary": "$4",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "80700cfd6967",
+   "title": "Hiring an In-House Video Editor in Aurangabad / Chhatrapati Sambhajinagar (Waluj MIDC)",
+   "desc": "",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-09T20:36:57+00:00",
+   "salary": "",
    "remote": false,
    "web3": false
   },
@@ -2996,12 +3315,12 @@
   },
   {
    "id": "c11d1f788021",
-   "title": "[OFFER] I will edit and fact-check your AI content for $20",
+   "title": "[OFFER] I will edit and fact-check your AI content for $16",
    "desc": "[removed]",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-09T20:20:42+00:00",
-   "salary": "$20",
+   "salary": "$16",
    "remote": false,
    "web3": false
   },
@@ -3017,6 +3336,17 @@
    "web3": true
   },
   {
+   "id": "bedc27542ec0",
+   "title": "Video Editor Needed",
+   "desc": "[ \nTitle: \\[TASK\\] Hype/EXE Video Editors - $40+ \n \n[ \nTitle: \\[HIRING\\] Hype/EXE Video Editors - $40+ \n \n[ \nTitle: \\[HIRING\\] Hype/EXE Video Editors - $40+ \n\nI’m looking for editors with good editing skills to join a studio. We",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-09T19:49:13+00:00",
+   "salary": "$40",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "839fd847bf19",
    "title": "Location: Bangalore, India (IST / UTC+5:30)",
    "desc": "Remote: Yes (Worldwide)\nWilling to relocate: Yes (Worldwide, visa sponsorship required)\nTechnologies: TypeScript, Node.js, Go, Python, React, PostgreSQL, MongoDB, Redis, RabbitMQ, BullMQ, AWS, Docker, WebSockets, WebRTC, GraphQL, OpenAI, RAG, Vector DBs, ONNX Runtime, Grafana/Loki\nRésumé/CV: \nEmail: Senior Software Engineer (~5 YoE) building real-time AI systems, event-driven backends, and distributed infras",
@@ -3029,12 +3359,12 @@
   },
   {
    "id": "d04b94f7fa9a",
-   "title": "[TASK] Hype/EXE Video Editors - $50+",
+   "title": "[TASK] Hype/EXE Video Editors - $40+",
    "desc": "[removed]",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-09T19:11:17+00:00",
-   "salary": "$50",
+   "salary": "$40",
    "remote": false,
    "web3": false
   },
@@ -3051,12 +3381,12 @@
   },
   {
    "id": "49addef61a11",
-   "title": "[OFFER] Two Premium, Human-Written English Articles for Sale (Philosophy & Linguistics) – $30 with Byline / $50 for Ghostwriting",
+   "title": "[OFFER] Two Premium, Human-Written English Articles for Sale (Philosophy & Linguistics) – $24 with Byline / $40 for Ghostwriting",
    "desc": "[removed]",
    "cat": "writing",
    "source": "Reddit",
    "published": "2026-11-09T18:57:30+00:00",
-   "salary": "$30",
+   "salary": "$24",
    "remote": false,
    "web3": false
   },
@@ -3073,12 +3403,12 @@
   },
   {
    "id": "82b2e763a4c6",
-   "title": "[Task] Looking for a Video Editor / Content Creator – $10 for a 5 min video",
+   "title": "[Task] Looking for a Video Editor / Content Creator – $8 for a 5 min video",
    "desc": "[removed]",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-09T18:44:20+00:00",
-   "salary": "$10",
+   "salary": "$8",
    "remote": false,
    "web3": false
   },
@@ -3095,23 +3425,23 @@
   },
   {
    "id": "d5c0ff91c24c",
-   "title": "[OFFER] 1-on-1 Chess Coaching (2000+ Chess.com) for Beginners & Intermediates – $15/hr",
+   "title": "[OFFER] 1-on-1 Chess Coaching (2000+ Chess.com) for Beginners & Intermediates – $12/hr",
    "desc": "[removed]",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-09T18:12:09+00:00",
-   "salary": "$15/hr",
+   "salary": "$12/hr",
    "remote": false,
    "web3": false
   },
   {
    "id": "733364e61841",
-   "title": "[OFFER] 25-row verified B2B lead list for your niche city — $25, delivered within the hour",
+   "title": "[OFFER] 25-row verified B2B lead list for your niche city — $20, delivered within the hour",
    "desc": "[removed]",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-09T17:33:27+00:00",
-   "salary": "$25,",
+   "salary": "$20,",
    "remote": false,
    "web3": false
   },
@@ -3122,6 +3452,17 @@
    "cat": "tech",
    "source": "Reddit",
    "published": "2026-11-09T17:31:49+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "42147d929564",
+   "title": "Opening commissions for fantasy Illustrations! I love drawing amazing characters and hear their stories!",
+   "desc": "[removed]",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-09T17:28:43+00:00",
    "salary": "",
    "remote": false,
    "web3": false
@@ -3139,12 +3480,12 @@
   },
   {
    "id": "8fc6ec7f3146",
-   "title": "Collabify | Senior Full-Stack Engineer (backend-heavy) | REMOTE (worldwide) | Contract, 4–5 months | $3,000–4,000/month I'm looking to hire",
+   "title": "Collabify | Senior Full-Stack Engineer (backend-heavy) | REMOTE (worldwide) | Contract, 4–5 months | $2,400–3,200/month I'm looking to hire",
    "desc": "",
    "cat": "tech",
    "source": "Hacker News",
    "published": "2026-11-09T16:46:20+00:00",
-   "salary": "$3,000–4,000",
+   "salary": "$2,400–3,200",
    "remote": true,
    "web3": false
   },
@@ -3172,45 +3513,56 @@
   },
   {
    "id": "1da422217937",
-   "title": "Tecla IO | Digital Sales Specialist | REMOTE (Worldwide) | Paid, $10 -$13 per hour We are searching for a high-energy communicator to join o",
-   "desc": "Direct Outreach: Initiate contact with prospective clients using phone lines, digital messaging, and email networks.\nAdvisory & Solutions: Listen closely to customer inquiries and present our offerings clearly and effectively.\nRecord Management: Log notes, track lead stages, and update pipeline info cleanly using our CRM.\nTeam Innovation: Share feedback and brainstorm strategies during our regular team meetings.\nCompensation & Rewards\nHourly Pay Rate: $10.35 – $13.95 / hour To apply: lily.stewar",
+   "title": "Tecla IO | Digital Sales Specialist | REMOTE (Worldwide) | Paid, $8 -$10 per hour We are searching for a high-energy communicator to join o",
+   "desc": "Direct Outreach: Initiate contact with prospective clients using phone lines, digital messaging, and email networks.\nAdvisory & Solutions: Listen closely to customer inquiries and present our offerings clearly and effectively.\nRecord Management: Log notes, track lead stages, and update pipeline info cleanly using our CRM.\nTeam Innovation: Share feedback and brainstorm strategies during our regular team meetings.\nCompensation & Rewards\nHourly Pay Rate: $8.3 – $11.2 / hour To apply: lily.stewar",
    "cat": "misc",
    "source": "Hacker News",
    "published": "2026-11-09T16:30:32+00:00",
-   "salary": "$10",
+   "salary": "$8",
    "remote": true,
    "web3": false
   },
   {
    "id": "db4e210d2fab",
-   "title": "[OFFER] Reliable Virtual Assistant for Data Entry, Web Research, Lead Generation & Admin Support | $5/hour",
+   "title": "[OFFER] Reliable Virtual Assistant for Data Entry, Web Research, Lead Generation & Admin Support | $4/hour",
    "desc": "[removed]",
    "cat": "support",
    "source": "Reddit",
    "published": "2026-11-09T16:27:11+00:00",
-   "salary": "$5/hour",
+   "salary": "$4/hour",
    "remote": false,
    "web3": false
   },
   {
    "id": "dcbe2417b8b3",
-   "title": "[OFFER] Social Media Management - $150/Month | 30 Posts (Carousels, Videos & Static) + Strategy",
-   "desc": "Hey there! \nI'm a graphic designer with 7+ years of experience offering full-service social media management for just $150/month. If you want consistent, professional content without the stress of creating it yourself, this is for you!\n\n💼What's Included: \n• 30 posts/month (static, carousel, & short-form videos) \n• Branded designs tailored to your identity \n• Engaging captions & posting strategy \n• Hashtag research + scheduling \n• Basic analytics reports \n• Community engagement support \n• Highlig",
+   "title": "[OFFER] Social Media Management - $120/Month | 30 Posts (Carousels, Videos & Static) + Strategy",
+   "desc": "Hey there! \nI'm a graphic designer with 7+ years of experience offering full-service social media management for just $120/month. If you want consistent, professional content without the stress of creating it yourself, this is for you!\n\n💼What's Included: \n• 30 posts/month (static, carousel, & short-form videos) \n• Branded designs tailored to your identity \n• Engaging captions & posting strategy \n• Hashtag research + scheduling \n• Basic analytics reports \n• Community engagement support \n• Highlig",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-09T16:14:34+00:00",
-   "salary": "$150/Mo",
+   "salary": "$120/Mo",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "533ee080c1e3",
+   "title": "#Hiring an editor",
+   "desc": "I need an editor for sports niche",
+   "cat": "writing",
+   "source": "Reddit",
+   "published": "2026-11-09T16:11:47+00:00",
+   "salary": "",
    "remote": false,
    "web3": false
   },
   {
    "id": "e991020ba9dd",
    "title": "HIL Support Specialist — Extend Your Team",
-   "desc": "WHY JOIN EYT? Â  Monthly Rate: Php80,000 - Php100,000 +$1,000 Sign-On Bonus â Start in November or December 2026! Â  New hires whose contractor start date falls within November or December 2026 are eligible for a $1,000 USD sign-on bonus. The bonus is paid in two installments at the 2-month and 4-month engagement milestones. Terms and conditions apply. Â  Benefits That Work for You HMO Coverage â Support for your health and peace of mind. $121 USD Monthly Meal Allowance â A little extra to",
+   "desc": "WHY JOIN EYT? Â  Monthly Rate: Php80,000 - Php100,000 +$800 Sign-On Bonus â Start in November or December 2026! Â  New hires whose contractor start date falls within November or December 2026 are eligible for a $800 USD sign-on bonus. The bonus is paid in two installments at the 2-month and 4-month engagement milestones. Terms and conditions apply. Â  Benefits That Work for You HMO Coverage â Support for your health and peace of mind. $97 USD Monthly Meal Allowance â A little extra to",
    "cat": "tech",
    "source": "remoteok",
    "published": "2026-11-09T16:00:20+00:00",
-   "salary": "$1,000",
+   "salary": "$800",
    "remote": true,
    "web3": false
   },
@@ -3238,23 +3590,45 @@
   },
   {
    "id": "d87c652d9288",
-   "title": "[Offer] I will Be Your Professional Virtual Assistant for $6 per hour",
+   "title": "[Offer] I will Be Your Professional Virtual Assistant for $5 per hour",
    "desc": "Do you have a Business? Are to busy working all the time? Looking for a Virtual Assistant who can handle all tasks for you?\n\nLook no further!\n\nI'm a Professional Virtual Assistant with more than 5 years of hands-on experience, I've worked with several businesses, and agencies, freelancers. **Being a VA is my Passion, which makes me more professional and qualified than many other VAs who are working parttime**\n\n**Portfolio Available upon request!**\n\n**What can I do?**\n\n**Graphic Designing**\n\n* Fl",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-09T15:41:51+00:00",
-   "salary": "$6 per hour",
+   "salary": "$5 per hour",
    "remote": false,
    "web3": false
   },
   {
    "id": "ee1c90c8b19e",
-   "title": "[OFFER] Junior Java Backend Developer & IT Support Specialist | Spring Boot, REST APIs, PostgreSQL | $15/hour",
+   "title": "[OFFER] Junior Java Backend Developer & IT Support Specialist | Spring Boot, REST APIs, PostgreSQL | $12/hour",
    "desc": "[removed]",
    "cat": "tech",
    "source": "Reddit",
    "published": "2026-11-09T15:34:08+00:00",
-   "salary": "$15/hour",
+   "salary": "$12/hour",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "f60690b82cf5",
+   "title": "[Hiring] Logo Designer — Worldwide — USD 12–16/hour",
+   "desc": "[removed]",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-09T15:32:43+00:00",
+   "salary": "USD 12–16",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "bb3ca3cbb594",
+   "title": "[Hiring] Digital Sales & Communications Specialist",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-09T15:20:55+00:00",
+   "salary": "",
    "remote": false,
    "web3": false
   },
@@ -3276,6 +3650,17 @@
    "cat": "support",
    "source": "Reddit",
    "published": "2026-11-09T15:17:28+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "45cb3617dc32",
+   "title": "Title: Looking for a Reliable Video Editor? Let's Work Together! 🎬",
+   "desc": "",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-09T15:04:22+00:00",
    "salary": "",
    "remote": false,
    "web3": false
@@ -3304,23 +3689,34 @@
   },
   {
    "id": "0de355ca827b",
-   "title": "[OFFER] I'll redesign your website's first screen in 24h, $49",
-   "desc": "Senior UI/UX designer and developer, 10+ years.\n\nI’ll redesign the first screen of your site, the part visitors judge before they leave:\n\n* Clear headline\n* Premium layout, not a template look\n* Obvious call to action\n* Desktop and mobile\n\nFigma design in 24h, 1 revision. \n$49. You pay after you see the draft. \nWant it built? +$99 (Webflow, WordPress, Shopify, Next.js).\n\nPortfolio: [Behance.net/tugrulfirat]( \n3 slots this week. DM your link.",
+   "title": "[OFFER] I'll redesign your website's first screen in 24h, $39",
+   "desc": "Senior UI/UX designer and developer, 10+ years.\n\nI’ll redesign the first screen of your site, the part visitors judge before they leave:\n\n* Clear headline\n* Premium layout, not a template look\n* Obvious call to action\n* Desktop and mobile\n\nFigma design in 24h, 1 revision. \n$39. You pay after you see the draft. \nWant it built? +$79 (Webflow, WordPress, Shopify, Next.js).\n\nPortfolio: [Behance.net/tugrulfirat]( \n3 slots this week. DM your link.",
    "cat": "tech",
    "source": "Reddit",
    "published": "2026-11-09T14:21:29+00:00",
-   "salary": "$49",
+   "salary": "$39",
    "remote": false,
    "web3": false
   },
   {
    "id": "9d5eb48e1a1f",
-   "title": "[OFFER] I'll automate a repetitive task for you: scrapers, Google Sheets, form-to-WhatsApp/email, n8n/Make flows. From $15",
+   "title": "[OFFER] I'll automate a repetitive task for you: scrapers, Google Sheets, form-to-WhatsApp/email, n8n/Make flows. From $12",
    "desc": "I'm a developer (TypeScript, Python, Node). If you do the same task by hand every day, I'll script it so it runs on its own.\n\nThings I can build:\n\n- Scrapers: pull listings, prices, leads or contacts from a site into a CSV or Google Sheet\n- Google Sheets automation: auto-fill, clean up data, send emails or reminders from rows\n- Form to WhatsApp / email / Sheet: every new enquiry lands where you want it, instantly\n- n8n or Make workflows, or fixing one that broke\n- Small Python/Node scripts: rena",
    "cat": "tech",
    "source": "Reddit",
    "published": "2026-11-09T14:08:30+00:00",
-   "salary": "$15",
+   "salary": "$12",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "1f25194c0a45",
+   "title": "Hiring: Clipper / Instagram Account Manager French speakers only",
+   "desc": "We manage models and we’re looking for someone to grow their Instagram / X / Threads accounts. **You must be fluent in French**, as all communication and training is in French.\n\n**Mission:**\n\n* Competitor research: find \\~10 videos per day that perform well on other models’ accounts\n* Collect the videos recreated by the models\n* Simple editing: cut dead air, add subtitles and a hook\n* Post on dedicated accounts\n\n**We’re looking for:**\n\n* Fluent French speaker (required)\n* Fast, reliable, deliver",
+   "cat": "marketing",
+   "source": "Reddit",
+   "published": "2026-11-09T14:07:31+00:00",
+   "salary": "",
    "remote": false,
    "web3": false
   },
@@ -3358,24 +3754,35 @@
    "web3": false
   },
   {
+   "id": "3d94bd3b85c0",
+   "title": "Long & Short-Form Video Editor (Part-Time, Remote)",
+   "desc": "**Filipino video editors only.**\n\nWe’re studiosamasama, a video production team from Amsterdam creating content for some of the biggest names in music, fashion, and sport. We’re growing, and we’re looking for a Filipino editor who wants to make their mark on it all.\n\nMost editors stick to one lane. Here, you’ll cut fashion films, sports content, and commercials, so every project builds your portfolio in a new direction.\n\nSee some of our work here: [instagram.com/jessekoelstra](",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-09T13:51:40+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
    "id": "42d28dfe4309",
-   "title": "[OFFER] Digital Assistant: Websites, Video Editing, Transcription & Vectorization ($5-$15)",
+   "title": "[OFFER] Digital Assistant: Websites, Video Editing, Transcription & Vectorization ($4-$12)",
    "desc": "[removed]",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-09T13:49:45+00:00",
-   "salary": "$5",
+   "salary": "$4",
    "remote": false,
    "web3": false
   },
   {
    "id": "b8713bae19be",
-   "title": "[OFFER] AI agents, WhatsApp/Telegram bots, scrapers and n8n automations, from $50",
+   "title": "[OFFER] AI agents, WhatsApp/Telegram bots, scrapers and n8n automations, from $40",
    "desc": "[removed]",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-09T13:26:25+00:00",
-   "salary": "$50",
+   "salary": "$40",
    "remote": false,
    "web3": false
   },
@@ -3413,17 +3820,6 @@
    "web3": false
   },
   {
-   "id": "b04435f4c460",
-   "title": "[OFFER] Virtual Assistant 4-6$/hour",
-   "desc": "I help you save time without worrying about missing details\n\nWith 5+ years of experience, I help you with task like:\n\n**Administrative**\n\n* Data Entry\n* Keeping appointments organized\n* Receiving calls in Spanish and English\n\nExamples:\n\n[ \n\n**Creative**\n\n* Editing images in GIMP / Canva\n* Making Flyers, Menus with AI\n\nExamples:\n\n[",
-   "cat": "web3",
-   "source": "Reddit",
-   "published": "2026-11-09T12:41:57+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": true
-  },
-  {
    "id": "0b46b98c77b1",
    "title": "A Video Editor for Instagram page who can write prompt and edit video both",
    "desc": "Hiring For both who can write description and edit video for a clothing brand.",
@@ -3435,14 +3831,14 @@
    "web3": false
   },
   {
-   "id": "e8cfac405b8e",
-   "title": "[task] hiring editor for simple edits long form videos",
-   "desc": "This is a good role for someone who's already a editor who wants a simple task to do daily for passive income. \n\nI'm only looking for editors for this role as beginners or non-editors will take 1-2 hours to do this task, it's a basic edit but you need to know the software. \n\nPremiere pro or capcut pro needed. You can do this task without them but it will take 3x longer to do. \n\nThe task: \n\nYou will be given a 6-8 minute talking head video. You will use the transcript AI features in premiere or c",
+   "id": "5f930104959b",
+   "title": "[Hiring] Video Editors for Agency Roster (Performance-Based, Transitioning to Fixed Salary, Remote & Flexible [Indian Preferred]",
+   "desc": "Hey everyone,\n\nWe are Nexus Media, a growing digital marketing and video production agency. We are building a roster of talented video editors to handle upcoming client projects, specifically focused on Instagram Reels and short-form videos.\n\nWhat we are looking for:\n\nPeople who are genuinely good at editing and know how to make engaging, high-quality reels and short videos that grab attention.\n\nA good eye for pacing, cuts, captions, and overall visual flow.\n\nHow this works & Compensation:\n\nFor",
    "cat": "design",
    "source": "Reddit",
-   "published": "2026-11-09T12:16:21+00:00",
-   "salary": "$5",
-   "remote": false,
+   "published": "2026-11-09T11:56:27+00:00",
+   "salary": "",
+   "remote": true,
    "web3": false
   },
   {
@@ -3452,7 +3848,7 @@
    "cat": "writing",
    "source": "Freelancer",
    "published": "2026-11-09T11:48:24+00:00",
-   "salary": "USD 250.0 - 750.0",
+   "salary": "USD 200 - 600",
    "remote": false,
    "web3": false
   },
@@ -3469,23 +3865,23 @@
   },
   {
    "id": "fec5c5d85547",
-   "title": "Seal (YC S20) | Forward Deployed Engineer, Founding Product Engineer | London | ONSITE | Full-time | £50k–£120k + equity We build AI softwar",
+   "title": "Seal (YC S20) | Forward Deployed Engineer, Founding Product Engineer | London | ONSITE | Full-time | £40k–£96k + equity We build AI softwar",
    "desc": "",
    "cat": "tech",
    "source": "Hacker News",
    "published": "2026-11-09T11:31:32+00:00",
-   "salary": "£50k",
+   "salary": "£40k",
    "remote": true,
    "web3": false
   },
   {
-   "id": "bce859c1fa0c",
-   "title": "💗 What's the difference between “required” and “preferred” skills in a job description? 👀",
-   "desc": "» Required skills are the qualifications a company considers essential for the position.\n\n» Preferred skills are additional qualifications that could strengthen your application, but aren't necessarily mandatory.\n\nSo if you meet the core requirements but you're missing a few preferred skills, the role may still be worth applying for.\n\nThe key is understanding which qualifications are essential and which are simply nice to have.",
-   "cat": "misc",
-   "source": "Telegram",
-   "published": "2026-11-09T11:04:38+00:00",
-   "salary": "",
+   "id": "213b6bb3e10e",
+   "title": "[HIRING] Short-form Editor | $28/Video (~$1K/Month) | Wholesome Shorts | 1 Video/Day",
+   "desc": "",
+   "cat": "writing",
+   "source": "Reddit",
+   "published": "2026-11-09T11:18:14+00:00",
+   "salary": "$28",
    "remote": false,
    "web3": false
   },
@@ -3501,17 +3897,6 @@
    "web3": false
   },
   {
-   "id": "6886deb1c9d6",
-   "title": "客户服务团队负责人 #客户支持 | StarPago",
-   "desc": "🌍 Remote: 全球远程\n 🇨🇳 中国候选人: 未明确 (建议联系确认)\n 💼 类型: 全职\n 💰 薪资: USD / 月\n 🗓 源发布日期: \n\n ⚠️ 注意: Web3/DeFi/Crypto 行业波动较大，且涉及数字资产支付业务，需关注相关合规风险及政策不确定性。\n\n岗位职责:\n• 负责远程客服团队的日常管理，包括人员培训、任务分配、绩效考核及服务质量监督\n• 建立及完善客服 SOP、服务标准、工单处理流程和问题升级机制\n• 处理客户及商户在支付过程中遇到的复杂问题，如支付失败、交易延迟、到账异常、退款等\n• 熟悉 Pay-in、Pay-out、电子钱包、跨境支付及相关业务流程\n• 建立并监控客服 KPI，优化客服系统及知识库\n• 与商务、产品、技术、运营及风控团队密切合作，推动问题解决\n• 关注 Web3、数字资产及加密货币支付相关业务发展\n\n岗位要求:\n• 大专及以上学历，3 年以上客户服务或客户运营经验（至少 1 年管理经验）\n• 有 Web3、第三方支付、跨境支付、FinTech 或数字资产行业经验者优先\n• 具备独立管理客",
-   "cat": "web3",
-   "source": "Telegram",
-   "published": "2026-11-09T10:01:24+00:00",
-   "salary": "USD 2200",
-   "remote": true,
-   "web3": true
-  },
-  {
    "id": "04a91538fa6e",
    "title": "💼 JOB OPPORTUNITY",
    "desc": "🚀 Business Analyst\n 🏢 Company: Judi Health\n\n━━━━━━━━━━━━━━━\n ✅ Tags\n #analyst #health #healthcare #management \n\n━━━━━━━━━━━━━━━\nReady to Apply?\n 👇 Apply using the button below",
@@ -3523,37 +3908,15 @@
    "web3": false
   },
   {
-   "id": "f7c349e674d0",
-   "title": "视觉设计师 | Brightline Labs",
-   "desc": "🌍 Remote: worldwide\n 🇨🇳 中国候选人: 是\n 💼 类型: full_time\n 💰 薪资: $0.5-3k/月\n 🗓 源发布日期: \n\n ⚠️ 注意: Web3 及 AI 行业存在波动风险，请关注项目合规性。\n\n岗位职责:\n• 品牌与社交媒体设计：制作 X 海报、主页横幅、产品发布图、合作公告及其他日常传播物料。\n• 活动视觉设计：根据线上、线下活动需求，完成主视觉、预热海报、嘉宾海报及多尺寸延展。\n• 视频与动态内容：制作短篇宣传视频、产品介绍视频、动态海报和社交媒体短视频，完成基础剪辑、字幕、配乐及动效。\n• 保持品牌一致性：根据不同项目的定位，统一字体、色彩、版式和视觉风格，建立可复用的模板与素材库。\n• 配合运营交付：理解传播目标，根据发布计划安排制作与修改，按时交付适配不同平台的成品及可编辑源文件。\n\n岗位要求:\n• 具备品牌、平面或数字视觉设计经验，能够提供相关作品集，包含社交媒体海报、活动视觉及视频或动效案例。\n• 具备扎实的排版、字体、色彩与构图能力，能将文字信息转化为重点清晰、具有辨识度的视觉内容。\n• 熟练使用常用设计工具，",
-   "cat": "web3",
-   "source": "Telegram",
-   "published": "2026-11-09T09:24:46+00:00",
-   "salary": "$0.5",
+   "id": "4222752a1d91",
+   "title": "[Hiring] US college students (18+) to film 3 short SAT/AP study TikToks | $48 flat for ~3 hrs (≈$16/hr) + $40 bonus per signup | Remote, US",
+   "desc": "[removed]",
+   "cat": "marketing",
+   "source": "Reddit",
+   "published": "2026-11-09T09:20:35+00:00",
+   "salary": "$48",
    "remote": true,
-   "web3": true
-  },
-  {
-   "id": "e83b1062057e",
-   "title": "高级产品经理 | Animoca Brands",
-   "desc": "🌍 Remote: 全球远程 (Worldwide)\n 🇨🇳 中国候选人: 接受\n 💼 类型: 全职\n 💰 薪资: $5-10k/月\n 🗓 源发布日期: \n\n ⚠️ 注意: 该岗位属于 Web3/AI 行业，行业波动较大且存在合规风险，请谨慎评估。\n\n岗位职责:\n• 掌控垂直领域全流程产品体验，包括 Specialist Mind(s)、核心用户旅程、交易转化及留存闭环。\n• 制定并达成核心目标：提升活跃用户数（WAU/DAU）、交易量及流量留存转化指标。\n• 决定 GTM 路径，基于事实依据决定是否构建定制前端。\n• 掌管合作伙伴与生态接入路线图（如旅游、餐厅预订、电商、支付），推动合作落地为可运行功能。\n• 应用已打磨的产品模块至垂直领域，协同市场团队进行定位与用户获取。\n• 深入洞察用户需求与痛点，在调研、原型和迭代中全面应用 AI 加速推进。\n\n岗位要求:\n• 5 年以上产品管理经验，有独立掌控产品模块并显著提升关键业务指标（用户数、收入/交易量）的成功记录。\n• 全栈产品掌控力：精通用户调研、UX 设计、商务合作、GTM 及商业化，具备敏锐的优先级判断力和",
-   "cat": "web3",
-   "source": "Telegram",
-   "published": "2026-11-09T09:23:39+00:00",
-   "salary": "$5",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "31a1fd6422c6",
-   "title": "活动运营经理 市场 | Top Market",
-   "desc": "🌍 Remote: Worldwide（全球远程）\n 🇨🇳 中国候选人: 接受\n 💼 类型: 全职\n 💰 薪资: $面议\n 🗓 源发布日期: \n\n ⚠️ 注意: 所属行业为 NFT/Web3/加密领域，存在行业波动和合规风险，请谨慎评估。\n\n岗位职责:\n• 参与整体增长方案制定与推进：结合业务阶段和用户需求，明确增长目标、人群、渠道策略及资源投入。\n• 策划增长活动：围绕卡牌用户的收藏、抽卡和交易需求，设计拉新、首次付费、复购和召回活动，负责从立项到复盘的完整过程。\n• 撰写活动 PRD 并推动产研落地：独立输出活动页面及相关功能的需求文档，明确用户流程、规则及埋点，对接产品、设计及研发推进上线。\n\n岗位要求:\n• 具备用户洞察能力，能够理解卡牌收藏者及交易用户的需求；有卡圈经验者优先。\n• 具备数据分析能力，能识别转化瓶颈，区分活动曝光、激励参与与真实付费增长，提出并验证优化方案。\n• 自驱力和责任心强，能在早期团队中主动推进工作、管理优先级，并高效完成跨团队协作。\n\n 📮 [联系方式已隐藏 · 咨询请加微信]: 无\n\n 📌 来源: Job3 Community\n 🔗 申请: https:/",
-   "cat": "web3",
-   "source": "Telegram",
-   "published": "2026-11-09T09:22:13+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
+   "web3": false
   },
   {
    "id": "72749ea344a6",
@@ -3584,7 +3947,7 @@
    "cat": "marketing",
    "source": "remoteok",
    "published": "2026-11-09T08:00:12+00:00",
-   "salary": "$ 114000000 - 140000000",
+   "salary": "$ 91200000 - 112000000",
    "remote": true,
    "web3": false
   },
@@ -3617,7 +3980,7 @@
    "cat": "writing",
    "source": "Freelancer",
    "published": "2026-11-09T07:40:50+00:00",
-   "salary": "USD 300.0 - 600.0",
+   "salary": "USD 240 - 480",
    "remote": false,
    "web3": false
   },
@@ -3644,13 +4007,57 @@
    "web3": false
   },
   {
+   "id": "5a7e0265cd03",
+   "title": "[hiring] Part-Time, Paid Client Communication Coordinator | Remote",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-09T05:58:05+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "294bc676c509",
+   "title": "[Hiring] Looking for an editor for Juice WRLD viral TikTok fan edits / montages",
+   "desc": "",
+   "cat": "marketing",
+   "source": "Reddit",
+   "published": "2026-11-09T05:34:19+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "f080e3b34d25",
+   "title": "🚨 HIRING: SHORTS VIDEO EDITOR",
+   "desc": "",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-09T05:06:20+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "5987653cba24",
+   "title": "🚀[hiring] RAMPING THIS NOVEMBER!",
+   "desc": "**💻Virtual Process❗❗**\n\n🔥 **OPEN POSITIONS:**\n\n* 🏥 Healthcare – Up to ₱14K **(Student-friendly!)**\n* ☎️ Telco Voice – Up to ₱24K\n\n **QUALIFICATIONS:**\n\n**✨**No BPO experience required\n\n🎓 High School, SHS & College level welcome! \n✅Basic English\n\n📍Cubao (Onsite)\n\n📩Message na agad! **NOW NA!**",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-09T04:12:07+00:00",
+   "salary": "₱14K",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "6a4a33a9150f",
    "title": "[Hiring] Custom table inlay rough draft from AI looking for a human to finish the job",
    "desc": "Hi gang, I'm having some custom tables made and the woodworker making it has a CNC machine to make whatever inlay design I want. I had ChatGPT get me 90% of the way there, and I'm hoping a human can polish it up with the types of edits AI can't handle - buds and berries more similar between the two designs, flowers more consistent between designs, diamonds a consistent size within each image, anything else that jumps out.\n\nAll I'm looking for is are two finalized pictures. My table guy has a CAD",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-09T03:47:20+00:00",
-   "salary": "$100",
+   "salary": "$80",
    "remote": false,
    "web3": false
   },
@@ -3666,6 +4073,17 @@
    "web3": true
   },
   {
+   "id": "5e369ede81c6",
+   "title": "[hiring] BATCH 2 TRAINING CLASSES NOV 12 - 16 v",
+   "desc": "\\- call center position **(Non Voice | Voice | Blended Account)**\n\nRecommended for **NEWBIES, FRESH GRADUATE & TENURED**\n\n# STARTING SALARY UP TO 18,500 to 28,000\n\n# Perks: Night Differential | HMO | Signing Bonus 20,000\n\n✅HOW TO APPLY: **send your resume **",
+   "cat": "support",
+   "source": "Reddit",
+   "published": "2026-11-09T02:57:43+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "edf4b517d9fd",
    "title": "OpenTrain AI | REMOTE (US) | Part-time | Backend Engineer, AI Coding Task Design OpenTrain AI connects experienced professionals with paid,",
    "desc": "- 100% remote, United States\n- About 15 hours/week; choose your schedule We need backend engineers to design realistic coding tasks for AI systems, write deterministic verifiers, assess correctness and code quality, and apply secure coding and security review where relevant. This work helps improve AI systems that write software. Ideal background\n- Strong professional backend experience with Python, Java, Node.js, Go, Rust, TypeScript, C++ or similar\n- Scalable APIs/services, complex features, d",
@@ -3673,6 +4091,28 @@
    "source": "Hacker News",
    "published": "2026-11-09T02:48:07+00:00",
    "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "9094e22f438d",
+   "title": "[Hiring] Business Developer for a known Software Company.",
+   "desc": "Looking for an experienced business developer to find and close clients for web apps, mobile apps, AI solutions, and WordPress projects.\n\nYou’ll handle prospecting, outreach, follow-ups, and negotiations, working with our developers to turn client needs into clear proposals.\n\nDM your relevant experience, availability, and a brief outline.",
+   "cat": "tech",
+   "source": "Reddit",
+   "published": "2026-11-09T02:41:30+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "7edc5c603c72",
+   "title": "[Paid] [Hiring] Freelance Video Editor – Long-form interviews & documentaries – Remote (Philippines-based) – $120 USD per video",
+   "desc": "EO Studio is looking for Philippines-based freelance video editors.\n\nWe make long-form interview videos and short documentaries about founders and entrepreneurs. You can see our work here: \n\nThis is long-form work, not short-form clips. We need someone who can turn long interview footage into a clear, engaging story.\n\nBudget is $120 USD per finished video. Workload depends on the project, but we expect around 4 videos a month. Fully remote, freelance.\n\nTo apply,",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-09T02:31:22+00:00",
+   "salary": "$120",
    "remote": true,
    "web3": false
   },
@@ -3733,12 +4173,45 @@
   },
   {
    "id": "ed75d0c4fd3e",
-   "title": "[Hiring] Emmeeverse Studio – Motion Graphics & Visual Branding Specialist ($25–$250 Project Rate)",
-   "desc": "Hey everyone, \n\nI run Emmeeverse Studio, a specialized digital agency focused on high-retention video editing, motion graphics, and clean visual branding designed to hook audiences instantly.\n\nWhat I offer: \n\\* Short-form video editing (Reels, TikToks, Shorts) with pacing, captions, and effects that hold attention. \n\\* Motion graphics, banners, and visual asset creation. \n\\* Fast turnaround times and professional communication.\n\nPricing starts between $25–$250 depending on the scope of the proje",
+   "title": "[Hiring] Emmeeverse Studio – Motion Graphics & Visual Branding Specialist ($20–$200 Project Rate)",
+   "desc": "Hey everyone, \n\nI run Emmeeverse Studio, a specialized digital agency focused on high-retention video editing, motion graphics, and clean visual branding designed to hook audiences instantly.\n\nWhat I offer: \n\\* Short-form video editing (Reels, TikToks, Shorts) with pacing, captions, and effects that hold attention. \n\\* Motion graphics, banners, and visual asset creation. \n\\* Fast turnaround times and professional communication.\n\nPricing starts between $20–$200 depending on the scope of the proje",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-09T01:04:04+00:00",
-   "salary": "$25",
+   "salary": "$20",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "0e507eadcfcb",
+   "title": "[RevShare] Artist Position Available",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-09T00:32:29+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "84f44caa270e",
+   "title": "Opening up some slots for commissions",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-09T00:04:15+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "4352ef463114",
+   "title": "[hiring] Looking for Meteorologist / Weather Data Scientist for Temperature Forecast Modeling",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-09T00:01:21+00:00",
+   "salary": "",
    "remote": false,
    "web3": false
   },
@@ -3754,15 +4227,37 @@
    "web3": false
   },
   {
-   "id": "731b02eb1705",
-   "title": "💗 Quick reminder for Web3 job seekers! 👀",
-   "desc": "You don't need to meet every single requirement in a job description to consider applying.\n\n Some requirements are essential, while others describe the company's ideal candidate. \n\nFocus on whether you can handle the core responsibilities, meet the mandatory requirements and demonstrate relevant experience.\n\nDon't reject yourself from an opportunity before the hiring team has even reviewed your application!",
-   "cat": "web3",
-   "source": "Telegram",
-   "published": "2026-11-08T21:04:05+00:00",
+   "id": "956df8988f39",
+   "title": "[HIRING] Long-Form YouTube Editor | Football Channel | $80–$160 Per Video",
+   "desc": "",
+   "cat": "writing",
+   "source": "Reddit",
+   "published": "2026-11-08T22:51:46+00:00",
+   "salary": "$80",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "d4789d17da9b",
+   "title": "[Hiring] Native German-Speaking Video Editor – Long-Term Paid Work",
+   "desc": "[removed]",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-08T21:44:35+00:00",
    "salary": "",
    "remote": false,
-   "web3": true
+   "web3": false
+  },
+  {
+   "id": "a809dd84fc23",
+   "title": "[Hiring] Remote GameMaker Programmer (and a Sound Designer) for indie RTS roguelite",
+   "desc": "[removed]",
+   "cat": "tech",
+   "source": "Reddit",
+   "published": "2026-11-08T20:26:58+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
   },
   {
    "id": "6a870e3876f2",
@@ -3787,12 +4282,34 @@
    "web3": true
   },
   {
+   "id": "e2889dd80001",
+   "title": "Hiring: Budget Video Editor for Real Estate",
+   "desc": "",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-08T19:14:16+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "74856ca570b3",
    "title": "Freelance Fortress",
    "desc": "I’m looking for a small group of freelancers to test an upcoming ebook called **Freelance Fortress: The Psychology of Client Relationships**.\n\nIt explores the psychology behind difficult clients, negotiation, manipulation tactics, professional boundaries and power dynamics in freelance relationships.\n\nI’m giving away a limited number of free early-access copies in exchange for honest feedback. \nI’m particularly interested in whether the material is genuinely useful, what feels missing, and wheth",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-08T18:48:01+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "c8e0db0f7aac",
+   "title": "Looking for a reels/carousel editor",
+   "desc": "Hey, I am looking for someone that can produce high quality edits for my social media marketing agency based in Dubai. I work with nightlife venues, hospitality venues and often some UGC videos as well.\n\nI need someone who has experience within this, and can adapt quickly to different edits that suit the client we are working with.\n\nIf you think this is a good fit, please [联系方式已隐藏 · 咨询请加微信] with your portfolio and rates! Thank you",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-08T17:19:25+00:00",
    "salary": "",
    "remote": false,
    "web3": false
@@ -3822,22 +4339,22 @@
   {
    "id": "934ae9bd2937",
    "title": "CareTalk Health: Patient Support Specialist (Remote)",
-   "desc": "Headquarters: United States\n \n URL: \n\n Job Title: Patient Support Specialist  - Remote \n Location: Remote - United States \n Employment Type:  FT W2 \n Compensation:  $20 per hour \n \n CareTalk Health \n CareTalk Health is a fully remote, nationwide virtual medical practice. We partner with Medicare Advantage plans to deliver Annual Wellness Visits and close care gaps, reaching members wherever they are. We believe virtual care isn't a compromise — it's care delivere",
+   "desc": "Headquarters: United States\n \n URL: \n\n Job Title: Patient Support Specialist  - Remote \n Location: Remote - United States \n Employment Type:  FT W2 \n Compensation:  $16 per hour \n \n CareTalk Health \n CareTalk Health is a fully remote, nationwide virtual medical practice. We partner with Medicare Advantage plans to deliver Annual Wellness Visits and close care gaps, reaching members wherever they are. We believe virtual care isn't a compromise — it's care delivere",
    "cat": "support",
    "source": "Job Board",
    "published": "2026-11-08T17:00:27+00:00",
-   "salary": "$20 per hour",
+   "salary": "$16 per hour",
    "remote": true,
    "web3": false
   },
   {
    "id": "af7e0661bc25",
    "title": "Revenue Cycle Manager — Adaptive Innovations",
-   "desc": "About Us We are fixing US healthcare by building an AI-native physical care platform, starting with home health. Home health is a $140B industry with less than $10B in EBITDA â 40% of revenue is spent on pure administrative waste. We automate this work with AI, creating a fundamentally different cost structure compared to incumbents. This lets us rapidly take market share by serving the 30% of patients who go untreated today. By reshaping the cost structure of this industry, we unlock its grow",
+   "desc": "About Us We are fixing US healthcare by building an AI-native physical care platform, starting with home health. Home health is a $112B industry with less than $8B in EBITDA â 40% of revenue is spent on pure administrative waste. We automate this work with AI, creating a fundamentally different cost structure compared to incumbents. This lets us rapidly take market share by serving the 30% of patients who go untreated today. By reshaping the cost structure of this industry, we unlock its grow",
    "cat": "marketing",
    "source": "remoteok",
    "published": "2026-11-08T16:00:15+00:00",
-   "salary": "$140",
+   "salary": "$112",
    "remote": true,
    "web3": false
   },
@@ -3864,6 +4381,17 @@
    "web3": false
   },
   {
+   "id": "e08966799ad7",
+   "title": "Hiring] Looking for a video editor with ecom Ai ads experience",
+   "desc": "Daily pay ✅️\n\n[联系方式已隐藏 · 咨询请加微信] on discord : editingandcoding\n\nMust have ai and or ecom experience",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-08T14:48:29+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "af33e4d79e30",
    "title": "[Hiring] Arabic–English Trivia Writer & Content Organizer for Trivia Game — Strong GCC Cultural Knowledge",
    "desc": "[removed]",
@@ -3881,7 +4409,29 @@
    "cat": "writing",
    "source": "Freelancer",
    "published": "2026-11-08T14:36:56+00:00",
-   "salary": "USD 10.0 - 30.0",
+   "salary": "USD 8 - 24",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "2327b0e5e790",
+   "title": "[HIRING] 100% Remote Chattter",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-08T13:43:13+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "5b7e981ff82b",
+   "title": "[HIRING] Long-form Editor | Up to $120/Video (~$1-1.2K/Month) | Faceless F1 Documentaries | 8-10 Videos/Month",
+   "desc": "",
+   "cat": "writing",
+   "source": "Reddit",
+   "published": "2026-11-08T13:22:55+00:00",
+   "salary": "$120",
    "remote": false,
    "web3": false
   },
@@ -3892,7 +4442,18 @@
    "cat": "writing",
    "source": "Freelancer",
    "published": "2026-11-08T12:49:33+00:00",
-   "salary": "USD 600.0 - 1500.0",
+   "salary": "USD 480 - 1200",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "7b764762436e",
+   "title": "[Hiring] Senior Full-Stack E-Commerce Developer (m/f/d)",
+   "desc": "[removed]",
+   "cat": "tech",
+   "source": "Reddit",
+   "published": "2026-11-08T11:54:45+00:00",
+   "salary": "",
    "remote": false,
    "web3": false
   },
@@ -3908,12 +4469,45 @@
    "web3": true
   },
   {
+   "id": "5d4d5a57ddee",
+   "title": "Need indian video editor",
+   "desc": "I need a video editor to edit shorts and also someone who knows how to use Google flow Al to make videos\n\nI'm paying 350 per video\n\nThese are simple videos just generate images using Al and put them in the right places with default Capcut effects interested people dm\n\nThe editor should understand hindi",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-08T11:03:07+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "87c1dfa969f7",
+   "title": "[Hiring] Paid Expert Consultation – Ice Cream Packaging Industry (€200/hour)",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-08T09:55:44+00:00",
+   "salary": "€200/hour",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "3dc4f84f1e75",
    "title": "I’m trying to freelance on top of my full time job",
    "desc": "My 8-4 already takes on enough, but ends can’t meet so i need more money. I prospected for clients to freelance for but even doing just one feels like another full time job plus i have others in the queue. i’m burning out but can’t afford to start an “agency” shoveling some of the work out to someone else. can someone please give my advice?",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-08T09:32:56+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "2e68319d7fe0",
+   "title": "Part-Time Video Editor | Chris Brown, F1, Tommy Hilfiger, Calvin Klein & Nike",
+   "desc": "We’re a video production team creating content for some of the biggest names in music, fashion, and sport. Our work spans music videos, fashion films, sports content, and commercials, and we’re looking for an editor who wants to make their mark on all of it.\n\nClients we’ve worked with: Chris Brown · Formula 1 · Tommy Hilfiger · Calvin Klein · Nike \nSee my social: [instagram.com/jessekoelstra]( \n\nWhat You’ll Be Doing:\n\n\\- Edit short-form and long-form video cont",
+   "cat": "design",
+   "source": "Reddit",
+   "published": "2026-11-08T09:28:22+00:00",
    "salary": "",
    "remote": false,
    "web3": false
@@ -3936,29 +4530,29 @@
    "cat": "writing",
    "source": "Freelancer",
    "published": "2026-11-08T08:30:51+00:00",
-   "salary": "USD 15.0 - 25.0",
+   "salary": "USD 12 - 20",
    "remote": false,
    "web3": false
   },
   {
    "id": "aa9888514339",
-   "title": "[hiring] Logo for my Bbq/smoked meats brand - ($100 - $250)",
+   "title": "[hiring] Logo for my Bbq/smoked meats brand - ($80 - $200)",
    "desc": "Hi all, just chasing a design for my barbeque/smoker social media profiles",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-08T06:55:48+00:00",
-   "salary": "$100",
+   "salary": "$80",
    "remote": false,
    "web3": false
   },
   {
    "id": "953bdcd013b7",
-   "title": "I know as someone in the US $30 sounds ridiculous but if you've ever had offshore colleagues in India or Ukraine, they were probably paid a",
+   "title": "I know as someone in the US $24 sounds ridiculous but if you've ever had offshore colleagues in India or Ukraine, they were probably paid a",
    "desc": "",
    "cat": "misc",
    "source": "Hacker News",
    "published": "2026-11-08T02:35:12+00:00",
-   "salary": "$30",
+   "salary": "$24",
    "remote": true,
    "web3": false
   },
@@ -3974,13 +4568,24 @@
    "web3": false
   },
   {
+   "id": "adeac43a1ddb",
+   "title": "[hiring]",
+   "desc": "🎯✨ONE-DAY HIRING✨🎯 \nVIRTUAL HIRING NOV. 12, 2026\n\nIf you've worked in an international BPO before and you're looking for your next opportunity, this might be worth a look.\n\nHere's what we're looking for: \n✅Customer Service Representative \n✅Technical Support Representative \n\n📍Vertis North, Quezon City \n[联系方式已隐藏 · 咨询请加微信] for further details.\n\nJOB DUST TO EVERYONE✨",
+   "cat": "support",
+   "source": "Reddit",
+   "published": "2026-11-08T00:39:59+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "3473f4587ee9",
    "title": "Account Executive Enterprise — Harvey",
    "desc": "Why Harvey At Harvey, weâre transforming how legal and professional services operate. By combining frontier agentic AI, an enterprise-grade platform, and deep domain expertise, weâre reshaping how critical knowledge work gets done for decades to come. This is a rare chance to help build a generational company at a true inflection point. We have strong product-market fit and world-class investor support. Weâre scaling fast and defining a new category in real time. The work is ambitious, the",
    "cat": "web3",
    "source": "remoteok",
    "published": "2026-11-08T00:00:03+00:00",
-   "salary": "$ 380000 - 420000",
+   "salary": "$ 304000 - 336000",
    "remote": true,
    "web3": true
   },
@@ -4002,7 +4607,7 @@
    "cat": "writing",
    "source": "Reddit",
    "published": "2026-11-07T21:07:35+00:00",
-   "salary": "$50.",
+   "salary": "$40.",
    "remote": false,
    "web3": false
   },
@@ -4029,6 +4634,17 @@
    "web3": true
   },
   {
+   "id": "c1157c850644",
+   "title": "[HIRING] Cybersecurity Devs",
+   "desc": "Wayne Citadel is searching for 2 (two) experienced, dedicated Security devs. \n\nwhat is all about: heres the story: Problem: Infrastructure changes submitted through GitHub pull requests can silently introduce security risks — widened IAM permissions, public exposure, destructive replacements — and reviewers rarely have time to read a full Terraform plan. \n \nConstraint: Explain only the change, never scan the whole state. The AI must never decide what a finding is or how severe it is; those decis",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-07T18:23:00+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "344c0d41454b",
    "title": "MedAmerica: Instructional Designer",
    "desc": "Headquarters: Sacramento, California, United States\n \n URL: \n\n Remote, Nationwide – Seeking Instructional Designer   Everybody Has A Role To Play In Transforming Healthcare   At Vituity you are part of a larger team that is driven by our purpose to improve lives. We are dedicated to transforming healthcare through our culture by working together to tackle healthcare’s most pressing challenges from the inside.   Join the Vituity Team. At Vitu",
@@ -4042,11 +4658,11 @@
   {
    "id": "2e171fb1ee0d",
    "title": "Aveanna Healthcare: Intake Patient Care Representative (REMOTE)",
-   "desc": "Headquarters: \n \n URL: \n\n Overview \n Start Date: 12/7/26 \n Pay: $18.00/HR \n Schedule: Monday - Friday/ 8-5am CT \n   \n *Candidates in the Central & Eastern Time Zones will be prioritized for consideration.* \n As an Intake Patient Care Representative , you will support new patients through the admissions process by gathering required information, verifying insurance coverage, reviewing prescriptions, and coordinating next steps for care. This role focuses on accuracy, document",
+   "desc": "Headquarters: \n \n URL: \n\n Overview \n Start Date: 12/7/26 \n Pay: $14.4/HR \n Schedule: Monday - Friday/ 8-5am CT \n   \n *Candidates in the Central & Eastern Time Zones will be prioritized for consideration.* \n As an Intake Patient Care Representative , you will support new patients through the admissions process by gathering required information, verifying insurance coverage, reviewing prescriptions, and coordinating next steps for care. This role focuses on accuracy, document",
    "cat": "misc",
    "source": "Job Board",
    "published": "2026-11-07T17:00:38+00:00",
-   "salary": "$18.00/HR",
+   "salary": "$14.4/HR",
    "remote": true,
    "web3": false
   },
@@ -4095,6 +4711,17 @@
    "web3": false
   },
   {
+   "id": "1d058169127b",
+   "title": "[Hiring] Capolo | 8 engineering roles | India, Mumbai preferred | ₹8-11 LPA",
+   "desc": "[removed]",
+   "cat": "tech",
+   "source": "Reddit",
+   "published": "2026-11-07T16:10:20+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "a4ddeac3738a",
    "title": "Hey, sent you guys an email from .",
    "desc": "",
@@ -4129,13 +4756,24 @@
   },
   {
    "id": "ccf7ccf58066",
-   "title": "[HIRING] Remote Digital Artists – $21–$35/hr – 100 Openings",
+   "title": "[HIRING] Remote Digital Artists – $17–$28/hr – 100 Openings",
    "desc": "[removed]",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-07T12:17:44+00:00",
-   "salary": "$21",
+   "salary": "$17",
    "remote": true,
+   "web3": false
+  },
+  {
+   "id": "0553111fa1cc",
+   "title": "i am [Hiring] people",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-07T11:49:16+00:00",
+   "salary": "",
+   "remote": false,
    "web3": false
   },
   {
@@ -4161,14 +4799,25 @@
    "web3": true
   },
   {
-   "id": "a131e263a407",
-   "title": "💗 A quick resume check before your next application:",
-   "desc": "Open your resume and look at the first few lines.\n\nCan someone understand what kind of work you've done and what skills you bring without reading the entire document?\n\nIf not, consider making your most relevant experience easier to find.\n\nRecruiters shouldn't have to guess what you're good at.",
+   "id": "e4bd45981762",
+   "title": "[HIRING] BUSINESS PARTNERS WANTED | WASL® WANT TO BUILD A SERIOUS INCOME STREAM?",
+   "desc": "[removed]",
    "cat": "misc",
-   "source": "Telegram",
-   "published": "2026-11-07T11:04:07+00:00",
+   "source": "Reddit",
+   "published": "2026-11-07T11:27:25+00:00",
    "salary": "",
    "remote": false,
+   "web3": false
+  },
+  {
+   "id": "0770ed7fed42",
+   "title": "[HIRING] TikTok / Instagram Content Assistant – Remote – Weekly Pay",
+   "desc": "We’re looking for people to help us expand a mobile app into different international markets through TikTok and Instagram.\n\nThis is a simple remote side job and is open to applicants from all countries. \nYou can choose whether you prefer working with TikTok or Instagram.\n\nTikTok: \n\\- We provide the content formats \n\\- We provide all the images/assets \n\\- You only need to write the text for the posts and publish them \n\\- We provide examples and guidance when you start \n\\- Once you understand the",
+   "cat": "marketing",
+   "source": "Reddit",
+   "published": "2026-11-07T10:47:22+00:00",
+   "salary": "",
+   "remote": true,
    "web3": false
   },
   {
@@ -4216,14 +4865,14 @@
    "web3": false
   },
   {
-   "id": "cf09ee8a0a41",
-   "title": "Tier III Service Desk Engineer",
-   "desc": "Unió Digital is an Arizona-based managed service provider (MSP) delivering Managed IT Services, Low Voltage Cabling, Access Control, Video Surveillance, and Intrusion Services. We believe technology should be intuitive, not intimidating. \n   \n We are looking for an experienced Tier 3 Service Desk Technician with exceptional problem-solving skills. You will serve as the escalation point within the team, resolving complex technical issues while also leading client onboarding and project initiative",
-   "cat": "tech",
-   "source": "remotive",
-   "published": "2026-11-07T01:10:55+00:00",
+   "id": "a8f248753b63",
+   "title": "[hiring]someone to post for me on Reddit",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-07T02:30:10+00:00",
    "salary": "",
-   "remote": true,
+   "remote": false,
    "web3": false
   },
   {
@@ -4339,22 +4988,22 @@
   {
    "id": "fe2b271a6dd8",
    "title": "[hiring] Easy and fast task for usa citizens",
-   "desc": "Just complete a simple verif. task of a gaming site and we will pay $15 to each one of you. \nUSA.",
+   "desc": "Just complete a simple verif. task of a gaming site and we will pay $12 to each one of you. \nUSA.",
    "cat": "misc",
    "source": "Reddit",
    "published": "2026-11-06T18:54:40+00:00",
-   "salary": "$15",
+   "salary": "$12",
    "remote": false,
    "web3": false
   },
   {
    "id": "a207cfd5eb10",
-   "title": "BuildQ | Founding Engineer | REMOTE (PT to ET overlap preferred) | $130K - $150K + equity | Full-time | Seed |",
+   "title": "BuildQ | Founding Engineer | REMOTE (PT to ET overlap preferred) | $104K - $120K + equity | Full-time | Seed |",
    "desc": "",
    "cat": "tech",
    "source": "Hacker News",
    "published": "2026-11-06T18:26:22+00:00",
-   "salary": "$130K",
+   "salary": "$104K",
    "remote": true,
    "web3": false
   },
@@ -4367,6 +5016,28 @@
    "published": "2026-11-06T17:27:04+00:00",
    "salary": "",
    "remote": true,
+   "web3": false
+  },
+  {
+   "id": "cf09ee8a0a41",
+   "title": "Tier III Service Desk Engineer",
+   "desc": "Unió Digital is an Arizona-based managed service provider (MSP) delivering Managed IT Services, Low Voltage Cabling, Access Control, Video Surveillance, and Intrusion Services. We believe technology should be intuitive, not intimidating. \n   \n We are looking for an experienced Tier 3 Service Desk Technician with exceptional problem-solving skills. You will serve as the escalation point within the team, resolving complex technical issues while also leading client onboarding and project initiative",
+   "cat": "tech",
+   "source": "remotive",
+   "published": "2026-11-06T17:10:55+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "cecce218b171",
+   "title": "I built a free marketplace for odd jobs, online gigs, and selling stuff. Come post or browse.",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-06T17:03:58+00:00",
+   "salary": "",
+   "remote": false,
    "web3": false
   },
   {
@@ -4491,17 +5162,6 @@
    "web3": false
   },
   {
-   "id": "4f1f7519e033",
-   "title": "😆 Happy Friday, job hunters!",
-   "desc": "Before we wrap up the week, let's hear some good news!\n\n Did you discover an interesting opportunity, update your resume, land an interview, learn something new or make progress toward your next role? \n\nBig or small, share a win from your week below. 👇",
-   "cat": "misc",
-   "source": "Telegram",
-   "published": "2026-11-06T09:32:39+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
    "id": "7cbf7c5a5a5c",
    "title": "Are you open to remote outside the US? I'm in Europe",
    "desc": "",
@@ -4513,35 +5173,24 @@
    "web3": false
   },
   {
-   "id": "f19e06b45f78",
-   "title": "US Remote Patient Care Advocate (Customer Service)",
-   "desc": "Job Title: Patient Care Advocate   <p style=\"padding: 0px; border-style: none; font-style: inherit; font-variant: in",
-   "cat": "support",
-   "source": "remotive",
-   "published": "2026-11-06T08:51:01+00:00",
-   "salary": "$25k - $35k",
-   "remote": true,
-   "web3": false
-  },
-  {
    "id": "ac56b08464ea",
    "title": "Registered Nurse — Caringhand Home Health Solutions, Inc.",
-   "desc": "Company: Caringhand Home Health Solutions, Inc.\nPosition Type: Per Diem\nWork Arrangement: Field-Based â Patient Home Visits\nCompensation: $110â$130 per visit Caringhand Home Health Solutions, Inc. is committed to providing professional nursing and healthcare services that help patients achieve the highest possible level of independence in their daily activities. We strive to deliver high-quality home health care through comprehensive patient assessments, individualized care planning, and col",
+   "desc": "Company: Caringhand Home Health Solutions, Inc.\nPosition Type: Per Diem\nWork Arrangement: Field-Based â Patient Home Visits\nCompensation: $88â$104 per visit Caringhand Home Health Solutions, Inc. is committed to providing professional nursing and healthcare services that help patients achieve the highest possible level of independence in their daily activities. We strive to deliver high-quality home health care through comprehensive patient assessments, individualized care planning, and col",
    "cat": "data",
    "source": "remoteok",
    "published": "2026-11-06T08:00:05+00:00",
-   "salary": "$ 110 - 130",
+   "salary": "$ 88 - 104",
    "remote": true,
    "web3": false
   },
   {
    "id": "c9727f90a722",
-   "title": "iCallidus | Azure Intune Engineer | Denver, US | Remote | $130, ,000 | Full-Time Tech used: AI, Azure, Firmware, Support, Microsoft",
+   "title": "iCallidus | Azure Intune Engineer | Denver, US | Remote | $104, ,000 | Full-Time Tech used: AI, Azure, Firmware, Support, Microsoft",
    "desc": "",
    "cat": "tech",
    "source": "Hacker News",
    "published": "2026-11-06T07:45:00+00:00",
-   "salary": "$130,000",
+   "salary": "$104,000",
    "remote": true,
    "web3": false
   },
@@ -4552,7 +5201,7 @@
    "cat": "data",
    "source": "Freelancer",
    "published": "2026-11-06T07:18:04+00:00",
-   "salary": "USD 10.0 - 30.0",
+   "salary": "USD 8 - 24",
    "remote": false,
    "web3": false
   },
@@ -4596,7 +5245,7 @@
    "cat": "support",
    "source": "Job Board",
    "published": "2026-11-06T04:12:16+00:00",
-   "salary": "$5/hour",
+   "salary": "$4/hour",
    "remote": true,
    "web3": false
   },
@@ -4607,7 +5256,7 @@
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-06T03:39:23+00:00",
-   "salary": "$35",
+   "salary": "$28",
    "remote": true,
    "web3": false
   },
@@ -4624,12 +5273,23 @@
   },
   {
    "id": "22d9cbd6b31f",
-   "title": "Zefr | Los Angeles, CA (Marina del Rey) | Site Reliability Engineer | Full-time | On-site 2-3x per week | $100,000 - $130,000 |",
+   "title": "Zefr | Los Angeles, CA (Marina del Rey) | Site Reliability Engineer | Full-time | On-site 2-3x per week | $80,000 - $104,000 |",
    "desc": "",
    "cat": "tech",
    "source": "Hacker News",
    "published": "2026-11-06T01:07:33+00:00",
-   "salary": "$100,000",
+   "salary": "$80,000",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "f19e06b45f78",
+   "title": "US Remote Patient Care Advocate (Customer Service)",
+   "desc": "Job Title: Patient Care Advocate   <p style=\"padding: 0px; border-style: none; font-style: inherit; font-variant: in",
+   "cat": "support",
+   "source": "remotive",
+   "published": "2026-11-06T00:51:01+00:00",
+   "salary": "$20k - $28k",
    "remote": true,
    "web3": false
   },
@@ -4640,7 +5300,7 @@
    "cat": "design",
    "source": "remoteok",
    "published": "2026-11-06T00:00:11+00:00",
-   "salary": "$ 90000 - 110000",
+   "salary": "$ 72000 - 88000",
    "remote": true,
    "web3": false
   },
@@ -4679,12 +5339,12 @@
   },
   {
    "id": "77068627ca22",
-   "title": "Piramidal (YC W24) | Senior Backend Engineer | New York, NY | $200K-$300K + equity | We’ve built the first-of-its-kind foun",
+   "title": "Piramidal (YC W24) | Senior Backend Engineer | New York, NY | $160K-$240K + equity | We’ve built the first-of-its-kind foun",
    "desc": "",
    "cat": "tech",
    "source": "Hacker News",
    "published": "2026-11-05T21:34:32+00:00",
-   "salary": "$200K",
+   "salary": "$160K",
    "remote": true,
    "web3": false
   },
@@ -4724,11 +5384,11 @@
   {
    "id": "7210a244b117",
    "title": "📢 [HIRING] Ongoing Freelance Translator (EN ➔ ZH)",
-   "desc": "Role: Native Chinese Translator\nCompensation: $50 per translation\nEngagement: Regular / Ongoing\n\nWe are seeking a highly proficient, native Chinese speaker for consistent English-to-Chinese translation work. We need a dedicated professional with a meticulous eye for detail and a deep understanding of linguistic nuances.\n\nKey Requirements:\n 🔹 Native Fluency: Must be a native Chinese speaker with flawless grammar and the ability to localize content naturally.\n 🔹 Tech-Savvy: You must possess a stro",
+   "desc": "Role: Native Chinese Translator\nCompensation: $40 per translation\nEngagement: Regular / Ongoing\n\nWe are seeking a highly proficient, native Chinese speaker for consistent English-to-Chinese translation work. We need a dedicated professional with a meticulous eye for detail and a deep understanding of linguistic nuances.\n\nKey Requirements:\n 🔹 Native Fluency: Must be a native Chinese speaker with flawless grammar and the ability to localize content naturally.\n 🔹 Tech-Savvy: You must possess a stro",
    "cat": "writing",
    "source": "Telegram",
    "published": "2026-11-05T20:38:42+00:00",
-   "salary": "$50",
+   "salary": "$40",
    "remote": false,
    "web3": false
   },
@@ -4745,34 +5405,34 @@
   },
   {
    "id": "e2dcc49b099d",
-   "title": "Nirvana Robotics | Mechanical Engineer, Electrical Engineer, Robotic Controls Engineer | New York, NY | ONSITE | Full-time | $220K-$300K Nir",
-   "desc": "Apply: Electrical Engineer ($220K-$250K): electrical architecture for arms and humanoids: power distribution, motor-driver boards, sensor PCBs, harnessing. Multilayer mixed-signal and high-current layout in Altium, BLDC drivers and current sensing, bench bring-up and DFM with PCBA partners. EtherCAT",
+   "title": "Nirvana Robotics | Mechanical Engineer, Electrical Engineer, Robotic Controls Engineer | New York, NY | ONSITE | Full-time | $176K-$240K Nir",
+   "desc": "Apply: Electrical Engineer ($176K-$200K): electrical architecture for arms and humanoids: power distribution, motor-driver boards, sensor PCBs, harnessing. Multilayer mixed-signal and high-current layout in Altium, BLDC drivers and current sensing, bench bring-up and DFM with PCBA partners. EtherCAT",
    "cat": "tech",
    "source": "Hacker News",
    "published": "2026-11-05T20:23:44+00:00",
-   "salary": "$220K",
+   "salary": "$176K",
    "remote": true,
    "web3": false
   },
   {
    "id": "55e2c6f66d2a",
-   "title": "[HIRING] Logo for a game recommendation website (playalike.de) – Budget €50",
+   "title": "[HIRING] Logo for a game recommendation website (playalike.de) – Budget €40",
    "desc": "Hi! I run [playalike.de]( a small side project that recommends video games based on the games you already love (think “games like Hades / Stardew Valley”, with reasons why they fit). It’s a one-person project, no company behind it.\n\nWhat I need\n\n* A logo for the brand name playalike (all lowercase)\n* A symbol/mark that also works on its own at small sizes (favicon, app icon, Discord avatar)\n* Versions for dark and light backgrounds (the site is mostly dark)\n\nVibe\n\n* Playful",
    "cat": "design",
    "source": "Reddit",
    "published": "2026-11-05T20:03:53+00:00",
-   "salary": "€50",
+   "salary": "€40",
    "remote": false,
    "web3": false
   },
   {
    "id": "bce98f4095d6",
-   "title": "$25-$30/hr for senior? lol hahaha, very professional company",
+   "title": "$20-$24/hr for senior? lol hahaha, very professional company",
    "desc": "",
    "cat": "misc",
    "source": "Hacker News",
    "published": "2026-11-05T19:51:32+00:00",
-   "salary": "$25",
+   "salary": "$20",
    "remote": true,
    "web3": false
   },
@@ -4783,6 +5443,17 @@
    "cat": "tech",
    "source": "Telegram",
    "published": "2026-11-05T19:46:09+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "090d1db1189c",
+   "title": "[hiring] workflow coordinator and technical support",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-05T19:02:29+00:00",
    "salary": "",
    "remote": false,
    "web3": false
@@ -4801,11 +5472,11 @@
   {
    "id": "57d6d0e67b21",
    "title": "Veeva Systems: IT Consultant - Solutions Architect - Cloud CRM (Remote)",
-   "desc": "Headquarters: Hungary - Budapest\n \n URL: \n\n Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead. \n   \n At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public compan",
+   "desc": "Headquarters: Hungary - Budapest\n \n URL: \n\n Veeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $2B in revenue in our last fiscal year with extensive growth potential ahead. \n   \n At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public compan",
    "cat": "marketing",
    "source": "Job Board",
    "published": "2026-11-05T18:30:45+00:00",
-   "salary": "$3",
+   "salary": "$2",
    "remote": true,
    "web3": false
   },
@@ -4816,18 +5487,18 @@
    "cat": "writing",
    "source": "Freelancer",
    "published": "2026-11-05T17:11:44+00:00",
-   "salary": "USD 10.0 - 30.0",
+   "salary": "USD 8 - 24",
    "remote": false,
    "web3": false
   },
   {
    "id": "268474ced737",
    "title": "Feltsense AI Engineer — Silver.dev",
-   "desc": "About the company We raised $5.1M to build agents that operate as fully autonomous founders. Our backers include Matt Schlicht (founder of Moltbook), the founders of Crunchbase and Republic, and VCs including Draper, Precursor, and Liquid2. We're working at the frontier of autonomous systems, building agents that don't just chat, but run entire businesses. Our system identifies business opportunities through market signals, validates ideas with live ad tests, builds and launches software product",
+   "desc": "About the company We raised $4.1M to build agents that operate as fully autonomous founders. Our backers include Matt Schlicht (founder of Moltbook), the founders of Crunchbase and Republic, and VCs including Draper, Precursor, and Liquid2. We're working at the frontier of autonomous systems, building agents that don't just chat, but run entire businesses. Our system identifies business opportunities through market signals, validates ideas with live ad tests, builds and launches software product",
    "cat": "tech",
    "source": "remoteok",
    "published": "2026-11-05T16:00:07+00:00",
-   "salary": "$ 60000 - 110000",
+   "salary": "$ 48000 - 88000",
    "remote": true,
    "web3": false
   },
@@ -4887,6 +5558,17 @@
    "web3": true
   },
   {
+   "id": "e19fc3fbad4e",
+   "title": "[Hiring] Ontario IT pros for on-demand side work, set your own rate",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-05T14:20:57+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "2c246bf4c2be",
    "title": "National Claims Assistance Inc: Customer Service Claims Representative",
    "desc": "Headquarters: United States\n\n Employment Type \n1099 Independent Contractor\nFlexible hours Full-Time/Part-Time\n\n Why Work Here? \nPositive impact fighting for fair treatment of others; unlimited income potential; excellent training environment; flexible schedule\n\n WORK FROM HOME - VIRTUALLY HELP CLIENTS ALL OVER THE COUNTRY OR IN YOUR HOME STATE \nPlease apply if you live in the following states: AZ,CA,CO,GA,HI,IN,MD,MN,MT,NV,NJ,NM,NC,OH,OK,PA,RI,UT,VA,WV,WI\n\nWe’re looking for independent, am",
@@ -4915,7 +5597,7 @@
    "cat": "tech",
    "source": "remoteok",
    "published": "2026-11-05T12:45:45+00:00",
-   "salary": "$ 50000 - 180000",
+   "salary": "$ 40000 - 144000",
    "remote": true,
    "web3": false
   },
@@ -4977,22 +5659,22 @@
   {
    "id": "1b45a3c8947a",
    "title": "HighLevel: Software Development Engineer III (Fullstack ) - Workflows",
-   "desc": "Headquarters: India\n \n URL: \n\n About HighLevel:\n HighLevel is an AI-powered business operating system that gives agencies, entrepreneurs and SMBs the infrastructure to build, automate and scale. Today, HighLevel supports SMBs across 150+ countries, fueling community-driven growth rooted in real customer outcomes.\nTo date, businesses operating on HighLevel have generated over $7 billion in ecosystem value, demonstrating the impact of shared infrastructure at scale. By cen",
+   "desc": "Headquarters: India\n \n URL: \n\n About HighLevel:\n HighLevel is an AI-powered business operating system that gives agencies, entrepreneurs and SMBs the infrastructure to build, automate and scale. Today, HighLevel supports SMBs across 150+ countries, fueling community-driven growth rooted in real customer outcomes.\nTo date, businesses operating on HighLevel have generated over $6 billion in ecosystem value, demonstrating the impact of shared infrastructure at scale. By cen",
    "cat": "tech",
    "source": "Job Board",
    "published": "2026-11-05T06:51:29+00:00",
-   "salary": "$7",
+   "salary": "$6",
    "remote": true,
    "web3": false
   },
   {
    "id": "9d6a5c6d1fa6",
    "title": "HighLevel: Software Development Engineer II - CRM",
-   "desc": "Headquarters: India\n \n URL: \n\n About HighLevel:\n HighLevel is an AI-powered business operating system that gives agencies, entrepreneurs and SMBs the infrastructure to build, automate and scale. Today, HighLevel supports SMBs across 150+ countries, fueling community-driven growth rooted in real customer outcomes.\nTo date, businesses operating on HighLevel have generated over $7 billion in ecosystem value, demonstrating the impact of shared infrastructure at scale. By c",
+   "desc": "Headquarters: India\n \n URL: \n\n About HighLevel:\n HighLevel is an AI-powered business operating system that gives agencies, entrepreneurs and SMBs the infrastructure to build, automate and scale. Today, HighLevel supports SMBs across 150+ countries, fueling community-driven growth rooted in real customer outcomes.\nTo date, businesses operating on HighLevel have generated over $6 billion in ecosystem value, demonstrating the impact of shared infrastructure at scale. By c",
    "cat": "tech",
    "source": "Job Board",
    "published": "2026-11-05T06:51:29+00:00",
-   "salary": "$7",
+   "salary": "$6",
    "remote": true,
    "web3": false
   },
@@ -5075,12 +5757,12 @@
   },
   {
    "id": "072e88ce2083",
-   "title": "Furtim Modus | Hiring Java Developer (Full-Time) | NYC (HYBRID) | $150K-$300K + equity | We ar",
+   "title": "Furtim Modus | Hiring Java Developer (Full-Time) | NYC (HYBRID) | $120K-$240K + equity | We ar",
    "desc": "",
    "cat": "tech",
    "source": "Hacker News",
    "published": "2026-11-04T23:38:59+00:00",
-   "salary": "$150K",
+   "salary": "$120K",
    "remote": true,
    "web3": false
   },
@@ -5091,19 +5773,30 @@
    "cat": "writing",
    "source": "Reddit",
    "published": "2026-11-04T23:14:35+00:00",
-   "salary": "$30/hr",
+   "salary": "$24/hr",
    "remote": false,
    "web3": false
   },
   {
    "id": "1d0b5cf04667",
    "title": "AI Content Reviewer Video Annotation — iMerit",
-   "desc": "100% Remote | Independent Contractor | 35 - 40 USD/hour Help shape the future of AI. Artificial Intelligence is evolving rapidly, and high-quality data plays a key role in making it smarter. We're looking for detail-oriented individuals to contribute to exciting AI projects by reviewing and annotating video content. This is your opportunity to get involved in the world of AI, gain hands-on experience, and contribute to technologies shaping the future. No previous AI or robotics experience requir",
+   "desc": "100% Remote | Independent Contractor | 28 - 32 USD/hour Help shape the future of AI. Artificial Intelligence is evolving rapidly, and high-quality data plays a key role in making it smarter. We're looking for detail-oriented individuals to contribute to exciting AI projects by reviewing and annotating video content. This is your opportunity to get involved in the world of AI, gain hands-on experience, and contribute to technologies shaping the future. No previous AI or robotics experience requir",
    "cat": "data",
    "source": "remoteok",
    "published": "2026-11-04T22:25:19+00:00",
-   "salary": "$ 80000 - 90000",
+   "salary": "$ 64000 - 72000",
    "remote": true,
+   "web3": false
+  },
+  {
+   "id": "e82c994c5208",
+   "title": "1099 Position in Financial Services in the Cincinnati Area",
+   "desc": "[removed]",
+   "cat": "misc",
+   "source": "Reddit",
+   "published": "2026-11-04T21:54:47+00:00",
+   "salary": "",
+   "remote": false,
    "web3": false
   },
   {
@@ -5147,6 +5840,17 @@
    "source": "Hacker News",
    "published": "2026-11-04T19:59:26+00:00",
    "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "d38d8527a791",
+   "title": "[HIRING] Systems Analyst - Beeline 💰 90, ,000 / year",
+   "desc": "\\[HIRING\\]\\[Portland, Oregon, USA, Business, Onsite / Remote\\]\n\n🏢 Motus Recruiting & Staffing, based in Portland, Oregon 🇺🇸 is looking for a \n\n⚙️ Tech used: Business, Support, SQL\n\n💰 $72, ,000 / year\n\n📝 More details and option to apply: [",
+   "cat": "tech",
+   "source": "Reddit",
+   "published": "2026-11-04T19:14:06+00:00",
+   "salary": "$72,000",
    "remote": true,
    "web3": false
   },
@@ -5213,17 +5917,6 @@
    "source": "Hacker News",
    "published": "2026-11-04T18:08:02+00:00",
    "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "8743d3a2db69",
-   "title": "Freelance Writer",
-   "desc": "Our organization is seeking content writers to create articles and blog posts on a variety of topics. \n   \n The rate of pay is $20 per 100 words (this comes out to approximately $100 per article or $50 per hour). \n   \n Some topics you may be asked to write about include the following (you can always turn down a topic if you do not feel comfortable writing about it, however if you have experience or expertise in a specific area, please let us know): \n\n Health & beauty \n Fitness \n Home Decor",
-   "cat": "writing",
-   "source": "remotive",
-   "published": "2026-11-04T16:53:35+00:00",
-   "salary": "$50-$75 /hour",
    "remote": true,
    "web3": false
   }

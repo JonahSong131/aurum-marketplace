@@ -99,6 +99,32 @@ export default function HomePage() {
             </div>
           </div>
 
+          {/* 大搜索框：进来就能搜 */}
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              document.getElementById("jobs")?.scrollIntoView({ behavior: "smooth" });
+            }}
+            className="relative mt-8 max-w-xl"
+          >
+            <Search size={18} className="absolute left-4 top-1/2 -translate-y-1/2 text-gold-300/70" />
+            <input
+              value={q}
+              onChange={(e) => { setQ(e.target.value); setLimit(PAGE_SIZE); }}
+              placeholder="搜你想要的岗位：翻译 / 客服 / 设计 / python / web3 …"
+              className="w-full rounded-full border border-gold-200/25 bg-white/5 py-4 pl-12 pr-32 text-sm text-ink-10 placeholder:text-ink-50/40 focus:border-gold-200/60 focus:bg-white/10 focus:outline-none"
+            />
+            <button
+              type="submit"
+              className="btn-gold absolute right-1.5 top-1/2 -translate-y-1/2 px-5 py-2.5 text-xs"
+            >
+              搜索岗位
+            </button>
+          </form>
+          <p className="mt-3 text-xs leading-5 text-ink-50/45">
+            {filtered.length} 个岗位可搜 · 覆盖开发 / 设计 / 客服 / 运营 / 币圈 / 写作翻译 · 每 3 小时自动上新
+          </p>
+
           {/* 数据条 */}
           <div className="mt-12 grid grid-cols-2 gap-3 sm:grid-cols-4">
             {[
@@ -161,7 +187,7 @@ export default function HomePage() {
       </section>
 
       {/* ================= 岗位列表 ================= */}
-      <section className="mx-auto max-w-7xl px-5 py-10">
+      <section id="jobs" className="mx-auto scroll-mt-32 max-w-7xl px-5 py-10 md:scroll-mt-28">
         <div className="mb-5 flex items-center justify-between text-xs text-ink-50/45">
           <span>
             {filtered.length} 个岗位

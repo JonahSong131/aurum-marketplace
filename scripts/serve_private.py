@@ -34,7 +34,7 @@ HTML = """<!DOCTYPE html>
  .count{font-size:12px;color:#777;margin:12px 0}
 </style></head><body>
 <h1>私人查档台（仅本机可见）</h1>
-<div class="sub">客户报岗位编号或标题关键词 → 这里查出联系方式和原帖。数据不含在公开网站上。</div>
+<div class="sub">客户报岗位编号或标题关键词 → 这里查出联系方式和原帖。<span class="hit">报价 = 真实价 ×0.8，差价 20% 是你的利润</span>。数据不在公开网站上。</div>
 <input id="q" placeholder="输入岗位编号（如 3f8a2c1b9d04）或标题关键词 / 分类 / Telegram …" autofocus>
 <div class="count" id="cnt"></div><div id="list"></div>
 <script>
@@ -50,7 +50,10 @@ function render(kw){
  const hits=ALL.filter(j=>(j.id+' '+j.title+' '+j.desc+' '+j.source+' '+j.cat).toLowerCase().includes(k)).slice(0,40);
  list.innerHTML=hits.map(j=>'<div class="card"><div class="t">'+esc(j.title)+
   ' <span class="hit">#'+j.id+'</span></div><div class="m">'+esc(j.source)+' · '+
-  new Date(j.published).toLocaleString()+(j.salary?' · '+esc(j.salary):'')+' · '+esc(j.cat)+'</div>'+
+  new Date(j.published).toLocaleString()+
+  (j.salary?' · 真实价 '+esc(j.salary):'')+
+  (j.quote?' · <span class="hit">对外报价 '+esc(j.quote)+'</span>':'')+
+  ' · '+esc(j.cat)+'</div>'+
   (j.url?'<div class="url">原帖：<a href="'+esc(j.url)+'" target="_blank">'+esc(j.url)+'</a></div>':'')+
   '<div class="desc">'+esc(j.desc)+'</div></div>').join('')||'<div class="m">没查到。先双击「更新岗位数据.bat」刷新，或让客户发完整标题。</div>';
 }
