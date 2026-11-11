@@ -132,11 +132,11 @@ SCRUB_PATTERNS = [
     # 4) 电话号（7 位以上、允许空格横杠括号；$ 开头的工资数字不受影响）
     (re.compile(r"(?<![\d$.])\+?\d[\d\s\-().]{6,16}\d(?![\d%])"), " "),
 ]
-# 5) 明示联系句式：「WhatsApp: xxx」「微信 xxx」「dm me」——替换成提示语
+# 5) 明示联系句式：「WhatsApp: xxx」「微信 xxx」「dm me」——直接删除，不留任何痕迹
 SCRUB_PHRASE = re.compile(
     r"((?:whatsapp|telegram|tg|wechat|weixin|vx|微信)\s*(?:号|id|username)?\s*[:：=]\s*[^\n，。,]{2,30}"
     r"|dm\s+me|pm\s+me|message\s+me|add\s+me|加我\w{0,4}|私信\w{0,2}|联系我|联系\s*方式)", re.I)
-SCRUB_FILLER = "[联系方式已隐藏 · 咨询请加微信]"
+SCRUB_FILLER = ""
 
 
 def scrub(text):
@@ -145,8 +145,9 @@ def scrub(text):
     for pat, rep in SCRUB_PATTERNS:
         t = pat.sub(rep, t)
     t = SCRUB_PHRASE.sub(SCRUB_FILLER, t)
-    # 占位符出现多次只留一个，别刷屏
-    t = re.sub(re.escape(SCRUB_FILLER) + r"(?:\s*" + re.escape(SCRUB_FILLER) + r")+", SCRUB_FILLER, t)
+    if SCRUB_FILLER:
+        # 占位符出现多次只留一个，别刷屏
+        t = re.sub(re.escape(SCRUB_FILLER) + r"(?:\s*" + re.escape(SCRUB_FILLER) + r")+", SCRUB_FILLER, t)
     t = re.sub(r"[ \t]{2,}", " ", t)
     t = re.sub(r"\n\s*\n\s*\n+", "\n\n", t)
     return t.strip()
@@ -257,17 +258,14 @@ def make_job(title, desc, source, source_name, published_dt, url,
         "salary": salary,
         "quote": discount_salary(salary),
     }
-    # 公开版：联系方式全部抹掉，来源只写大类（不写具体版块，免得被人顺藤摸瓜）
-    # 价格统一 ×0.8（站主利润），标题和描述里的价格也一起打折
-    generic = {"reddit": "Reddit", "telegram": "Telegram", "freelancer": "Freelancer",
-               "hn": "Hacker News", "v2ex": "V2EX", "rss": "Job Board"}.get(source, source)
+    # 公开版：联系方式全部抹掉；来源不写平台名（写了等于告诉求职者去哪找原帖）
     pub_dt = published_dt.astimezone(timezone.utc).isoformat(timespec="seconds")
     return {
         "id": jid,
         "title": discount_money_text(scrub(title))[:140],
         "desc": discount_money_text(scrub(clean_text(desc, 500))),
         "cat": cat,
-        "source": generic,
+        "source": "海外在招",
         "published": pub_dt,
         "salary": discount_salary(salary),
         "remote": remote,

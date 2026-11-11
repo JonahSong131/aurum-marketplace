@@ -24,7 +24,7 @@ export default function WeChatCTA() {
   return (
     <button onClick={copy} className="btn-gold shrink-0 px-6 py-3 text-sm">
       {copied ? <Check size={16} /> : <Copy size={16} />}
-      {copied ? "已复制，去微信添加" : `加微信 ${WECHAT_ID}`}
+      {copied ? "微信号已复制，去微信添加" : "提交岗位申请"}
     </button>
   );
 }

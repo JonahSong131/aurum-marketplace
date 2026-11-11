@@ -5,9 +5,9 @@ import Footer from "@/components/Footer";
 import { LanguageProvider } from "@/components/LanguageProvider";
 
 export const metadata: Metadata = {
-  title: "锦市 Jobs · 全球线上工作，每天自动上新",
+  title: "锦市 Jobs · 全球线上工作，每天上新",
   description:
-    "从 Reddit、Telegram、Freelancer 等海外平台自动抓取的真实远程岗位：开发、设计、客服、运营、币圈、写作翻译、数据录入。看中岗位加微信即可对接，不用投简历。每 3 小时自动更新。",
+    "全球线上工作岗位，每天上新：开发、设计、客服、运营、币圈、写作翻译、数据录入。提交申请后由顾问一对一对接，全程不向求职者收费。",
   keywords: [
     "远程工作",
     "线上工作",

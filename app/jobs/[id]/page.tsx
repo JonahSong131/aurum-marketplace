@@ -2,7 +2,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ArrowLeft, Home as HomeIcon, Coins, Wallet, Globe2 } from "lucide-react";
+import { ArrowLeft, Home as HomeIcon, Coins, Wallet, Globe2, ShieldCheck } from "lucide-react";
 import { JOBS, catLabel, timeAgo, WECHAT_ID } from "@/lib/jobs";
 import WeChatCTA from "@/components/WeChatCTA";
 
@@ -15,8 +15,8 @@ export function generateMetadata({ params }: { params: { id: string } }): Metada
   if (!job) return { title: "岗位不存在 · 锦市 Jobs" };
   return {
     title: `${job.title} · 远程线上工作 · 锦市 Jobs`,
-    description: `${job.desc.slice(0, 150) || job.title} —— ${catLabel(job.cat)}远程岗位，加微信 ${WECHAT_ID} 直接对接，无需投简历。`,
-    keywords: [job.title, catLabel(job.cat), "远程工作", "线上工作", job.source],
+    description: `${job.desc.slice(0, 150) || job.title} —— ${catLabel(job.cat)}远程岗位，提交申请后由顾问一对一对接，全程不向求职者收费。`,
+    keywords: [job.title, catLabel(job.cat), "远程工作", "线上工作"],
   };
 }
 
@@ -33,7 +33,9 @@ export default function JobPage({ params }: { params: { id: string } }) {
       </Link>
 
       <div className="mb-3 flex flex-wrap items-center gap-2 text-[11px]">
-        <span className="rounded-full bg-white/5 px-2.5 py-0.5 text-ink-50/60">{job.source}</span>
+        <span className="flex items-center gap-1 rounded-full bg-white/5 px-2.5 py-0.5 text-ink-50/60">
+          <ShieldCheck size={10} className="text-gold-300" /> 已核验
+        </span>
         <span className="text-ink-50/40">{timeAgo(job.published)}</span>
         <span className="rounded-full border border-gold-200/20 bg-gold-100/8 px-2.5 py-0.5 text-gold-200/90">
           {catLabel(job.cat)}
@@ -68,17 +70,17 @@ export default function JobPage({ params }: { params: { id: string } }) {
       <div className="mt-8 rounded-2xl border border-gold-200/25 bg-gold-100/5 p-6">
         <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <div className="text-sm font-semibold text-gold-100">想申请这个岗位？</div>
+            <div className="text-sm font-semibold text-gold-100">申请这个岗位</div>
             <div className="mt-1 text-xs leading-5 text-ink-50/60">
-              加微信 <span className="font-mono text-gold-200">{WECHAT_ID}</span>，备注「岗位 {job.id}」，
-              我们核对在招状态后给你对接方式。
+              加顾问微信 <span className="font-mono text-gold-200">{WECHAT_ID}</span>，备注「岗位 {job.id}」，
+              顾问核对在招状态后为你安排与雇主方对接。
             </div>
           </div>
           <WeChatCTA />
         </div>
         <div className="mt-4 flex items-start gap-1.5 text-[11px] leading-4 text-ink-50/40">
           <Globe2 size={12} className="mt-0.5 shrink-0 text-gold-300" />
-          岗位信息来自海外公开平台，每 3 小时自动更新；本站不代收任何费用。
+          本机构为招聘服务方，全程不向求职者收取任何费用。
         </div>
       </div>
 

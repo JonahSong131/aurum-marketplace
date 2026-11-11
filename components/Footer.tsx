@@ -1,9 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { Mail, MessageSquare } from "lucide-react";
+import { MessageSquare } from "lucide-react";
 import { WECHAT_ID, CATEGORIES } from "@/lib/jobs";
-import { EMAIL } from "@/lib/contact";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -22,7 +21,7 @@ export default function Footer() {
               </span>
             </div>
             <p className="mt-3 max-w-xs text-sm leading-6 text-gold-100/50">
-              全球线上工作岗位，每 3 小时自动更新。看中岗位加微信对接，不用投简历。
+              全球线上工作岗位，每天上新。提交申请后由顾问一对一对接，全程不向求职者收取任何费用。
             </p>
           </div>
 
@@ -40,43 +39,36 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-gold-200">其他</h4>
+            <h4 className="text-sm font-semibold text-gold-200">快速入口</h4>
             <ul className="mt-3 space-y-2 text-sm text-gold-100/55">
               <li>
-                <Link href="/travel" className="hover:text-gold-100">
-                  私人定制游
+                <Link href="/#jobs" className="hover:text-gold-100">
+                  全部岗位
                 </Link>
               </li>
               <li>
-                <Link href="/companions" className="hover:text-gold-100">
-                  当地地陪
+                <Link href="/#how" className="hover:text-gold-100">
+                  申请流程
                 </Link>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold text-gold-200">联系</h4>
+            <h4 className="text-sm font-semibold text-gold-200">联系顾问</h4>
             <ul className="mt-3 space-y-2 text-sm text-gold-100/55">
               <li className="flex items-center gap-2">
                 <MessageSquare size={13} className="text-gold-300" />
                 微信：<span className="font-mono text-gold-200">{WECHAT_ID}</span>
               </li>
-              <li className="flex items-center gap-2">
-                <Mail size={13} className="text-gold-300" />
-                <a href={`mailto:${EMAIL}`} className="hover:text-gold-100">
-                  {EMAIL}
-                </a>
-              </li>
+              <li className="text-xs text-gold-100/40">工作日 9:00 - 22:00 在线</li>
             </ul>
           </div>
         </div>
 
         <div className="mt-10 flex flex-col gap-2 border-t border-white/5 pt-6 text-xs text-gold-100/35 sm:flex-row sm:items-center sm:justify-between">
-          <span>
-            © {year} 锦市 Jobs · 岗位信息来自公开平台，已过滤广告与不实信息。
-          </span>
-          <span>本站不代收任何费用，遇到收费请立即举报。</span>
+          <span>© {year} 锦市 Jobs · 全球远程招聘服务</span>
+          <span>全程不向求职者收费，遇到任何收费请立即举报。</span>
         </div>
       </div>
     </footer>

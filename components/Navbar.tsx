@@ -2,10 +2,9 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Mail, Copy, Check, Briefcase } from "lucide-react";
+import { Copy, Check, Briefcase } from "lucide-react";
 import { useState } from "react";
 import { WECHAT_ID } from "@/lib/jobs";
-import { EMAIL } from "@/lib/contact";
 
 function WeChatBadge() {
   const [copied, setCopied] = useState(false);
@@ -35,7 +34,7 @@ export default function Navbar() {
 
   const links = [
     { href: "/", label: "岗位大厅" },
-    { href: "/travel", label: "私人定制游" },
+    { href: "/#how", label: "申请流程" },
   ];
 
   return (
@@ -45,20 +44,14 @@ export default function Navbar() {
         <div className="mx-auto flex h-9 max-w-7xl items-center justify-between px-5 text-xs">
           <div className="hidden items-center gap-5 sm:flex">
             <WeChatBadge />
-            <a
-              href={`mailto:${EMAIL}`}
-              className="flex items-center gap-1.5 text-gold-100/55 transition hover:text-gold-200"
-            >
-              <Mail size={12} />
-              <span>{EMAIL}</span>
-            </a>
+            <span className="text-gold-100/35">工作日 9:00 - 22:00 在线</span>
           </div>
           {/* 移动端只显示微信 */}
           <div className="sm:hidden">
             <WeChatBadge />
           </div>
           <a
-            href="#jobs"
+            href="/#jobs"
             className="flex items-center gap-1.5 rounded-full bg-gold-grad px-3 py-1 text-[11px] font-semibold text-ink-900 shadow-glow transition hover:scale-105"
           >
             <Briefcase size={11} />
@@ -105,8 +98,8 @@ export default function Navbar() {
         </div>
       </nav>
 
-      {/* 移动端底部导航 */}
-      <nav className="flex items-center gap-1 overflow-x-auto px-5 pb-2 md:hidden bg-ink-900/70">
+      {/* 移动端第二行导航 */}
+      <nav className="flex items-center gap-1 overflow-x-auto bg-ink-900/70 px-5 pb-2 md:hidden">
         {links.map((l) => (
           <Link
             key={l.href}

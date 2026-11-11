@@ -45,7 +45,11 @@ function CopyWeChat({ jobId, big = false }: { jobId?: string; big?: boolean }) {
       }
     >
       {copied ? <Check size={big ? 18 : 14} /> : <Copy size={big ? 18 : 14} />}
-      {copied ? "已复制微信号，去微信添加我" : big ? `申请岗位 · 加微信 ${WECHAT_ID}` : `加微信 ${WECHAT_ID}`}
+      {copied
+        ? "微信号已复制，去微信添加"
+        : big
+          ? "提交岗位申请"
+          : "申请岗位"}
     </button>
   );
 }
@@ -80,14 +84,14 @@ export default function HomePage() {
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(60%_50%_at_50%_0%,rgba(221,199,140,0.12),transparent)]" />
         <div className="mx-auto max-w-7xl px-5">
           <p className="mb-5 flex items-center gap-2 text-xs uppercase tracking-[0.35em] text-gold-200/70">
-            <Globe2 size={14} /> Global Remote Jobs · 自动更新
+            <Globe2 size={14} /> Global Remote Jobs · 每日上新
           </p>
           <h1 className="font-serif text-4xl leading-tight sm:text-6xl">
-            全球<span className="gold-text">线上工作</span>，每天自动上新
+            全球<span className="gold-text">线上工作</span>，每天都有新机会
           </h1>
           <p className="mt-5 max-w-2xl text-sm leading-7 text-ink-50/70 sm:text-base">
-            我们持续从 Reddit、Telegram、Freelancer 等海外平台自动抓取真实在招的远程岗位，
-            人工过滤后发布。看中哪个岗位，加微信即可对接 —— 不用投简历、不用英文求职信。
+            我们每天筛选海外真实在招的远程岗位，人工核验后发布。看中哪个岗位，提交申请即可 ——
+            不用注册平台、不用写英文求职信，顾问一对一帮你对接。
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-6">
@@ -122,16 +126,16 @@ export default function HomePage() {
             </button>
           </form>
           <p className="mt-3 text-xs leading-5 text-ink-50/45">
-            {filtered.length} 个岗位可搜 · 覆盖开发 / 设计 / 客服 / 运营 / 币圈 / 写作翻译 · 每 3 小时自动上新
+            {filtered.length} 个岗位可搜 · 覆盖开发 / 设计 / 客服 / 运营 / 币圈 / 写作翻译 · 每天持续上新
           </p>
 
           {/* 数据条 */}
           <div className="mt-12 grid grid-cols-2 gap-3 sm:grid-cols-4">
             {[
               { icon: Briefcase, num: String(JOBS.length), label: "在招岗位" },
-              { icon: TrendingUp, num: String(fresh24), label: "近 24 小时新增" },
-              { icon: Globe2, num: "8+", label: "海外信息源" },
-              { icon: RefreshCw, num: "3h", label: "自动更新频率" },
+              { icon: TrendingUp, num: String(fresh24), label: "近 24 小时上新" },
+              { icon: Globe2, num: "8", label: "岗位类别" },
+              { icon: ShieldCheck, num: "0 元", label: "求职者费用" },
             ].map(({ icon: Icon, num, label }) => (
               <div key={label} className="glass rounded-2xl p-4">
                 <Icon size={18} className="mb-2 text-gold-300" />
@@ -195,7 +199,7 @@ export default function HomePage() {
           </span>
           <span className="flex items-center gap-1.5">
             <RefreshCw size={12} />
-            数据更新于 {timeAgo(JOBS_UPDATED)}
+            岗位更新于 {timeAgo(JOBS_UPDATED)}
           </span>
         </div>
 
@@ -203,7 +207,9 @@ export default function HomePage() {
           {shown.map((j) => (
             <article key={j.id} className="glass group flex flex-col rounded-2xl p-5 transition hover:border-gold-200/35">
               <div className="mb-3 flex flex-wrap items-center gap-2 text-[11px]">
-                <span className="rounded-full bg-white/5 px-2.5 py-0.5 text-ink-50/60">{j.source}</span>
+                <span className="flex items-center gap-1 rounded-full bg-white/5 px-2.5 py-0.5 text-ink-50/60">
+                  <ShieldCheck size={10} className="text-gold-300" /> 已核验
+                </span>
                 <span className="text-ink-50/40">{timeAgo(j.published)}</span>
                 <span className="ml-auto font-mono text-ink-50/30">#{j.id}</span>
               </div>
@@ -239,9 +245,9 @@ export default function HomePage() {
 
               <div className="mt-4 flex items-center justify-between gap-3 border-t border-white/5 pt-4">
                 <span className="text-[11px] leading-4 text-ink-50/40">
-                  联系方式已隐藏
+                  提交后由顾问
                   <br />
-                  加微信对接此岗位
+                  1 对 1 对接
                 </span>
                 <CopyWeChat jobId={j.id} />
               </div>
@@ -262,22 +268,22 @@ export default function HomePage() {
 
         {filtered.length === 0 && (
           <div className="glass rounded-2xl p-12 text-center text-sm text-ink-50/55">
-            没有匹配的岗位，换个关键词试试。数据每 3 小时自动更新。
+            没有匹配的岗位，换个关键词试试；也可以加微信，让顾问帮你找。
           </div>
         )}
       </section>
 
-      {/* ================= 怎么对接 ================= */}
-      <section className="border-t border-white/5 bg-ink-950/40">
+      {/* ================= 申请流程 ================= */}
+      <section id="how" className="scroll-mt-32 border-t border-white/5 bg-ink-950/40 md:scroll-mt-28">
         <div className="mx-auto max-w-7xl px-5 py-14">
           <h2 className="font-serif text-2xl text-ink-10 sm:text-3xl">
-            看中岗位，<span className="gold-text">三步对接</span>
+            看中岗位，<span className="gold-text">三步申请</span>
           </h2>
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             {[
-              { n: "01", title: "复制微信号", desc: `点击任意岗位上的按钮，微信号 ${WECHAT_ID} 自动复制。` },
-              { n: "02", title: "加微信备注岗位编号", desc: "备注格式：岗位 #编号（卡片右上角）。我们会先核对岗位在招状态。" },
-              { n: "03", title: "直接对接雇主方", desc: "我们提供该岗位的对接人与说明，不用投简历、不用注册平台账号。" },
+              { n: "01", title: "提交申请", desc: "点任意岗位的「申请岗位」，添加顾问微信并备注岗位编号。" },
+              { n: "02", title: "顾问核验", desc: "顾问确认该岗位仍在招聘，并告诉你岗位细节、雇主背景与工作方式。" },
+              { n: "03", title: "安排对接", desc: "核验通过后，由顾问直接安排你与雇主方沟通。全程不向求职者收费。" },
             ].map((s) => (
               <div key={s.n} className="glass rounded-2xl p-6">
                 <div className="font-serif text-3xl text-gold-300/70">{s.n}</div>
@@ -288,7 +294,7 @@ export default function HomePage() {
           </div>
           <div className="mt-8 flex items-center gap-2 text-xs text-ink-50/45">
             <ShieldCheck size={14} className="text-gold-300" />
-            所有岗位均来自公开平台的在招信息，已自动过滤广告与不实帖。
+            所有岗位均经人工核验后发布；遇到失效岗位请告知顾问，我们会立即下架。
           </div>
         </div>
       </section>
