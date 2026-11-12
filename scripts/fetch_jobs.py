@@ -221,6 +221,119 @@ def discount_money_text(t):
     return RE_MONEY_EXPR.sub(lambda m: _scale_nums(m.group(0)), t)
 
 
+# ---------------------------------------------------------------- 中文翻译
+# 面向中国求职者：标题和描述全部翻成中文。
+# 用免费无密钥的 Google 翻译端点（client=gtx），按文本哈希缓存，
+# 中文内容自动跳过，翻译失败保留原文（下轮重试）。
+T_SEP = "@@@"
+T_CACHE_PATH = os.path.join(os.path.dirname(OUT), "translate-cache.json")
+_T_CACHE = None
+
+
+def _tcache():
+    global _T_CACHE
+    if _T_CACHE is None:
+        try:
+            _T_CACHE = json.load(open(T_CACHE_PATH, encoding="utf-8"))
+        except Exception:
+            _T_CACHE = {}
+    return _T_CACHE
+
+
+def _tcache_save():
+    os.makedirs(os.path.dirname(T_CACHE_PATH), exist_ok=True)
+    tmp = T_CACHE_PATH + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(_T_CACHE, f, ensure_ascii=False)
+    os.replace(tmp, T_CACHE_PATH)
+
+
+def _is_zh(s):
+    """CJK 字符占比高的就算已是中文，不用翻"""
+    if not s:
+        return True
+    letters = sum(1 for ch in s if ch.isalpha())
+    cjk = sum(1 for ch in s if "\u4e00" <= ch <= "\u9fff")
+    if letters == 0:
+        return cjk > 0
+    return cjk / letters > 0.4
+
+
+def _gtx_request(q):
+    data = urllib.parse.urlencode({"q": q, "client": "gtx", "sl": "auto", "tl": "zh-CN", "dt": "t"})
+    req = urllib.request.Request(
+        "https://translate.googleapis.com/translate_a/single",
+        data=data.encode("utf-8"),
+        headers={"User-Agent": UA, "Content-Type": "application/x-www-form-urlencoded"})
+    last = None
+    for proxy, opener in get_openers():
+        try:
+            with opener.open(req, timeout=25) as r:
+                d = json.loads(r.read().decode("utf-8", errors="replace"))
+            return "".join(seg[0] for seg in d[0] if seg and seg[0])
+        except Exception as e:
+            last = e
+            time.sleep(0.8)
+    raise last or RuntimeError("translate failed")
+
+
+def translate_texts(texts, label=""):
+    """批量中文化。返回与 texts 等长的新列表；已是中文/缓存命中的不请求。"""
+    cache = _tcache()
+    out = list(texts)
+    todo = []  # (index, text)
+    for i, t in enumerate(texts):
+        if not t or _is_zh(t):
+            continue
+        k = hashlib.sha1(t.encode("utf-8")).hexdigest()[:16]
+        if k in cache:
+            out[i] = cache[k]
+        else:
+            todo.append((i, t))
+    if not todo:
+        return out
+
+    # 按字符量分批（每批不超过 ~2200 字符，避免请求过长）
+    batches, cur, cur_len = [], [], 0
+    for i, t in todo:
+        if cur and cur_len + len(t) > 2200:
+            batches.append(cur)
+            cur, cur_len = [], 0
+        cur.append((i, t))
+        cur_len += len(t)
+    if cur:
+        batches.append(cur)
+
+    print("翻译 %d 段（%d 批）%s …" % (len(todo), len(batches), label))
+    for bi, batch in enumerate(batches):
+        try:
+            joined = T_SEP.join(t for _, t in batch)
+            res = _gtx_request(joined)
+            parts = res.split(T_SEP)
+            if len(parts) != len(batch):
+                # 分隔符被改动：逐条降级
+                parts = None
+                for i, t in batch:
+                    try:
+                        one = _gtx_request(t)
+                        k = hashlib.sha1(t.encode("utf-8")).hexdigest()[:16]
+                        cache[k] = one
+                        out[i] = one
+                    except Exception:
+                        pass  # 保留原文，下轮再试
+                    time.sleep(0.25)
+            else:
+                for (i, t), tr in zip(batch, parts):
+                    k = hashlib.sha1(t.encode("utf-8")).hexdigest()[:16]
+                    cache[k] = tr
+                    out[i] = tr
+        except Exception as e:
+            print("[翻译] 第 %d 批失败（保留原文）: %s" % (bi + 1, str(e)[:60]), file=sys.stderr)
+        time.sleep(0.4)
+    _tcache_save()
+    return out
+
+
 def classify(text):
     if RE_WEB3.search(text):
         return "web3"
@@ -635,6 +748,16 @@ def main():
 
     public = [p for p, _ in pairs]
     private = [v for _, v in pairs]
+
+    # 全站中文化：标题 + 描述翻译成中文（已是中文的自动跳过，翻译结果按哈希缓存）
+    titles = translate_texts([p["title"] for p in public], "（标题）")
+    descs = translate_texts([p["desc"] for p in public], "（描述）")
+    for p, t, d in zip(public, titles, descs):
+        p["title"] = t
+        p["desc"] = d
+    # 私人版附中文标题（原帖原文保留，方便对照）
+    for v, t in zip(private, titles):
+        v["title_zh"] = t
 
     data = {"updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "count": len(public), "jobs": public}
