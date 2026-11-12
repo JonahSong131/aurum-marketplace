@@ -50,11 +50,9 @@ export default function JobPage({ params }: { params: { id: string } }) {
             <Coins size={10} /> Web3
           </span>
         )}
-        {job.salary && (
-          <span className="flex items-center gap-1 rounded-full border border-white/10 px-2.5 py-0.5 text-ink-50/60">
-            <Wallet size={10} /> {job.salary.slice(0, 30)}
-          </span>
-        )}
+        <span className="flex items-center gap-1 rounded-full border border-white/10 px-2.5 py-0.5 text-ink-50/60">
+          <Wallet size={10} /> {job.salary ? job.salary.slice(0, 30) : "薪资面议"}
+        </span>
         <span className="ml-auto font-mono text-ink-50/30">#{job.id}</span>
       </div>
 

@@ -236,11 +236,9 @@ export default function HomePage() {
                     <Coins size={10} /> Web3
                   </span>
                 )}
-                {j.salary && (
-                  <span className="flex items-center gap-1 rounded-full border border-white/10 px-2.5 py-0.5 text-ink-50/60">
-                    <Wallet size={10} /> {j.salary.slice(0, 26)}
-                  </span>
-                )}
+                <span className="flex items-center gap-1 rounded-full border border-white/10 px-2.5 py-0.5 text-ink-50/60">
+                  <Wallet size={10} /> {j.salary ? j.salary.slice(0, 26) : "薪资面议"}
+                </span>
               </div>
 
               <div className="mt-4 flex items-center justify-between gap-3 border-t border-white/5 pt-4">

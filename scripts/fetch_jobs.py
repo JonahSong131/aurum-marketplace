@@ -114,8 +114,18 @@ CAT_RULES = [
     ("data", re.compile(r"(data\s*entry|scraping|web\s*scrap|excel|spreadsheet|research|lead\s*generation|transcri|typing|录入|数据|爬虫|采集|调研)", re.I)),
 ]
 
+# 薪资提取：符号前缀 / 货币词前缀 / 中文 / 货币词后缀 / 带单位 / 区间
+_MONEY_UNIT = r"(?:\s?(?:k\b|/hr|/hour|per\s*hour|/mo|/month|per\s*month|/day|per\s*day|/task|per\s*task))?"
 RE_MONEY = re.compile(
-    r"(\$|USD\s?|€|£|₱|₽|RM|佣金|月薪|时薪)\s?\d[\d,.]*\s?(k\b|/hr|/hour|per\s*hour|/mo|/month|per\s*month|/day|per\s*day|/task|per\s*task|–\s?\d[\d,.]*)?", re.I)
+    r"[$€£₱₽]\s?\d[\d,.]*(?:\s?[-–~]\s?[$€£₱₽]?\s?\d[\d,.]*)?" + _MONEY_UNIT
+    + r"|(?<![A-Za-z])(?:USD|EUR|GBP|PHP|RM)\s?\d[\d,.]*(?:\s?[-–~]\s?(?:(?<![A-Za-z])(?:USD|EUR|GBP|PHP|RM)\s?)?\d[\d,.]*)?" + _MONEY_UNIT
+    + r"|(?:佣金|月薪|时薪|日薪|周薪)\s?\d[\d,.]*(?:\s?[-–~]\s?\d[\d,.]*)?" + _MONEY_UNIT
+    + r"|\d[\d,.]*\s?(?:USD|usd|PHP|php|EUR|eur)\b"
+    + r"|\d[\d,.]*\s?[-–~]\s?\d[\d,.]*\s?(?:USD|usd|PHP|php|EUR|eur)\b",
+    re.I)
+
+# 没写具体数、但明说"面议"的
+RE_NEGOT = re.compile(r"薪资[:：\s]*(?:面议|negotiable)|salary[^.\n]{0,20}negotiable", re.I)
 
 RE_REMOTE = re.compile(r"(remote|work\s*from\s*home|anywhere|wfh|远程|在家办公|線上|线上)", re.I)
 # ============================================================
@@ -237,7 +247,14 @@ def make_job(title, desc, source, source_name, published_dt, url,
     if jobish and not RE_JOBISH.search(text):
         return None
     m = RE_MONEY.search(text)
-    salary = salary_hint or ((m.group(0) or "").strip() if m else "")
+    if salary_hint:
+        salary = salary_hint
+    elif m:
+        salary = (m.group(0) or "").strip()
+    elif RE_NEGOT.search(text):
+        salary = "面议"
+    else:
+        salary = ""
     remote = remote_hint or bool(RE_REMOTE.search(text))
     cat = classify(text)
     title = clean_text(title, 140)
