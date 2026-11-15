@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+<meta name="referrer" content="no-referrer">
+<title>资料库</title>
+<style>
+  :root{--bg:#0c0d10;--panel:#14161d;--line:#2a2c36;--gold:#ddc78c;--txt:#ece6d8;--dim:#9a958a}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--txt);font:14px/1.6 system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:var(--gold)}
+  .wrap{max-width:920px;margin:0 auto;padding:24px 16px 80px}
+  /* 解锁 */
+  #gate{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
+  .gate-card{width:100%;max-width:380px;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:30px 26px}
+  .gate-card h1{margin:0 0 6px;font-size:19px;font-weight:600;letter-spacing:.04em;color:var(--gold)}
+  .gate-card p{margin:0 0 22px;color:var(--dim);font-size:12px}
+  input[type=password],input[type=text]{width:100%;padding:12px 14px;font-size:15px;border-radius:10px;border:1px solid var(--line);background:#0f1116;color:var(--txt);outline:none}
+  input[type=password]:focus,input[type=text]:focus{border-color:var(--gold)}
+  button{font:inherit;cursor:pointer;border:none;border-radius:10px}
+  .btn-main{width:100%;margin-top:14px;padding:12px;background:var(--gold);color:#17140d;font-weight:600;font-size:15px}
+  .btn-main:disabled{opacity:.55;cursor:wait}
+  .chk{display:flex;align-items:center;gap:8px;margin-top:14px;color:var(--dim);font-size:12px;cursor:pointer}
+  .chk input{accent-color:var(--gold);width:15px;height:15px}
+  .err{margin-top:12px;color:#e08a7a;font-size:12px;min-height:18px}
+  /* 主体 */
+  #app[hidden]{display:none}
+  .top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:16px}
+  .top h1{margin:0;font-size:19px;font-weight:600;color:var(--gold)}
+  .stat{color:var(--dim);font-size:12px;margin-top:4px}
+  .btn-ghost{background:transparent;border:1px solid var(--line);color:var(--dim);padding:7px 12px;font-size:12px}
+  .bar{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:12px}
+  .chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
+  .chip{background:#1b1e27;border:1px solid var(--line);color:var(--dim);padding:5px 11px;border-radius:999px;font-size:12px}
+  .chip.on{background:rgba(221,199,140,.14);border-color:var(--gold);color:var(--gold)}
+  .card{border:1px solid var(--line);background:var(--panel);border-radius:14px;padding:15px 16px;margin:10px 0}
+  .card .h{display:flex;gap:9px;align-items:baseline;flex-wrap:wrap}
+  .id{font:600 12px ui-monospace,Consolas,monospace;color:var(--gold);background:rgba(221,199,140,.1);padding:2px 7px;border-radius:6px}
+  .tt{font-size:15px;font-weight:600;color:#f5edd9}
+  .ot{font-size:12px;color:var(--dim);margin-top:3px;word-break:break-word}
+  .meta{font-size:12px;color:var(--dim);margin-top:8px;display:flex;flex-wrap:wrap;gap:4px 12px}
+  .money{margin-top:10px;display:flex;flex-wrap:wrap;gap:8px}
+  .pill{font-size:12px;padding:4px 10px;border-radius:8px;background:#1b1e27;border:1px solid var(--line);color:var(--dim)}
+  .pill.hot{background:rgba(221,199,140,.12);border-color:rgba(221,199,140,.4);color:var(--gold);font-weight:600}
+  .contact{margin-top:11px;padding:10px 12px;background:#101820;border-left:2px solid var(--gold);border-radius:0 8px 8px 0;font-size:13px;word-break:break-word}
+  .contact .lb,.desc .lb{display:block;font-size:11px;color:var(--dim);margin-bottom:4px;letter-spacing:.05em}
+  .url{margin-top:9px;font-size:12px;word-break:break-all}
+  .desc{margin-top:11px;white-space:pre-wrap;word-break:break-word;font-size:12.5px;color:#b8b2a5;max-height:190px;overflow:auto;padding-right:6px}
+  mark{background:rgba(221,199,140,.22);color:#ffe9b0;padding:1px 3px;border-radius:3px}
+  .row{display:flex;gap:8px;margin-top:11px;flex-wrap:wrap}
+  .btn-sm{background:#1b1e27;border:1px solid var(--line);color:var(--txt);padding:6px 11px;font-size:12px}
+  .empty{color:var(--dim);text-align:center;padding:40px 0;font-size:13px}
+  .cnt{color:var(--dim);font-size:12px;margin:14px 2px}
+  @media(max-width:520px){.wrap{padding:16px 12px 60px}.gate-card{padding:26px 20px}.card{padding:13px}}
+</style>
+</head>
+<body>
+
+<div id="gate">
+  <div class="gate-card">
+    <h1>资料库</h1>
+    <p>请输入访问密码。内容在本机解密，不上传、不留痕。</p>
+    <input id="pw" type="password" placeholder="访问密码" autocomplete="current-password" autofocus>
+    <label class="chk"><input id="remember" type="checkbox" checked> 在这台设备上记住</label>
+    <button class="btn-main" id="go">解锁</button>
+    <div class="err" id="err"></div>
+  </div>
+</div>
+
+<div id="app" hidden>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <h1>资料库</h1>
+        <div class="stat" id="stat">读取中…</div>
+      </div>
+      <button class="btn-ghost" id="lock">锁定 / 清除记住</button>
+    </div>
+
+    <div class="bar">
+      <input id="q" type="text" placeholder="输入岗位编号、标题、联系方式、来源…">
+      <div class="chips" id="chips"></div>
+    </div>
+
+    <div class="cnt" id="cnt"></div>
+    <div id="list"></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  const $ = s => document.querySelector(s);
+  const ITER = 310000;
+  const CATS = ["tech","web3","support","design","marketing","writing","data","misc"];
+  const CAT_ZH = {tech:"技术开发",web3:"币圈 / Web3",support:"客服 / 助理",design:"设计 / 影音",marketing:"运营 / 推广",writing:"写作 / 翻译",data:"数据 / 录入",misc:"其他"};
+  let ALL = [], CAT = "all", ONLY_CONTACT = false;
+
+  function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+  function b64(s){
+    const bin = atob(s), a = new Uint8Array(bin.length);
+    for(let i=0;i<bin.length;i++) a[i]=bin.charCodeAt(i);
+    return a;
+  }
+  // 把联系方式/链接/电话/@账号高亮出来（先算区间再去重，避免标签套标签）
+  function hl(text){
+    const s = String(text==null?"":text), ranges = [];
+    const pats = [
+      /https?:\/\/[^\s<>"']+/gi,
+      /(?:t|chat)\.me\/[^\s<>"']+/gi,
+      /wa\.me\/[^\s<>"']+/gi,
+      /[\w.+-]+@[\w-]+\.[\w.-]+\.[A-Za-z]{2,}/g,
+      /(?<![\w])@[A-Za-z0-9_]{3,31}\b/g,
+      /\+?\d[\d\s\-().]{6,16}\d/g
+    ];
+    for(const re of pats){ let m; while((m=re.exec(s))!==null){ ranges.push([m.index,m.index+m[0].length]); if(m[0].length===0) re.lastIndex++; } }
+    ranges.sort((a,b)=>a[0]-b[0]);
+    const merged=[];
+    for(const r of ranges){ const last=merged[merged.length-1]; if(last && r[0]<=last[1]) last[1]=Math.max(last[1],r[1]); else merged.push(r.slice()); }
+    let out="", pos=0;
+    for(const [a,b] of merged){ out += esc(s.slice(pos,a)) + "<mark>" + esc(s.slice(a,b)) + "</mark>"; pos=b; }
+    return out + esc(s.slice(pos));
+  }
+  function fmt(t){ try{ return new Date(t).toLocaleString("zh-CN",{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"}); }catch(e){ return String(t||""); } }
+
+  function pemToDer(pem){
+    return b64(pem.replace(/-----[^-]+-----/g,"").replace(/\s+/g,""));
+  }
+
+  // 密码 → 解开被锁住的私钥 → 解开本次数据的临时密钥 → 解开岗位数据
+  // 三步都在浏览器本地完成，密码和数据都不会发到任何服务器。
+  async function decrypt(pw){
+    const stamp = "?_=" + Date.now();
+    const [binRes, keyRes] = await Promise.all([
+      fetch("./vault.bin" + stamp, {cache:"no-store"}),
+      fetch("./vault.key" + stamp, {cache:"no-store"})
+    ]);
+    if(!binRes.ok || !keyRes.ok) throw new Error("数据文件读取失败，请稍后重试");
+    const parts = (await binRes.text()).trim().split(".");
+    const wk = (await keyRes.text()).trim().split(".");
+    if(parts.length!==4 || parts[0]!=="v2") throw new Error("数据格式不支持，请重新同步");
+    if(wk.length!==4 || wk[0]!=="v1") throw new Error("密钥文件不支持，请重新同步");
+
+    const salt = b64(wk[1]), wiv = b64(wk[2]), wpayload = b64(wk[3]);
+    const km = await crypto.subtle.importKey("raw", new TextEncoder().encode(pw), "PBKDF2", false, ["deriveKey"]);
+    const kek = await crypto.subtle.deriveKey(
+      {name:"PBKDF2", salt, iterations:ITER, hash:"SHA-256"},
+      km, {name:"AES-GCM", length:256}, false, ["decrypt"]
+    );
+    const privPem = new TextDecoder().decode(
+      await crypto.subtle.decrypt({name:"AES-GCM", iv:wiv}, kek, wpayload)
+    );
+    const privKey = await crypto.subtle.importKey(
+      "pkcs8", pemToDer(privPem), {name:"RSA-OAEP", hash:"SHA-256"}, false, ["decrypt"]
+    );
+    const dk = await crypto.subtle.decrypt({name:"RSA-OAEP"}, privKey, b64(parts[1]));
+    const aesKey = await crypto.subtle.importKey("raw", dk, "AES-GCM", false, ["decrypt"]);
+    const plain = await crypto.subtle.decrypt({name:"AES-GCM", iv:b64(parts[2])}, aesKey, b64(parts[3]));
+    return JSON.parse(new TextDecoder().decode(plain));
+  }
+
+  function open(d, pw){
+    ALL = d.jobs || [];
+    $("#gate").hidden = true; $("#app").hidden = false;
+    $("#stat").textContent = "共 " + ALL.length + " 条 · 更新于 " + fmt(d.updated);
+    if(pw && $("#remember").checked){ try{ localStorage.setItem("vault_pw", pw); }catch(e){} }
+    buildChips(); render();
+  }
+
+  function buildChips(){
+    const box = $("#chips");
+    const items = [["all","全部"], ...CATS.map(c=>[c,CAT_ZH[c]||c]), ["contact","只看有联系方式"]];
+    box.innerHTML = items.map(([k,label]) =>
+      '<button class="chip' + ((k==="contact" ? ONLY_CONTACT : (CAT===k && !ONLY_CONTACT)) ? " on" : "") + '" data-k="' + k + '">' + esc(label) + '</button>'
+    ).join("");
+    box.querySelectorAll(".chip").forEach(b=>b.addEventListener("click",()=>{
+      const k=b.dataset.k;
+      if(k==="contact"){ ONLY_CONTACT=!ONLY_CONTACT; }
+      else { CAT=k; ONLY_CONTACT=false; }
+      buildChips(); render();
+    }));
+  }
+
+  function hasContact(j){
+    const s = (j.contact||"") + " " + (j.desc||"");
+    return /@|https?:\/\/|t\.me|wa\.me|[\w.+-]+@[\w-]+\.|whatsapp|telegram|微信|wechat|\+?\d[\d\s\-().]{7,}/i.test(s);
+  }
+
+  function render(){
+    const kw = $("#q").value.trim().toLowerCase();
+    let hits = ALL.filter(j=>{
+      if(CAT!=="all" && j.cat!==CAT) return false;
+      if(ONLY_CONTACT && !hasContact(j)) return false;
+      if(!kw) return false;
+      return [j.id,j.title,j.title_zh,j.desc,j.source,j.cat,j.contact,j.url].join(" ").toLowerCase().includes(kw);
+    });
+    const total = hits.length;
+    hits = hits.slice(0,60);
+    $("#cnt").textContent = kw ? ("匹配 " + total + " 条" + (total>60 ? "，先显示前 60 条" : "")) : "输入关键词或岗位编号开始查询";
+    $("#list").innerHTML = hits.map(card).join("") || (kw ? '<div class="empty">没查到。让对方发完整岗位编号，或刷新一次数据。</div>' : '<div class="empty">输入岗位编号即可定位到原帖和联系方式</div>');
+    $("#list").querySelectorAll("[data-copy]").forEach(b=>b.addEventListener("click",()=>{
+      const t=b.dataset.copy;
+      navigator.clipboard.writeText(t).then(()=>{b.textContent="已复制";setTimeout(()=>b.textContent="复制联系方式",1500)}).catch(()=>{b.textContent="复制失败，请长按选中"});
+    }));
+  }
+
+  function card(j){
+    const title = j.title_zh || j.title || "(无标题)";
+    const orig = (j.title_zh && j.title && j.title_zh!==j.title) ? '<div class="ot">原标题：'+esc(j.title)+'</div>' : "";
+    const contact = (j.contact || "").trim();
+    const copyText = contact || (j.url || "") || (j.desc || "");
+    return '<div class="card">'+
+      '<div class="h"><span class="id">#'+esc(j.id)+'</span><span class="tt">'+esc(title)+'</span></div>'+ orig +
+      '<div class="meta"><span>'+esc(CAT_ZH[j.cat]||j.cat||"")+'</span><span>'+esc(j.source||"")+'</span><span>'+esc(fmt(j.published))+'</span></div>'+
+      '<div class="money">'+
+        (j.salary?'<span class="pill">原始金额 '+esc(j.salary)+'</span>':'')+
+        (j.quote?'<span class="pill hot">展示价 '+esc(j.quote)+'</span>':'')+
+        (!j.salary&&!j.quote?'<span class="pill">薪资面议</span>':'')+
+      '</div>'+
+      (contact?'<div class="contact"><span class="lb">联系方式</span>'+hl(contact)+'</div>':'')+
+      (j.url?'<div class="url">原帖：<a href="'+esc(j.url)+'" target="_blank" rel="noopener noreferrer">'+esc(j.url)+'</a></div>':'')+
+      (j.desc?'<div class="desc"><span class="lb">原始信息</span>'+hl(j.desc)+'</div>':'')+
+      '<div class="row">'+
+        '<button class="btn-sm" data-copy="'+esc(copyText)+'">复制联系方式</button>'+
+        '<button class="btn-sm" data-copy="'+esc(j.id)+'">复制岗位编号</button>'+
+      '</div>'+
+    '</div>';
+  }
+
+  async function tryUnlock(pw, manual){
+    const btn=$("#go"), err=$("#err");
+    if(!pw){ err.textContent="请输入访问密码"; return; }
+    btn.disabled=true; err.textContent="";
+    if(manual) btn.textContent="解密中…";
+    try{
+      const d = await decrypt(pw);
+      open(d, manual ? pw : null);
+    }catch(e){
+      if(manual){
+        err.textContent = (e && e.name==="OperationError") ? "密码不对，或数据已更新但密码变了" : ("打不开：" + (e&&e.message||e));
+        btn.textContent="解锁"; btn.disabled=false;
+      }else{
+        try{ localStorage.removeItem("vault_pw"); }catch(_){}
+        $("#gate").hidden=false;
+      }
+    }
+  }
+
+  $("#go").addEventListener("click",()=>tryUnlock($("#pw").value.trim(),true));
+  $("#pw").addEventListener("keydown",e=>{ if(e.key==="Enter") tryUnlock($("#pw").value.trim(),true); });
+  $("#q").addEventListener("input",render);
+  $("#lock").addEventListener("click",()=>{
+    try{ localStorage.removeItem("vault_pw"); }catch(e){}
+    location.reload();
+  });
+
+  // 已记住的设备自动解锁
+  let saved="";
+  try{ saved = localStorage.getItem("vault_pw")||""; }catch(e){}
+  if(saved){ $("#pw").value=saved; tryUnlock(saved,false); }
+})();
+</script>
+</body>
+</html>

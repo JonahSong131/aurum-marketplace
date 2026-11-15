@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-"""私人查档台：只在本机 127.0.0.1:8877 打开，别人访问不到。
+"""本机内部档案：只在 127.0.0.1:8877 打开，作为备用入口。
 
 用法：双击「私人查档台.bat」，浏览器会自动打开 http://127.0.0.1:8877
-数据源：data/jobs-private.json（含联系方式和原帖链接，绝不上传 GitHub）
-数据由「更新岗位数据.bat」刷新（跑 scripts/fetch_jobs.py）。
+数据源：data/jobs-private.json（完整岗位档案，仅本地保存）
+数据由「立刻更新资料库.bat」刷新。
 """
 import json
 import os
@@ -33,8 +33,8 @@ HTML = """<!DOCTYPE html>
  .hit{color:#ddc78c;font-weight:600}
  .count{font-size:12px;color:#777;margin:12px 0}
 </style></head><body>
-<h1>私人查档台（仅本机可见）</h1>
-<div class="sub">客户报岗位编号或标题关键词 → 这里查出联系方式和原帖。<span class="hit">报价 = 真实价 ×0.8，差价 20% 是你的利润</span>。数据不在公开网站上。</div>
+<h1>内部档案（仅本机）</h1>
+<div class="sub">按岗位编号或标题关键词查询完整档案。显示原始金额与展示价，数据不对外公开。</div>
 <input id="q" placeholder="输入岗位编号（如 3f8a2c1b9d04）或标题关键词 / 分类 / Telegram …" autofocus>
 <div class="count" id="cnt"></div><div id="list"></div>
 <script>
@@ -51,8 +51,8 @@ function render(kw){
  list.innerHTML=hits.map(j=>'<div class="card"><div class="t">'+esc(j.title)+
   ' <span class="hit">#'+j.id+'</span></div><div class="m">'+esc(j.source)+' · '+
   new Date(j.published).toLocaleString()+
-  (j.salary?' · 真实价 '+esc(j.salary):'')+
-  (j.quote?' · <span class="hit">对外报价 '+esc(j.quote)+'</span>':'')+
+  (j.salary?' · 原始金额 '+esc(j.salary):'')+
+  (j.quote?' · <span class="hit">展示价 '+esc(j.quote)+'</span>':'')+
   ' · '+esc(j.cat)+'</div>'+
   (j.url?'<div class="url">原帖：<a href="'+esc(j.url)+'" target="_blank">'+esc(j.url)+'</a></div>':'')+
   '<div class="desc">'+esc(j.desc)+'</div></div>').join('')||'<div class="m">没查到。先双击「更新岗位数据.bat」刷新，或让客户发完整标题。</div>';

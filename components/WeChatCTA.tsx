@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Copy, Check } from "lucide-react";
 import { WECHAT_ID } from "@/lib/jobs";
 
-/** 全站唯一的申请出口：复制站主微信号 */
+/** 全站统一的申请入口：复制顾问微信号 */
 export default function WeChatCTA() {
   const [copied, setCopied] = useState(false);
   const copy = async () => {

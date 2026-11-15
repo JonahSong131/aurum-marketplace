@@ -37,4 +37,5 @@ out-old-backup/
 .env*
 data/jobs-private.json
 data/sync-url.txt
+data/vault-password.txt
 __pycache__/

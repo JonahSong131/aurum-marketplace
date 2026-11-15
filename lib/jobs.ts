@@ -1,7 +1,7 @@
 // ============================================================
-// 岗位数据 —— 由 scripts/fetch_jobs.py 自动抓取生成 data/jobs.json
-// GitHub Actions 每 3 小时抓一次 → 提交 → Vercel 自动重新部署。
-// 公开数据里没有任何联系方式：求职者只能加微信，由站主撮合。
+// 岗位数据 —— 由数据同步流程生成 data/jobs.json
+// 自动任务定时刷新 → 提交 → Vercel 自动重新部署。
+// 公开展示数据只保留岗位本身信息，申请统一由顾问通道受理。
 // ============================================================
 
 import jobsData from "../data/jobs.json";
@@ -28,7 +28,7 @@ export const JOBS: Job[] = (jobsData as JobsFile).jobs ?? [];
 
 export const JOBS_UPDATED: string = (jobsData as JobsFile).updated ?? "";
 
-// 站主微信 —— 全站唯一的联系出口，改号只改这里
+// 顾问微信 —— 全站统一的申请入口，改号只改这里
 export const WECHAT_ID = "SiwSong-CD";
 export const WECHAT_NOTE = "加微信时请备注「岗位编号」，例如 J3f8a2c1，方便快速定位";
 

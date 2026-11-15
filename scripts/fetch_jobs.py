@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
-"""自动抓社媒上的海外线上岗位 → data/jobs.json → 网站展示。
+"""汇总海外线上岗位 → data/jobs.json → 网站展示。
 
 设计要点：
-- 纯 Python 标准库，零依赖。GitHub Actions 的海外服务器直接跑，
-  不需要代理（Reddit 存档接口 / Telegram 公开页 / Freelancer 接口都是公开的）。
+- 纯 Python 标准库，零依赖，可直接跑在自动同步环境。
 - 每个岗位都带发布时间和分类，7 天以外的丢弃。
-- 不保存原帖联系方式——网站上求职者只能加微信，撮合由站主做。
+- 公开展示数据只保留岗位本身信息，申请统一由顾问通道受理。
 - 输出按发布时间倒序，最多 400 条。
 
-本地测试：python scripts/fetch_jobs.py
+本地运行：python scripts/fetch_jobs.py
 """
 import hashlib
 import html as htmllib
@@ -166,11 +165,10 @@ def scrub(text):
 
 
 # ============================================================
-# 站主利润规则：对外统一少报 20%（差价是站主利润）。
-# 公开版里一切"钱"（薪资字段、标题、描述里的价格）一律 ×0.8；
-# 私人版保留真实价，另加 quote 字段 = 对外建议报价。
+# 展示价换算：公开展示的金额统一按 0.8 系数换算。
+# 内部档案保留原始金额，另存 quote 字段作为展示价。
 # ============================================================
-PROFIT_RATE = 0.8
+DISPLAY_RATE = 0.8
 
 
 def _scale_nums(seg):
@@ -178,7 +176,7 @@ def _scale_nums(seg):
     def repl(m):
         n = m.group(0)
         try:
-            v = float(n.replace(",", "")) * PROFIT_RATE
+            v = float(n.replace(",", "")) * DISPLAY_RATE
         except ValueError:
             return n
         had_comma = "," in n
@@ -376,7 +374,7 @@ def make_job(title, desc, source, source_name, published_dt, url,
     # 指纹带上来源：不同频道的同名帖（如 #PR_специалист）不能被合并掉
     fp = re.sub(r"[^a-z0-9\u4e00-\u9fff]", "", (title.lower() + source_name))[:80]
     jid = hashlib.sha1((fp + cat).encode()).hexdigest()[:12]
-    # 私人版：真实价格 + 建议报价（quote = 打过 8 折的对外价）——只写进本地文件，不上传
+    # 内部档案：原始金额 + 展示价（quote），仅写进本地文件
     private = {
         "id": jid,
         "title": title,
@@ -748,36 +746,51 @@ def main():
 
     public = [p for p, _ in pairs]
     private = [v for _, v in pairs]
-
-    # 全站中文化：标题 + 描述翻译成中文（已是中文的自动跳过，翻译结果按哈希缓存）
-    titles = translate_texts([p["title"] for p in public], "（标题）")
-    descs = translate_texts([p["desc"] for p in public], "（描述）")
-    for p, t, d in zip(public, titles, descs):
-        p["title"] = t
-        p["desc"] = d
-    # 私人版附中文标题（原帖原文保留，方便对照）
-    for v, t in zip(private, titles):
-        v["title_zh"] = t
+    private_only = os.environ.get("PRIVATE_ONLY") == "1"
 
     data = {"updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
             "count": len(public), "jobs": public}
-    os.makedirs(os.path.dirname(OUT), exist_ok=True)
-    with open(OUT, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=1)
-    print("完成：%d 条岗位 → %s" % (len(public), OUT))
 
-    # 私人版：含联系方式+原帖链接+真实价+建议报价。
-    # 在 GitHub Actions 里跑时也会生成（但 .gitignore 排除了它，
-    # 公共仓库的提交步骤只 add jobs.json，所以绝不会传到公共仓库；
-    # 它会由工作流里的"同步私人数据"步骤推到站主的私有仓库）。
+    if private_only:
+        # 快速刷新模式：不翻译、不覆盖公开版，只把最新的内部档案写回本地，
+        # 用于立刻补齐加密资料库。公开版 data/jobs.json 由自动同步流程负责，
+        # 绝不能被这里的英文原文覆盖。
+        zh = {}
+        try:
+            with open(OUT, encoding="utf-8") as f:
+                for j in json.load(f).get("jobs", []):
+                    zh[j["id"]] = j.get("title", "")
+        except Exception:
+            pass
+        for v in private:
+            v["title_zh"] = zh.get(v["id"], "")
+        print("快速刷新模式：只更新私人版，公开版 %s 保持不变" % OUT)
+    else:
+        # 全站中文化：标题 + 描述翻译成中文（已是中文的自动跳过，翻译结果按哈希缓存）
+        titles = translate_texts([p["title"] for p in public], "（标题）")
+        descs = translate_texts([p["desc"] for p in public], "（描述）")
+        for p, t, d in zip(public, titles, descs):
+            p["title"] = t
+            p["desc"] = d
+        # 私人版附中文标题（原帖原文保留，方便对照）
+        for v, t in zip(private, titles):
+            v["title_zh"] = t
+
+        os.makedirs(os.path.dirname(OUT), exist_ok=True)
+        with open(OUT, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=1)
+        print("完成：%d 条岗位 → %s" % (len(public), OUT))
+
+    # 内部档案：完整岗位信息，仅本地保存（.gitignore 已排除）。
+    # 自动同步流程会把它加密后发布，只有持有访问密码的人能在浏览器里解开。
     pv_path = os.path.join(os.path.dirname(OUT), "jobs-private.json")
     with open(pv_path, "w", encoding="utf-8") as f:
         json.dump({"updated": data["updated"], "count": len(private), "jobs": private},
                   f, ensure_ascii=False, indent=1)
     if os.environ.get("GITHUB_ACTIONS") == "true":
-        print("私人版已生成（CI）：待工作流同步到私有仓库，不会进公共仓库）")
+        print("内部档案已生成（CI）：等待加密发布")
     else:
-        print("私人版（含联系方式+真实价+建议报价）：%d 条 → %s（仅本地）" % (len(private), pv_path))
+        print("内部档案：%d 条 → %s（仅本地）" % (len(private), pv_path))
 
     from collections import Counter
     print("分类分布:", dict(Counter(p["cat"] for p in public)))
