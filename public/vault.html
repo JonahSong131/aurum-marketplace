@@ -11,8 +11,7 @@
   *{box-sizing:border-box}
   body{margin:0;background:var(--bg);color:var(--txt);font:14px/1.6 system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
   a{color:var(--gold)}
-  .wrap{max-width:920px;margin:0 auto;padding:24px 16px 80px}
-  /* 解锁 */
+  .wrap{max-width:940px;margin:0 auto;padding:24px 16px 80px}
   #gate{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
   .gate-card{width:100%;max-width:380px;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:30px 26px}
   .gate-card h1{margin:0 0 6px;font-size:19px;font-weight:600;letter-spacing:.04em;color:var(--gold)}
@@ -25,26 +24,34 @@
   .chk{display:flex;align-items:center;gap:8px;margin-top:14px;color:var(--dim);font-size:12px;cursor:pointer}
   .chk input{accent-color:var(--gold);width:15px;height:15px}
   .err{margin-top:12px;color:#e08a7a;font-size:12px;min-height:18px}
-  /* 主体 */
   #app[hidden]{display:none}
   .top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:16px}
   .top h1{margin:0;font-size:19px;font-weight:600;color:var(--gold)}
   .stat{color:var(--dim);font-size:12px;margin-top:4px}
   .btn-ghost{background:transparent;border:1px solid var(--line);color:var(--dim);padding:7px 12px;font-size:12px}
   .bar{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px;margin-bottom:12px}
+  .views{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+  .view{flex:1 1 150px;background:#1b1e27;border:1px solid var(--line);color:var(--dim);padding:9px 10px;font-size:13px;text-align:center;border-radius:10px}
+  .view b{font-size:15px;margin-left:5px;color:var(--dim)}
+  .view.on{background:rgba(221,199,140,.14);border-color:var(--gold);color:var(--gold);font-weight:600}
+  .view.on b{color:var(--gold)}
   .chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}
   .chip{background:#1b1e27;border:1px solid var(--line);color:var(--dim);padding:5px 11px;border-radius:999px;font-size:12px}
   .chip.on{background:rgba(221,199,140,.14);border-color:var(--gold);color:var(--gold)}
+  .hint{font-size:12px;color:var(--dim);margin-top:9px}
   .card{border:1px solid var(--line);background:var(--panel);border-radius:14px;padding:15px 16px;margin:10px 0}
+  .card.direct{border-left:2px solid var(--gold)}
   .card .h{display:flex;gap:9px;align-items:baseline;flex-wrap:wrap}
   .id{font:600 12px ui-monospace,Consolas,monospace;color:var(--gold);background:rgba(221,199,140,.1);padding:2px 7px;border-radius:6px}
   .tt{font-size:15px;font-weight:600;color:#f5edd9}
+  .badge{font-size:11px;padding:2px 8px;border-radius:6px;background:rgba(221,199,140,.16);color:var(--gold);border:1px solid rgba(221,199,140,.35)}
+  .badge.dm{background:#1b1e27;color:var(--dim);border-color:var(--line)}
   .ot{font-size:12px;color:var(--dim);margin-top:3px;word-break:break-word}
   .meta{font-size:12px;color:var(--dim);margin-top:8px;display:flex;flex-wrap:wrap;gap:4px 12px}
   .money{margin-top:10px;display:flex;flex-wrap:wrap;gap:8px}
   .pill{font-size:12px;padding:4px 10px;border-radius:8px;background:#1b1e27;border:1px solid var(--line);color:var(--dim)}
   .pill.hot{background:rgba(221,199,140,.12);border-color:rgba(221,199,140,.4);color:var(--gold);font-weight:600}
-  .contact{margin-top:11px;padding:10px 12px;background:#101820;border-left:2px solid var(--gold);border-radius:0 8px 8px 0;font-size:13px;word-break:break-word}
+  .contact{margin-top:11px;padding:11px 13px;background:#101820;border-left:2px solid var(--gold);border-radius:0 8px 8px 0;font-size:13.5px;word-break:break-word;line-height:1.9}
   .contact .lb,.desc .lb{display:block;font-size:11px;color:var(--dim);margin-bottom:4px;letter-spacing:.05em}
   .url{margin-top:9px;font-size:12px;word-break:break-all}
   .desc{margin-top:11px;white-space:pre-wrap;word-break:break-word;font-size:12.5px;color:#b8b2a5;max-height:190px;overflow:auto;padding-right:6px}
@@ -53,7 +60,8 @@
   .btn-sm{background:#1b1e27;border:1px solid var(--line);color:var(--txt);padding:6px 11px;font-size:12px}
   .empty{color:var(--dim);text-align:center;padding:40px 0;font-size:13px}
   .cnt{color:var(--dim);font-size:12px;margin:14px 2px}
-  @media(max-width:520px){.wrap{padding:16px 12px 60px}.gate-card{padding:26px 20px}.card{padding:13px}}
+  .more{display:block;width:100%;margin:14px 0;padding:11px;background:#1b1e27;border:1px solid var(--line);color:var(--gold);font-size:13px}
+  @media(max-width:520px){.wrap{padding:16px 12px 60px}.gate-card{padding:26px 20px}.card{padding:13px}.view{flex:1 1 44%}}
 </style>
 </head>
 <body>
@@ -80,12 +88,15 @@
     </div>
 
     <div class="bar">
-      <input id="q" type="text" placeholder="输入岗位编号、标题、联系方式、来源…">
+      <div class="views" id="views"></div>
+      <input id="q" type="text" placeholder="搜岗位编号、标题、联系方式、来源…（留空就是浏览）">
       <div class="chips" id="chips"></div>
+      <div class="hint" id="hint"></div>
     </div>
 
     <div class="cnt" id="cnt"></div>
     <div id="list"></div>
+    <button class="more" id="more" hidden>显示更多</button>
   </div>
 </div>
 
@@ -96,7 +107,11 @@
   const ITER = 310000;
   const CATS = ["tech","web3","support","design","marketing","writing","data","misc"];
   const CAT_ZH = {tech:"技术开发",web3:"币圈 / Web3",support:"客服 / 助理",design:"设计 / 影音",marketing:"运营 / 推广",writing:"写作 / 翻译",data:"数据 / 录入",misc:"其他"};
-  let ALL = [], CAT = "all", ONLY_CONTACT = false;
+  const VIEWS = [
+    ["direct","可直接联系"], ["dm","站内私信"],
+    ["platform","原帖 / 平台"], ["all","全部岗位"]
+  ];
+  let ALL = [], CAT = "all", VIEW = "direct", LIMIT = 40;
 
   function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
   function b64(s){
@@ -104,7 +119,10 @@
     for(let i=0;i<bin.length;i++) a[i]=bin.charCodeAt(i);
     return a;
   }
-  // 把联系方式/链接/电话/@账号高亮出来（先算区间再去重，避免标签套标签）
+  function pemToDer(pem){ return b64(pem.replace(/-----[^-]+-----/g,"").replace(/\s+/g,"")); }
+  function fmt(t){ try{ return new Date(t).toLocaleString("zh-CN",{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"}); }catch(e){ return String(t||""); } }
+
+  // 把联系方式/链接/电话/@账号高亮（先算区间再去重，避免标签套标签）
   function hl(text){
     const s = String(text==null?"":text), ranges = [];
     const pats = [
@@ -123,96 +141,131 @@
     for(const [a,b] of merged){ out += esc(s.slice(pos,a)) + "<mark>" + esc(s.slice(a,b)) + "</mark>"; pos=b; }
     return out + esc(s.slice(pos));
   }
-  function fmt(t){ try{ return new Date(t).toLocaleString("zh-CN",{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"}); }catch(e){ return String(t||""); } }
 
-  function pemToDer(pem){
-    return b64(pem.replace(/-----[^-]+-----/g,"").replace(/\s+/g,""));
-  }
-
-  // 密码 → 解开被锁住的私钥 → 解开本次数据的临时密钥 → 解开岗位数据
-  // 三步都在浏览器本地完成，密码和数据都不会发到任何服务器。
-  async function decrypt(pw){
-    const stamp = "?_=" + Date.now();
-    const [binRes, keyRes] = await Promise.all([
-      fetch("./vault.bin" + stamp, {cache:"no-store"}),
-      fetch("./vault.key" + stamp, {cache:"no-store"})
-    ]);
-    if(!binRes.ok || !keyRes.ok) throw new Error("数据文件读取失败，请稍后重试");
-    const parts = (await binRes.text()).trim().split(".");
-    const wk = (await keyRes.text()).trim().split(".");
-    if(parts.length!==4 || parts[0]!=="v2") throw new Error("数据格式不支持，请重新同步");
+  // 密码 → 解开被锁住的私钥
+  async function unlockKey(pw){
+    const res = await fetch("./vault.key?_=" + Date.now(), {cache:"no-store"});
+    if(!res.ok) throw new Error("密钥文件读取失败");
+    const wk = (await res.text()).trim().split(".");
     if(wk.length!==4 || wk[0]!=="v1") throw new Error("密钥文件不支持，请重新同步");
-
-    const salt = b64(wk[1]), wiv = b64(wk[2]), wpayload = b64(wk[3]);
     const km = await crypto.subtle.importKey("raw", new TextEncoder().encode(pw), "PBKDF2", false, ["deriveKey"]);
     const kek = await crypto.subtle.deriveKey(
-      {name:"PBKDF2", salt, iterations:ITER, hash:"SHA-256"},
+      {name:"PBKDF2", salt:b64(wk[1]), iterations:ITER, hash:"SHA-256"},
       km, {name:"AES-GCM", length:256}, false, ["decrypt"]
     );
     const privPem = new TextDecoder().decode(
-      await crypto.subtle.decrypt({name:"AES-GCM", iv:wiv}, kek, wpayload)
+      await crypto.subtle.decrypt({name:"AES-GCM", iv:b64(wk[2])}, kek, b64(wk[3]))
     );
-    const privKey = await crypto.subtle.importKey(
+    return crypto.subtle.importKey(
       "pkcs8", pemToDer(privPem), {name:"RSA-OAEP", hash:"SHA-256"}, false, ["decrypt"]
     );
-    const dk = await crypto.subtle.decrypt({name:"RSA-OAEP"}, privKey, b64(parts[1]));
-    const aesKey = await crypto.subtle.importKey("raw", dk, "AES-GCM", false, ["decrypt"]);
-    const plain = await crypto.subtle.decrypt({name:"AES-GCM", iv:b64(parts[2])}, aesKey, b64(parts[3]));
+  }
+
+  async function decryptFile(name, privKey){
+    const res = await fetch("./" + name + "?_=" + Date.now(), {cache:"no-store"});
+    if(!res.ok) return null;
+    const p = (await res.text()).trim().split(".");
+    if(p.length!==4 || p[0]!=="v2") return null;
+    const dk = await crypto.subtle.decrypt({name:"RSA-OAEP"}, privKey, b64(p[1]));
+    const key = await crypto.subtle.importKey("raw", dk, "AES-GCM", false, ["decrypt"]);
+    const plain = await crypto.subtle.decrypt({name:"AES-GCM", iv:b64(p[2])}, key, b64(p[3]));
     return JSON.parse(new TextDecoder().decode(plain));
+  }
+
+  // 主档案 + 补充档案，按编号合并（补充档案里的联系方式更全，优先）
+  async function loadAll(pw){
+    const privKey = await unlockKey(pw);
+    const main = await decryptFile("vault.bin", privKey);
+    if(!main) throw new Error("主档案读取失败，请重新同步");
+    let extra = null;
+    try{ extra = await decryptFile("vault.extra.bin", privKey); }catch(e){ extra = null; }
+    const map = new Map();
+    for(const j of (main.jobs||[])) map.set(j.id, j);
+    for(const j of ((extra&&extra.jobs)||[])) map.set(j.id, j);
+    const jobs = Array.from(map.values()).sort((a,b)=>String(b.published||"").localeCompare(String(a.published||"")));
+    return {updated: main.updated, jobs};
+  }
+
+  function kindOf(j){
+    const k = j.contact_kind || (j.contact && j.contact.trim() ? "direct" : (j.url ? "link" : ""));
+    return k;
+  }
+  function matchView(j){
+    const k = kindOf(j);
+    if(VIEW==="direct") return k==="direct";
+    if(VIEW==="dm") return k==="dm";
+    if(VIEW==="platform") return k==="link"||k==="platform"||k===""||k==="none";
+    return true;
+  }
+  function countView(v){
+    const old = VIEW; VIEW = v;
+    const n = ALL.filter(matchView).length;
+    VIEW = old; return n;
   }
 
   function open(d, pw){
     ALL = d.jobs || [];
     $("#gate").hidden = true; $("#app").hidden = false;
-    $("#stat").textContent = "共 " + ALL.length + " 条 · 更新于 " + fmt(d.updated);
+    const nd = countView("direct");
+    $("#stat").textContent = "共 " + ALL.length + " 条 · 其中可直接联系 " + nd + " 条 · 更新于 " + fmt(d.updated);
     if(pw && $("#remember").checked){ try{ localStorage.setItem("vault_pw", pw); }catch(e){} }
-    buildChips(); render();
+    buildViews(); buildChips(); render();
   }
 
-  function buildChips(){
-    const box = $("#chips");
-    const items = [["all","全部"], ...CATS.map(c=>[c,CAT_ZH[c]||c]), ["contact","只看有联系方式"]];
-    box.innerHTML = items.map(([k,label]) =>
-      '<button class="chip' + ((k==="contact" ? ONLY_CONTACT : (CAT===k && !ONLY_CONTACT)) ? " on" : "") + '" data-k="' + k + '">' + esc(label) + '</button>'
+  function buildViews(){
+    $("#views").innerHTML = VIEWS.map(([k,label]) =>
+      '<button class="view'+(VIEW===k?" on":"")+'" data-v="'+k+'">'+esc(label)+'<b>'+countView(k)+'</b></button>'
     ).join("");
-    box.querySelectorAll(".chip").forEach(b=>b.addEventListener("click",()=>{
-      const k=b.dataset.k;
-      if(k==="contact"){ ONLY_CONTACT=!ONLY_CONTACT; }
-      else { CAT=k; ONLY_CONTACT=false; }
-      buildChips(); render();
+    $("#views").querySelectorAll(".view").forEach(b=>b.addEventListener("click",()=>{
+      VIEW=b.dataset.v; LIMIT=40; buildViews(); render();
     }));
   }
 
-  function hasContact(j){
-    const s = (j.contact||"") + " " + (j.desc||"");
-    return /@|https?:\/\/|t\.me|wa\.me|[\w.+-]+@[\w-]+\.|whatsapp|telegram|微信|wechat|\+?\d[\d\s\-().]{7,}/i.test(s);
+  function buildChips(){
+    $("#chips").innerHTML = [["all","全部分类"], ...CATS.map(c=>[c,CAT_ZH[c]])].map(([k,label]) =>
+      '<button class="chip'+(CAT===k?" on":"")+'" data-k="'+k+'">'+esc(label)+'</button>'
+    ).join("");
+    $("#chips").querySelectorAll(".chip").forEach(b=>b.addEventListener("click",()=>{
+      CAT=b.dataset.k; LIMIT=40; buildChips(); render();
+    }));
+    $("#hint").textContent = VIEW==="direct"
+      ? "这些岗位留了微信 / Telegram / 邮箱 / WhatsApp，可以直接联系雇主。"
+      : (VIEW==="dm" ? "这些只能走站内私信联系发帖人。" :
+         (VIEW==="platform" ? "这些要去原帖或招聘平台里联系。" : "全部岗位，包含以上各类。"));
   }
 
   function render(){
     const kw = $("#q").value.trim().toLowerCase();
     let hits = ALL.filter(j=>{
+      if(!matchView(j)) return false;
       if(CAT!=="all" && j.cat!==CAT) return false;
-      if(ONLY_CONTACT && !hasContact(j)) return false;
-      if(!kw) return false;
+      if(!kw) return true;
       return [j.id,j.title,j.title_zh,j.desc,j.source,j.cat,j.contact,j.url].join(" ").toLowerCase().includes(kw);
     });
     const total = hits.length;
-    hits = hits.slice(0,60);
-    $("#cnt").textContent = kw ? ("匹配 " + total + " 条" + (total>60 ? "，先显示前 60 条" : "")) : "输入关键词或岗位编号开始查询";
-    $("#list").innerHTML = hits.map(card).join("") || (kw ? '<div class="empty">没查到。让对方发完整岗位编号，或刷新一次数据。</div>' : '<div class="empty">输入岗位编号即可定位到原帖和联系方式</div>');
+    const shown = hits.slice(0, LIMIT);
+    $("#cnt").textContent = "共 " + total + " 条" + (kw ? " 匹配" : "") + (total>LIMIT ? "，已显示前 "+shown.length+" 条" : "");
+    $("#list").innerHTML = shown.map(card).join("") ||
+      '<div class="empty">'+(kw ? "没查到，换个关键词试试，或切到「全部岗位」。" : "这一组暂时没有岗位，切到「全部岗位」看看。")+'</div>';
+    $("#more").hidden = total <= LIMIT;
+    $("#more").textContent = "显示更多（还有 " + (total-shown.length) + " 条）";
     $("#list").querySelectorAll("[data-copy]").forEach(b=>b.addEventListener("click",()=>{
       const t=b.dataset.copy;
-      navigator.clipboard.writeText(t).then(()=>{b.textContent="已复制";setTimeout(()=>b.textContent="复制联系方式",1500)}).catch(()=>{b.textContent="复制失败，请长按选中"});
+      navigator.clipboard.writeText(t).then(()=>{b.textContent="已复制";setTimeout(()=>b.textContent=b.dataset.label||"复制",1500)})
+        .catch(()=>{b.textContent="复制失败，请长按选中"});
     }));
   }
 
   function card(j){
     const title = j.title_zh || j.title || "(无标题)";
     const orig = (j.title_zh && j.title && j.title_zh!==j.title) ? '<div class="ot">原标题：'+esc(j.title)+'</div>' : "";
+    const k = kindOf(j);
     const contact = (j.contact || "").trim();
-    const copyText = contact || (j.url || "") || (j.desc || "");
-    return '<div class="card">'+
-      '<div class="h"><span class="id">#'+esc(j.id)+'</span><span class="tt">'+esc(title)+'</span></div>'+ orig +
+    const label = j.contact_label || (k==="direct" ? "可直接联系" : (k==="link" ? "原帖链接" : ""));
+    const badge = label ? '<span class="badge'+(k==="direct"?"":" dm")+'">'+esc(label)+'</span>' : "";
+    const copyText = contact || j.url || j.desc || "";
+    return '<div class="card'+(k==="direct"?" direct":"")+'">'+
+      '<div class="h"><span class="id">#'+esc(j.id)+'</span><span class="tt">'+esc(title)+'</span>'+badge+'</div>'+ orig +
       '<div class="meta"><span>'+esc(CAT_ZH[j.cat]||j.cat||"")+'</span><span>'+esc(j.source||"")+'</span><span>'+esc(fmt(j.published))+'</span></div>'+
       '<div class="money">'+
         (j.salary?'<span class="pill">原始金额 '+esc(j.salary)+'</span>':'')+
@@ -223,8 +276,8 @@
       (j.url?'<div class="url">原帖：<a href="'+esc(j.url)+'" target="_blank" rel="noopener noreferrer">'+esc(j.url)+'</a></div>':'')+
       (j.desc?'<div class="desc"><span class="lb">原始信息</span>'+hl(j.desc)+'</div>':'')+
       '<div class="row">'+
-        '<button class="btn-sm" data-copy="'+esc(copyText)+'">复制联系方式</button>'+
-        '<button class="btn-sm" data-copy="'+esc(j.id)+'">复制岗位编号</button>'+
+        '<button class="btn-sm" data-copy="'+esc(copyText)+'" data-label="复制联系方式">复制联系方式</button>'+
+        '<button class="btn-sm" data-copy="'+esc(j.id)+'" data-label="复制岗位编号">复制岗位编号</button>'+
       '</div>'+
     '</div>';
   }
@@ -235,14 +288,13 @@
     btn.disabled=true; err.textContent="";
     if(manual) btn.textContent="解密中…";
     try{
-      const d = await decrypt(pw);
+      const d = await loadAll(pw);
       open(d, manual ? pw : null);
     }catch(e){
       if(manual){
         err.textContent = (e && e.name==="OperationError") ? "密码不对，或数据已更新但密码变了" : ("打不开：" + (e&&e.message||e));
         btn.textContent="解锁"; btn.disabled=false;
       }else{
-        // 记住的密码失效（例如换过密码）：清掉并回到可输入状态
         try{ localStorage.removeItem("vault_pw"); }catch(_){}
         $("#gate").hidden=false;
         btn.disabled=false; btn.textContent="解锁";
@@ -253,13 +305,13 @@
 
   $("#go").addEventListener("click",()=>tryUnlock($("#pw").value.trim(),true));
   $("#pw").addEventListener("keydown",e=>{ if(e.key==="Enter") tryUnlock($("#pw").value.trim(),true); });
-  $("#q").addEventListener("input",render);
+  $("#q").addEventListener("input",()=>{ LIMIT=40; render(); });
+  $("#more").addEventListener("click",()=>{ LIMIT+=40; render(); });
   $("#lock").addEventListener("click",()=>{
     try{ localStorage.removeItem("vault_pw"); }catch(e){}
     location.reload();
   });
 
-  // 已记住的设备自动解锁
   let saved="";
   try{ saved = localStorage.getItem("vault_pw")||""; }catch(e){}
   if(saved){ $("#pw").value=saved; tryUnlock(saved,false); }

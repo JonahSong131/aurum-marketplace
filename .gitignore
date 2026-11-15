@@ -36,6 +36,7 @@ out-old-backup/
 .vercel
 .env*
 data/jobs-private.json
+data/jobs-contacts.json
 data/sync-url.txt
 data/vault-password.txt
 __pycache__/

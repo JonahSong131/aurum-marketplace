@@ -350,6 +350,75 @@ def clean_text(s, limit=600):
     return s.strip()[:limit]
 
 
+# ---------------- 内部档案：把能直接联系到雇主的方式单独摘出来 ----------------
+# 只写进 jobs-private.json；公开版始终先 scrub，绝不外泄。
+RE_EMAIL = re.compile(r"[\w.+-]+@[\w-]+\.[\w.-]+\.[A-Za-z]{2,}")
+RE_TGLINK = re.compile(r"(?:https?://)?(?:t|chat)\.me/[A-Za-z0-9_+/]{3,}", re.I)
+RE_WALINK = re.compile(r"(?:https?://)?(?:wa\.me|chat\.whatsapp\.com)/[A-Za-z0-9_+]{5,}", re.I)
+RE_LABELED = re.compile(
+    r"(?:whatsapp|telegram|tg|wechat|weixin|vx|微信|discord|skype)\s*"
+    r"(?:号|id|username|账号)?\s*[:：=]\s*([^\s,，;；\n|]{2,45})", re.I)
+RE_HANDLE = re.compile(r"(?<![\w.@])@([A-Za-z0-9_]{4,31})\b")
+RE_PHONE = re.compile(r"(?<![\d])\+\d[\d\s\-().]{7,18}\d(?![\d])")
+
+
+def extract_contacts(text):
+    """从原始文本里找可直接联系的方式，返回 (联系方式文本, 类型, 标签)。"""
+    t = text or ""
+    found = []
+
+    # 这些是「提到平台」而不是「给了账号」，不能当成联系方式
+    NOT_A_CONTACT = {
+        "groups", "group", "channel", "channels", "me", "us", "here", "there",
+        "link", "bio", "dm", "pm", "yes", "no", "only", "available", "n/a",
+        "none", "tbd", "privately", "direct", "preferred", "only dm", "私信",
+        "微信群", "telegram", "whatsapp", "wechat", "discord", "email",
+    }
+
+    def add(kind, val):
+        val = (val or "").strip().strip("*.,;)|_ ")
+        if not val or len(val) < 3 or len(val) > 60:
+            return
+        if val.lower() in NOT_A_CONTACT:
+            return
+        if any(k == kind and v.lower() == val.lower() for k, v in found):
+            return
+        found.append((kind, val))
+
+    for m in RE_EMAIL.finditer(t):
+        add("邮箱", m.group(0))
+    for m in RE_TGLINK.finditer(t):
+        add("Telegram", m.group(0))
+    for m in RE_WALINK.finditer(t):
+        add("WhatsApp", m.group(0))
+    for m in RE_LABELED.finditer(t):
+        raw = m.group(0).lower()
+        if any(w in raw for w in ("wechat", "weixin", "vx", "微信")):
+            kind = "微信"
+        elif "whatsapp" in raw:
+            kind = "WhatsApp"
+        elif "discord" in raw:
+            kind = "Discord"
+        elif "skype" in raw:
+            kind = "Skype"
+        else:
+            kind = "Telegram"
+        add(kind, m.group(1))
+    for m in RE_PHONE.finditer(t):
+        add("电话", m.group(0))
+    # @账号只有出现在 Telegram / 微信 等上下文附近才算，避免把普通词误判
+    for m in RE_HANDLE.finditer(t):
+        ctx = t[max(0, m.start() - 45):m.start()].lower()
+        if any(w in ctx for w in ("telegram", "tg", "微信", "wechat", "discord", "twitter", "x.com")):
+            add("Telegram", "@" + m.group(1))
+
+    if not found:
+        return "", "", ""
+    label = " · ".join(dict.fromkeys(k for k, _ in found))
+    detail = "   ".join("%s：%s" % (k, v) for k, v in found[:6])
+    return detail, "direct", label
+
+
 def make_job(title, desc, source, source_name, published_dt, url,
              jobish=True, remote_hint=False, salary_hint=""):
     text = title + " " + desc
@@ -374,17 +443,22 @@ def make_job(title, desc, source, source_name, published_dt, url,
     # 指纹带上来源：不同频道的同名帖（如 #PR_специалист）不能被合并掉
     fp = re.sub(r"[^a-z0-9\u4e00-\u9fff]", "", (title.lower() + source_name))[:80]
     jid = hashlib.sha1((fp + cat).encode()).hexdigest()[:12]
-    # 内部档案：原始金额 + 展示价（quote），仅写进本地文件
+    # 内部档案：保留较完整原文（联系方式常写在末尾，不能被截断）
+    full_desc = clean_text(desc, 6000)
+    ctext, ckind, clabel = extract_contacts(title + " " + full_desc)
     private = {
         "id": jid,
         "title": title,
-        "desc": clean_text(desc, 1500),
+        "desc": full_desc,
         "cat": cat,
         "source": source_name,
         "url": url or "",
         "published": published_dt.astimezone(timezone.utc).isoformat(timespec="seconds"),
         "salary": salary,
         "quote": discount_salary(salary),
+        "contact": ctext,
+        "contact_kind": ckind or ("link" if url else ""),
+        "contact_label": clabel or ("原帖链接" if url else ""),
     }
     # 公开版：联系方式全部抹掉；来源不写平台名（写了等于告诉求职者去哪找原帖）
     pub_dt = published_dt.astimezone(timezone.utc).isoformat(timespec="seconds")
@@ -658,18 +732,19 @@ def fetch_telegram():
                 if not m:
                     continue
                 raw = m.group(1)
-                txt = clean_text(raw, 800)
+                txt = clean_text(raw, 4000)
                 if len(txt) < 30:
                     continue
                 lines = txt.split("\n", 1)
                 title = lines[0][:140]
-                desc = lines[1] if len(lines) > 1 else ""
+                desc = txt
                 t = times[i] if i < len(times) else ""
                 try:
                     pub = datetime.fromisoformat(t)
                 except Exception:
                     continue
-                j = make_job(title, desc, "telegram", "Telegram · @" + ch, pub, "")
+                j = make_job(title, desc, "telegram", "Telegram · @" + ch, pub,
+                             "https://t.me/s/" + ch)
                 if j:
                     out.append(j)
         except Exception as e:
@@ -704,6 +779,8 @@ def fetch_freelancer():
                     pv["salary"] = pv["salary"] or money
                     pv["quote"] = discount_salary(pv["salary"])
                     pv["contact"] = "Freelancer 平台投标（登录后 bid）"
+                    pv["contact_kind"] = "platform"
+                    pv["contact_label"] = "平台投标"
                     out.append((j, pv))
         except Exception as e:
             print("[freelancer:%s] 失败: %s" % (q, str(e)[:80]), file=sys.stderr)

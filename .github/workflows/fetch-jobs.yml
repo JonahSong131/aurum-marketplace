@@ -41,7 +41,8 @@ jobs:
           git config user.name "jobs-bot"
           git config user.email "actions@github.com"
           git add data/jobs.json data/translate-cache.json \
-                  public/vault.bin public/vault.stamp public/vault.pub public/vault.key
+                  public/vault.bin public/vault.extra.bin public/vault.stamp \
+                  public/vault.pub public/vault.key
           if git diff --cached --quiet; then
             echo "没有新岗位，跳过提交"
           else
