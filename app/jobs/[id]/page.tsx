@@ -13,10 +13,19 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { id: string } }): Metadata {
   const job = JOBS.find((j) => j.id === params.id);
   if (!job) return { title: "岗位不存在 · 锦市 Jobs" };
+  const desc = `${job.desc?.slice(0, 150) || job.title} —— ${catLabel(job.cat)}远程岗位，提交申请后由顾问一对一对接，全程不向求职者收费。`;
   return {
     title: `${job.title} · 远程线上工作 · 锦市 Jobs`,
-    description: `${job.desc.slice(0, 150) || job.title} —— ${catLabel(job.cat)}远程岗位，提交申请后由顾问一对一对接，全程不向求职者收费。`,
+    description: desc,
     keywords: [job.title, catLabel(job.cat), "远程工作", "线上工作"],
+    alternates: { canonical: `/jobs/${job.id}/` },
+    openGraph: {
+      type: "article",
+      title: job.title,
+      description: desc,
+      url: `https://xmstores.com/jobs/${job.id}/`,
+      siteName: "锦市 Jobs",
+    },
   };
 }
 
@@ -26,8 +35,36 @@ export default function JobPage({ params }: { params: { id: string } }) {
 
   const related = JOBS.filter((j) => j.cat === job.cat && j.id !== job.id).slice(0, 6);
 
+  // 岗位结构化数据：让 Google 招聘搜索（Google for Jobs）和 AI 答案引擎读懂岗位。
+  // 只写本站真实拥有的字段，联系出口统一走顾问，不往结构化数据里塞联系方式。
+  const posted = new Date(job.published);
+  const postedOk = Number.isFinite(posted.getTime());
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    title: job.title,
+    description: (job.desc || job.title).slice(0, 5000),
+    identifier: { "@type": "PropertyValue", name: "锦市 Jobs", value: job.id },
+    ...(postedOk ? { datePosted: posted.toISOString().slice(0, 10) } : {}),
+    ...(postedOk
+      ? { validThrough: new Date(posted.getTime() + 30 * 86400000).toISOString().slice(0, 10) }
+      : {}),
+    jobLocationType: "TELECOMMUTE",
+    hiringOrganization: {
+      "@type": "Organization",
+      name: "锦市 Jobs（招聘服务方）",
+      sameAs: "https://xmstores.com",
+    },
+    url: `https://xmstores.com/jobs/${job.id}/`,
+    directApply: false,
+  };
+
   return (
     <div className="mx-auto max-w-3xl px-5 py-10">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
+      />
       <Link href="/" className="mb-8 inline-flex items-center gap-2 text-sm text-ink-50/60 transition hover:text-gold-100">
         <ArrowLeft size={15} /> 返回岗位大厅
       </Link>

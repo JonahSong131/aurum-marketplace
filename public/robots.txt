@@ -3,4 +3,21 @@ Allow: /
 Disallow: /_next/
 Disallow: /api/
 
+# 让 AI 搜索与答案引擎能读到本站（详见 /llms.txt）
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://xmstores.com/sitemap.xml
+# AI-readable site summary: https://xmstores.com/llms.txt

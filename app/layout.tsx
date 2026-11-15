@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import { LanguageProvider } from "@/components/LanguageProvider";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://xmstores.com"),
   title: "锦市 Jobs · 全球线上工作，每天上新",
   description:
     "全球线上工作岗位，每天上新：开发、设计、客服、运营、币圈、写作翻译、数据录入。提交申请后由顾问一对一对接，全程不向求职者收费。",
@@ -19,6 +20,22 @@ export const metadata: Metadata = {
     "跨境工作",
     "锦市 Jobs",
   ],
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    siteName: "锦市 Jobs",
+    title: "锦市 Jobs · 全球线上工作，每天上新",
+    description:
+      "每天人工核验的全球远程岗位。不用注册、不用写英文求职信，提交申请后由顾问一对一对接，全程不向求职者收费。",
+    url: "https://xmstores.com",
+    locale: "zh_CN",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "锦市 Jobs · 全球线上工作，每天上新",
+    description: "每天人工核验的全球远程岗位，提交申请后由顾问一对一对接。",
+  },
+  robots: { index: true, follow: true },
   icons: {
     icon: { url: "/favicon.svg", type: "image/svg+xml" },
     apple: { url: "/favicon.svg", type: "image/svg+xml" },
@@ -31,7 +48,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="zh-CN">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link

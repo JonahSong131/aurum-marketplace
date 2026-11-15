@@ -51,6 +51,16 @@ export default function Footer() {
                   申请流程
                 </Link>
               </li>
+              <li>
+                <a href="/blog/global-remote-work-guide.html" className="hover:text-gold-100">
+                  全球远程工作怎么找
+                </a>
+              </li>
+              <li>
+                <a href="/blog/remote-jobs-no-experience.html" className="hover:text-gold-100">
+                  Remote Jobs for Beginners (EN)
+                </a>
+              </li>
             </ul>
           </div>
 
