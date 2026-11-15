@@ -112,7 +112,7 @@
       /(?:t|chat)\.me\/[^\s<>"']+/gi,
       /wa\.me\/[^\s<>"']+/gi,
       /[\w.+-]+@[\w-]+\.[\w.-]+\.[A-Za-z]{2,}/g,
-      /(?<![\w])@[A-Za-z0-9_]{3,31}\b/g,
+      /@[A-Za-z0-9_]{3,31}\b/g,
       /\+?\d[\d\s\-().]{6,16}\d/g
     ];
     for(const re of pats){ let m; while((m=re.exec(s))!==null){ ranges.push([m.index,m.index+m[0].length]); if(m[0].length===0) re.lastIndex++; } }
