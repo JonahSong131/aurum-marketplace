@@ -242,8 +242,11 @@
         err.textContent = (e && e.name==="OperationError") ? "密码不对，或数据已更新但密码变了" : ("打不开：" + (e&&e.message||e));
         btn.textContent="解锁"; btn.disabled=false;
       }else{
+        // 记住的密码失效（例如换过密码）：清掉并回到可输入状态
         try{ localStorage.removeItem("vault_pw"); }catch(_){}
         $("#gate").hidden=false;
+        btn.disabled=false; btn.textContent="解锁";
+        $("#pw").value="";
       }
     }
   }
