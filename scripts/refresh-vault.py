@@ -32,7 +32,7 @@ def main():
     print("[2/6] 抓取最新岗位（只更新内部档案，不会动网站上的中文内容）...")
     run("python", "scripts/fetch_jobs.py", env={"PRIVATE_ONLY": "1"})
 
-    print("[2.5] 重新提取联系方式，并入已有的带联系线索 ...")
+    print("[2.5] 重新提取联系方式，并入扩展岗位档案 ...")
     run("python", "scripts/merge_radar_contacts.py", env={"RESET_CONTACTS": "1"})
 
     print("[3/6] 重新加密 ...")

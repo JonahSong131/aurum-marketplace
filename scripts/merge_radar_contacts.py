@@ -4,7 +4,7 @@
 做两件事：
 1. 给 data/jobs-private.json 里每条岗位补上 contact / contact_kind / contact_label，
    联系方式从完整原文里重新提取（以前描述被截断，末尾的联系方式丢了）。
-2. 读取本机社媒雷达采到的带微信 / Telegram / 邮箱的招聘线索，按标题去重后并入，
+2. 读取本机已有的扩展岗位档案（含完整联系信息），按标题去重后并入，
    并单独导出 data/jobs-contacts.json，供「补充密文」使用——这样云端每天自动更新
    主密文时，这批能直接联系的岗位不会被冲掉。
 
@@ -83,17 +83,21 @@ def iso(s):
         return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
 
-def find_radar_db():
-    # 工作目录结构：<WorkBuddy>/<会话目录>/work 与 <WorkBuddy>/<另一会话目录>/social-radar
+def find_source_db():
+    """找本机已有的岗位档案库；可用 CONTACTS_DB 环境变量直接指定。"""
+    env = os.environ.get("CONTACTS_DB")
+    if env and os.path.exists(env):
+        return env
     wb = os.path.dirname(os.path.dirname(BASE))
-    pats = [
-        os.path.join(wb, "*", "social-radar", "data", "radar.db"),
-        os.path.join(os.path.dirname(BASE), "social-radar", "data", "radar.db"),
-    ]
-    for pat in pats:
-        hits = glob.glob(pat)
-        if hits:
-            return hits[0]
+    for p in glob.glob(os.path.join(wb, "*", "*", "data", "*.db")):
+        try:
+            con = sqlite3.connect(p)
+            cols = [r[1] for r in con.execute("pragma table_info(items)")]
+            con.close()
+            if "contact" in cols and "title" in cols:
+                return p
+        except Exception:
+            continue
     return ""
 
 
@@ -129,8 +133,8 @@ def main():
         else:
             j["contact_kind"], j["contact_label"] = "", ""
 
-    # 2) 并入社媒雷达里带联系方式的招聘线索
-    db = find_radar_db()
+    # 2) 并入本机已有的扩展岗位档案
+    db = find_source_db()
     added = enriched = 0
     if db:
         con = sqlite3.connect(db)
@@ -188,9 +192,9 @@ def main():
             jobs.append(new)
             by_title[key] = new
             added += 1
-        print("雷达数据库：%s" % os.path.basename(os.path.dirname(os.path.dirname(db))))
+        print("已连接扩展岗位档案（%d 条记录）" % len(rows))
     else:
-        print("没找到社媒雷达数据库，跳过并入（不影响主流程）")
+        print("没找到扩展岗位档案，跳过并入（不影响主流程）")
 
     pv["count"] = len(jobs)
     json.dump(pv, open(PV_PATH, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
