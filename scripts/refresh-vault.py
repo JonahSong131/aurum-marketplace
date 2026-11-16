@@ -42,7 +42,8 @@ def main():
     run("node", "scripts/test-vault.mjs")
 
     print("[5/6] 提交密文 ...")
-    run("git", "add", "public/vault.bin", "public/vault.stamp",
+    run("git", "add", "public/vault.bin", "public/vault.extra.bin",
+        "public/vault.contacts.bin", "public/vault.stamp",
         "public/vault.key", "public/vault.pub")
     if run("git", "diff", "--cached", "--quiet", check=False).returncode != 0:
         run("git", "commit", "-m", "chore: 刷新加密资料库")

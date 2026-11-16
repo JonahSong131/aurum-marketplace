@@ -26,6 +26,8 @@ const PUB = join(ROOT, "public", "vault.pub");
 const KEY = join(ROOT, "public", "vault.key");
 const OUT = join(ROOT, "public", "vault.bin");
 const EXTRA_OUT = join(ROOT, "public", "vault.extra.bin");
+// 首屏专用：只有「可直接联系」那一小份，约 100KB，弱网几秒就能打开
+const CONTACTS_OUT = join(ROOT, "public", "vault.contacts.bin");
 const STAMP = join(ROOT, "public", "vault.stamp");
 
 const today = new Date().toISOString().slice(0, 10);
@@ -42,10 +44,8 @@ for (const [p, label] of [[SRC, "内部档案"], [PUB, "公钥"], [KEY, "加密�
 
 const pubPem = readFileSync(PUB, "utf8");
 
-function encryptFile(src, out, label) {
-  const parsed = JSON.parse(readFileSync(src, "utf8"));
-  // 紧凑序列化，去掉本地文件里的缩进空白，减小密文体积
-  const json = JSON.stringify(parsed);
+function encryptText(json, out, label) {
+  const parsed = JSON.parse(json);
   const count = Array.isArray(parsed.jobs) ? parsed.jobs.length : 0;
   if (!count) {
     console.log("[vault] " + label + "为空，跳过，保留原有密文");
@@ -67,8 +67,19 @@ function encryptFile(src, out, label) {
               " (" + (statSync(out).size / 1024).toFixed(0) + " KB)");
 }
 
+function encryptFile(src, out, label) {
+  // 紧凑序列化，去掉本地文件里的缩进空白，减小密文体积
+  encryptText(JSON.stringify(JSON.parse(readFileSync(src, "utf8"))), out, label);
+}
+
 encryptFile(SRC, OUT, "主档案");
 if (existsSync(EXTRA_SRC)) {
+  const d = JSON.parse(readFileSync(EXTRA_SRC, "utf8"));
+  const direct = (d.jobs || []).filter(j => (j.contact_kind || "") === "direct");
+  if (direct.length) {
+    encryptText(JSON.stringify({ updated: d.updated, count: direct.length, jobs: direct }),
+                CONTACTS_OUT, "首屏直达档案");
+  }
   encryptFile(EXTRA_SRC, EXTRA_OUT, "补充档案");
 } else {
   console.log("[vault] 本机没有补充档案源数据，保留仓库里已有的补充密文");

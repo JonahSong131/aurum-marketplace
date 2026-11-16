@@ -40,10 +40,12 @@ async function main(){
 
   const mainData = await dec("public/vault.bin");
   const extra = existsSync(join(ROOT, "public/vault.extra.bin")) ? await dec("public/vault.extra.bin") : {jobs:[]};
-  // 浏览器里也是这么合并的：补充档案优先覆盖同编号
+  const contacts = existsSync(join(ROOT, "public/vault.contacts.bin")) ? await dec("public/vault.contacts.bin") : {jobs:[]};
+  // 浏览器里也是这么合并的：首屏那份联系方式最全，优先覆盖同编号
   const map = new Map();
   for(const j of mainData.jobs) map.set(j.id, j);
   for(const j of (extra.jobs||[])) map.set(j.id, j);
+  for(const j of (contacts.jobs||[])) map.set(j.id, j);
   const jobs = Array.from(map.values());
 
   // 错误密码必须解不开
@@ -63,8 +65,9 @@ async function main(){
   const withSalary = jobs.filter(j => (j.salary||"").trim()).length;
   const withZh = jobs.filter(j => (j.title_zh||"").trim()).length;
 
-  console.log("✅ 主档案 " + mainData.jobs.length + " 条 + 补充档案 " + (extra.jobs||[]).length +
-              " 条 → 合并 " + jobs.length + " 条 · 更新于 " + mainData.updated);
+  console.log("✅ 首屏小档案 " + (contacts.jobs||[]).length + " 条 + 补充 " + (extra.jobs||[]).length +
+              " 条 + 主档案 " + mainData.jobs.length + " 条 → 合并 " + jobs.length + " 条 · 更新于 " + mainData.updated);
+  if(!(contacts.jobs||[]).length) { console.error("❌ 首屏档案为空，用户会卡住"); process.exit(1); }
   console.log("   ✅ 可直接联系 " + count("direct") + " 条 · 站内私信 " + count("dm") +
               " 条 · 原帖 " + count("link") + " 条 · 平台投标 " + count("platform") + " 条");
   console.log("   有联系方式/原帖：" + withContact + " · 有原帖链接：" + withUrl +

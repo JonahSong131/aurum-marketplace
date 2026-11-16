@@ -23,7 +23,8 @@
   .btn-main:disabled{opacity:.55;cursor:wait}
   .chk{display:flex;align-items:center;gap:8px;margin-top:14px;color:var(--dim);font-size:12px;cursor:pointer}
   .chk input{accent-color:var(--gold);width:15px;height:15px}
-  .err{margin-top:12px;color:#e08a7a;font-size:12px;min-height:18px}
+  .err{margin-top:12px;color:#ffb0a0;font-size:12px;min-height:18px;line-height:1.7}
+  .showerr{padding:9px 11px;background:rgba(200,70,60,.14);border:1px solid rgba(224,138,122,.45);border-radius:8px}
   #app[hidden]{display:none}
   .top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:16px}
   .top h1{margin:0;font-size:19px;font-weight:600;color:var(--gold)}
@@ -111,7 +112,7 @@
     ["direct","可直接联系"], ["dm","站内私信"],
     ["platform","原帖 / 平台"], ["all","全部岗位"]
   ];
-  let ALL = [], CAT = "all", VIEW = "direct", LIMIT = 40;
+  let ALL = [], CAT = "all", VIEW = "direct", LIMIT = 40, UPDATED = "";
 
   function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
   function b64(s){
@@ -161,29 +162,57 @@
     );
   }
 
-  async function decryptFile(name, privKey){
-    const res = await fetch("./" + name + "?_=" + Date.now(), {cache:"no-store"});
-    if(!res.ok) return null;
+  async function decryptFile(name, privKey, required){
+    const ctl = new AbortController();
+    const timer = setTimeout(()=>ctl.abort(), required ? 30000 : 60000);
+    let res;
+    try{
+      res = await fetch("./"+name+"?_="+Date.now(), {cache:"no-store", signal:ctl.signal});
+    }catch(e){
+      clearTimeout(timer);
+      if(required) throw new Error("网络超时，没读到 "+name+"。请检查网络或代理后重试");
+      return null;
+    }
+    clearTimeout(timer);
+    if(!res.ok){
+      if(required) throw new Error("读取 "+name+" 失败（HTTP "+res.status+"），请重试");
+      return null;
+    }
     const p = (await res.text()).trim().split(".");
-    if(p.length!==4 || p[0]!=="v2") return null;
+    if(p.length!==4 || p[0]!=="v2"){
+      if(required) throw new Error(name+" 格式不对，请重新同步数据");
+      return null;
+    }
     const dk = await crypto.subtle.decrypt({name:"RSA-OAEP"}, privKey, b64(p[1]));
     const key = await crypto.subtle.importKey("raw", dk, "AES-GCM", false, ["decrypt"]);
     const plain = await crypto.subtle.decrypt({name:"AES-GCM", iv:b64(p[2])}, key, b64(p[3]));
     return JSON.parse(new TextDecoder().decode(plain));
   }
 
-  // 主档案 + 补充档案，按编号合并（补充档案里的联系方式更全，优先）
-  async function loadAll(pw){
+  // 首屏只读「可直接联系」那份小文件（约 180KB），弱网几秒就能进来
+  async function loadFirst(pw, onStep){
     const privKey = await unlockKey(pw);
-    const main = await decryptFile("vault.bin", privKey);
-    if(!main) throw new Error("主档案读取失败，请重新同步");
-    let extra = null;
-    try{ extra = await decryptFile("vault.extra.bin", privKey); }catch(e){ extra = null; }
+    onStep("正在读取首屏岗位（较小的文件）…");
+    const first = await decryptFile("vault.contacts.bin", privKey, true);
+    if(!first || !first.jobs || !first.jobs.length) throw new Error("首屏档案是空的，请重新同步数据");
+    return {privKey, first};
+  }
+
+  // 首屏出来后，后台再把站内私信和全部岗位补齐（文件较大，失败也不影响首屏）
+  async function loadRest(privKey, first, onStep){
+    onStep("正在后台补充其余岗位…");
+    const [extra, main] = await Promise.all([
+      decryptFile("vault.extra.bin", privKey, false).catch(()=>null),
+      decryptFile("vault.bin", privKey, false).catch(()=>null)
+    ]);
+    if(!extra && !main) return false;
     const map = new Map();
-    for(const j of (main.jobs||[])) map.set(j.id, j);
+    for(const j of ((main&&main.jobs)||[])) map.set(j.id, j);
     for(const j of ((extra&&extra.jobs)||[])) map.set(j.id, j);
-    const jobs = Array.from(map.values()).sort((a,b)=>String(b.published||"").localeCompare(String(a.published||"")));
-    return {updated: main.updated, jobs};
+    for(const j of (first.jobs||[])) map.set(j.id, j); // 首屏那份联系方式最全，优先
+    ALL = Array.from(map.values()).sort((a,b)=>String(b.published||"").localeCompare(String(a.published||"")));
+    UPDATED = UPDATED || (main&&main.updated) || first.updated;
+    return true;
   }
 
   function kindOf(j){
@@ -205,6 +234,7 @@
 
   function open(d, pw){
     ALL = d.jobs || [];
+    UPDATED = d.updated || "";
     $("#gate").hidden = true; $("#app").hidden = false;
     const nd = countView("direct");
     $("#stat").textContent = "共 " + ALL.length + " 条 · 其中可直接联系 " + nd + " 条 · 更新于 " + fmt(d.updated);
@@ -284,21 +314,32 @@
 
   async function tryUnlock(pw, manual){
     const btn=$("#go"), err=$("#err");
-    if(!pw){ err.textContent="请输入访问密码"; return; }
-    btn.disabled=true; err.textContent="";
-    if(manual) btn.textContent="解密中…";
+    if(!pw){ err.textContent="请输入访问密码"; err.className="err showerr"; return; }
+    btn.disabled=true; err.textContent=""; err.className="err";
+    if(manual) btn.textContent="正在验证密码…";
     try{
-      const d = await loadAll(pw);
-      open(d, manual ? pw : null);
+      const {privKey, first} = await loadFirst(pw, msg=>{ if(manual) btn.textContent=msg; });
+      open({updated: first.updated, jobs: first.jobs}, manual ? pw : null);
+      btn.disabled=false; btn.textContent="解锁";
+      // 首屏已可用，剩下的大文件后台慢慢补，失败也不影响看岗位
+      loadRest(privKey, first, msg=>{
+        $("#stat").textContent = "首屏就绪 · " + msg;
+      }).then(ok=>{
+        $("#stat").textContent = "共 " + ALL.length + " 条 · 可直接联系 " + countView("direct") +
+          " 条 · 更新于 " + fmt(UPDATED) + (ok ? "" : "（其余岗位暂未加载到）");
+        buildViews(); render();
+      });
     }catch(e){
+      const msg = (e && e.name==="OperationError") ? "密码不对，或数据已更新但密码变了" : ("打不开：" + (e&&e.message||e));
       if(manual){
-        err.textContent = (e && e.name==="OperationError") ? "密码不对，或数据已更新但密码变了" : ("打不开：" + (e&&e.message||e));
+        err.textContent = msg; err.className="err showerr";
         btn.textContent="解锁"; btn.disabled=false;
       }else{
         try{ localStorage.removeItem("vault_pw"); }catch(_){}
         $("#gate").hidden=false;
         btn.disabled=false; btn.textContent="解锁";
         $("#pw").value="";
+        err.textContent = msg; err.className="err showerr";
       }
     }
   }
