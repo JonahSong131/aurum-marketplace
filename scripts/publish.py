@@ -54,7 +54,7 @@ def main():
     print("[2/4] 合并远程自动更新的岗位数据 ...")
     r = run("git", "rebase", "origin/master")
     if r.returncode != 0:
-        print("检测到岗位数据冲突：采用远程最新数据，自动规整后继续 ...")
+        print("检测到冲突：岗位数据用远程最新，加密档案用本地最新，自动规整后继续 ...")
         c = run("git", "checkout", "--ours", "data/jobs.json")
         if c.returncode != 0:
             print("冲突无法自动处理，请把本窗口截图发给贾维斯。")
@@ -62,6 +62,13 @@ def main():
             run("git", "rebase", "--abort")
             return 1
         clean_data()
+        # rebase 期间：ours = 远程已落地的内容，theirs = 正在应用的本地提交。
+        # 云端每 3 小时也会重算密文，撞车时一律保留本地这次生成的密文。
+        for f in ("public/vault.bin", "public/vault.extra.bin",
+                  "public/vault.contacts.bin", "public/vault.stamp"):
+            rr = run("git", "checkout", "--theirs", f)
+            if rr.returncode == 0:
+                run("git", "add", f)
         run("git", "add", "data/jobs.json")
         c2 = run("git", "rebase", "--continue")
         if c2.returncode != 0:
