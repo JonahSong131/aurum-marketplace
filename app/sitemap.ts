@@ -8,6 +8,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: `${baseUrl}/`, changeFrequency: "hourly", priority: 1.0 },
+    // 中文引流落地页：吃「全球远程工作资源站」这类词，数据实时读 jobs.json
+    { url: `${baseUrl}/remote-jobs/`, changeFrequency: "daily", priority: 0.7 },
     // 求职指南：吃「远程工作怎么找」这类长尾搜索词，同时给首页导内链
     { url: `${baseUrl}/blog/global-remote-work-guide.html`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${baseUrl}/blog/remote-jobs-no-experience.html`, changeFrequency: "monthly", priority: 0.6 },
