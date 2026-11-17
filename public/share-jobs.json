@@ -1,13 +1,157 @@
 {
- "updated": "2026-11-17T12:00:13+00:00",
- "count": 77,
+ "updated": "2026-11-17T18:11:16+00:00",
+ "count": 94,
  "jobs": [
+  {
+   "id": "7421e7801bf4",
+   "title": "Менеджер по бронированию",
+   "cat": "misc",
+   "salary": "",
+   "published": "2026-11-17T12:04:09+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "e7f8f539d717",
+   "title": "BD助理| HOTCOIN",
+   "cat": "web3",
+   "salary": "USD 1600 - 2400",
+   "published": "2026-11-17T09:22:23+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "20255af68362",
+   "title": "BD负责人 | 市场部",
+   "cat": "web3",
+   "salary": "USD 2400 - 4000",
+   "published": "2026-11-17T09:21:23+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "35bc27987979",
+   "title": "同步运营 | HOTCOIN",
+   "cat": "web3",
+   "salary": "面议",
+   "published": "2026-11-17T08:44:25+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "c703ac8e82e8",
+   "title": "社媒经理 | HOTCOIN",
+   "cat": "web3",
+   "salary": "3200 - 6400 USD",
+   "published": "2026-11-17T07:42:34+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "4fbecd428080",
+   "title": "KOL 运营经理 | 8MAX",
+   "cat": "web3",
+   "salary": "$2000 - $2800",
+   "published": "2026-11-17T07:41:26+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "d3b20bef8839",
+   "title": "Agent 创新应用算法工程师",
+   "cat": "web3",
+   "salary": "$4,000 - $8,000",
+   "published": "2026-11-17T06:21:53+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "8602578b7d26",
+   "title": "BD/市场 | BitBaby",
+   "cat": "web3",
+   "salary": "$1200 - $3200",
+   "published": "2026-11-17T03:41:04+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "3939be23720a",
+   "title": "寻找卷轴编辑器工作",
+   "cat": "marketing",
+   "salary": "",
+   "published": "2026-11-16T14:40:33+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "5721d78fe6e4",
+   "title": "金融商务岗位（策略方方向）",
+   "cat": "web3",
+   "salary": "面议",
+   "published": "2026-11-16T10:41:41+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "52036929c188",
+   "title": "高级产品经理（CFD） | XT",
+   "cat": "web3",
+   "salary": "面议",
+   "published": "2026-11-16T08:41:44+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "25505c39cf55",
+   "title": "高级产品经理（Web3 × AI 方向）",
+   "cat": "web3",
+   "salary": "USD 3200 - 4800",
+   "published": "2026-11-16T04:41:36+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "56862752ce68",
+   "title": "# 📅 远程岗位周报 |",
+   "cat": "web3",
+   "salary": "$6,400",
+   "published": "2026-11-16T02:01:19+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "bc4abd1dc011",
+   "title": "生长经理 | GMGN #Tools",
+   "cat": "web3",
+   "salary": "$3200 - $4800",
+   "published": "2026-11-16T01:01:59+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "b191335f72cf",
+   "title": "• Web3 新闻：⁠",
+   "cat": "web3",
+   "salary": "",
+   "published": "2026-11-15T21:54:00+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "893d6a4a42cf",
+   "title": "我们正在扩大我们的团队！ | CINVERA STUDIOS",
+   "cat": "marketing",
+   "salary": "",
+   "published": "2026-11-15T18:30:50+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "a4d1e3d2bd5d",
+   "title": "招聘 寻找视频编辑器 每卷 900 印度卢比",
+   "cat": "design",
+   "salary": "",
+   "published": "2026-11-15T15:39:32+00:00",
+   "source": "海外在招"
+  },
   {
    "id": "r6ea1a374f00",
    "title": "Alipay and 社交平台 problems",
    "cat": "misc",
    "salary": "",
    "published": "2026-11-15T14:25:25+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "e08966799ad7",
+   "title": "[招聘]寻找具有 ecom Ai 广告经验的视频编辑",
+   "cat": "design",
+   "salary": "",
+   "published": "2026-11-15T14:18:27+00:00",
    "source": "海外在招"
   },
   {
@@ -184,14 +328,6 @@
    "cat": "marketing",
    "salary": "",
    "published": "2026-11-12T20:30:16+00:00",
-   "source": "海外在招"
-  },
-  {
-   "id": "e08966799ad7",
-   "title": "[招聘]寻找具有 ecom Ai 广告经验的视频编辑",
-   "cat": "design",
-   "salary": "",
-   "published": "2026-11-12T18:39:10+00:00",
    "source": "海外在招"
   },
   {
