@@ -65,7 +65,8 @@ def main():
         # rebase 期间：ours = 远程已落地的内容，theirs = 正在应用的本地提交。
         # 云端每 3 小时也会重算密文，撞车时一律保留本地这次生成的密文。
         for f in ("public/vault.bin", "public/vault.extra.bin",
-                  "public/vault.contacts.bin", "public/vault.stamp"):
+                  "public/vault.contacts.bin", "public/vault.stamp",
+                  "public/share-jobs.json", "public/share.html"):
             rr = run("git", "checkout", "--theirs", f)
             if rr.returncode == 0:
                 run("git", "add", f)

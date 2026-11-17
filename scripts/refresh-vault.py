@@ -35,6 +35,9 @@ def main():
     print("[2.5] 重新提取联系方式，并入扩展岗位档案 ...")
     run("python", "scripts/merge_radar_contacts.py", env={"RESET_CONTACTS": "1"})
 
+    print("[2.7] 重建对外分享页数据（脱敏）...")
+    run("python", "scripts/build-share.py")
+
     print("[3/6] 重新加密 ...")
     run("node", "scripts/build-vault.mjs", env={"FORCE_VAULT": "1"})
 
@@ -44,7 +47,8 @@ def main():
     print("[5/6] 提交密文 ...")
     run("git", "add", "public/vault.bin", "public/vault.extra.bin",
         "public/vault.contacts.bin", "public/vault.stamp",
-        "public/vault.key", "public/vault.pub")
+        "public/vault.key", "public/vault.pub",
+        "public/share-jobs.json", "public/share.html")
     if run("git", "diff", "--cached", "--quiet", check=False).returncode != 0:
         run("git", "commit", "-m", "chore: 刷新加密资料库")
     else:

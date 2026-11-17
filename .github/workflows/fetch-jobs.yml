@@ -36,13 +36,18 @@ jobs:
           FORCE_VAULT: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
         run: node scripts/build-vault.mjs
 
+      # 分享页跟着一起更新：只补充新抓到的可直接联系岗位，且不碰已有数据
+      - name: 更新对外分享页数据
+        run: SHARE_MODE=ci python scripts/build-share.py
+
       - name: 提交数据（有变化才提交）
         run: |
           git config user.name "jobs-bot"
           git config user.email "actions@github.com"
           git add data/jobs.json data/translate-cache.json \
                   public/vault.bin public/vault.extra.bin public/vault.contacts.bin \
-                  public/vault.stamp public/vault.pub public/vault.key
+                  public/vault.stamp public/vault.pub public/vault.key \
+                  public/share-jobs.json public/share.html
           if git diff --cached --quiet; then
             echo "没有新岗位，跳过提交"
           else
