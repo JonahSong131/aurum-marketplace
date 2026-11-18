@@ -1,7 +1,39 @@
 {
- "updated": "2026-11-18T02:46:05+00:00",
- "count": 94,
+ "updated": "2026-11-18T11:11:10+00:00",
+ "count": 98,
  "jobs": [
+  {
+   "id": "e2eb688b73a0",
+   "title": "[坐班兼职招聘]AI 产品交互设计师（兼 UI）、软件测试工程师（AI 应用方向）",
+   "cat": "tech",
+   "salary": "",
+   "published": "2026-11-18T07:50:15+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "5714851111cd",
+   "title": "VIP客服 | Bitunix Exchange",
+   "cat": "web3",
+   "salary": "面议",
+   "published": "2026-11-18T07:02:30+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "28e476f9f071",
+   "title": "客服主管 | Bitunix Exchange",
+   "cat": "web3",
+   "salary": "面议",
+   "published": "2026-11-18T07:01:31+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "48fe0eed8f79",
+   "title": "CEO（CFD业务方向）",
+   "cat": "web3",
+   "salary": "",
+   "published": "2026-11-18T03:21:06+00:00",
+   "source": "海外在招"
+  },
   {
    "id": "7421e7801bf4",
    "title": "Менеджер по бронированию",
