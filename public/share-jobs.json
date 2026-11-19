@@ -1,7 +1,15 @@
 {
- "updated": "2026-11-18T20:01:26+00:00",
- "count": 100,
+ "updated": "2026-11-19T02:17:48+00:00",
+ "count": 102,
  "jobs": [
+  {
+   "id": "3f9a456506d6",
+   "title": "活动策划/运营 | Bitunix Exchange",
+   "cat": "web3",
+   "salary": "面议",
+   "published": "2026-11-19T01:21:27+00:00",
+   "source": "海外在招"
+  },
   {
    "id": "b53580c0c766",
    "title": "[招聘]长篇动漫/漫画视频编辑",
@@ -72,6 +80,14 @@
    "cat": "web3",
    "salary": "USD 2400 - 4000",
    "published": "2026-11-17T09:21:23+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "21db044ef319",
+   "title": "[招聘]长篇动画/漫画视频编辑器 – Tube老师 / Domain Aniki 风格",
+   "cat": "design",
+   "salary": "$5.2",
+   "published": "2026-11-17T09:00:05+00:00",
    "source": "海外在招"
   },
   {
