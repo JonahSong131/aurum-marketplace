@@ -1,7 +1,1184 @@
 {
- "updated": "2026-11-20T10:56:26+00:00",
- "count": 508,
+ "updated": "2026-11-20T19:38:52+00:00",
+ "count": 596,
  "jobs": [
+  {
+   "id": "4a460a9c2554",
+   "title": "[招聘] 销售代表 (FTE – 远程/现场) - 马萨诸塞州西部/佛蒙特州",
+   "desc": "Beyond Talent 正在寻找一名销售代表，负责在马萨诸塞州西部和佛蒙特州开发和维护客户关系。该职位的重点是开拓新业务、咨询销售、产品演示以及在整个销售过程中为客户提供支持。理想的候选人将具有销售资本设备（最好是数控机械）的经验，对制造技术有浓厚的兴趣，并且有能力建立长期的客户关系。\n\n**现在",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T19:16:48+00:00",
+   "salary": "$64,000–$72,000",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "d52133a515aa",
+   "title": "需要写作和翻译支持",
+   "desc": "我正在寻找一个可靠的专业人士，只要我需要新的文案或exis",
+   "cat": "writing",
+   "source": "海外在招",
+   "published": "2026-11-20T19:03:34+00:00",
+   "salary": "USD 10000 - 30000",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "dfad47013cc2",
+   "title": "[工作机会] 我可以做配音和愚蠢的艺术",
+   "desc": "我，23F，因为人工智能而失去了工作，我曾经是一名配音艺术家（基本上是配音演员），所以现在我愿意做配音（SFW）。生活成本不会很快恢复正常，所以如果你也有兴趣雇用我做一些随机的事情，我愿意听到报价！我不是一个很好的艺术家，但也许我可以花 4-8 美元给你画一个愚蠢的涂鸦（取决于你需要什么，至少它不是人工智能哈哈！）也许我可以为你配音或录制台词或其他东西，也许你需要",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T18:49:57+00:00",
+   "salary": "$4-8",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "f052d61947c0",
+   "title": "[任务] 寻找网络开发人员 – 技术博客网站 |预算：$280",
+   "desc": "[已删除]",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T18:42:42+00:00",
+   "salary": "$280",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "2432022c2cf2",
+   "title": "自由视频编辑器 | YouTube、Shorts、Reels、TikTok 和社交媒体内容",
+   "desc": "大家好！\n\n我是一名自由视频编辑，目前希望与新客户、内容创作者、企业和机构合作。\n\n投资组合：[ \n\n我帮助将原始素材和现有内容转化为精美、引人入胜的视频，以保持观众的兴趣。无论您需要社交媒体的简短内容还是较长的 YouTube 视频，我都可以帮助您",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T18:40:56+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "72cdd8d66f6d",
+   "title": "BeyondTrust：销售线索业务合作伙伴",
+   "desc": "总部：偏远的美国 \n\n BeyondTrust 是一个您可以通过所做的工作将您的目标变为现实的地方，通过我们的网络安全 SaaS 产品组合创造一个更安全的世界。 \n 我们灵活、信任和持续学习的文化意味着您的成长以及您对我们成功的影响将得到认可。你周围的人会挑战、支持和激励你成为最好的自己。 \n 角色 \n 我们正在寻求从潜在客户到现金的机会",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T18:32:28+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "241541aa4172",
+   "title": "Wrike：高级客户成功经理",
+   "desc": "总部：美国 - 远程\n\n Wrike 是最强大的工作管理平台。 Wrike 专为希望每天进行协作、创造和超越的团队和组织而打造，将所有人和所有工作集中到一个地方，以消除复杂性、提高生产力，让人们能够专注于最有意义的工作。 \n   \n Wrike 是我们的人民，而不是一个地方。作为一个分布式团队，我们拥有自己的成长，保持全球联系，并依靠我们构建的产品来交付有影响力的工作",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-20T18:32:14+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "e4e792b865d5",
+   "title": "Sezzle：客户服务代理",
+   "desc": "总部：哥伦比亚，远程\n\n 对于哥伦比亚波哥大的候选人来说，这是一个远程职位。 \n 关于塞兹尔： \n Sezzle 的使命是为下一代提供财务支持，正在彻底改变支付之外的购物体验，将尖端技术与无缝、免息分期付款计划相结合，使购物变得更智能、更方便。我们不仅要改变支付方式，还要改变支付方式。我们正在重新定义人们如何发现、互动和购买他们喜欢的东西",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T18:32:06+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "0f47f45a7842",
+   "title": "Wrike：高级云运营工程师（网络工程师）",
+   "desc": "总部：捷克共和国 - 远程\n\n Wrike 是最强大的工作管理平台。 Wrike 专为希望每天进行协作、创造和超越的团队和组织而打造，将所有人和所有工作集中到一个地方，以消除复杂性、提高生产力，让人们能够专注于最有意义的工作。 \n   \n Wrike 是我们的人民，而不是一个地方。作为一个分布式团队，我们拥有自己的成长，保持全球联系，并依靠我们构建的产品来提供影响力",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T18:32:06+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "e1d3a918ee6a",
+   "title": "StockX：没有看到合适的角色？加入我们的人才社区！",
+   "desc": "总部：印度班加罗尔；密歇根州底特律；佐治亚州道格拉斯维尔；荷兰埃因霍温；中国香港；英国伦敦；加拿大安大略省密西沙加；远程，荷兰；远程，英国；远程，美国；亚利桑那州坦佩；新泽西州西考德威尔\n\n 帮助我们的全球客户通过他们的热情与文化建立联系。关于我们 \n 在 StockX，我们始终寻求与热衷于产生影响的才华横溢的专业人士建立联系。虽然您可能看不到当前的开口对齐",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T18:31:58+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "455a951807c9",
+   "title": "Discord：高级软件工程师、企业平台",
+   "desc": "总部：旧金山湾区或偏远地区（西海岸）\n\n Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord 在未来的游戏中发挥着独特的重要作用，我们致力于让人们在玩游戏之前、期间和之后更轻松、更有趣地闲逛。 Discord 的企业技术组织正在构建一个软件引擎",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T18:31:16+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "6ccc97873e33",
+   "title": "高级网络工程师（所有性别）- Cisco & Fortinet - teccle group GmbH",
+   "desc": "Mit über 650 Kolleg:innen an 19 Standorten in ganz Deutschland gestalten wir bei teccle die Zukunft der IT。 2020 年，IT-Unternehmen 将在 2020 年为您带来全新的 IT-Unterschiedlichsten Schwerpunkten unter einem Dach zusammen - und entwickeln uns so zu einem der führenden IT-Dienstleister im Land。 Unser Ziel：IT-Lösungen schaffen、die wirklich weiterhelfen - verständlich、flexibel und zukunftsfähig。 Für unsere Kund:innen und gemeinsam mit einem Team, das Technik genauso liebt wie neue Ideen。 Als Teil der",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T18:31:12+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "e1461ff23382",
+   "title": "IT 安全工程师（所有性别）- teccle group GmbH",
+   "desc": "Mit über 650 Kolleg:innen an 19 Standorten in ganz Deutschland gestalten wir bei teccle die Zukunft der IT。 2020 年，IT-Unternehmen 将在 2020 年为您带来全新的 IT-Unterschiedlichsten Schwerpunkten unter einem Dach zusammen - und entwickeln uns so zu einem der führenden IT-Dienstleister im Land。 Unser Ziel：IT-Lösungen schaffen、die wirklich weiterhelfen - verständlich、flexibel und zukunftsfähig。 Für unsere Kund:innen und gemeinsam mit einem Team, das Technik genauso liebt wie neue Ideen。 Als Teil der",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T18:31:12+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "c2f8f25b7d69",
+   "title": "Elation Health：企业客户成功经理",
+   "desc": "总部：美国-远程\n\n Since inception, Elation has been focused on building a delightful, world-class experience that empowers physicians to deliver phenomenal care to patients.我们的团队致力于通过基于 SaaS 云的临床平台提高医生和患者的生活质量。 \n 随着我们不断扩大规模，我们正在发展我们的客户成功组织，以满足我们最具战略意义的客户的需求。我们正在寻找经验丰富的高级客户成功管理",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T18:31:01+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "8946afab757c",
+   "title": "升级：高级 QA 自动化开发人员 (HELOC)",
+   "desc": "总部：加拿大（远程）\n\n 升级帮助客户通过负担得起且负责任的金融产品朝着正确的方向前进。自 2017 年以来，我们已帮助超过 750 万客户获得超过 340 亿美元的消费信贷。我们坚持不懈地致力于改善客户的财务状况，打造出让他们口袋里有更多钱的产品，并支持他们迈向更美好的财务未来。我们得到了一些最著名的技术投资者的支持，并且是最",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T18:31:01+00:00",
+   "salary": "$34",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "c8667a3a342d",
+   "title": "升级：首席 DevSecOps 工程师",
+   "desc": "总部：美国（远程）\n\n 关于角色： \n\n我们正在寻找一位技术精湛、实践能力强的首席 DevSecOps 开发人员加入 Upgrade 的安全团队。 In this role, you'll focus on building and improving security automation, strengthening our SaaS environment, and developing scalable solutions that enhance security operations across the organization. \n You'll leverage your programming and scripting skills, hands-on operations experience, and understanding of APIs, IAM permissi",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T18:31:01+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "b9a8fa28e239",
+   "title": "Asana：客户成功经理（AI 成功）架构师）",
+   "desc": "Headquarters: US - Remote\n\n 客户不再问人工智能是否有效，而是问人工智能会改变他们的运作方式。 As an AI Success Architect, you’ll help enterprise customers answer that question and turn Asana’s AI capabilities into measurable business results. You’ll own the post-sales relationship for a portfolio of ~50 enterprise accounts, acting as a strategic advisor with accountability for AI adoption, consumption, and commercial outcomes.在此顾问角色中，您",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T18:30:52+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "ffae72f1bc84",
+   "title": "Smartsheet：参与经理",
+   "desc": "总部：-美国远程-\n\n 20 多年来，Smartsheet 帮助团队无缝管理工作并更智能地扩展解决方案。现在，在我们迄今为止最雄心勃勃的一章中，我们正在将人类团队与人工智能代理结合起来。通过协调最擅长的工作代理、自动化手动任务并大规模发现见解，我们为人们创造了空间，让他们专注于真正重要的事情：判断力、创造力和大思维。这就是工作的魔力，也是我们每天出现的目的。 Smartsheet 是",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T18:30:52+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "f2c79e361fdc",
+   "title": "Upsun：软件工程师",
+   "desc": "总部：远程 • 英国、法国、西班牙、德国或加拿大\n\n 关于优尚 \n Upsun 是人工智能-人类工作流程的软件工厂。我们构建的工具可以让工程团队充满信心地工作，人工智能代理和人类从第一个想法一直到生产都可以一起工作。开发人员、DevOps 工程师和平台团队使用 Upsun 可以更快地行动而不会失去控制。 \n Upsun 通过两种产品将这一点结合在一起：一种产品塑造工作，另一种产品运行工作。 \n \n Upsun Dis",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T18:30:43+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "3f04d70935c7",
+   "title": "[报价]我将校对并修复您文本中的语法/拼写，价格为 1 美元",
+   "desc": "[已删除]",
+   "cat": "writing",
+   "source": "海外在招",
+   "published": "2026-11-20T18:17:35+00:00",
+   "salary": "$1",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "bea034d099df",
+   "title": "[招聘]图形设计师 50-60 美元/小时",
+   "desc": "[已删除]",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T18:02:54+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "3bff07fd3aad",
+   "title": "[报价]响应式登陆页面和快速前端（HTML、CSS、JAVASCRIPT、REACT 等）错误修复（4 美元） - $20)",
+   "desc": "[已删除]",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T17:54:53+00:00",
+   "salary": "$4 - $20",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "2dee27cc0590",
+   "title": "Instagram-Ready Business Logo Design",
+   "desc": "我正在寻找一位创意设计师，他可以制作一个独特的商业徽标，看起来很锋利a",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T17:54:11+00:00",
+   "salary": "USD 600 - 1000",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "1b9cbe7514a4",
+   "title": "[招聘]（在线）网站客户的陌生来电者 – 每个客户 500 卢比",
+   "desc": "我建立网站并拥有没有网站的本地商业号码列表。我需要有人给他们打电话并找到想要网站的人。\n\n我会给你这些数字，每个注册的客户你都会获得 500 卢比。随时在家工作。\n\n 我将分享定价表和其他详细信息。",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T17:49:45+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "759bdec76c99",
+   "title": "招聘 - 网站客户需要一个陌生的来电者，每个客户 500 卢比",
+   "desc": "[已删除]",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T17:47:14+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "efcfa1a77560",
+   "title": "招聘视频编辑器，每小时 3-4 美元",
+   "desc": "",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T17:40:42+00:00",
+   "salary": "$3-$4 per hour",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "b5158ebaac53",
+   "title": "[招聘] [远程] 创意内容专家 - AI 媒体，全职， $32,000-$40,000/年",
+   "desc": "[已删除]",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T17:37:41+00:00",
+   "salary": "$32,000-$40,000",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "b9ac57903390",
+   "title": "[招聘]创意内容专家 - AI 媒体（远程，全职，$32,000-$40,000/年）",
+   "desc": "[已删除]",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T17:36:09+00:00",
+   "salary": "$32,000-$40,000",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "24865cbc6e05",
+   "title": "[报价]我将为您的小型企业构建自定义网站或业务管理工具（$160）",
+   "desc": "[已删除]",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T17:31:44+00:00",
+   "salary": "$160",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "56bd55d66746",
+   "title": "为新客户提供高品质房地产视频编辑器| 24 小时周转",
+   "desc": "大家好！我目前正在寻求与需要可靠编辑合作伙伴的房地产摄影师、摄像师和机构合作。\n\n我可以提供以下帮助：\n\n\\* 🏠 房产演练和列表视频 \n\\* ✨ 豪华房地产编辑 \n\\* 🚁 无人机镜头编辑 \n\\* 🎨 颜色分级和声音设计 \n\\* 🎬 动态图形和社交媒体卷轴\n\n我的重点是提供\\*\\*高质量、精美的视频\\*\\*，展示每处房产的最佳状态。\n\n⚡ \\*\\*24 小时周转\\*\\* 大多数项目",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T17:25:34+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "e9339dd602ee",
+   "title": "[offer] 有任何在线零工吗？",
+   "desc": "[已删除]",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T17:18:03+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "168062edaa29",
+   "title": "[Hiring] DinA3 圣诞赠品海报，徽标文件作为矢量可用",
+   "desc": "。\n\n嘿，由于某些情况和在医院的几个晚上，我无法完成海报。\n\n而且由于我只带了手机，所以无法自己办理 ATM 取款。\n\n我在德国拥有一家小型 Stonemason 公司，我们想为任何在我们的社交媒体帖子上点赞、分享和评论的人以及明天（20 小时后...）的面对面圣诞市场举办一个小型圣诞赠品活动。 \n\n是的，我知道通知很短。\n\n我不想只打印人工智能海报，所以我想我在这里问。 \n\n我有一个",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T17:14:47+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "43541db43370",
+   "title": "Hiring，DinA3 海报赠品，徽标文件作为矢量可用。",
+   "desc": "[已删除]",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T17:09:14+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "712b8a14538d",
+   "title": "GitLab：高级经理，支持工程（公共部门）",
+   "desc": "总部：远程，美国\n\n GitLab 是 DevSecOps 的智能编排平台。 GitLab 使组织能够提高开发人员生产力、提高运营效率、降低安全和合规风险并加速数字化转型。超过 5000 万注册用户和超过 50% 的财富 100 强* 信任 GitLab 能够更快地交付更好、更安全的软件。 \n 我们的产品中内置的相同原则也反映在我们团队的工作方式中：我们嵌入",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T17:00:34+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "dfdb77466048",
+   "title": "6sense：高级客户成功经理 - Upmarket",
+   "desc": "总部：美国，远程\n\n 我们的使命： \n 6sense 的使命是倍增重要的事物：增长、保留和效率。  我们憧憬一个公司、团队和个人充分发挥潜力的未来。 \n 我们的员工： \n 人是 6sense 的核心和灵魂。我们充满热情和目标地服务。我们遵循“团队共赢”、“保持好奇心”、“做正确的事”、“拥有结果”和“创造归属感”6sense 价值观为生。  每 6 个传感器都在定义我们行业的未来方面发挥着重要作用",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-20T17:00:32+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "007258bab183",
+   "title": "Resolv.Global：双语客户支持专家（英语/法语-加拿大语）",
+   "desc": "总部：加拿大魁北克省萨格奈\n \n 网址： \n\n 我们正在寻找一位经验丰富、精通英语和加拿大法语的双语客户支持专家加入客户支持团队，处理一般客户查询、产品问题和保修索赔。对于目前居住在加拿大、有信心用英语和法语进行专业、自然交流的候选人来说，这是一个完全远程的机会。正宗的魁北克法语深受青睐",
+   "cat": "support",
+   "source": "海外在招",
+   "published": "2026-11-20T17:00:30+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "ce62e9a60dbb",
+   "title": "Global Dimensions, LLC：兼职 HUBZone 业务运营和支持专家",
+   "desc": "总部：美国德克萨斯州休斯顿\n \n 网址： \n\n 地点：远程 – 美国（必须位于 SBA 指定的 HUBZone 中） \n 时间表：兼职|每周 10 小时 |周一至周五灵活 \n 雇佣类型： 兼职 W-2 员工 \n 预期任务：2027年1月18日至2027年3月31日 \n 薪酬：每小时薪酬将根据员工主要工作地点适用的联邦、州或当地最低工资计算。那里只有联邦米",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T17:00:26+00:00",
+   "salary": "$5.8.",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "fb08b8cce044",
+   "title": "Welocalize：瑞典语 AI 翻译质量评估者",
+   "desc": "总部：瑞典斯德哥尔摩\n \n 网址： \n\n 描述 \n\n您注重细节并对语言质量充满热情吗？我们正在寻找翻译人员加入正在进行的项目，帮助确保面向客户的翻译内容的准确性、一致性和高标准。该角色涉及间歇性工作，全年根据客户需求临时分配任务。数量和时间可能会有所不同。 \n\n 项目详情 \n 职位名称：Alpheratz Pro",
+   "cat": "support",
+   "source": "海外在招",
+   "published": "2026-11-20T17:00:09+00:00",
+   "salary": "$23",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "b6d2da18d36f",
+   "title": "Welocalize：巴伦西亚 AI 翻译质量评估者",
+   "desc": "总部：西班牙马德里自治区马德里\n \n 网址： \n\n 描述 \n\n您注重细节并对语言质量充满热情吗？我们正在寻找翻译人员加入正在进行的项目，帮助确保面向客户的翻译内容的准确性、一致性和高标准。该角色涉及间歇性工作，全年根据客户需求临时分配任务。数量和时间可能会有所不同。 \n\n 项目详情 \n 工作山雀",
+   "cat": "support",
+   "source": "海外在招",
+   "published": "2026-11-20T17:00:07+00:00",
+   "salary": "$17.5",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "211687818c53",
+   "title": "Welocalize：波兰语 AI 翻译质量评估者",
+   "desc": "总部：波兰马佐夫舍省华沙\n \n 网址： \n\n 描述 \n\n您注重细节并对语言质量充满热情吗？我们正在寻找翻译人员加入正在进行的项目，帮助确保面向客户的翻译内容的准确性、一致性和高标准。该角色涉及间歇性工作，全年根据客户需求临时分配任务。数量和时间可能会有所不同。 \n 项目详情 \n 职位",
+   "cat": "support",
+   "source": "海外在招",
+   "published": "2026-11-20T17:00:05+00:00",
+   "salary": "$13.6",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "0a4b83925feb",
+   "title": "[招聘]数据融合系统软件工程师/分析师（助理–高级）– 圣路易斯，密苏里州 | 波音",
+   "desc": "公司：波音（Phantom Works / Network Centric Operations）\n地点：伯克利，密苏里州（圣路易斯地区）——现场\n类型：全职，带薪（不含佣金）\n\n薪酬（官方公布的范围）：\n• 助理：$75,480 – $102,120\n• 经验丰富：$94,520 – $127,880\n• 高级：$118,320 – $160,080\n\n关于角色：\n为战术战斗机网络作战开发先进的传感器融合算法并构建原型。应用数学/统计技术来组合多传感器数据，评估算法性能",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T16:57:04+00:00",
+   "salary": "$75,480 – $102,120",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "f62d1a55f35d",
+   "title": "[招聘] 系统管理员 - 远程（美国）或特拉华州威尔明顿 - $92k-120k - Fairstone",
+   "desc": "[已删除]",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T16:54:35+00:00",
+   "salary": "$92k",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "eb0b391908ad",
+   "title": "AI全栈开发人员（男/女/日） - NEON软件解决方案",
+   "desc": "关于 NEON Software Solutions NEON 是一家来自柏林的开发工作室，拥有 20 多人的团队，专门从事移动应用程序的设计、开发、运营和分析。凭借 60 多个应用程序项目的经验，我们完全在内部工作，将创意从构思到应用程序图表。您的任务您在整个堆栈中设计、开发和操作人工智能驱动的应用程序。您使用现代网络和应用程序技术e",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T16:31:08+00:00",
+   "salary": "EUR 49,600–68,000",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "1b0e60d80fa5",
+   "title": "Portfolio:vedasdixit.com - GitHub: - 电子邮件：",
+   "desc": "",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T16:25:43+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "7a214234c66e",
+   "title": "[Offer] 我将编辑您的 TikTok/Reels/Shorts - 干净、快速且流行风格",
+   "desc": "[已删除]",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T16:17:21+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "b0552872cc70",
+   "title": "创建并鉴定转录平台帐户",
+   "desc": "创建并验证转录平台帐户\n职位描述\n我正在寻找有经验的免费",
+   "cat": "data",
+   "source": "海外在招",
+   "published": "2026-11-20T16:09:57+00:00",
+   "salary": "USD 8 - 24",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "ff77553d7270",
+   "title": "[招聘] 对网上商店布局进行小幅调整",
+   "desc": "我正在寻找可以对在线商店 (WooCommerce) 进行细微调整的人员，包括：\n\n* 编辑或替换购物车图标\n* 编辑菜单->编辑“购物车”、“登录”等菜单项。\n* 增加主要内容区域的宽度\n\n每次小幅调整 4 美元。通过 USDC 或 Solana",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T16:06:12+00:00",
+   "salary": "$4",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "79ca822606bb",
+   "title": "营销全能者（所有性别） 100% 在家办公 — fino data services GmbH",
+   "desc": "您的团队 想要有所作为的人会吸引那些想要有所作为的人。在fino data services，您与充满好奇心、思维敏捷、喜欢亲自动手的人一起工作。那些在事情变得令人兴奋时陷入困境的人，会大声表达自己的想法，并且不会在第一个解决方案上停下来。这是不同的思想、观点和力量汇聚在一起的地方。我们讨论、互相挑战、互相学习并共同构建解决方案",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T16:01:00+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "4c4f20787f50",
+   "title": "[报价] WordPress 网站和登陆页面设计师 |企业和品牌定制网站 - 72 美元起",
+   "desc": "大家好！ 👋\n\n我是 Lib，一名自由图形和网页设计师，目前可以参与新项目。\n\n我专注于使用 WordPress 和 Elementor 创建**现代、具有视觉吸引力且实用的网站**，帮助企业、企业家和品牌建立强大的在线形象。\n\n**我能为您提供什么帮助：**\n\n* 定制 WordPress 网站设计。\n* 高转化率的登陆页面。\n* 商业和企业网站。\n* 作品集和个人网站。\n* WooCommerce 在线商店。\n* 网站",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T15:57:56+00:00",
+   "salary": "$72",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "0c6e8c65857c",
+   "title": "[招聘] 工业工程师和设备诊断专家 |远程| 87 美元/小时 | Terac",
+   "desc": "# 我从 Terac 发现了一个有趣的付费机会，我认为值得与工程师、维护专业人员和工业运营人员分享。\n\n他们目前正在招募在工业设备诊断和传感器数据分析方面具有实践经验的专业人士，进行一项付费研究，重点是改进人工智能驱动的诊断工作流程。\n\n**💰 报酬：87 美元/小时**\n\n**🌍工作安排：远程**\n\n**📋 承诺：独立合约",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T15:50:01+00:00",
+   "salary": "$87/hour",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "1a710d9432ca",
+   "title": "我需要一份工作",
+   "desc": "",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T15:39:36+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "7945c85bb1ae",
+   "title": "[报价] 电子商务网站设计师/开发人员 – Shopify、自定义网站等。完整的网站包+启动帮助。 80 美元，现已准备就绪，1",
+   "desc": "[已删除]",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T15:32:10+00:00",
+   "salary": "$80",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "dc5a8b021cb9",
+   "title": "正在寻找一位作家来帮助完成医学院的小学和中学申请",
+   "desc": "[已删除]",
+   "cat": "writing",
+   "source": "海外在招",
+   "published": "2026-11-20T15:30:45+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "1de24fc55fb5",
+   "title": "[报价]我构建了 Discord 机器人和自动化脚本 | $40-$320 | PayPal",
+   "desc": "[已删除]",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T15:28:16+00:00",
+   "salary": "$40-$320",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "35ecfeffcd12",
+   "title": "最好的远程工作网站？",
+   "desc": "Linkedin 对任何人寻找远程工作有用吗？如果没有，您是否还有其他取得成功的网站？\n\n任何建议将不胜感激！",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T15:15:35+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "66b6e163b8f6",
+   "title": "需要虚拟个人助理",
+   "desc": "我正在寻找一个可靠的虚拟助理，可以减轻我的收件箱和日程安排的日常压力",
+   "cat": "support",
+   "source": "海外在招",
+   "published": "2026-11-20T15:12:08+00:00",
+   "salary": "USD 10000 - 30000",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "1499bf6dc14c",
+   "title": "WhatsApp AI常见问题解答聊天机器人构建",
+   "desc": "我需要一个在我的 WhatsApp Business 号码上运行的人工智能聊天机器人，可以可靠地回答 com",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T15:07:32+00:00",
+   "salary": "USD 600 - 1000",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "15850ee39146",
+   "title": "您在寻找编辑吗？",
+   "desc": "**嘿！我想从事一些视频编辑工作。我主要专注于游戏有趣的时刻，类似于 GOONS、VanossGaming 和 SMii7Y 等创作者！**\n\n**我专注于良好的节奏、有趣的时刻、声音效果，并在不过度编辑的情况下使视频变得有趣。我剪辑的一个关键特点是我的喜剧时机！我可能不是技术最高的编辑，但我了解喜剧的价值/时机！**\n\n**定价：**\n\n* **15 分钟视频起价 40 美元。**\n* **价格可能会有所不同，具体取决于",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T15:07:03+00:00",
+   "salary": "$40",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "1cdc70a2b1fd",
+   "title": "[报价]由Ahmad提供的干净的Excel数据输入、格式设置和文字输入（4美元/小时）",
+   "desc": "[已删除]",
+   "cat": "data",
+   "source": "海外在招",
+   "published": "2026-11-20T14:57:19+00:00",
+   "salary": "$4/hr",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "23c231b66bbc",
+   "title": "[招聘]寻找为博客撰写文章的老师",
+   "desc": "你好！我正在寻找能够在自己的署名下撰写博客内容并根据自己的喜好编辑人工智能内容的老师。这项工作将两者结合起来，我目前正在寻找 1 到 3 名作家。 \n \n对于人工智能编辑的内容，付费率为每个字7美分；对于标准的、完全书面的帖子，可以根据您的经验进行协商。 \n\n请寄给我一些写作样本并让我了解您的教学经验。我将向符合资格的人提供更多详细信息。谢谢！",
+   "cat": "writing",
+   "source": "海外在招",
+   "published": "2026-11-20T14:47:41+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "f2fa4839ba30",
+   "title": "[招聘]约会设置者@[您的公司名称]|远程（拉丁美洲）| $1280–1600/月",
+   "desc": "角色：预约制定者/入站潜在客户资格审查员\n\n公司：Novantro——面向 B2B 客户的 Reddit 营销机构\n\n地点：拉丁美洲偏远地区\n\n工作时间：全职，美国工作时间（东部时间上午 9 点至下午 6 点）\n\n薪酬：1,280-1,600 美元/月\n\n我们做什么\n\n我们为 B2B 公司开展 Reddit 营销计划，以及 SEO 和人工智能搜索可见性工作，让客户出现在 Google 上并被 ChatGPT 等工具引用。潜在客户通过付费广告、自然搜索和出站到达。\n\n你会做什么\n\n\\- 速度",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-20T14:40:37+00:00",
+   "salary": "$1280–1600/mo",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "1dbdc5403fa5",
+   "title": "[招聘] 希望支付 40 美元来验证 OpenAI 上的账户",
+   "desc": "不是为了一些狡猾的东西，只是需要大量的代币，而且付钱给人们验证新帐户并使用免费的帐户然后实际购买代币会更便宜。您所要做的就是给我您的电子邮件地址，我将转发通过验证应用程序 openAI 使用的 Persona 完成的验证链接。",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T14:34:28+00:00",
+   "salary": "$40",
+   "remote": false,
+   "web3": true
+  },
+  {
+   "id": "cea07bfe2378",
+   "title": "[招聘] 预约制定者 —（拉美）全职 1.6–2k/月",
+   "desc": "[已删除]",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T14:20:54+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "f3d0862f1ec6",
+   "title": "纽约市企业客户经理",
+   "desc": "了解我们 \n Horizon3 是一家快速发展的远程网络安全公司，致力于帮助组织在犯罪分子利用攻击向量之前主动查找、修复和验证可利用的攻击向量。我们的旗舰产品 NodeZeroTM 平台提供生产安全的自主渗透测试和其他关键评估操作，可跨最大的内部、外部、云和混合云环境进行扩展。 NodeZero 已被各种规模的组织采用，来自",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T14:20:06+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "ee30899f1ce9",
+   "title": "业务风险和人工智能自动化经理",
+   "desc": "Reddit 是一个社区的社区。它建立在共同的兴趣、热情和信任的基础上，是互联网上最开放、最真实的对话的所在地。每天，Reddit 用户都会对他们最关心的话题进行提交、投票和评论。 Reddit 拥有 100,000 多个活跃社区和约 1.3 亿每日活跃独立访客，是互联网最大的信息来源之一。欲了解更多信息，请访问 。 \n 职位概况 \n 我们正在寻找一名经理",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T14:20:04+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "7f38561a9c78",
+   "title": "对外销售开发代表",
+   "desc": "关于我们的一些信息... Fleetio 是一个现代化的软件平台，可帮助全球数千个组织管理其车队运营。交通技术是一个热门市场，我们凭借狂热的粉丝和每天新注册的客户而引领潮流。我们在 2025 年 3 月的 D 轮融资中筹集了 3.6 亿美元，目前公司正处于令人兴奋的发展轨道上。 Fleetio 也是 Rails 基金会的创始成员！ \n 有关我们团队和公司的更多信息： \n \n Fleetio 概述 vi",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T14:20:02+00:00",
+   "salary": "$360",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "de430562f2e9",
+   "title": "俄亥俄谷中型企业客户经理",
+   "desc": "了解我们 \n Horizon3 是一家快速发展的远程网络安全公司，致力于帮助组织在犯罪分子利用攻击向量之前主动查找、修复和验证可利用的攻击向量。我们的旗舰产品 NodeZeroTM 平台提供生产安全的自主渗透测试和其他关键评估操作，可跨最大的内部、外部、云和混合云环境进行扩展。 NodeZero 已被各种规模的组织采用，来自",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T14:19:36+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "b4189c01fe14",
+   "title": "机器学习工程师",
+   "desc": "Reddit 是一个社区的社区。它建立在共同的兴趣、热情和信任的基础上，是互联网上最开放、最真实的对话的所在地。每天，Reddit 用户都会对他们最关心的话题进行提交、投票和评论。 Reddit 拥有 100,000 多个活跃社区和约 1.3 亿每日活跃独立访客，是互联网最大的信息来源之一。欲了解更多信息，请访问 。 \n 在 Reddit，机器学习位于 hea",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T14:19:35+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "4f87e47899a4",
+   "title": "高级概念艺术家",
+   "desc": "HyperHug 是一家专门从事射击游戏类型的国际游戏开发工作室。我们的主要办公室位于塞浦路斯，但我们才华横溢的团队在世界各地远程工作。我们正在开发《Oxide: Survival Island》，这是一款适用于移动平台的沉浸式多人生存射击游戏，我们一直在寻找有动力、愿意与我们一起成长、贡献创造力并帮助塑造我们游戏未来的个人。 \n Oxide 不断增长，游戏内内容的数量也在不断增长。 We'",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T14:19:33+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "21226695fd31",
+   "title": "社区经理 - 法语（12 个月合同）",
+   "desc": "Reddit 是一个社区的社区。它建立在共同的兴趣、热情和信任的基础上，是互联网上最开放、最真实的对话的所在地。每天，Reddit 用户都会对他们最关心的话题进行提交、投票和评论。 Reddit 拥有 100,000 多个活跃社区和约 1.3 亿每日活跃独立访客，是互联网最大的信息来源之一。欲了解更多信息，请访问 。 \n 我们正在寻找一个战略社区",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T14:19:29+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "8097d9ecc111",
+   "title": "客户经理，SMB",
+   "desc": "关于我们的一些信息... Fleetio 是一个现代化的软件平台，可帮助全球数千个组织管理其车队运营。交通技术是一个热门市场，我们凭借狂热的粉丝和每天新注册的客户而引领潮流。我们在 2025 年 3 月的 D 轮融资中筹集了 3.6 亿美元，目前公司正处于令人兴奋的发展轨道上。 Fleetio 也是 Rails 基金会的创始成员！ \n 有关我们团队和公司的更多信息： \n \n Fleetio 概述 vi",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-20T14:19:28+00:00",
+   "salary": "$360",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "ec4c8722e4b2",
+   "title": "高级质量保证工程师",
+   "desc": "HyperHug 是一家专门从事射击游戏类型的国际游戏开发工作室。我们的主要办公室位于塞浦路斯，但我们才华横溢的团队在世界各地远程工作。我们正在开发《Oxide: Survival Island》，这是一款适用于移动平台的沉浸式多人生存射击游戏，我们一直在寻找有动力、愿意与我们一起成长、贡献创造力并帮助塑造我们游戏未来的个人。 \n 我们正在寻找高级质量保证工程师加入我们的团队，并且",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T14:19:26+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "bbcf0dc5681a",
+   "title": "手动产品数据输入",
+   "desc": "我需要额外的一双手将产品详细信息从我的源列表直接转移到网站'",
+   "cat": "data",
+   "source": "海外在招",
+   "published": "2026-11-20T13:57:42+00:00",
+   "salary": "USD 600 - 1000",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "300aeb51b182",
+   "title": "业务主管研究和电子邮件列表",
+   "desc": "需要潜在客户生成任务。网络研究和数据输入。高质量的工作。需要有效的商业电子邮件。",
+   "cat": "data",
+   "source": "海外在招",
+   "published": "2026-11-20T13:56:20+00:00",
+   "salary": "USD 600 - 1000",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "0737e2360c81",
+   "title": "[招聘] 自由短视频编辑 | Remote",
+   "desc": "招聘：短格式视频编辑器|远程/自由职业者\n\nRelayform 正在寻找有才华的短视频编辑加入我们的自由编辑网络，并为英语市场的创作者和客户开展内容项目。\n\n我们不仅仅是在寻找懂得如何使用编辑软件的人。我们的工作涉及将长篇内容（包括播客、YouTube 视频、采访和类似内容）转换为 Instagram Reels、TikTok 和 YouTube 的精美短视频",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T13:56:06+00:00",
+   "salary": "$200–$240",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "1cfbf4f7cd0f",
+   "title": "[OFFER] 我将帮助您进行 Web 开发、后端开发和自动化 |灵活定价",
+   "desc": "[已删除]",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T13:44:20+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "ac8da1963471",
+   "title": "[优惠]我提供可靠的数据输入、打字复制、Excel 和 Word 格式化服务",
+   "desc": "[已删除]",
+   "cat": "data",
+   "source": "海外在招",
+   "published": "2026-11-20T13:41:54+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "bc43e1acabd7",
+   "title": "[优惠]我将帮助您进行网页开发、后端开发和自动化 |灵活定价",
+   "desc": "嘿！您是创始人、开发人员、初创公司所有者，还是需要帮助构建 Web 应用程序、修复后端问题或自动执行重复任务的人？\n\n我可以帮助您完成工作，而无需聘请全职开发人员。\n\n我目前在一家跨国公司担任全职软件开发人员，希望从事一些有趣的副业项目和自由职业。\n\n**以下是我可以帮助您的：**\n\n* **后端开发：** REST API、数据库设计、身份验证、整合",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T13:37:10+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": true
+  },
+  {
+   "id": "9b16aa208956",
+   "title": "[优惠] 呼叫所有 Android TV 和 Google TV 用户！加入我们的电视活动并获得 5 美元📺",
+   "desc": "我们正在为我们的第一个电视活动寻找测试人员，我们希望*您*帮助我们塑造体验。\n\n**谁可以加入？** 几乎每个拥有 Android TV 或 Google TV 设备的人！这包括：\n\n* Chromecast 与 Google TV\n* 英伟达盾\n* 小米盒子\n* 大多数索尼、TCL、海信、飞利浦和其他 Android/Google 电视。\n\n**如何加入并赚取：**\n\n1. 打开 PeerPlay 移动应用程序并转至：**配置文件 → 添加您的 Android TV**。\n2. 将电视上的 **设置 → 关于** 屏幕的照片发送至",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-20T13:36:14+00:00",
+   "salary": "$5",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "1f653f35bc15",
+   "title": "招聘",
+   "desc": "",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T13:32:48+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "dd505dca806e",
+   "title": "需要视频编辑器（工资很低，抱歉）",
+   "desc": "[已删除]",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T13:26:58+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "ff869433d636",
+   "title": "招聘",
+   "desc": "**招聘：自由 YouTube 视频编辑器（长格式 + 短格式）**\n\n我正在为正在进行的 YouTube 项目寻找可靠、富有创意的视频编辑器。\n\n**内容：** 生活方式、评论和旅行相关视频。\n\n**你将从事的工作：**\n\n长篇 YouTube 视频（通常为 10-16 分钟）。\n\n每次长格式剪辑后都会生成一个垂直短视频。\n\n粗剪、自然节奏、幕后花絮、声音设计和动态图形。\n\n使用提供的预设和模板清洁动画。\n\n高品质4K展会",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T13:26:35+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "be9093e0c875",
+   "title": "虚拟助理（客户管理、招聘和人员运营）-- 2",
+   "desc": "关于角色\n我们正在雇用一个远程虚拟助理来保持我们的客户帐户和我们的团队的运行",
+   "cat": "support",
+   "source": "海外在招",
+   "published": "2026-11-20T13:10:27+00:00",
+   "salary": "USD 1.6 - 6.4",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "550fcb2c24bc",
+   "title": "您是否因为 AI 工作速度更快而定价更便宜？？？",
+   "desc": "如果某件事过去需要我 1-2 天的时间，而现在我可以通过人工智能在 3-4 小时内完成它，客户是否应该支付更少的费用？\n\n我的一部分认为是的，因为这项工作花费的时间少得多。但花费较少时间的原因是因为我已经知道要制作什么、使用哪些工具、拒绝什么以及如何更快地得到最终的东西。\n\n在工作中做得更好，然后收取更少的费用，这感觉很奇怪。",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T13:05:37+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "2e3d87772376",
+   "title": "业务开发、VIP 获取主管 | Phantom",
+   "desc": "Business Development, VIP Acquisition Lead | Phantom\n\n 🌍 Remote: Global Remote (Worldwide)\n 🇨🇳 中国候选人: 接受中国候选人\n 💼 类型: 全职远程\n 💰 薪资: 有竞争力的底薪及基于绩效的高额收益\n 🗓 源发布日期: \n\n ⚠️ 注意: Web3/加密行业存在市场波动和监管合规风险。\n\n岗位职责:\n• 获取高价值交易员，建立与个人 VIP 加密货币交易员的长期关系。\n• 全流程负责客户获取，从初步接洽到最终转化。\n• 根据交易者目标和市场需求制定极具吸引力的合作方案。\n• 与合作伙伴团队紧密协作，推动新客户激活、留存及交易量增长。\n• 作为内部客户的可信赖联络人，将反馈转化为产品和市场营销的改进。\n\n岗位要求:\n• 拥有活跃的个人管理的个人 VIP 加密货币交易者资源库。\n• 在中心化交易所或同类加密交易平台从事 VIP 关系管理或客户获取的经验。\n• 具备证明过的获取、保留客户并提升交易量的可量化成果。\n• 深刻理解现货及永续合约交易机制及交易员经济模型。\n• 优秀的顾",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T13:01:53+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "ae6bb50e4249",
+   "title": "[报价] 可靠、实惠的 VA / 数据输入 /聊天支持，每小时 2-3 美元",
+   "desc": "我是自由职业者，但我速度快、细心、反应灵敏，我会了解您的任务需要的任何内容。\n\n**我可以帮助：**\n\n* Excel 和 Google Sheets 中的数据输入\n* 输入文档和基本转录\n* 收件箱排序、日程安排和简单管理\n* 复制粘贴研究和建筑清单\n* 根据您给我的时间表发布社交媒体信息\n* 实时聊天或客户回复用英语\n\n**为什么与我合作：** 我会快速回复，仔细检查我的工作，并随时向您通报最新情况，以便您永远不会离开。",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-20T12:48:41+00:00",
+   "salary": "$2-3",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "ddf6e8189a0c",
+   "title": "HRBP | UPay",
+   "desc": "HRBP | UPay\n\n 🌍 Remote: Worldwide (全球远程)\n 🇨🇳 中国候选人: 接受\n 💼 类型: 全职\n 💰 薪资: $2.8-4k/月\n 🗓 源发布日期: \n\n ⚠️ 注意: 所属行业为加密货币钱包领域，需注意行业波动及合规风险。\n\n岗位职责:\n• 业务部门合作：与业务负责人密切合作，了解各部门人员需求，并提供相应的人力资源解决方案。\n• 招聘策略制定：根据公司业务目标，制定并实施相应的招聘策略，确保人才配置满足业务发展需求。\n• 绩效与人才发展：支持绩效管理、员工发展及继任者培养计划，推动人才持续成长。\n• 人力资源流程优化：负责员工全生命周期相关人力资源流程的管理与优化。\n• 员工关系与文化建设：推动员工敬业度提升、企业文化建设及员工关系管理相关工作。\n• 人力资源数据分析：提供人员配置相关的数据分析及业务洞察，为管理层决策提供支持。\n• 组织发展与人才规划：参与组织发展工作，协助制定公司长期人才规划。\n\n岗位要求:\n• 人力资源、工商管理或相关专业本科及以上学历，或具备相关专业工作经验者。\n• 具备优秀的中英文书面及口头沟通能力，能",
+   "cat": "data",
+   "source": "海外在招",
+   "published": "2026-11-20T12:41:20+00:00",
+   "salary": "$2.8-4k",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "83198d28167a",
+   "title": "[招聘] 箱包商店的 Shopify 网站",
+   "desc": "[已删除]",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T12:41:02+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "42cf61a89ec8",
+   "title": "虚拟助理（账户管理、招聘和人员运营）",
+   "desc": "关于这个角色\n我们正在雇用一名远程虚拟助理来保持我们的客户帐户和团队的运转",
+   "cat": "support",
+   "source": "海外在招",
+   "published": "2026-11-20T12:39:45+00:00",
+   "salary": "USD 8 - 24",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "942a7ec96381",
+   "title": "[招聘] 美国建筑公司的虚拟助理",
+   "desc": "你好，\n\n我们位于美国的建筑和维护公司正在寻找可靠的虚拟助理来支持我们的现场技术人员和管理需求。\n\n**工作职责：**\n\n* 为我们的现场团队安排和派遣工作。\n* 协助技术人员解决现场访问和后勤问题。\n* 与客户和租户进行专业沟通。\n* 组织数字文件和文档。\n* 维护和更新Google表格中的信息。\n* 管理首席执行官的日程安排",
+   "cat": "support",
+   "source": "海外在招",
+   "published": "2026-11-20T12:34:05+00:00",
+   "salary": "$4 per hour",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "4cdf8837bf76",
+   "title": "[招聘] 美国建筑公司的虚拟助理",
+   "desc": "您好，\n\n我们位于美国的建筑和维护公司正在寻找可靠的虚拟助理来支持我们的现场技术人员和管理需求。\n\n**工作职责：**\n\n* 为我们的现场团队安排和派遣工作。\n* 协助技术人员解决现场访问和后勤问题。\n* 与客户和租户进行专业沟通。\n* 组织数字文件和文档。\n* 维护和更新Google表格中的信息。\n* 管理首席执行官的日程安排",
+   "cat": "support",
+   "source": "海外在招",
+   "published": "2026-11-20T12:31:31+00:00",
+   "salary": "$4 per hour",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "d6d86fad1fff",
+   "title": "[Trabalho Remoto - 招聘] Babel Audio paga 48 美元到 120 美元 por hora de áudio + bônus de US$ 400！",
+   "desc": "[已删除]",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T12:29:24+00:00",
+   "salary": "$ 48",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "2577f40d5852",
+   "title": "[Offer] ido 角色设计、插图、概念艺术",
+   "desc": "嘿伙计们！我叫 Winds，是一名插画家/概念艺术家。请在这里查看我的作品集： \n\n通过电子邮件联系我了解详情：\n\n您也可以直接从 Reddit 上。\n\n完成一件艺术品通常需要两周左右的时间。我会通过 Reddit 聊天或电子邮件将其发送给您。我只接受通过 Paypal 或 Transferwise/Wise 全额预付款。\n\n您将收到：\n\n\\\\\\\\- 300 dpi 质量的 PNG 或 JPG 文件\n\n\\\\\\\\- Digita",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T12:25:27+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "a830be9411e7",
+   "title": "[招聘] Bag Website Builder",
+   "desc": "[已删除]",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T12:20:37+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "135db1b26f57",
+   "title": "[Trabalho Remoto - Hiring] Ganhe em dólar gravando sua voz em português + bônus de US$ 400",
+   "desc": "[已删除]",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T12:14:15+00:00",
+   "salary": "$ 400",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "7256ece505f5",
+   "title": "高级金融风险经理 — Coopers Group AG",
+   "desc": "................ Für unseren Kunden 位于苏黎世，是一家瑞士银行，其财务风险经理是临时财务风险团队的财务风险经理。 In dieser anspruchsvolle leisten Sie einen wesentlichen Beitrag zur Überwachung finanzieller Risiken sowie zur Weiterentwicklung des Risikomanagement-Frameworks Deine Aufgaben: Quantifizierung und Überwachung finanzieller Risiken (Kredit-, Zins-, Markt- und Liquiditätsrisiken)确认和验证",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T12:00:43+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "84fcf04cd972",
+   "title": "[Offer] 我会为您找到 YouTube 剪辑/原始素材 - 每个剪辑 1 美元，快速交付",
+   "desc": "[已删除]",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T12:00:04+00:00",
+   "salary": "$1",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "7b6fbfa0dcad",
+   "title": "[远程工作] 医学翻译，游戏美术 3D 标注，医学监查，水豚噜噜动画师，Python 开发，中英晚班助理，招聘专员",
+   "desc": "[远程工作] 医学翻译，游戏美术 3D 标注，医学监查，水豚噜噜动画师，Python 开发，中英晚班助理，招聘专员 \n\n分享最近的远程工作机会：医学翻译, 游戏美术 3D 标注, 医学监查, 水豚噜噜动画师, Python 开发, 中英晚班助理, 招聘专员\n\n 微信公众号发布的远程工作机会可以付费不到 1 元钱解锁当日全部职位的原始链接",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T11:49:45+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "3086a69b318f",
+   "title": "[任务]寻找具有英雄联盟知识的视频编辑人员来编辑抖音视频，每个视频1欧元",
+   "desc": "编辑不需要非常广泛，我心中有一种直接的风格，我会与你讨论，我只是在寻找一个人来开始这个工作。如果我对我们设置的工作流程感到满意，我愿意在以后大幅提高定价。所有英雄联盟剪辑均来自流媒体，我将始终提供我希望您使用的剪辑，但重要的是您了解游戏，以便您知道哪些时刻重要，哪些时刻不重要。您只需将其变成 1",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T11:45:05+00:00",
+   "salary": "1 eur",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "3c4c3547dc1b",
+   "title": "[提供]定制人工智能视觉效果、简短的挂钩/脚本或干净的字幕，起价为4美元/400卢比",
+   "desc": "[已删除]",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T11:42:48+00:00",
+   "salary": "$4",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "75afa890bc04",
+   "title": "医学翻译",
+   "desc": "医学翻译 \n\n来源: 智联招聘\n团队: 北京屯良翻译有限公司\n薪资: 8-15k\n摘要: 语言服务行业，翻译，医药内容翻译审校，英语翻译，全职有社保，可兼职\n\n #远程工作 #招聘 \n\n “远程工作者”不是招聘方，仅筛选整理网络信息，请自行甄别，投递请访问来源链接联系招聘方。",
+   "cat": "writing",
+   "source": "海外在招",
+   "published": "2026-11-20T11:40:12+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "5927fa4a6fd9",
+   "title": "美国实时聊天客户支持",
+   "desc": "我们正在寻找一位可靠的美国人，他喜欢与人沟通并知道如何使",
+   "cat": "support",
+   "source": "海外在招",
+   "published": "2026-11-20T11:33:55+00:00",
+   "salary": "USD 600 - 1200",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "56e9538c18bb",
+   "title": "游戏美术 3D 标注",
+   "desc": "游戏美术 3D 标注 \n\n来源: 智联招聘\n团队: 宜昌四边形科技有限公司\n薪资: 8-15k\n摘要: 人工智能行业，数据标注，游戏美术，赛车/机械臂演示项目，Blender, Three.js, 有社保\n\n #远程工作 #招聘 \n\n “远程工作者”不是招聘方，仅筛选整理网络信息，请自行甄别，投递请访问来源链接联系招聘方。",
+   "cat": "data",
+   "source": "海外在招",
+   "published": "2026-11-20T11:20:22+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "53deb6433bd4",
+   "title": "医学监查",
+   "desc": "医学监查 \n\n来源: 猎聘\n团队: 泰格医药\n薪资: 13-30k\n摘要: 医药制造行业，医学监查，临床试验医学知道监查，医学培训，英语流利，有社保\n\n #远程工作 #招聘 \n\n “远程工作者”不是招聘方，仅筛选整理网络信息，请自行甄别，投递请访问来源链接联系招聘方。",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T11:10:35+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "9a4c2f124fed",
+   "title": "水豚噜噜动画师",
+   "desc": "水豚噜噜动画师 \n\n来源: 猎聘\n薪资: 20-30k\n摘要: 动画设计行业，动画设计师，三维角色动画制作，情感戏/表演戏，有社保\n\n #远程工作 #招聘 \n\n “远程工作者”不是招聘方，仅筛选整理网络信息，请自行甄别，投递请访问来源链接联系招聘方。",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T11:06:21+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "838bbb137897",
+   "title": "Python开发",
+   "desc": "Python 开发 \n\n来源: 猎聘\n薪资: 17-30k\n摘要: 大数据行业，科研数据平台项目，后端开发，Python, 微服务，分布式，AWS，生成式 AI 应用开发\n\n #远程工作 #招聘 \n\n “远程工作者”不是招聘方，仅筛选整理网络信息，请自行甄别，投递请访问来源链接联系招聘方。",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T11:04:01+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "fec5bc85aa20",
+   "title": "中英晚班助理",
+   "desc": "中英晚班助理 \n\n来源: BOSS直聘\n团队: \n岳阳客诺海服信息技术有限公司\n薪资: 8-9k\n摘要: 客服外包行业，客服文员助理，美国项目，夜班工作，英语交流\n\n #远程工作 #招聘 \n\n “远程工作者”不是招聘方，仅筛选整理网络信息，请自行甄别，投递请访问来源链接联系招聘方。",
+   "cat": "support",
+   "source": "海外在招",
+   "published": "2026-11-20T10:57:49+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
   {
    "id": "9171ea9e81f7",
    "title": "招聘专员",
@@ -91,6 +1268,17 @@
    "web3": false
   },
   {
+   "id": "79cd8ca48ce0",
+   "title": "解决方案架构师客户接触点和云转型 - Coopers Group AG",
+   "desc": "...... Für unseren Kunden aus der Logistikbranche in Bern, suchen wir eine:n erfahrene:n, motivierte:n und aufgeschlossene:n 解决方案架构师客户接触点和云转型。在整个系统领域、云技术和数字化创新的复杂性方面，云技术和创新数字化倡议，以及建筑设计的中心，个人化的设计、混合技术和昆汀的未来发展Kunden zu schaffen",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T10:01:30+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
    "id": "cf3a1dcb6efa",
    "title": "💼 工作机会",
    "desc": "💼 工作机会之前\n\n 🚀 接听 VA 电话\n 🏢 公司：RippedBoxStation\n\n──────────────────────────────────────────────────────────────────────────\n ✅ 标签\n #admin #analyst #analytics #assistant \n\n──────────────────────────────────────────────────────────────────────────\n准备好申请了吗？\n 👇 使用下面的按钮申请",
@@ -124,6 +1312,17 @@
    "web3": false
   },
   {
+   "id": "bf8bfcda0e71",
+   "title": "增长和营销经理 - SEA",
+   "desc": "Binance 之一，Binance 是全球领先的区块链生态系统，其背后的交易量和注册用户数是全球最大的加密货币交易所。我们凭借行业领先的安全性、用户资金透明度、交易引擎速度、深度流动性和无与伦比的数字资产产品组合而受到 100 多个国家/地区 3 亿多人的信赖。币安的产品范围涵盖交易和金融、教育、研究、支付、机构服务等。我们的使命是增加自由",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:41:14+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
    "id": "414085922cc0",
    "title": "[招聘] UGC 视频创作者 – 远程（美国/英国/澳大利亚） – 每个视频 80 美元",
    "desc": "[已删除]",
@@ -135,56 +1334,100 @@
    "web3": false
   },
   {
-   "id": "235bc919a796",
-   "title": "语言学家 - 沃洛夫 - UI 技术/营销 - 远程 — LILT（制作）",
-   "desc": "关于工作机会我们正在扩大我们的人才网络，并寻找在用户界面、营销本地化和零售内容方面具有专业知识的沃洛夫语专业人士。我们理想的合作伙伴对特定市场的细微差别和消费者期望拥有细致入微的把握。我们重视擅长软件本地化和品牌故事讲述的语言学家，确保每一个字符串都清晰、一致且具有文化影响力。您将提供精确的用户体验和技术内容。 Adapt co",
-   "cat": "design",
+   "id": "729beac1227d",
+   "title": "币安加速器计划 - VIP 销售运营",
+   "desc": "Binance 之一，Binance 是全球领先的区块链生态系统，其背后的交易量和注册用户数是全球最大的加密货币交易所。我们凭借行业领先的安全性、用户资金透明度、交易引擎速度、深度流动性和无与伦比的数字资产产品组合而受到 100 多个国家/地区 3 亿多人的信赖。币安的产品范围涵盖交易和金融、教育、研究、支付、机构服务等。我们的使命是增加自由",
+   "cat": "web3",
    "source": "海外在招",
-   "published": "2026-11-20T09:40:12+00:00",
+   "published": "2026-11-20T09:40:21+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "ea68d43913b6",
+   "title": "战略客户经理、挖矿",
+   "desc": "关于公司 \n Armada 是面向边缘的超大规模提供商，以速度、规模和主权提供从首次部署到 AI 工厂的模块化 AI 基础设施。 Armada 的解决方案被评为 Fast Company 最具创新力公司之一和 CNBC Disruptor 50 强，其解决方案已部署在全球 60 多个国家/地区，服务于从能源到国防等各个领域的组织。 \n 迄今为止，Armada 已筹集近 4 亿美元资金，得到了 Founders Fund、Lux、BlackRock 和 Microso",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:39:38+00:00",
+   "salary": "$400",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "4f7cf9593d78",
+   "title": "高级客户工程师、AI-Factory",
+   "desc": "关于公司 \n Armada 是面向边缘的超大规模提供商，以速度、规模和主权提供从首次部署到 AI 工厂的模块化 AI 基础设施。 Armada 的解决方案被评为 Fast Company 最具创新力公司之一和 CNBC Disruptor 50 强，其解决方案已部署在全球 60 多个国家/地区，服务于从能源到国防等各个领域的组织。 \n 迄今为止，Armada 已筹集近 4 亿美元资金，得到了 Founders Fund、Lux、BlackRock 和 Microso",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:39:23+00:00",
+   "salary": "$400",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "30aa3099464f",
+   "title": "高级合同和预算助理/助理合同经理",
+   "desc": "Precision for Medicine 并不是典型的 CRO。在 Precision for Medicine，我们汇集了新技术、专业知识和运营规模，帮助生命科学提高为患者提供改变生活的疗法的速度、成本和成功率。我们的独特之处在于我们将临床试验执行与深厚的科学知识、实验室专业知识和先进的数据科学相结合的方式。我们非常关注肿瘤学和罕见疾病。 \n Precision for Medicine 是看",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:39:21+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "76119c888556",
+   "title": "Android 工程师（亚太地区远程）",
+   "desc": "Binance 之一，Binance 是全球领先的区块链生态系统，其背后的交易量和注册用户数是全球最大的加密货币交易所。我们凭借行业领先的安全性、用户资金透明度、交易引擎速度、深度流动性和无与伦比的数字资产产品组合而受到 100 多个国家/地区 3 亿多人的信赖。币安的产品范围涵盖交易和金融、教育、研究、支付、机构服务等。我们的使命是增加自由",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:39:20+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "47d008647dbd",
+   "title": "数据中心建设经理",
+   "desc": "关于公司 \n Armada 是面向边缘的超大规模提供商，以速度、规模和主权提供从首次部署到 AI 工厂的模块化 AI 基础设施。 Armada 的解决方案被评为 Fast Company 最具创新力公司之一和 CNBC Disruptor 50 强，其解决方案已部署在全球 60 多个国家/地区，服务于从能源到国防等各个领域的组织。 \n 迄今为止，Armada 已筹集近 4 亿美元资金，得到了 Founders Fund、Lux、BlackRock 和 Microso",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:39:18+00:00",
+   "salary": "$400",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "288dcb947677",
+   "title": "Sr.临床研究助理（澳大利亚）",
+   "desc": "Alimentiv 的全球 CRO 专注于：推进胃肠道疾病患者的治疗。 GI 是我们的理由，30 多年来，这一目标推动了我们严谨的科学、卓越的运营和深厚的治疗专业知识，包括支持超过 70% 的 IBD 化合物的开发。\n我们作为一家以营利为目的的私营公司运营，将我们的商业成功转化为科学研究、技术和员工。约有700人",
+   "cat": "data",
+   "source": "海外在招",
+   "published": "2026-11-20T09:39:16+00:00",
    "salary": "",
    "remote": true,
    "web3": false
   },
   {
-   "id": "6420de70f054",
-   "title": "语言学家 - 马达加斯加 - UI 技术/营销 - 远程 — LILT （制作）",
-   "desc": "关于机会 我们正在扩大我们的人才网络，并寻找在用户界面、营销本地化和零售内容方面拥有专业知识的马达加斯加语专业人士。我们理想的合作伙伴对特定市场的细微差别和消费者期望拥有细致入微的把握。我们重视擅长软件本地化和品牌故事讲述的语言学家，确保每一个字符串都清晰、一致且具有文化影响力。您将提供精确的用户体验和技术内容。适应",
-   "cat": "design",
+   "id": "070a06175e0c",
+   "title": "规模客户经理",
+   "desc": "在 Braze，我们找到了我们的员工。我们是一支真正平易近人、异常友善且充满热情的团队。 \n 我们力求通过设定高标准、倡导团队合作以及创造工作与生活和谐来点燃这种热情，共同推动全球范围内的快速增长，同时在组织内外争取更大的公平和机会。 \n 要在这里蓬勃发展，您必须准备好为自己和周围的人设定高标准。总有办法",
+   "cat": "marketing",
    "source": "海外在招",
-   "published": "2026-11-20T09:40:12+00:00",
+   "published": "2026-11-20T09:39:15+00:00",
    "salary": "",
    "remote": true,
    "web3": false
   },
   {
-   "id": "82b3eb2bb23a",
-   "title": "Linguist - Shona - UI 技术/营销 - 远程 — LILT （制作）",
-   "desc": "关于这个机会我们正在扩大我们的人才网络，并寻找在用户界面、营销本地化和零售内容方面具有专业知识的熟练修纳语专业人士。我们理想的合作伙伴对特定市场的细微差别和消费者期望拥有细致入微的把握。我们重视擅长软件本地化和品牌故事讲述的语言学家，确保每一个字符串都清晰、一致且具有文化影响力。您将提供精确的用户体验和技术内容。 Adapt co",
-   "cat": "design",
+   "id": "d1e00ea93bff",
+   "title": "监管和网站启动专家",
+   "desc": "Precision for Medicine 并不是典型的 CRO。在 Precision for Medicine，我们汇集了新技术、专业知识和运营规模，帮助生命科学提高为患者提供改变生活的疗法的速度、成本和成功率。我们的独特之处在于我们将临床试验执行与深厚的科学知识、实验室专业知识和先进的数据科学相结合的方式。我们非常关注肿瘤学和罕见疾病。 \n 由于我们的持续增长，我们",
+   "cat": "marketing",
    "source": "海外在招",
-   "published": "2026-11-20T09:40:12+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "0fd241df81f5",
-   "title": "Linguist - Oromo - UI 技术/营销 - 远程 — LILT （制作）",
-   "desc": "关于这个机会 我们正在扩大我们的人才网络，并寻找在用户界面、营销本地化和零售内容方面拥有专业知识的奥罗莫语专业人士。我们理想的合作伙伴对特定市场的细微差别和消费者期望拥有细致入微的把握。我们重视擅长软件本地化和品牌故事讲述的语言学家，确保每一个字符串都清晰、一致且具有文化影响力。您将提供精确的用户体验和技术内容。 Adapt co",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-20T09:40:12+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "04027b4f7b2b",
-   "title": "Linguist - 蒙古语 - UI 技术/营销 - 远程 — LILT （制作）",
-   "desc": "关于这个机会 我们正在扩大我们的人才网络，并寻找在用户界面、营销本地化和零售内容方面拥有专业知识的蒙古语专业人士。我们理想的合作伙伴对特定市场的细微差别和消费者期望拥有细致入微的把握。我们重视擅长软件本地化和品牌故事讲述的语言学家，确保每一个字符串都清晰、一致且具有文化影响力。您将提供精确的用户体验和技术内容。 Adap",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-20T09:40:12+00:00",
+   "published": "2026-11-20T09:39:13+00:00",
    "salary": "",
    "remote": true,
    "web3": false
@@ -212,6 +1455,39 @@
    "web3": false
   },
   {
+   "id": "8efeef1b193e",
+   "title": "高级会计师",
+   "desc": "这个职位是 saas.group 中央财务团队的一部分。 \n saas.group是什么？ \n 将我们视为您最喜欢的软件成功故事背后的推动催化剂。 saas.group 成立于 2017 年，其使命是增强有前景的 B2B SaaS 企业，释放其全部潜力。作为软件即服务组合的巨头，我们专注于收购小型软件宝藏并将其打磨成行业明星。拥有一支由近 400 多名同事组成的充满活力的完全远程团队 spanni",
+   "cat": "writing",
+   "source": "海外在招",
+   "published": "2026-11-20T09:34:11+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "82701265d69b",
+   "title": "会计经理",
+   "desc": "此角色是 saas.group 中央财务团队的一部分。 \n saas.group是什么？ \n 将我们视为您最喜欢的软件成功故事背后的推动催化剂。 saas.group 成立于 2017 年，其使命是增强有前景的 B2B SaaS 企业，释放其全部潜力。作为软件即服务组合的巨头，我们专注于收购小型软件宝藏并将其打磨成行业明星。拥有一支由近 380 多名同事组成的充满活力的完全远程团队 spanni",
+   "cat": "writing",
+   "source": "海外在招",
+   "published": "2026-11-20T09:34:06+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "75863ca309fe",
+   "title": "付费搜索B2B高级经理",
+   "desc": "角色 \n 我们正在寻找一位经验丰富的高级付费搜索经理，以在 Wpromote 不断发展的 B2B 实践中领导复杂企业帐户的战略和执行。这一个人贡献者 (IC) 角色将作为客户的战略合作伙伴，通过深思熟虑的规划、实践优化和跨职能协作帮助提高绩效。 \n 理想的候选人具有在代理机构环境中管理复杂付费搜索项目的经验，并享受平衡",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T09:32:27+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
    "id": "cd06b1dffb12",
    "title": "[优惠] 24 小时剧本报道和诚实的剧本反馈（前 15 页或完整短片/长片）",
    "desc": "[已删除]",
@@ -223,26 +1499,158 @@
    "web3": false
   },
   {
-   "id": "69272e92b982",
-   "title": " 外向和自动化增长营销经理（男/女/日）| 100 % 远程 — Koller & Lode GmbH",
-   "desc": "嘿，我们是 Koller & Lode GmbH。 Hast du Bock auf … Cold-Email-Kampagnen aufbauen，die planbar neue Kunden und Bewerber für Handwerksbetriebe Bringen Copy schreiben, testen und an echten Zahlen wie Reply-Rate and Interested-Rate sehen, was wirklich funktioniert Mit Claude, n8n, Clay and Instantly Systeme bauen, die mit uns skalieren Ein festes Gehalt von 3.500 bis 5.000 € brutto im Monat Vollständige Flexibilität durch 100 % Remote von deinem Arbeitsplatz zuhause, egal wo in Deutschland Ein",
-   "cat": "marketing",
+   "id": "a01a2443eef9",
+   "title": "渠道合作高级经理",
+   "desc": "角色 \n Wpromote 正在寻找一位关系驱动型、高度战略性的高级渠道合作伙伴经理，以帮助发展和激活我们的媒体、技术、测量、人工智能和新兴平台合作伙伴生态系统。 \n 该职位向媒体投资副总裁汇报，将拥有一系列战略合作伙伴关系，同时帮助 Wpromote 识别新能力、创造联合机会、教育内部团队并为我们的客户带来差异化解决方案。 \n Yo",
+   "cat": "design",
    "source": "海外在招",
-   "published": "2026-11-20T09:30:54+00:00",
+   "published": "2026-11-20T09:32:13+00:00",
    "salary": "",
    "remote": true,
    "web3": false
   },
   {
-   "id": "0b507f57fe6d",
-   "title": "高级电子商务/D2C 经理（男/女/日） — 赞助人",
-   "desc": "关于守护神 守护神帮助人们消灭家里的害虫：从蠹虫到食物飞蛾，再到蚂蚁和貂。凭借有效的产品、明确的说明和建议，认真对待这种感染的令人不愉快的情况。自 2020 年以来，我们一直直接向客户销售：通过我们自己的网上商店 patterus-shop.de、TikTok 商店和亚马逊。我们的团队在德国、格鲁吉亚、印度尼西亚和巴基斯坦进行远程工作。 K",
-   "cat": "web3",
+   "id": "66072f2f03ea",
+   "title": "主要客户成功经理",
+   "desc": "Fin 现已成为 Salesforce 的一部分，其使命是帮助企业提供完美的客户体验。 \n 我们的 AI Agent Fin 是当今市场上性能最高的 AI 客户代理，使企业能够在从服务、销售到电子商务的整个客户旅程中提供无可挑剔、始终在线的客户支持。 Fin 在我们自己的人工智能模型的支持下，通过最少的设置和集成，跨每个渠道端到端地解决复杂的客户问题。 Fin还可以和我们的nativ",
+   "cat": "tech",
    "source": "海外在招",
-   "published": "2026-11-20T09:30:54+00:00",
+   "published": "2026-11-20T09:32:11+00:00",
    "salary": "",
    "remote": true,
+   "web3": false
+  },
+  {
+   "id": "377707c4c68f",
+   "title": "付费搜索高级总监",
+   "desc": "角色结合起来 \n 我们正在寻找一位高级总监加入快速扩张的团队，该团队是我们公司的支柱。您将直接管理一支付费搜索专家团队，他们在 Google Ads 和 Microsoft Ads 上开展搜索引擎营销 (SEM) 活动。您复杂的客户组合将是快节奏和高增长的客户，不断对您提出挑战，并且凭借丰富的经验和/或良好的业绩记录，您可以与我们一些最复杂和增长最快的客户合作",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T09:31:49+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "28f590d57c5f",
+   "title": "高级产品经理（预测市场）",
+   "desc": "Phantom 统一起来，其使命是将世界连接到自由的开放市场。全世界有数以千万计的人使用 Phantom 进入永不关闭的全球市场，包括永续合约、预测市场、代币化资产、稳定币和模因。 Phantom 用户能够发现重要的市场以及塑造市场的文化时刻，通过实时数据和顶级交易者经过验证的表现建立信念。通过 Zapier 的 i",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:31:46+00:00",
+   "salary": "$120",
+   "remote": true,
    "web3": true
+  },
+  {
+   "id": "631abbaeede8",
+   "title": "增长（代理销售）高级总监",
+   "desc": "角色 \n 增长高级总监通过瞄准高增长企业品牌并定位大规模创意和全渠道数字营销解决方案来领导新业务工作，以推动可衡量的业务成果。在这个快节奏的角色中，您将负责整个销售周期，从识别和鉴定战略机会到提供定制的、数据驱动的解决方案，同时保持严格的机会规划和预测的严谨性。向增长副总裁报告，您",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-20T09:31:45+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "17f4cadacc02",
+   "title": "负责人内部传播部",
+   "desc": "Phantom 统一起来，其使命是将世界连接到自由的开放市场。全世界有数以千万计的人使用 Phantom 进入永不关闭的全球市场，包括永续合约、预测市场、代币化资产、稳定币和模因。 Phantom 用户能够发现重要的市场以及塑造市场的文化时刻，通过实时数据和顶级交易者经过验证的表现建立信念。通过 Zapier 的 i",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:31:43+00:00",
+   "salary": "$120",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "ce73d0c0ac03",
+   "title": "客户策略高级总监（媒体策略）",
+   "desc": "角色 \n 作为客户战略（媒体战略）高级总监，您是复杂的企业客户关系组合中的高级战略领导者和业务所有者。您作为客户的主要领导者，弥合他们的底线业务目标与我们的整合营销执行之间的差距，确保每次参与都能推动可衡量的业务增长，同时加强长期合作伙伴关系。 \n 你负责翻译复杂的业务对象",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T09:31:41+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "84aad15699dd",
+   "title": "UX 研究员",
+   "desc": "Phantom 统一起来，其使命是将世界连接到自由的开放市场。全世界有数以千万计的人使用 Phantom 进入永不关闭的全球市场，包括永续合约、预测市场、代币化资产、稳定币和模因。 Phantom 用户能够发现重要的市场以及塑造市场的文化时刻，通过实时数据和顶级交易者经过验证的表现建立信念。通过 Zapier 的 i",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:31:09+00:00",
+   "salary": "$120",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "e7082b3639c7",
+   "title": "客户服务高级总监 B2B",
+   "desc": "角色 \n 作为 B2B 客户战略高级总监，您负责领导复杂企业 B2B 账户组合的客户战略和高级关系管理。您将客户的业务目标转化为整合营销策略，并指导客户团队将媒体和营销活动绩效与需求生成、渠道和收入目标联系起来。 \n 您负责日常客户领导、客户满意度、按范围交付以及识别增长机会。你",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-20T09:31:07+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "b6ebd304f452",
+   "title": "B2B 媒体策略高级总监",
+   "desc": "角色 \n 作为 B2B 媒体战略高级总监，您将领导企业和成长期客户将复杂的业务目标转化为可衡量的营销成果。您将制定将媒体、运营和收入协调联系起来的综合进入市场策略，确保从第一印象到最终赢得的收入的影响。 \n 重点关注领域包括： \n \n 媒体策略：使用先进的 B2B martech 优化媒体组合、受众细分、创意调整和衡量，",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T09:31:04+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "6f5d16929167",
+   "title": "前线部署工程师",
+   "desc": "Fin（现已成为 Salesforce 的一部分）的使命是帮助企业提供完美的客户体验。 \n 我们的 AI Agent Fin 是当今市场上性能最高的 AI 客户代理，使企业能够在从服务、销售到电子商务的整个客户旅程中提供无可挑剔、始终在线的客户支持。 Fin 在我们自己的人工智能模型的支持下，通过最少的设置和集成，跨每个渠道端到端地解决复杂的客户问题。 Fin 还可以与我们的 nativ 结合起来",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T09:31:02+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "122ae0c9593b",
+   "title": "文案",
+   "desc": "Phantom 统一起来，其使命是将世界连接到自由的开放市场。全世界有数以千万计的人使用 Phantom 进入永不关闭的全球市场，包括永续合约、预测市场、代币化资产、稳定币和模因。 Phantom 用户能够发现重要的市场以及塑造市场的文化时刻，通过实时数据和顶级交易者经过验证的表现建立信念。通过 Zapier 的 i",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:31:00+00:00",
+   "salary": "$120",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "ff0e1dc54173",
+   "title": "高级亚马逊和零售媒体经理",
+   "desc": "角色 \n Wpromote 正在寻找一名高级经理加入我们不断壮大的亚马逊和零售媒体团队。作为端到端服务，我们的团队管理客户零售媒体业务的各个方面，以帮助他们成功并实现目标。该角色非常活跃，必须能够同时在多个客户之间高效工作。 \n 你会的 \n \n 负责管理亚马逊、沃尔玛、塔吉特和其他零售商的零售媒体业务 \n 设计、实施",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T09:30:57+00:00",
+   "salary": "$1",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "d1b154e0070a",
+   "title": "Sr. IT 与运营经理",
+   "desc": "此职位可能需要在德克萨斯州奥斯汀进行现场面试 \n 关于奥萨诺： \n Osano 是一家创新型共益企业，其基础是一个简单的信念：隐私是一项基本权利。从第一天起，我们就致力于通过尊重数据隐私和遵守同意准则，让现代企业能够快速创新、保持竞争力并赢得客户信任。我们的产品帮助组织在快速发展的监管和技术环境中自信地运营。 \n\n A",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T09:30:55+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
   },
   {
    "id": "e7965cc9bdc3",
@@ -256,12 +1664,254 @@
    "web3": false
   },
   {
-   "id": "2f250153e205",
-   "title": "支持工程师 - 人工智能驱动（美国时区） — 有形",
-   "desc": "地点：完全远程（最好在美洲）\n 协调时间：美国时区\n 雇佣类型：合同制 \n Tangible 是一个快速发展、技术驱动的平台，为私募市场二级市场的有限合伙人和普通合伙人提供流动性解决方案。通过将深厚的行业专业知识与现代基础设施相结合，我们释放了私募股权、私人信贷和实物资产的流动性，改变了二级交易的执行方式。 \n 我们正在寻找一位聪明的人工智能原生支持工程师",
+   "id": "ac44e70bae12",
+   "title": "解决方案工程总监",
+   "desc": "Fin 现已成为 Salesforce 的一部分，其使命是帮助企业提供完美的客户体验。 \n 我们的 AI Agent Fin 是当今市场上性能最高的 AI 客户代理，使企业能够在从服务、销售到电子商务的整个客户旅程中提供无可挑剔、始终在线的客户支持。 Fin 在我们自己的人工智能模型的支持下，通过最少的设置和集成，跨每个渠道端到端地解决复杂的客户问题。 Fin 还可以与我们的 nativ",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:30:02+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "1c17815e9842",
+   "title": "数据与人工智能产品经理",
+   "desc": "About Freshpaint 结合使用： \n 仅在美国，医疗保健就是一个价值超过 3 万亿美元的行业，并且正在经历快速的数字化转型。 \n 医院、数字健康公司和生命科学组织依靠分析和广告工具来接触患者、衡量绩效并实现增长。但这些工具并不是为受监管的医疗数据而构建的。这会带来真正的合规风险，并迫使团队在增长和隐私之间做出选择。 \n Freshpaint 消除了这种权衡。 \n 我们是一家重视隐私的公司",
    "cat": "tech",
    "source": "海外在招",
-   "published": "2026-11-20T09:30:53+00:00",
+   "published": "2026-11-20T09:29:59+00:00",
+   "salary": "$3",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "4c49d666b846",
+   "title": "招聘协调员（合同）",
+   "desc": "Phantom 统一起来，其使命是将世界连接到自由的开放市场。全世界有数以千万计的人使用 Phantom 进入永不关闭的全球市场，包括永续合约、预测市场、代币化资产、稳定币和模因。 Phantom 用户能够发现重要的市场以及塑造市场的文化时刻，通过实时数据和顶级交易者经过验证的表现建立信念。通过 Zapier 的 i",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:29:57+00:00",
+   "salary": "$120",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "575a6d50f115",
+   "title": "高级人工智能工程师",
+   "desc": "该职位可能需要面对面面试。 \n 关于奥萨诺： \n Osano 是一家创新型共益企业，其基础是一个简单的信念：隐私是一项基本权利。从第一天起，我们就致力于通过尊重数据隐私和遵守同意准则，让现代企业能够快速创新、保持竞争力并赢得客户信任。我们的产品帮助组织在快速发展的监管和技术环境中自信地运营。 \n 关于角色：",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:29:51+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "b63b283962cd",
+   "title": "区域销售副总裁、提供商",
+   "desc": "关于 Freshpaint ： \n 仅在美国，医疗保健就是一个价值超过 3 万亿美元的行业，并且正在经历快速的数字化转型。 \n 医院、数字健康公司和生命科学组织依靠分析和广告工具来接触患者、衡量绩效并实现增长。但这些工具并不是为受监管的医疗数据而构建的。这会带来真正的合规风险，并迫使团队在增长和隐私之间做出选择。 \n Freshpaint 消除了这种权衡。 \n 我们是一个注重隐私",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-20T09:29:48+00:00",
+   "salary": "$3",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "a3b8559cb7e3",
+   "title": "付费搜索总监",
+   "desc": "的角色 \n 我们正在寻找一名董事加入快速扩张的团队，该团队是我们公司的支柱。您将直接管理一支付费搜索专家团队，他们在 Google Ads 和 Microsoft Ads 上开展搜索引擎营销 (SEM) 活动。您复杂的客户组合将是快节奏和高增长的客户，不断向您提出挑战，凭借丰富的经验和/或良好的业绩记录，您可以与我们一些最复杂和增长最快的品牌合作",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T09:29:46+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "30e9acc9ac11",
+   "title": "绩效营销经理",
+   "desc": "关于 Osano \n Osano 是一家创新型共益企业，其基础是一个简单的信念：隐私是一项基本权利。从第一天起，我们就致力于通过尊重数据隐私和遵守同意准则，让现代企业能够快速创新、保持竞争力并赢得客户信任。我们的产品帮助组织在快速发展的监管和技术环境中自信地运营。 \n 关于角色 \n 奥萨诺正在寻找绩效营销经理",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T09:29:43+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "d91eb309c15b",
+   "title": "企业实施工程师",
+   "desc": "关于Freshpaint： \n 仅在美国，医疗保健就是一个价值超过 3 万亿美元的行业，并且正在经历快速的数字化转型。 \n 医院、数字健康公司和生命科学组织依靠分析和广告工具来接触患者、衡量绩效并实现增长。但这些工具并不是为受监管的医疗数据而构建的。这会带来真正的合规风险，并迫使团队在增长和隐私之间做出选择。 \n Freshpaint 消除了这种权衡。 \n 我们是一个注重隐私",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:29:16+00:00",
+   "salary": "$3",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "2d30ef44e5fb",
+   "title": "人工智能解决方案总监",
+   "desc": "的角色 \n 我们正在寻找一位人工智能解决方案总监加入 Wpromote 的人工智能团队，向人工智能战略与创新主管汇报。您将负责人工智能解决方案，这些解决方案可实现实际工作流程自动化、提高决策制定能力并扩展 Polaris IQ 的智能层。这是一个前沿部署、面向客户的角色。 \n 该职位需要深厚的人工智能实践经验以及了解产品设计/用户体验和技术可行性的战略思维。您将与 c",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T09:29:12+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "66eb63534478",
+   "title": "企业客户主管",
+   "desc": "关于 Osano 合作 \n Osano 是一家创新型共益企业，其基础是一个简单的信念：隐私是一项基本权利。从第一天起，我们就致力于通过尊重数据隐私和遵守同意准则，让现代企业能够快速创新、保持竞争力并赢得客户信任。我们的产品帮助组织在快速发展的监管和技术环境中自信地运营。 \n 关于角色 \n 我们正在寻找一位客户经理加入我们的",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T09:29:10+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "f41505f83dd5",
+   "title": "支持工程师",
+   "desc": "关于 Freshpaint ： \n 仅在美国，医疗保健就是一个价值超过 3 万亿美元的行业，并且正在经历快速的数字化转型。 \n 医院、数字健康公司和生命科学组织依靠分析和广告工具来接触患者、衡量绩效并实现增长。但这些工具并不是为受监管的医疗数据而构建的。这会带来真正的合规风险，并迫使团队在增长和隐私之间做出选择。 \n Freshpaint 消除了这种权衡。 \n 我们是一家重视隐私的公司",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T09:29:08+00:00",
+   "salary": "$3",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "5852da82c00c",
+   "title": "产品设计师",
+   "desc": "Phantom 统一起来，其使命是将世界连接到自由的开放市场。全世界有数以千万计的人使用 Phantom 进入永不关闭的全球市场，包括永续合约、预测市场、代币化资产、稳定币和模因。 Phantom 用户能够发现重要的市场以及塑造市场的文化时刻，通过实时数据和顶级交易者经过验证的表现建立信念。通过 Zapier 的 i",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:29:05+00:00",
+   "salary": "$120",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "b84917b5450a",
+   "title": "我们正在招聘 – 创意设计实习生！",
+   "desc": "[已删除]",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T09:28:41+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "4dc097e8facc",
+   "title": "商业营销总监",
+   "desc": "iFIT 的愿景是创建世界上最全面的健康和健身平台，将健康的所有元素——身体健康、心理健康、营养和主动恢复——整合到无缝的互动体验中。我们开发专有软件，可以学习并适应每个人的习惯，提供身临其境的内容，指导他们进行自己的个人健身之旅。 \n 我们正在招聘一名商业营销总监来为我们的商业部门建立和领导营销",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T09:27:58+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "cdbe5f3a5686",
+   "title": "解决方案工程分析师",
+   "desc": "关于我们： \n YipitData 是颠覆性经济领域领先的市场研究和分析公司，最近从凯雷集团筹集了 3.8 亿美元，估值超过 10 亿美元。每天，我们的专有技术都会分析数十亿个替代数据点，以发现软件、人工智能、云、电子商务、拼车和支付等领域的可行见解。 \n 我们的数据和研究团队将原始数据转化为战略情报，提供准确、及时和深入的背景信息",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T09:27:56+00:00",
+   "salary": "$380",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "ff3caa8a13dc",
+   "title": "销售开发代表",
+   "desc": "关于我们 \n Orkes 是一个供开发人员构建持久、分布式事件驱动应用程序的平台。 Orkes 基于流行的开源编排引擎 Conductor，让开发人员能够专注于更快地将应用程序推向市场，扩展应用程序以处理数十亿个工作流程，而不必担心故障、可扩展性或执行的可见性。 \n 作为销售发展代表，您的任务是为我们的销售团队预订首次会议和演示。您将玩得很开心",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T09:27:35+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "ccc134653183",
+   "title": "高级前端工程师，基础",
+   "desc": "NetBox Labs 正在寻找前端/UI 工程师加入我们快速扩张的工程团队。我们在多个团队中开设了多个不同资历级别的职位。 \n 关于 NetBox 实验室 \n NetBox Labs 为现代基础设施团队构建下一代网络自动化工具。我们的 UI 平台是我们所有产品一致、可维护且令人愉悦的用户体验的基础。我们正在招聘一名前端工程师来与我们现有的 UI 平台密切合作",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:27:11+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "8e70ddce609c",
+   "title": "总监，数字分析与实验",
+   "desc": "iFIT 的愿景是创建世界上最全面的健康和健身平台，将健康的所有元素——身体健康、心理健康、营养和主动恢复——整合到无缝的互动体验中。我们开发专有软件，可以学习并适应每个人的习惯，提供身临其境的内容，指导他们进行自己的个人健身之旅。 \n 我们正在招聘一名数字分析和实验总监，负责我们的直接",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:27:10+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "c16512e0262e",
+   "title": "高级销售主管，战略银行",
+   "desc": "关于我们的数据： \n YipitData 是颠覆性经济领域领先的市场研究和分析公司，最近从凯雷集团筹集了 3.8 亿美元，估值超过 10 亿美元。每天，我们的专有技术都会分析数十亿个替代数据点，以发现软件、人工智能、云、电子商务、拼车和支付等领域的可行见解。 \n 我们的数据和研究团队将原始数据转化为战略情报，提供准确、及时和深入的背景",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T09:27:07+00:00",
+   "salary": "$380",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "0ec2f161ced3",
+   "title": "安全系统解决方案工程师",
+   "desc": "职位概述 \n 我们正在寻找一名安全系统解决方案工程师加入我们客户的安全技术团队。 \n 安全系统解决方案工程师负责优化和推进客户的安全技术生态系统，以确保最大的运营影响和投资回报。此人拥有强大的系统管理和技术背景，能够集成平台、管理和转换数据以支持业务智能",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T09:27:06+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "8adc15f2716c",
+   "title": "需求生成经理",
+   "desc": "关于我们 \n Orkes 是一个供开发人员构建持久、分布式事件驱动应用程序的平台。 Orkes 基于流行的开源编排引擎 Conductor，让开发人员能够专注于更快地将应用程序推向市场，扩展应用程序以处理数十亿个工作流程，而不必担心故障、可扩展性或执行的可见性。 \n 在 Orkes，我们正在重新定义业务流程编排，而需求生成是我们增长的关键驱动力。作为需求Ge",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T09:27:04+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "d031ed3c6c4e",
+   "title": "技术支持工程师，西班牙语双语（6个月合同，远程）",
+   "desc": "Brain Corp 是一家总部位于美国加利福尼亚州圣地亚哥的人工智能公司，为机器人行业创造变革性的核心技术。我们的目标是创造自主技术，帮助现实世界更好地运转。 Brain 的机器人和人工智能解决方案帮助零售商确保正确的产品在干净的环境中以正确的价格放置在正确的货架上。通过 BrainOS® 机器人平台，该平台为全球最大的商用自主移动机器人 (AMR) 车队提供动力",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T09:27:02+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "47800b236050",
+   "title": "总奖励总监",
+   "desc": "关于角色 \n NetBox Labs 正在招聘第一位 Total Rewards 总监，负责随着我们规模的扩大而领导薪酬、股权和奖励。我们在美国、英国、欧洲和拉丁美洲拥有约 200 名员工，并且仍在不断增长。每次招聘、晋升和薪酬周期都取决于领导者信任和员工理解的薪酬体系。 \n 我们的奖励基础正在形成。我们以 Pave 为基准，对新报价采用一致的薪酬惯例，并正在建立全公司范围的水平。现在我们需要一些",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T09:27:00+00:00",
    "salary": "",
    "remote": true,
    "web3": false
@@ -300,15 +1950,290 @@
    "web3": false
   },
   {
-   "id": "5ed9ff9d97e0",
-   "title": "HR 经理 — 额外和大胆GmbH",
-   "desc": "关于 Extra & Bold Extra & Bold 是一家包装设计和品牌代理机构。我们为欧洲的大型食品零售商、消费品制造商和零售供应商提供服务。除了设计和印前之外，我们还为客户提供品牌策略和流程方面的建议。该集团包括 Extra & Bold GmbH 和 Extra & Bold Strategy GmbH。我们大约有 65 名员工，首先是远程工作。您的角色 在这个角色中，您负责并塑造员工",
+   "id": "14b233a4eb93",
+   "title": "Crux - 视频和音频质量检查 - 德语（德国）",
+   "desc": "概述 \n 我们正在为一个涵盖搜索和语言任务的项目招聘质量控制 (QC) 评估员。您将对评估者产生的初始评级进行质量检查，验证用户意图评估、查询注释、文本分类和多媒体（视频、图像、音频）评论的相关性、准确性和指南遵守情况。理想的候选人将强大的语言技能与敏锐的分析判断力、出色的文档和反馈技能结合起来，熟悉的",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T08:39:50+00:00",
+   "salary": "USD 22/hour",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "8e25c2026805",
+   "title": "Android 软件工程师",
+   "desc": "关于BJAK \n BJAK 的最初使命是我们相信人们应该以更明智的方式来计划、储蓄和增值。这就是我们名字的由来。 \n 从 2019 年开始，我们建立了第一个移动优先的保险平台，使该地区数百万人能够在线获取保险。如今，它是东南亚领先的保险平台。 \n 今天，我们正在扩大帮助该地区人民的方式——包括支出、储蓄、投资、兑换、旅行等。我们的米",
    "cat": "web3",
    "source": "海外在招",
-   "published": "2026-11-20T08:30:57+00:00",
+   "published": "2026-11-20T08:39:49+00:00",
    "salary": "",
    "remote": true,
    "web3": true
+  },
+  {
+   "id": "3b6d3754d854",
+   "title": "商业顾问 -德国",
+   "desc": "关于ElevenLabs \n ElevenLabs 是一家人工智能研究和产品公司，致力于改变我们与技术互动的方式。 \n 我们于 2023 年 1 月推出了第一个类人人工智能语音模型。如今，我们为数百万用户和数千家企业提供服务 - 从快速发展的初创公司到德国电信和 Meta 等大型企业。我们的投资者都是世界上最知名的投资者，包括 Andreessen Horowitz、ICONIQ Growth 和红杉资本。我们已筹集 6.25 亿美元资金，我们的最新估值为 $",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T08:39:34+00:00",
+   "salary": "$625",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "89a39287b5aa",
+   "title": "操作系统集成资深软件工程师",
+   "desc": "为什么选择 Mozilla？ \n Mozilla Corporation 是一家非盈利技术公司，在过去 25 年里致力于让互联网变得更好。我们打造了像 Firefox 这样注重隐私的网络浏览器等先锋品牌。现在，全球每月有超过 2.25 亿人使用我们的产品，我们正在塑造未来 25 年的技术，并帮助重新打造为人而非公司打造的互联网。我们的工作重点关注人工智能、社交媒体、安全等不同领域",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T08:39:32+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "a3c839618d3c",
+   "title": "iOS开发人员",
+   "desc": "关于BJAK \n BJAK 的最初使命是我们相信人们应该以更明智的方式来计划、储蓄和增值。这就是我们名字的由来。 \n 从 2019 年开始，我们建立了第一个移动优先的保险平台，使该地区数百万人能够在线获取保险。如今，它是东南亚领先的保险平台。 \n 今天，我们正在扩大帮助该地区人民的方式——包括支出、储蓄、投资、兑换、旅行等。我们的米",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T08:39:31+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "310b8557c8e8",
+   "title": "数据科学家 - 产品分析",
+   "desc": "关于ElevenLabs \n ElevenLabs 是一家人工智能研究和产品公司，致力于改变我们与技术互动的方式。 \n 我们于 2023 年 1 月推出了第一个类人人工智能语音模型。如今，我们为数百万用户和数千家企业提供服务 - 从快速发展的初创公司到德国电信和 Meta 等大型企业。我们的投资者都是世界上最知名的投资者，包括 Andreessen Horowitz、ICONIQ Growth 和红杉资本。我们已筹集 6.25 亿美元资金，我们的最新估值为 $",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T08:39:29+00:00",
+   "salary": "$625",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "714fbbd6a806",
+   "title": "开发人员支持工程师",
+   "desc": "RevenueCat 为应用程序企业提供了构建、运行和提高其盈利能力的基础设施和工具。自从 YC 的 S18 批次毕业以来，我们已经成长为移动端默认的变现平台。 \n 我们参与了 50% 以上新发布的订阅应用程序，我们处理的年购买量超过 14B 美元，我们帮助每个人（从独立开发人员到 OpenAI 移动团队）了解并增加他们的收入。 \n 我们是一支远程优先团队，由来自 30 多个国家/地区的 180 多名员工组成，以我们实际的价值观为指导",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T08:39:27+00:00",
+   "salary": "$14",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "d4d004b9b4ef",
+   "title": "北欧和波罗的海地区战略客户经理",
+   "desc": "加入 Axon，成为一股正义的力量。 \n 在 Axon，我们的使命是保护生命。我们是探索者，利用我们的设备和云软件生态系统来解决社会最关键的安全和正义问题。就像我们的产品一样，我们可以更好地合作。我们以坦诚和关怀的态度进行联系，从客户、社区和彼此之间寻求不同的观点。 \n Axon 的生活节奏快、充满挑战且有意义。在这里，您将掌握主动权并推动真正的变革。不断成长",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T08:34:13+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "4a1def62d613",
+   "title": "DACH战略客户经理",
+   "desc": "加入 Axon，成为一股正义的力量。 \n 在 Axon，我们的使命是保护生命。我们是探索者，利用我们的设备和云软件生态系统来解决社会最关键的安全和正义问题。就像我们的产品一样，我们可以更好地合作。我们以坦诚和关怀的态度进行联系，从客户、社区和彼此之间寻求不同的观点。 \n Axon 的生活节奏快、充满挑战且有意义。在这里，您将掌握主动权并推动真正的变革。不断成长",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T08:34:11+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "85f9dc07d127",
+   "title": "The Flex阿尔及利亚：扩张主管",
+   "desc": "开辟新城市。法国的工资，阿尔及利亚的生活。 \n 认识创始人：观看这个 60 秒的视频 \n 关于伟创力 \n 我们的使命：让租房就像在亚马逊上买东西一样简单。 \n 租房子依然是缓慢的、有压力的、充满惊喜的过程。我们正在解决这个问题。通过 The Flex，您可以选择公寓，只需点击几下即可预订并入住。一切都会为您处理：酒店级服务和真正家的舒适感。 \n\n 从伦敦的一间公寓开始。今天我们经营ar",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-20T08:28:57+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "e3b8ed1ff7ad",
+   "title": "The Flex阿尔及利亚：办公室主任",
+   "desc": "经营创始人的办公室。法国的工资，阿尔及利亚的生活。 \n 认识创始人：观看这个 60 秒的视频 \n 关于伟创力 \n 我们的使命：让租房就像在亚马逊上买东西一样简单。 \n 租房子仍然是一个缓慢、有压力、充满惊喜的过程。我们正在解决这个问题。通过 The Flex，您可以选择公寓，只需点击几下即可预订并入住。一切都会为您处理：酒店级服务和真正家的舒适感。 \n\n 从伦敦的一间公寓开始。今天",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-20T08:28:26+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "87ae0d9bee54",
+   "title": "经理，法律项目、隐私和人工智能（欧盟/英国）",
+   "desc": "Hims & Hers 是领先的健康和保健平台，其使命是通过改善健康的力量帮助世界感觉良好。我们正在重新定义医疗保健，将客户放在第一位，并提供从诊断到治疗再到交付的价格实惠、方便且个性化的护理服务。没有两个人是相同的，因此我们提供专为结果而设计的个性化护理。通过使健康和保健挑战正常化并对其解决方案进行创新，我们正在做得更好",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T08:28:03+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "0c2b887b1936",
+   "title": "The Flex阿尔及利亚：常驻企业家(EIR)",
+   "desc": "在一家快速发展的公司内建立业务。法国的工资，阿尔及利亚的生活。 \n 认识创始人：观看这个 60 秒的视频 \n 关于伟创力 \n 我们的使命：让租房就像在亚马逊上买东西一样简单。 \n 租房子仍然是一个缓慢、有压力、充满惊喜的过程。我们正在解决这个问题。通过 The Flex，您可以选择公寓，只需点击几下即可预订并入住。一切都会为您处理：酒店级服务和真正家的舒适感。 \n\n 从一份分开开始",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-20T08:27:59+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "3a044c425007",
+   "title": "隐私与人工智能高级法律顾问（欧盟/英国）",
+   "desc": "Hims & Hers 是领先的健康和保健平台，其使命是通过改善健康的力量帮助世界感觉良好。我们正在重新定义医疗保健，将客户放在第一位，并提供从诊断到治疗再到交付的价格实惠、方便且个性化的护理服务。没有两个人是相同的，因此我们提供专为结果而设计的个性化护理。通过使健康和保健挑战正常化并对其解决方案进行创新，我们正在做得更好",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T08:27:58+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "d7870b8c1af3",
+   "title": "Flex 阿尔及利亚：多面手、运营与增长",
+   "desc": "一份工作，十份工作。法国的工资，阿尔及利亚的生活。 \n 认识创始人：观看这个 60 秒的视频 \n 关于伟创力 \n 我们的使命：让租房就像在亚马逊上买东西一样简单。 \n 租房子仍然是一个缓慢、有压力、充满惊喜的过程。我们正在解决这个问题。通过 The Flex，您可以选择公寓，只需点击几下即可预订并入住。一切都会为您处理：酒店级服务和真正家的舒适感。 \n\n 从伦敦的一间公寓开始。今天我们跑步",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-20T08:27:54+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "3e106ac8ae52",
+   "title": "专业服务高级项目经理",
+   "desc": "Zscaler（纳斯达克股票代码：ZS）可以加速数字化转型，让客户变得更加敏捷、高效、有弹性和安全。 Zscaler 零信任交换平台通过安全连接任何位置的用户、设备和应用程序，保护成千上万的客户免受网络攻击和数据丢失。基于 SASE 的零信任交换分布在全球 200 多个公共数据中心和数千个边缘私有站点，是世界上最大的内联云安全平台。 \n 我们相信",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T08:27:53+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "a841fc2499ce",
+   "title": "SAR 图像注释顾问",
+   "desc": "地点：远程|欧盟\n 部门：ISR 分析\n 汇报对象：分析副总裁\n 雇佣类型：顾问（4 个月；可延长） \n 为什么这个角色很重要 \n作为 ICEYE 的 SAR 图像注释顾问，您将通过提供高质量和精确的合成孔径雷达 (SAR) 图像注释来支持我们从太空提供可操作情报的使命。您的工作直接有助于提高我们数据产品的准确性和可靠性，为 defe",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T08:27:51+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "aeb1d681e04f",
+   "title": "临床应用培训师 — 联邦健康 IT",
+   "desc": "临床应用培训师 — Federal Health IT 提供及时决策 \n 远程—美国|需要主动秘密 |定期国内和国际旅行 \n 教授临床技术。建立信心。支持医疗保健准备。 \n Rackner 正在寻找一位经验丰富的临床应用培训师，以帮助医疗保健专业人员在日常工作中自信地使用专业的临床应用。您将提供现场课堂和虚拟教学、指导实践学习活动并帮助临床",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T08:26:18+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "a5f9de7d7ccc",
+   "title": "IT 安全分析师",
+   "desc": "公司概览 \n Kairos Power 是一家新型核能技术和工程公司，其使命是推动世界向清洁能源过渡，最终目标是在保护环境的同时大幅提高人们的生活质量。这一目标将通过氟化盐冷却高温反应堆（FHR）的商业化来实现，该反应堆的部署具有强大的安全性、可承受的成本和灵活的操作，以适应 v",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T08:26:04+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "37b980fe2a6b",
+   "title": "Android 工程师",
+   "desc": "的扩张。 \n Branch 的使命是赋予员工财务自由。我们通过帮助企业加快支付速度并为美国工薪阶层提供方便、免费的金融服务来实现这一目标。我们致力于打造和提供更具包容性、透明且无摩擦的金融产品。 \n 我们的授权目标也延伸到我们自己的员工。有个好主意吗？今天分享它，明天可能就会实施。作为我们团队的一员，您的声音和创造力",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T08:26:02+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "e57d328acb5c",
+   "title": "经理、销售工程专家",
+   "desc": "从 Fivetran 成立至今，我们的使命始终如一：让数据访问像电力一样简单可靠。借助 Fivetran，客户数据将到达他们的仓库，规范且可供查询，无需工程或维护。我们感到自豪的是，越来越多的组织每天继续利用我们的技术来实现真正的数据驱动。 \n 关于我们 \n Fivetran 和 dbt Labs 将两家行业领先的公司聚集在一起，肩负着共同的使命：帮助 org",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T08:25:59+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "ef95cc807031",
+   "title": "高级产品经理、客户体验",
+   "desc": "我们正在寻找一名高级产品经理加入我们的客户体验 (CX) 团队，帮助塑造家庭服务企业如何获得支持、听取我们的意见并通过 Jobber 取得成功。 \n Jobber 的存在是为了帮助小型企业的人们取得成功。我们与小型家庭服务企业（例如当地的水管工、电工、油漆工和园艺师）合作，通过技术改变提供服务的方式。通过 Jobber，他们可以从他们的",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-20T08:25:57+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "2727bb557ec0",
+   "title": "企业解决方案工程师 - East",
+   "desc": "位置报价、安排、开具发票和收款：远程 - 必须居住在马萨诸塞州、新罕布什尔州、罗德岛州、缅因州、佛蒙特州或康涅狄格州 \n Sigma 的愿景是创建一个洞察驱动的世界，在这个世界中，人们、组织乃至人类都将通过数据而变得更好。在 Sigma，我们正在构建一个云原生商业智能平台，该平台允许用户利用云中托管的最大数据库，并轻松进行临时分析，以在几秒钟内获得业务见解。全部无需任何 SQL 编程。我们正在发展解决方案工程",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-20T08:25:56+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "514a69918a69",
+   "title": "总监安全研究部、Cribl Detect",
+   "desc": "加入为人工智能时代构建遥测基础设施的公司。在 Cribl，我们与许多全球最大企业（包括一半的财富 100 强企业）的 IT 和安全团队合作，以弥合人工智能雄心与基础设施现实之间的差距。作为遥测人工智能平台，我们为客户提供选择、控制和灵活性，以管理和分析人类和代理的遥测数据，以便他们可以构建下一步。 \n 我们是发展最快的私人公司之一",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T08:25:54+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "ec8d1b8b0f50",
+   "title": "客户主管、CEW",
+   "desc": "加入 Axon，成为一股正义的力量。 \n 在 Axon，我们的使命是保护生命。我们是探索者，利用我们的设备和云软件生态系统来解决社会最关键的安全和正义问题。就像我们的产品一样，我们可以更好地合作。我们以坦诚和关怀的态度进行联系，从客户、社区和彼此之间寻求不同的观点。 \n Axon 的生活节奏快、充满挑战且有意义。在这里，您将掌握主动权并推动真正的变革。不断成长",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-20T08:25:52+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "e426882afcfc",
+   "title": "总监、工厂平衡",
+   "desc": "公司概况 \n Kairos Power 是一家新型核能技术和工程公司，其使命是推动世界向清洁能源过渡，最终目标是在保护环境的同时大幅提高人们的生活质量。这一目标将通过氟化盐冷却高温反应堆 (FHR) 的商业化来实现，该反应堆的部署具有强大的安全性、可承受的成本和灵活的操作，以适应 v",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-20T08:25:51+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
   },
   {
    "id": "a4365e040a7e",
@@ -333,39 +2258,6 @@
    "web3": false
   },
   {
-   "id": "57c2346a7706",
-   "title": " 高级打字稿开发人员 (f/m/d) — Sidestream",
-   "desc": "为什么加入 Sidestream？ \n 在 Sidestream，我们正在打造一支忠诚、富有探索精神且机智的团队，他们喜欢在享受乐趣的同时突破界限。以下是您可以期待的： \n \n 有影响力的工作：为重要的项目做出贡献，无论是领先公司的数字化、开发开源工具还是利用区块链和人工智能进行创新。 \n 学习与成长：获得经验丰富的专业人士的指导并获得经过验证的流程，为您在快节奏的技术环境中取得成功做好准备",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T08:01:02+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "0abc34c8b730",
-   "title": "Sidebase 开源贡献者和高级 TS 开发人员 (f/m/d) — Sidestream",
-   "desc": "为什么加入 Sidestream？ \n 在 Sidestream，我们正在打造一支忠诚、富有探索精神且机智的团队，他们喜欢在享受乐趣的同时突破界限。以下是您可以期待的： \n \n 有影响力的工作：为重要的项目做出贡献，无论是领先公司的数字化、开发开源工具还是利用区块链和人工智能进行创新。 \n 学习与成长：获得经验丰富的专业人士的指导，并获得经过验证的流程，为您在快节奏的技术环境中取得成功做好准备",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T08:01:02+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "a829c9c90e7e",
-   "title": "Pflichtpraktikum 营销和销售初创公司 — 填写Gap",
-   "desc": "Gude（：Stell dir vor，du kannst deinen Traumjob selbst gestalten。Wie sieht er aus？Welche Rahmenbedingungen bietet er？Was für Kollegen wünschst du dir？Willkommen bei Fill the Gap Wir黑森州的教育科技初创公司，其未来的目标是什么？填补差距 nicht passiert, haben wir ja b",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T08:01:02+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
    "id": "25d6c2f32e11",
    "title": "AI 生成的短格式广告的视频编辑器/创建者（付费）",
    "desc": "寻找自由视频创作者为消费者宠物健康品牌制作简短的垂直视频广告。该视频是使用人工智能工具从头开始制作的，外观需要真实、干净，没有任何问题或诡异。\n\n我将提供完整的创意指导，我们将在您开始之前一起构思。你负责人工智能生成、编辑和字幕。这是一个视频，然后需要转换为其他标准广告格式（垂直、方形和水平）。\n\n**截止日期：** fina",
@@ -375,28 +2267,6 @@
    "salary": "",
    "remote": false,
    "web3": false
-  },
-  {
-   "id": "542dee9c889b",
-   "title": "Insights & Data Analyst / BI Developer (m/w/d) — Little Dot Studios Deutschland",
-   "desc": "Little Dot Studios 德国是一家屡获殊荣的社交媒体机构、多平台制作公司和数字媒体网络，也是全球领先的娱乐、体育和工业品牌 YouTube 专家之一（包括 ARD、YouTube Health、MAN Trucks & Bus 或 Matthias Malmedie 等创作者）。我们的总部位于慕尼黑，是由英国、美国、德国和亚太地区 500 多名数字专家组成的全球团队的一员。我们共同支持",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T07:30:46+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "932c6670f16a",
-   "title": "Weiterbildung zum Process Automation Manager (m/w/d) – (100 % förderbar) — velpTEC GmbH",
-   "desc": "作为流程自动化经理 (m/f/d)，您可以分析、优化和自动化运营业务流程，以使工作流程更加高效且面向未来。在本次进一步培训中，您将加深对数字化流程管理的了解，并学习如何专门使用人工智能、基于数据的分析方法和现代自动化技术来可持续改进公司流程并成功应对数字化变革。我",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T07:30:46+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
   },
   {
    "id": "d4cf1f469adb",
@@ -454,105 +2324,6 @@
    "web3": false
   },
   {
-   "id": "cb7bfe435795",
-   "title": "Snr。站点可靠性工程师（巴西远程）",
-   "desc": "KnowBe4 使现代员工能够每天做出更明智的安全决策。 KnowBe4 受到全球 70,000 多个组织的信赖，是数字劳动力安全领域的先驱，为人工智能代理和人类提供保护。 KnowBe4 平台提供由 AIDA（人工智能防御代理）和专有风险评分支持的攻击模拟和培训、协作安全和代理安全。该平台利用 15 年的行为数据来对抗高级威胁 inc",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T06:28:55+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "91b50fa25ffd",
-   "title": "Adobe 多解决方案架构师（Firefly / GenStudio / Commerce）- 广告",
-   "desc": "关于 Truelogic \n Truelogic 是一家领先的近岸员工扩充服务提供商，总部位于纽约。二十多年来，我们一直为各种规模的公司（从创新型初创公司到行业领导者）提供顶级技术解决方案，帮助他们实现数字化转型目标。 \n 我们的团队由 600 多名高技能技术专业人士组成，总部位于拉丁美洲，通过与美国公司合作开展最具影响力的项目来推动数字颠覆。",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T06:28:41+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "9912dc659832",
-   "title": "高级数据工程师（巴西远程）",
-   "desc": "KnowBe4 使现代员工能够每天做出更明智的安全决策。 KnowBe4 受到全球 70,000 多个组织的信赖，是数字劳动力安全领域的先驱，为人工智能代理和人类提供保护。 KnowBe4 平台提供由 AIDA（人工智能防御代理）和专有风险评分支持的攻击模拟和培训、协作安全和代理安全。该平台利用 15 年的行为数据来对抗高级威胁 inc",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T06:28:25+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "f3ae31a384c1",
-   "title": "高级数据工程师 - 广告",
-   "desc": "关于 Truelogic \n Truelogic 是一家领先的近岸员工扩充服务提供商，总部位于纽约。二十多年来，我们一直为各种规模的公司（从创新型初创公司到行业领导者）提供顶级技术解决方案，帮助他们实现数字化转型目标。 \n 我们的团队由 600 多名高技能技术专业人士组成，总部位于拉丁美洲，通过与美国公司合作开展最具影响力的项目来推动数字颠覆。",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T06:28:06+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "46de1d629c2e",
-   "title": "高级 Atlassian 云工程师",
-   "desc": "角色描述 \n 作为 Dropbox 的高级 Atlassian 云工程师，您将设计、构建和发展帮助我们的员工协作并获得支持的平台。重点关注 Jira 服务管理 (JSM)，您将拥有能够简化服务交付、自动化手动流程并改善员工体验的解决方案。 \n 您将领导服务工作流程、门户、集成、资产管理和人工智能支持体验的设计和实施。您的工作将 als",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T06:28:05+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "633235af9564",
-   "title": "区域客户经理 (ENT)（葡萄牙语）（远程）（英语流利）",
-   "desc": "KnowBe4 使现代员工能够每天做出更明智的安全决策。 KnowBe4 受到全球 70,000 多个组织的信赖，是数字劳动力安全领域的先驱，为人工智能代理和人类提供保护。 KnowBe4 平台提供由 AIDA（人工智能防御代理）和专有风险评分支持的攻击模拟和培训、协作安全和代理安全。该平台利用 15 年的行为数据来对抗高级威胁 inc",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T06:28:03+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "7ec330bdd754",
-   "title": "企业业务开发代表",
-   "desc": "Superside 正在寻找经验丰富的企业业务开发代表加入我们的客户开发团队。该职位的重点是对外销售以及 SaaS、创意和营销行业企业级客户的参与，推动我们在北美市场（美国和加拿大）的扩张。 \n 作为 Superside 的 BDR，您将在识别和吸引高价值企业客户、发起对话以及激发人们对我们的创意 su",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T06:28:01+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "00b9c76d4887",
-   "title": "高级软件工程师，数据平台",
-   "desc": "Build a Safer World 的兴趣方面发挥关键作用。 \n TRM Labs 提供人工智能驱动的情报解决方案，帮助公共和私营部门机构调查和打击犯罪。 TRM 的平台使调查人员能够追踪非法活动、建立案例并构建威胁网络的操作图像。全球领先的机构和企业依靠 TRM 让世界变得更加安全。 \n 数据平台团队与经验丰富的数据科学家、工程师和产品经理团队合作构建",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T06:27:59+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "f3df0757a7f3",
-   "title": "高级前端工程师（Next.js/React）-房地产",
-   "desc": "关于 Truelogic \n Truelogic 是一家领先的近岸员工扩充服务提供商，总部位于纽约。二十多年来，我们一直为各种规模的公司（从创新型初创公司到行业领导者）提供顶级技术解决方案，帮助他们实现数字化转型目标。 \n 我们的团队由 600 多名高技能技术专业人士组成，总部位于拉丁美洲，通过与美国公司合作开展最具影响力的项目来推动数字颠覆。",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T06:27:58+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
    "id": "b64725f223b6",
    "title": "虚拟助理-阿尔卡麦-阿联酋现场摄影",
    "desc": "我需要一组简洁的高分辨率图像，以清楚地记录某个站点的访问路线",
@@ -561,160 +2332,6 @@
    "published": "2026-11-20T06:26:03+00:00",
    "salary": "USD 6.4 - 12",
    "remote": false,
-   "web3": false
-  },
-  {
-   "id": "de5b22c2a884",
-   "title": "安全运营主管工程师",
-   "desc": "Apollo.io 是领先的收入团队入市解决方案，受到全球超过 500,000 家公司和数百万用户的信赖，从快速成长的初创公司到一些全球最大的企业。该公司成立于 2015 年，是 SaaS 领域发展最快的公司之一，迄今为止筹集了约 2 亿美元，估值达 13 亿美元。 Apollo.io 使销售和营销团队能够轻松访问超过 2.1 亿 B2B 联系人和 3500 万家公司的经过验证的联系人数据",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T06:21:51+00:00",
-   "salary": "$200",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "e948af656569",
-   "title": "机器学习工程师",
-   "desc": "我们是谁？您为什么要加入我们？ \n BetterHelp 的使命是消除传统的治疗障碍，让每个人都能更容易地获得心理健康护理。我们成立于 2013 年，目前是世界上最大的在线治疗服务公司，在全球范围内提供价格实惠且便捷的治疗。我们的网络由 30,000 多名持证治疗师组成，已帮助数百万人掌控自己的心理健康并永远改变他们的生活。我们不会就此止步——因为未满足的需求",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T06:21:49+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "79af9f317b71",
-   "title": "合作伙伴与联盟经理",
-   "desc": "关于删除我： \n DeleteMe 是主动隐私保护领域的领导者。我们通过持续监控和删除开放网络中暴露的个人数据 (PII) 来帮助安全团队减少人为攻击面——威胁行为者正是利用这些数据来发起社交工程、网络钓鱼、Gen-AI Deepfake、人肉搜索活动、物理威胁和身份欺诈。 \n 作为一家快速发展的全球 SaaS 公司，DeleteMe 为消费者和企业提供服务。 DeleteMe 已完成超过 100 英里",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T06:21:32+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "f1d4ba0c640a",
-   "title": "对外销售开发代表-卡尔加里",
-   "desc": "嗨！感谢您的光临👋 \n 您是否正在积极寻找新的机会？还是只是看看市场？嗯……您可能来对地方了！ \n Lightspeed 正在寻找一位积极主动的外向销售发展代表加入我们的北美外向销售团队。您将通过为中小型企业和中型市场零售客户创造和筛选潜在客户，充当第一联系人并帮助零售商增强能力，从而帮助推动收入增长。 \n 我们的出站团队正在大肆宣传",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-20T06:21:31+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "a9d197891854",
-   "title": "销售开发代表",
-   "desc": "关于我们 \n UpCodes (YC S17) 是一个综合性合规性和产品研究平台，受到 800,000 名每月活跃用户的信赖，可加速 AEC 领域的设计到施工。建筑行业面临不必要的成本和复杂性；每年有数十亿美元浪费在返工上。我们致力于提供易于使用的工具，帮助设计师和建筑商花更少的时间寻找正确的合规性和产品资源，而将更多的时间花在他们喜欢的事情上 - de",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T06:21:28+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "ed4700439c13",
-   "title": "国家合作伙伴经理",
-   "desc": "我们的渠道和联盟团队的章程是为我们一流的多云监控产品构建和激活一个战略性、差异化和高影响力的合作伙伴生态系统，一次一个合作伙伴。作为国家合作伙伴经理，您将招募、开发和发展战略性国家渠道合作伙伴，包括全球和区域系统集成商、托管服务提供商和增值经销商，以推动新客户采用和增量收入。 \n 在 Datadog ，我们放置值 i",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-20T06:21:26+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "b7391edae1e7",
-   "title": "Sr.全球通信经理",
-   "desc": "关于 QUINCE 团结起来 \n Quince 是希望聚集在一起挑战现状的建设者、创造者、创新者和运营商的目的地。我们的使命很简单：以真正低廉的价格、公平且可持续地生产真正高质量的必需品。我们通过独特的制造商对消费者 (M2C) 模式来实现这一使命，消除传统零售中增加成本并导致消费者支付超出其需要的费用的各个环节。我们寻找、建立关系并直接与他们合作",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T06:21:24+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "4578bef2c123",
-   "title": "检测和响应主管工程师",
-   "desc": "Apollo.io 是领先的收入团队入市解决方案，受到全球超过 500,000 家公司和数百万用户的信赖，从快速成长的初创公司到一些全球最大的企业。该公司成立于 2015 年，是 SaaS 领域发展最快的公司之一，迄今为止筹集了约 2 亿美元，估值达 13 亿美元。 Apollo.io 使销售和营销团队能够轻松访问超过 2.1 亿 B2B 联系人和 3500 万家公司的经过验证的联系人数据",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T06:21:23+00:00",
-   "salary": "$200",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "a82873cdc4a0",
-   "title": "高级分析工程师",
-   "desc": "我们是谁？您为什么要加入我们？ \n BetterHelp 的使命是消除传统的治疗障碍，让每个人都能更容易地获得心理健康护理。我们成立于 2013 年，目前是世界上最大的在线治疗服务公司，在全球范围内提供价格实惠且便捷的治疗。我们的网络由 30,000 多名持证治疗师组成，已帮助数百万人掌控自己的心理健康并永远改变他们的生活。我们不会就此止步——因为未满足的需求",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T06:21:21+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "27d368bb0afc",
-   "title": "SaaS 销售企业客户经理 - 西北山区和太平洋",
-   "desc": "About DeleteMe ： \n DeleteMe 是主动隐私保护领域的领导者。我们通过持续监控和删除开放网络中暴露的个人数据 (PII) 来帮助安全团队减少人为攻击面——威胁行为者正是利用这些数据来发起社交工程、网络钓鱼、Gen-AI Deepfake、人肉搜索活动、物理威胁和身份欺诈。 \n 作为一家远程优先的全球 SaaS 公司，DeleteMe 为消费者和企业提供服务。 DeleteMe 已完成超过 100 英里",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T06:21:19+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "4818035417cb",
-   "title": "1025 |高级最终用户培训师 — Intetics 2",
-   "desc": "Intetics Inc. 是一家领先的美国科技公司，专门从事定制软件应用程序开发、分布式专业团队创建、软件产品质量评估和“全数字化”解决方案，正在寻找高级最终用户培训师加入我们的团队并提供卓越的客户支持。根据需要进行长期合作，如有需要，可能会进行兼职工作，并出差到客户办公室。 职责 分析用户和系统",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-20T06:20:03+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "3a79b4c9a7cb",
-   "title": "1024 |高级云和 DevOps 工程师 — Intetics 2",
-   "desc": "Intetics Inc.，一家领先的美国科技公司，专门从事定制软件应用程序开发、分布式专业团队创建、软件产品质量评估和“全数字”解决方案，正在寻找高级云和 DevOps 工程师加入我们的团队并提供卓越的客户支持。根据需要进行长期合作，如有需要，可能会进行兼职工作，并出差到客户办公室。 职责设计，implemen",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T06:20:03+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "33a21f1bb14d",
-   "title": "1023 |高级 UX/UI 设计师 — Intetics 2",
-   "desc": "Intetics Inc.，一家领先的美国技术公司，专门从事定制软件应用程序开发、分布式专业团队创建、软件产品质量评估和“全数字”解决方案，正在寻找高级 UX/UI 设计师加入我们的团队并提供卓越的客户支持。根据需要进行长期合作，如有需要，可能会进行兼职工作，并出差到客户办公室。 职责 翻译业务需求",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T06:20:03+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "eb3d900c2067",
-   "title": "1022.1 |高级业务分析师 — Intetics 2",
-   "desc": "Intetics Inc. 是一家领先的美国科技公司，专门从事定制软件应用程序开发、分布式专业团队创建、软件产品质量评估和“全数字”解决方案，正在寻找高级业务分析师加入我们的团队并提供卓越的客户支持。根据需要进行长期合作，如有需要，可能会进行兼职工作，并前往客户办公室 职责 引导、分析和执行",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T06:20:03+00:00",
-   "salary": "",
-   "remote": true,
    "web3": false
   },
   {
@@ -839,65 +2456,10 @@
    "web3": false
   },
   {
-   "id": "39948b6dd962",
-   "title": "关键客户主管",
-   "desc": "我们的大客户主管将瞄准并关闭关键、高潜力公司中最大、最具战略前景的新业务。在此职位中，您将专注于了解和发现这些公司在大规模运营或迁移到云环境时所面临的痛点，并提供适当的 Datadog 解决方案。 \n 在 Datadog，我们重视我们的办公文化 - 它建立的关系和协作以及它带来的创造力。",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T05:50:16+00:00",
-   "salary": "$80k",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "5bda0f60f85b",
-   "title": "(749) HHS 会议和活动经理",
-   "desc": "公司摘要 \n Arlo Solutions (Arlo) 是一家专门提供技术解决方案的信息技术咨询服务公司。我们的声誉反映了才华横溢的 Arlo 解决方案团队以及与客户合作的顾问的高素质。我们的使命是通过提供优质、增值的解决方案来了解并满足客户和顾问的需求。我们的解决方案的设计和管理不仅是为了降低成本，而且是为了改进",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-20T05:50:13+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "8e69bf68d1a4",
-   "title": "高级客户主管主管 - 企业",
-   "desc": "我们是谁： \n 在 Emburse，您不仅可以想象未来，还可以构建未来。作为费用情报领域的领导者，我们正在创造一个技术驱动商业价值并激发非凡成果的未来。我们的人工智能平台可帮助组织实现财务运营现代化、提高可见性并优化整个企业的支出。 \n\n 我们正在寻找一位具有高影响力的高级首席客户经理，以推动大型、复杂的企业组织（超过 3,500 家企业）的新业务",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T05:45:20+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "67abc025b3e7",
-   "title": "技术产品经理 - 人工智能和数据分析",
-   "desc": "我们不只是在寻找人来管理积压的工作；我们正在寻找面向客户的数据和人工智能战略的创始架构师。 \n 作为技术产品经理（数据和人工智能），您将处于尖端数据科学、现代工程和面向客户的价值的高影响力交叉点。这是一个高度可见的战略角色，您将直接与高管级客户合作，共同开发预测模型、分析功能和 SaaS 数据产品，这些产品将",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T05:45:18+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "03ac2c62f609",
-   "title": "分析工程师",
-   "desc": "Reddit 成为一个由社区组成的社区。它建立在共同的兴趣、热情和信任的基础上，是互联网上最开放、最真实的对话的所在地。每天，Reddit 用户都会对他们最关心的话题进行提交、投票和评论。 Reddit 拥有 100,000 多个活跃社区和约 1.3 亿每日活跃独立访客，是互联网最大的信息来源之一。欲了解更多信息，请访问 。 \n 我们正在寻找有才华和干劲的人",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T05:45:16+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "33df50cc89bc",
+   "id": "195d4e9c52ba",
    "title": "[招聘] MCRR – 佣金销售代表，达拉斯 - 沃斯堡，德克萨斯州：每次注册 80 美元 + 8 美元/月剩余费用 (1099)",
-   "desc": "[已删除]",
-   "cat": "misc",
+   "desc": "Company 的扩张：MCRR (getmcrr.com)，这是一项为贸易承包商提供的未接来电短信回复服务。\n\n我们正在招聘独立 (1099) 销售代表，为达拉斯-沃斯堡的贸易承包商提供一个简单的工具：暖通空调、管道、电气、屋顶、改造商。\n\n它的作用：当承包商错过电话时，呼叫者可以按 1 并立即从企业收到短信，这样工作就不会转移到下一家公司。 103 美元/月，按月计算。业主在大约 3 分钟内在我们的网站上注册，我们的团队也完成了注册",
+   "cat": "marketing",
    "source": "海外在招",
    "published": "2026-11-20T05:43:24+00:00",
    "salary": "80 USD",
@@ -927,83 +2489,6 @@
    "web3": false
   },
   {
-   "id": "942e3d6e5744",
-   "title": "[招聘] 环境顾问 (SF) $60–$96/小时",
-   "desc": "我们正在招聘一位经验丰富的环境专业人士，负责正在进行的合同工作，为商业房地产交易进行**第一阶段环境现场评估（ESA）**。\n\n**职位详情**\n\n* **薪资：** 每小时 60-96 美元\n* **安排：** 持续的合同工作，时间表灵活\n* **地点：** 位于 San Francisco, CA 94114 的混合远程。需要亲自实地考察。\n\n**职责**\n\n* 进行第一阶段 ESA，包括实地考察、记录审查和访谈",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-20T05:13:21+00:00",
-   "salary": "$60–$96/hr",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "4b3f26e1e53e",
-   "title": "[招聘] ClipBlox 正在寻找 3 名基于佣金的业务开发代表",
-   "desc": "[已删除]",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-20T04:59:25+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "4a2112ddec4e",
-   "title": "[招聘] 支付 Shopify 定制软件项目 20% 的推荐佣金",
-   "desc": "[已删除]",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-20T04:34:09+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "5fc0005063d4",
-   "title": "北欧高级指定客户经理",
-   "desc": "关于我们 \n 在 Cloudflare，我们的使命是帮助构建更好的互联网。如今，该公司运营着世界上最大的网络之一，为从个人博客到中小企业再到财富 500 强公司的数百万个网站和其他互联网资产提供支持。 Cloudflare 可以保护和加速任何在线互联网应用程序，无需添加硬件、安装软件或更改一行代码。由 Cloudflare 提供支持的互联网资产均通过其路由网络流量",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-20T04:32:17+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "bde8c41d9324",
-   "title": "教学设计师 I",
-   "desc": "CentralReach 是应用行为分析 (ABA)、多学科治疗和特殊教育领域自闭症和 IDD 护理软件的领先提供商。受到超过 200,000 名用户的信赖，我们帮助治疗提供商、教育工作者和雇主通过创新技术、市场领先的行业专业知识和世界一流的客户满意度来扩展他们提供 ABA 和相关治疗的方式。 \n 我们正在寻找一位充满激情且注重细节的教学设计师加入我们的使命-d",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T04:32:12+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "1a7ba8168602",
-   "title": "健康教练",
-   "desc": "关于我们： \n 未来正在构建个性化的终身健康指导系统。我们帮助人们了解下一步应该如何调整自己的身体、目标和人生阶段，然后支持他们将这些决定转化为持续的行为改变。通过将人工智能、人类专业知识、个人健康数据和责任相结合，Future 帮助会员提高当前的表现，同时建立他们未来几十年所需的弹性、能力和健康寿命。 \n 我们是谁 \n 未来将每个成员与",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-20T04:32:08+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "7bb3dcff1f58",
-   "title": "客户经理，销售团队（西海岸地区）",
-   "desc": "关于 Bennie ： \n\n Bennie ( ) 是一家员工福利服务和技术公司，致力于帮助公司打造更健康的工作场所。 Bennie 提供的服务和技术超出了成长型公司通常所能获得的范围，但却正是他们所需要的。 \n Bennie 构建了终极福利平台，连接整个福利供应链中的不同系统，为员工、雇主和合作伙伴提供完整的体验。 Bennie 的技术、福利计划、",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-20T04:32:06+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
    "id": "9e0eb8327061",
    "title": "高级客户经理 - 仓库自动化 - 比荷卢经济联盟 — Exotec",
    "desc": "在 Exotec，我们设计优雅、即插即用且可靠的端到端仓库机器人解决方案。作为领先的原始设备制造商 (OEM) 和集成商，我们支持一些世界上最具标志性的品牌向自动化转型。我们感到自豪的是，我们设计的技术不仅重新定义了内部物流，而且还重新定义了内部物流。它还使仓库更安全、更快速、更高效，并且对在仓库内工作的人员的体力要求更低。为什么这个角色很重要 准备好改变 in",
@@ -1026,28 +2511,6 @@
    "web3": true
   },
   {
-   "id": "19f91c5e14d5",
-   "title": "标题：[招聘]医生主导的营养保健品品牌的 D2C 和市场绩效营销人员（印度 - 远程）",
-   "desc": "[已删除]",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-20T04:09:07+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "bb1f587f3f31",
-   "title": "YouTube 视频编辑",
-   "desc": "我需要一个 YouTube 视频编辑器来创建一个引人入胜的讲故事的视频。 \n\n要求：\n- 使用provi",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-20T03:57:47+00:00",
-   "salary": "USD 24 - 200",
-   "remote": false,
-   "web3": false
-  },
-  {
    "id": "b44c4cb79211",
    "title": "[任务] 设计（并可能邮寄给我？）3d 打印",
    "desc": "我需要制作非常精确的3D打印。其实，也可以手工制作。它需要 0.25 英寸厚。并且有 4 1/4npt 螺纹孔和 4 1/8npt 螺纹孔，并且有一个用于登山扣的插槽。我有一个 stl 文件，可能准确，也可能不准确，我付钱给某人 3d 打印它，它太小（可能他们的打印机没有校准，或者可能我的文件是错误的），如果有人可以给我发送其中 8 个实际功能的文件，我将支付 80 美元。它可能需要发送我的一段视频，内容是有东西旋入其中",
@@ -1066,39 +2529,6 @@
    "source": "海外在招",
    "published": "2026-11-20T03:43:34+00:00",
    "salary": "$1.8-3.5k",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "bc4def6e4d9c",
-   "title": "企业客户经理 - 欧洲、中东和非洲 — Abacum",
-   "desc": "关于 Abacum Abacum 是领先的业务规划解决方案，帮助财务团队提高绩效。通过自动化报告、实现协作以及简化规划和预测，我们帮助财务团队从数字运算转向推动战略决策。我们由两位前首席财务官于 2020 年创立，现已发展成为一支由来自 30 多个国家/地区的 100 多人组成的全球团队。我们的总部位于纽约，在多伦多和巴塞罗那设有办事处。我们受到 Dis",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:43:05+00:00",
-   "salary": "$80",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "8d4e0d5cfeef",
-   "title": "实施经理 - 德语 (m/w/d) — Kraken",
-   "desc": " 等行业领导者的信任，帮助我们利用技术在宇宙中做出巨大的绿色贡献！ Kraken 为全球一些最具创新性的能源发​​展提供动力。我们创造的技术重新定义了公用事业并开启了未来的新能源系统。通过优化可再生能源发电、建设更加智能的电网以及帮助公用事业公司提供卓越的客户体验，我们的操作系统正在改变全球的行业。对于能源行业来说，这是一个令人难以置信的激动人心的时刻。加入我们",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T03:43:05+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "d61ed41419b8",
-   "title": "客户交付主管 (f/m/d) — Kraken",
-   "desc": "帮助我们利用技术在宇宙中做出巨大的绿色贡献！ Kraken 为全球一些最具创新性的能源发​​展提供动力。我们创造的技术重新定义了公用事业并开启了未来的新能源系统。通过优化可再生能源发电、建设更加智能的电网以及帮助公用事业公司提供卓越的客户体验，我们的操作系统正在改变全球的行业。对于能源行业来说，这是一个令人难以置信的激动人心的时刻。加入我们",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T03:43:05+00:00",
-   "salary": "",
    "remote": true,
    "web3": true
   },
@@ -1147,347 +2577,6 @@
    "web3": false
   },
   {
-   "id": "165fd6febf69",
-   "title": "全球人才招募合作伙伴（所有性别）- 分发技术",
-   "desc": "关于我们 Distribusion 是世界领先的地面交通市场，让旅行者能够无缝地在线访问地面交通，从搜索到购票。我们建立了一个尖端的 B2B 技术平台，将 70 多个国家/地区的巴士、铁路和渡轮运营商与最大的在线零售商（包括 Google 地图和 Booking.com）连接起来。我们正在塑造旅行的未来，并建立全球最大的运输提供商和零售商网络。我们是 t",
-   "cat": "data",
-   "source": "海外在招",
-   "published": "2026-11-20T03:31:19+00:00",
-   "salary": "$64",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "999c0995a26c",
-   "title": "案例解决工程师",
-   "desc": "我们的团队之一，致力于通过 Elation（一个基于 SaaS 云的临床平台）提高医生和患者的生活质量。自成立以来，我们一直致力于打造令人愉悦的世界一流体验，使医生能够为患者提供卓越的护理。 \n 二十年来，客户支持一直是同样的工作：队列、票证、SLA、已结案。就这样结束了，快。在接下来的 6-9 个月内，人工智能将在 Elation 处理更多常规、重复的案例。 doe",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:30:33+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "199e672f13fe",
-   "title": "计费主题专家-支持",
-   "desc": "Elation Health 坚定致力于帮助独立的初级保健实践更好地照顾患者。自 2010 年以来，我们建立了一个临床优先的协作 EHR 平台，并且通过添加 Elation Billing，我们将同样的临床优先理念引入实践的收入方面，因此计费与图表一起工作，而不是围绕它。 \n Elation Health 正在寻找一位 Elation Billing 方面的支持主题专家——一位已经做过真正医疗工作的人",
-   "cat": "support",
-   "source": "海外在招",
-   "published": "2026-11-20T03:30:31+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "e2ab6f9a4df2",
-   "title": "销售主管",
-   "desc": "RevenueCat 为应用程序企业提供构建、运行和提高盈利能力的基础设施和工具。自从 YC 的 S18 批次毕业以来，我们已经成长为移动端默认的变现平台。 \n 我们参与了 50% 以上新发布的订阅应用程序，我们处理的年购买量超过 13B 美元，我们帮助每个人（从独立开发人员到 OpenAI 移动团队）了解并增加他们的收入。 \n 我们是一支远程优先的团队，由来自 25 多个国家/地区的 150 多名员工组成，以我们实际的价值观为指导",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:30:28+00:00",
-   "salary": "$13",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "1d38d39a76cd",
-   "title": "RVP，企业销售负责人",
-   "desc": "Ironclad 是领先的人工智能签约平台，可将协议转化为资产。合同进展更快，见解立即浮现，代理推动工作向前推进，一切尽在您的掌控之中。无论您是购买还是销售，Ironclad 都会将整个流程统一在一个智能平台上，为领导者提供保持领先一步所需的可见性。这就是为什么世界上最具变革性的组织，从 Rivian 到世界卫生组织和美联社，都信任",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:30:26+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "d48af6c9e165",
-   "title": "销售工程师 - 洛杉矶",
-   "desc": "Harness 是一家人工智能软件交付平台公司，由技术专家和企业家 Jyoti Bansal（AppDynamics 创始人，被思科以 3B 美元收购）领导。 Harness 已筹集约 4.56 亿美元资金，估值为 $4.4B，由高盛、Menlo Ventures、IVP、Unusual Ventures、Citi Ventures 等领先投资者支持。随着人工智能加速代码创建，真正的瓶颈已经转移到代码之后的一切——测试、部署、应用程序安全、可靠性",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:30:24+00:00",
-   "salary": "$3",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "60615c0a7a57",
-   "title": "高级税务经理",
-   "desc": "关于我们： \n Wrapbook 是用于生产财务的人工智能平台。我们正在建立一个行动系统，使财务团队能够控制从工资、支出到会计的整个生产。 \n Wrapbook 专为故事片、电视和广告而打造，受到 Netflix、派拉蒙、Anonymous Content 等团队的信赖。在 Andreessen Horowitz、Bessemer Venture Partners 和 Jeffrey Katzenberg 的 WndrCo 的支持下，我们超过 350 人的团队正在使用人工智能来改变财务团队的工作方式和 empo",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:30:21+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "c5496a72da14",
-   "title": "经理，工程 - 前端",
-   "desc": "关于我们： \n Wrapbook 是用于生产财务的人工智能平台。我们正在建立一个行动系统，使财务团队能够控制从工资、支出到会计的整个生产。 \n Wrapbook 专为故事片、电视和广告而打造，受到 Netflix、派拉蒙、Anonymous Content 等团队的信赖。在 Andreessen Horowitz、Bessemer Venture Partners 和 Jeffrey Katzenberg 的 WndrCo 的支持下，我们超过 350 人的团队正在利用 AI 来改变财务团队的工作方式，empo",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T03:30:19+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "ed268f77478d",
-   "title": "人员副总裁",
-   "desc": "我们是谁 \n Help Scout 于 2011 年成立，有一个简单的前提：支持软件应该像对待人一样对待客户，而不是门票。经过超过 3 亿次对话后，超过 10,000 家公司使用 Help Scout 来发展与各种类型客户（从客户到患者等）的关系。 \n \n 现在我们进入了新的篇章：不仅构建人工智能，为团队提供更多空间来专注于客户体验，而且还重新构想我们在人工智能原生世界中的运营方式。这意味着运输和学习",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T03:30:17+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "ca2c984d15ce",
-   "title": "业务开发经理（消防和生命安全产品）",
-   "desc": "Ajax Systems 都是一家国际科技公司，也是欧洲最大的安全系统制造商，在全球 180 多个国家/地区拥有超过 450 万最终用户和 33 万专业用户。该公司提供端到端解决方案来保护任何规模的家庭和企业。迄今为止，Ajax 产品组合包括 280 种用于入侵防护、视频监控、消防和生命安全以及舒适和自动化的设备。公司拥有 5, 000 名专家。 \n 我们培养本地团队 b",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-20T03:25:29+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "f6a9208ad6e0",
-   "title": "技术支持专家（夜班）",
-   "desc": "重新定义客户体验的未来。一次一个对话。 \n 在 Nextiva，我们正在重新构想企业的联系方式，将客户体验和团队协作整合到一个以对话为中心的平台上。由人工智能提供动力，由人类创新驱动。 \n 我们的文化是前瞻性思维、以客户为中心，并相信有意义的联系可以带来更好的业务成果。无论是通过我们标志性的 Amazing Service®（我们创造的技术），还是",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T03:25:28+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "5e0ed5d3531a",
-   "title": "销售工程师 - 丹佛",
-   "desc": "Harness 是一家 AI 软件交付平台公司，由技术专家和企业家 Jyoti Bansal（AppDynamics 创始人，被 Cisco 以 3B 美元收购）领导。 Harness 已筹集约 4.56 亿美元资金，估值为 $4.4B，由高盛、Menlo Ventures、IVP、Unusual Ventures、Citi Ventures 等领先投资者支持。随着人工智能加速代码创建，真正的瓶颈已经转移到代码之后的一切——测试、部署、应用程序安全性、可靠性",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:25:26+00:00",
-   "salary": "$3",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "c3abff40c083",
-   "title": "客户成功经理",
-   "desc": "在 WorkWave，我们致力于为辛勤工作的服务专业人员提供帮助，让我们的世界保持安全、清洁和美丽。通过我们强大的软件解决方案套件，我们为这些企业主提供了更有效地运营业务、提高盈利能力和提供卓越服务所需的工具。 \n 我们正在寻找一位经验丰富、以结果为导向的战略客户成功经理 (CSM)，以推动长期客户价值、产品采用、产品组合保留，growt",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:25:24+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "f22c9cbc0bac",
-   "title": "客户增长主管",
-   "desc": "RevenueCat 为应用程序企业提供构建、运行和提高盈利能力的基础设施和工具。自从 YC 的 S18 批次毕业以来，我们已经成长为移动端默认的变现平台。 \n 我们参与了 50% 以上新发布的订阅应用程序，我们处理的年购买量超过 13B 美元，我们帮助每个人（从独立开发人员到 OpenAI 移动团队）了解并增加他们的收入。 \n 我们是一支远程优先的团队，由来自 25 多个国家/地区的 150 多名员工组成，以我们实际的价值观为指导",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:25:23+00:00",
-   "salary": "$13",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "117549fcdcf9",
-   "title": "知识图谱平台工程经理",
-   "desc": "Reddit 是一个由社区组成的社区。它建立在共同的兴趣、热情和信任的基础上，是互联网上最开放、最真实的对话的所在地。每天，Reddit 用户都会对他们最关心的话题进行提交、投票和评论。 Reddit 拥有 100,000 多个活跃社区和约 1.3 亿每日活跃独立访客，是互联网最大的信息来源之一。欲了解更多信息，请访问 。 \n 我们是谁： \n 知识图谱平台",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:25:19+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "39cae601a6ba",
-   "title": "知识产权总监",
-   "desc": "Reddit 是一个社区的社区。它建立在共同的兴趣、热情和信任的基础上，是互联网上最开放、最真实的对话的所在地。每天，Reddit 用户都会对他们最关心的话题进行提交、投票和评论。 Reddit 拥有 100,000 多个活跃社区和约 1.3 亿每日活跃独立访客，是互联网最大的信息来源之一。欲了解更多信息，请访问 。 \n 我们正在寻找一个务实的、战略性的IP",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T03:25:18+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "6065c1f2f01e",
-   "title": "高级电气交付工程师",
-   "desc": "Lambda，超级智能云，它是人工智能云基础设施领域的领导者，为数以万计的客户提供服务。我们的客户范围从人工智能研究人员到企业和超大规模企业。 Lambda 的使命是让计算像电力一样无处不在，让每个人都拥有超级智能的力量。一个人，一个 GPU。 \n \n 如果您想构建世界上最好的人工智能云，请加入我们。 \n \n 你会做什么 \n\n 进行现场巡查，根据批准的设计验证已安装的电气系统，",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T03:25:14+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "8c4514951095",
-   "title": "CHRO / CPO /高级人力资源主管人才",
-   "desc": "战略人力资源高管人才管道 — CHRO / 首席人力官 / 人力资源主管 / 副总裁 / 人力资源高级副总裁 \n \n 总结 \n 我们正在建立一个持续的高级人力资本领导人才梯队，包括首席人力资源官 (CHRO)、首席人事官 (CPO)、人力资源主管、人力资源副总裁 (VP) 和高级副总裁 (SVP)，以支持当前和未来的客户和合作伙伴需求。这些候选人将被考虑担任临时、部分和全职高管职务 acros",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-20T03:25:13+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "338f1d3f8d38",
-   "title": "客户体验 - 牙科实验室技术员（法语/英语）",
-   "desc": "Dandy 进行跨职能合作，正在改变庞大而过时的牙科行业——一个价值超过 $320B 的行业。在一些世界领先的风险投资公司的支持下，我们的雄心勃勃的使命是通过技术简化和现代化牙科诊所的每一项功能。随着我们在全球范围内的扩张，Dandy 正在为世界各地的牙科诊所构建操作系统，为临床医生及其团队提供技术、创新和世界一流的支持，以实现更多的实践",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-20T03:25:10+00:00",
-   "salary": "$320",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "8d31672d2e9d",
-   "title": "企业销售经理（企业、 NZ)",
-   "desc": "关于 Halter \r\n 在 Halter，我们的使命是帮助农民和牧场主开展最具生产力和可持续的运营。我们的客户正在使用 Halter 来摆脱传统做法的时间密集型限制。想象一下看着 500 头牛站起来，平静地走向下一个休息点吗？没有四轮摩托车，没有狗，没有栅栏。只是一群牛按照自己的步调行走。人们说这看起来像魔法。我们的客户正在通过 Halter 彻底改变放牧方式。 chan",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-20T03:25:08+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "e88c728a4709",
-   "title": "战略客户经理，West",
-   "desc": "Ironclad 是领先的人工智能签约平台，可将协议转化为资产。合同进展更快，见解立即浮现，代理推动工作向前推进，一切尽在您的掌控之中。无论您是购买还是销售，Ironclad 都会将整个流程统一在一个智能平台上，为领导者提供保持领先一步所需的可见性。这就是为什么世界上最具变革性的组织，从 Rivian 到世界卫生组织和美联社，trust",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:25:06+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "660ce2c5be10",
-   "title": "概念文案",
-   "desc": "Superside 正在寻找一位才华横溢的概念文案撰稿人，以在数字活动和营销渠道中构思和执行有影响力的创意工作。在此职位中，您将与设计师、策略师和表演团队合作，开发概念驱动的文案，以提供创意影响和可衡量的结果。 \n 您将与企业级客户密切合作，帮助将复杂的技术理念转化为面向全球受众的清晰、引人注目的信息。这个角色非常适合",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-20T03:20:22+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "adcbc8b477a7",
-   "title": "高级人工智能工程师（GTM）",
-   "desc": "我们该怎么办？ \n Paddle 为数字产品公司提供了一种完全不同的支付基础设施方法。我们不是组装和维护一系列复杂的支付相关应用程序和服务，而是为客户提供记录商户。这意味着我们 100% 消除了支付碎片化带来的痛苦。它更快、更安全、更便宜，最重要的是，它更好。 \n 我们得到了 KKR、FTV Capital、Kindred、Notion 和 83North 等投资者的支持，为超过 10,000 个软件提供服务",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:20:21+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "33d0a462b85d",
-   "title": "工程经理，撰写",
-   "desc": "关于团队 \n Mural Compose 团队雄心勃勃且行动迅速。我们是充满热情的建设者，热爱实验和迭代。我们的项目正在寻求利用最新的人工智能技术来获取新客户并尽可能广泛地扩大我们的收入基础。该团队处于我们产品战略和未来发展的前沿。 \n \n 您的使命 \n 您将带领团队支持 Mural 最重要的赌注之一。在短期内，您将把我们的人工智能原生产品从抢先体验阶段升级为",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:20:19+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "48fe37aedf58",
-   "title": "招聘人员，法律（合同）",
-   "desc": "职位详细信息 \n\n 地点：远程（佛罗里达州、科罗拉多州、伊利诺伊州、马萨诸塞州、新罕布什尔州、罗德岛州、缅因州、康涅狄格州、佐治亚州、南卡罗来纳州、北卡罗来纳州、德克萨斯州） \n\n 类型：合约/1099 \n\n 工作模式：远程优先（在有意义的地方工作 – WFWIMS） \n\n 薪酬：40 美元/小时，另加 % 的安置费 \n\n 我们是谁 LivingHR 是一家远程优先的专业服务“工作机构”，旨在让工作变得更好。我们与组织合作，提供以人为本、面向未来工作的人力资源管理服务、专业服务和产品。 W",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:20:17+00:00",
-   "salary": "$40/hr",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "12fdc4510bf4",
-   "title": "绩效营销经理",
-   "desc": "关于团队 \n 在 Mural，我们正在改变团队协作、思考和决策的方式。增长营销位于产品内部，负责人们如何发现 Mural 并决定开始。付费是业务的核心获取引擎，适用于我们的自助服务和销售辅助活动。您将端到端地拥有它，并与产品、营销和销售领域的合作伙伴密切合作，将需求转化为依赖 Mural 的团队。 \n \n 您的使命 \n 您将拥有Mural的付费市场",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-20T03:20:16+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "5f2e54bfddf0",
-   "title": "身份与信任首席产品经理",
-   "desc": "关于 Life360 \n Life360 的使命是让人们与所爱之人保持亲密关系。我们领先的移动应用程序、Tile 跟踪设备和宠物 GPS 跟踪器使会员能够通过一系列服务保护他们最关心的人、宠物和事物，包括位置共享、安全驾驶员报告和紧急调度碰撞检测。截至 2026 年 6 月 30 日，Life360 为遍布 180 多个国家的约 1.024 亿月度活跃用户 (MAU) 提供服务。 \n Life360送豌豆",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:20:14+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "6d2f55b380f4",
-   "title": "战略数据合作伙伴总监",
-   "desc": "关于我们 \n YipitData 是颠覆性经济领域领先的市场研究和分析公司。我们每天分析数十亿个替代数据点，以提供跨行业的准确、详细的见解，包括电子商务、拼车、支付和市场。 \n 我们的专有技术可识别、许可、清理和分析许多世界上最大的投资基金和公司所依赖的第三方数据。我们得到了凯雷集团和 Norwest Venture Part 的支持",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-20T03:20:12+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "2c13d6a502cd",
-   "title": "首席数据科学家",
-   "desc": "关于 Life360 \n Life360 的使命是让人们与所爱之人保持亲密关系。我们领先的移动应用程序、Tile 跟踪设备和宠物 GPS 跟踪器使会员能够通过一系列服务保护他们最关心的人、宠物和事物，包括位置共享、安全驾驶员报告和紧急调度碰撞检测。截至 2026 年 6 月 30 日，Life360 为遍布 180 多个国家的约 1.024 亿月度活跃用户 (MAU) 提供服务。 \n Life360送豌豆",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-20T03:20:10+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "7044d98f0b15",
-   "title": "持照临床心理健康顾问",
-   "desc": "私人诊所，没有门，没有开销。 \n BetterHelp 是世界上最大的在线治疗平台之一，面向那些希望专注于客户护理（而不是管理或管理费用）的心理健康专业人士。您提供专业知识。剩下的我们来处理。 \n 为什么加入 BetterHelp \n \n 280 美元的首次客户奖金* — 当您在申请后 30 天内见到第一位保险客户时即可获得奖金。 \n 增加每小时报酬。现在，治疗师每次治疗可为保险客户赚取高达 33% 的额外收入。 \n 520 美元 Health",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-20T03:20:08+00:00",
-   "salary": "$280",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "49fd7c326955",
-   "title": "[招聘]远程工作/任何可用的机会 – 愿意与国际客户合作",
-   "desc": "[已删除]",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-20T03:16:48+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
    "id": "294fb2567b5a",
    "title": "[招聘] NA SA ORTIGAS，PASIG！",
    "desc": "[已删除]",
@@ -1496,138 +2585,6 @@
    "published": "2026-11-20T03:15:45+00:00",
    "salary": "",
    "remote": false,
-   "web3": false
-  },
-  {
-   "id": "ba28097cd078",
-   "title": "广告质量评估员 - 意大利语（意大利）",
-   "desc": "Welo Data 是一家屡获殊荣的本地化和数据转换公司。我们运营着世界上最大的广告评级计划之一，我们希望您加入！ \n 作为广告质量评估员，您将审核互联网广告并对其进行评分，以帮助确定向最终用户投放广告的方式。换句话说，你将根据用户的关键词告诉人工智能程序其广告建议的好坏。 \n 您将查看英语和意大利语的广告 \n 这个角色非常适合以下人员： \n -",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-20T03:15:22+00:00",
-   "salary": "$10 per hour",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "77f707307fb7",
-   "title": "广告质量评估员 - 意大利语（德国）",
-   "desc": "Welo Data 是一家屡获殊荣的本地化和数据转换公司。我们运营着世界上最大的广告评级计划之一，我们希望您加入！ \n 作为广告质量评估员，您将审核互联网广告并对其进行评分，以帮助确定向最终用户投放广告的方式。换句话说，你将根据用户的关键词告诉人工智能程序其广告建议的好坏。 \n 您将查看英语和意大利语的广告 \n 这个角色非常适合以下人员： \n -",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-20T03:15:21+00:00",
-   "salary": "$13.2 per hour",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "0b6787abfa55",
-   "title": "广告质量评估员 - 德语（德国）",
-   "desc": "广告质量评估员 \n Welo Data 是一家屡获殊荣的本地化和数据转换公司。我们运营着世界上最大的广告评估计划之一，希望您加入我们的团队！ \n 作为广告质量评估员，您将审查和评估互联网广告，以改进向最终用户展示的广告。换句话说，你将根据用户的关键词向AI程序提供关于其广告建议好坏的反馈。 \n 您将查看英语和德语的广告。 \n 这个位置我",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-20T03:15:19+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "c7582833f035",
-   "title": "广告质量评估员 - 匈牙利语（匈牙利）",
-   "desc": "Welo Data 是一家屡获殊荣的本地化和数据转换公司。我们运营着世界上最大的广告评级计划之一，我们希望您加入！ \n 作为广告质量评估员，您将审核互联网广告并对其进行评分，以帮助确定向最终用户投放广告的方式。换句话说，你会根据用户的关键词告诉AI程序它的广告建议有多好或多坏。 \n 您将查看英语和匈牙利语的广告 \n 这个角色非常适合以下人员：",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-20T03:15:18+00:00",
-   "salary": "$6 per hour",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "4fe0b91a159a",
-   "title": "广告质量评估员 - 荷兰语（荷兰）",
-   "desc": "概述 \n 用您的日常互联网技能来塑造互联网的未来！ \n 作为广告质量评估员，您可以审查和评估互联网广告，以使它们更好、更适合像您这样的最终用户。 \n 换句话说，您可以根据您对每个广告提供的关键字的理解来告诉系统广告的好坏。您查看英语和荷兰语的广告。 \n 这个位置是idea",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-20T03:15:16+00:00",
-   "salary": "$14",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "56aa91a25d79",
-   "title": "计费和后续专家",
-   "desc": "我们是谁？您为什么要加入我们？ \n BetterHelp 的使命是消除传统的治疗障碍，让每个人都能更容易地获得心理健康护理。我们成立于 2013 年，目前是世界上最大的在线治疗服务公司，在全球范围内提供价格实惠且便捷的治疗。我们的网络由 30,000 多名持证治疗师组成，已帮助数百万人掌控自己的心理健康并永远改变他们的生活。我们不会就此止步——因为未满足的需求",
-   "cat": "data",
-   "source": "海外在招",
-   "published": "2026-11-20T03:15:15+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "e5cf7f21277b",
-   "title": "Sr.数据工程师",
-   "desc": "关于 Carrot： \r\n Carrot 是全球领先的生育和家庭护理平台，建立在智能护理编排的基础上：在正确的时刻，根据每个成员的生活提供正确的临床指导。超过 1000 家跨国雇主、健康计划和卫生系统相信 Carrot 能够为 195 个国家的数百万会员提供支持——从怀孕前到更年期以及其间的重大人生时刻。 Carrot 的综合临床计划提供行业领先的成本",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T03:15:13+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "1abf015b0cf3",
-   "title": "GTM - AI",
-   "desc": "Kalshi是什么？ \n Kalshi 定义了一个新类别：预测市场。 Kalshi 允许人们根据任何事件的结果进行交易，并将任何有关未来的问题转化为金融资产。 Kalshi 奋战多年，历史上首次在美国将预测市场合法化，目前是美国增长最快的金融市场，在政治、经济、金融、天气、科技、人工智能、文化等领域拥有数千个市场。 \n 我们相信预测市场有",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T03:15:11+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "bd18e666eaad",
-   "title": "基础设施工程师",
-   "desc": "简而言之 \n\n 我们是一家快速发展的初创公司，其使命是通过为医生、护士和护理团队成员提供实时数据来拯救生命，从而使医疗保健变得积极主动。 \n\n 您将为贝叶斯平台构建和维护基础设施，并开发 CI/CD，使其他团队成员（例如软件工程师、数据科学家等）能够加速他们的开发，这将推动我们的临床 AI/ML 模块产品、医疗系统企业范围实施的扩展，以及",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:15:10+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "4a6294fdfa48",
-   "title": "软件工程师、应用集成",
-   "desc": "软件工程师，应用集成 \n 简介 \n\n 我们是一家快速发展的初创公司，其使命是通过为医生、护士和护理团队成员提供实时数据来拯救生命，从而使医疗保健变得积极主动。 \n\n 与我们一起将医疗保健从被动转变为主动。您将带头开展工程工作，在大规模、复杂的电子健康记录 (EHR) 系统和贝叶斯平台之间架起桥梁，提供关键的实时见解来帮助临床",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:15:08+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "1f9425ef6709",
-   "title": "业务开发经理，Northeastern",
-   "desc": "关于 CompScience \n 在 CompScience，我们不仅仅是在构建软件，我们还在拯救生命。我们是一家高增长的初创公司，其使命是通过大胆的技术创新防止 100 万人发生工伤，确保每个人在一天结束时都能安全回家。 \n \n 我们成立于 2019 年，得到了 SpaceX、Tesla 和 Anduril 投资者的支持，组建了一支强大的团队，架起了两个世界的桥梁： \n\n 尖端技术：我们的产品、设计和工程团队由 o",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:15:07+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "15c83df398be",
-   "title": "风湿病专家顾问PAYE",
-   "desc": "关于角色 \n 我们正在寻找一名常任风湿病专家顾问加入我们充满活力的团队。您将在评估和管理患有纤维肌痛和骨关节炎等疾病的患者、探索医用大麻治疗方案方面发挥关键作用。这一角色提供了在协作、多学科环境中塑造英国医用大麻治疗未来的机会。 \n 你将要做什么： \n\n 为求医的患者提供高质量的护理ca",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-20T03:15:05+00:00",
-   "salary": "£152,000 - £168,000",
-   "remote": true,
    "web3": false
   },
   {
@@ -1653,182 +2610,6 @@
    "web3": false
   },
   {
-   "id": "b5b480a3d30e",
-   "title": "广告质量评估员 - 荷兰语（比利时）",
-   "desc": "Welo Data 是一家屡获殊荣的本地化和数据转换公司。我们运营着世界上最大的广告评级计划之一，我们希望您加入！ \n 作为广告质量评估员，您将审核互联网广告并对其进行评分，以帮助确定向最终用户投放广告的方式。换句话说，你将根据用户的关键词告诉人工智能程序其广告建议的好坏。 \n 您将审核英语和荷兰语的广告 \n\n 这个角色非常适合以下人员： \n -",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-20T03:10:30+00:00",
-   "salary": "$13 per hour",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "a696d4d48b2c",
-   "title": "广告质量评估员 - 克罗地亚语（克罗地亚）",
-   "desc": "Welo Data 是一家屡获殊荣的本地化和数据转换公司。我们运营着世界上最大的广告评级计划之一，我们希望您加入！ \n 作为广告质量评估员，您将审核互联网广告并对其进行评分，以帮助确定向最终用户投放广告的方式。换句话说，你将根据用户的关键词告诉人工智能程序其广告建议的好坏。 \n 您将查看英语和克罗地亚语的广告 \n 这个职位非常适合以下人员：",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-20T03:10:29+00:00",
-   "salary": "$7 per hour",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "322b08b5133a",
-   "title": "广告质量评估员 - 荷兰语（法国）",
-   "desc": "Welo Data 是一家屡获殊荣的本地化和数据转换公司。我们运营着世界上最大的广告评级计划之一，我们希望您加入！ \n 作为广告质量评估员，您将审核互联网广告并对其进行评分，以帮助确定向最终用户投放广告的方式。换句话说，你将根据用户的关键词告诉人工智能程序其广告建议的好坏。 \n 您将审核英语和荷兰语的广告 \n 这个角色非常适合以下人员： \n - S",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-20T03:10:27+00:00",
-   "salary": "$11 per hour",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "5906fec564b8",
-   "title": "广告质量评估员 - 捷克语（斯洛伐克）",
-   "desc": "Welo Data 是一家屡获殊荣的本地化和数据转换公司。我们运营着世界上最大的广告评级计划之一，我们希望您加入！ \n 作为广告质量评估员，您将审核互联网广告并对其进行评分，以帮助确定向最终用户投放广告的方式。换句话说，你会根据用户的关键词告诉AI程序它的广告建议有多好或多坏。 \n 您将查看英语和捷克语的广告 \n 这个角色非常适合以下人员： \n -",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-20T03:10:25+00:00",
-   "salary": "$6 per hour",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "a14d6fd4bcb2",
-   "title": "客户总监",
-   "desc": "Superside 正在招聘一名客户总监来领导和发展具有战略重要性的企业客户组合。您将掌控整个客户生命周期，从预售范围到交付、续订和扩展，确保客户将 Superside 视为长期的创意合作伙伴。 \r\n 该角色处于客户战略、商业增长和交付的交叉点。您将领导跨职能团队，管理高级利益相关者，并推动保留、扩展和高质量交付",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:10:22+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "94c3775d289a",
-   "title": "高级后端工程师 (.NET)",
-   "desc": "关于最后通行证 \nLastPass 提供安全访问要素，帮助个人和组织直接从浏览器管理和保护对人工智能、应用程序和凭证的访问。 LastPass 受到全球超过 100,000 家企业和数百万用户的信赖，将强大的安全性与日常简便性融为一体。从发现未经批准的人工智能和应用程序到减少登录摩擦和保护整个企业的凭证，LastPass 履行其使命，为每个人提供无缝连接",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:10:21+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "3ccf9122d4e6",
-   "title": "企业销售工程师 - 英国",
-   "desc": "作为企业销售工程师，您将与销售人员合作，帮助客户了解 Datadog 的价值以及它如何解决他们最重要的技术和业务挑战。您将领导技术评估，提供引人注目的演示，并指导客户完成从发现到成功采用的整个过程。 \r\n \r\n 您将充当值得信赖的顾问，将业务目标与技术解决方案联系起来，并在赢得新业务和扩大现有客户方面发挥关键作用。 \r\n 你什么",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T03:10:19+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "8605e35f086b",
-   "title": "安全工程师",
-   "desc": "Figma 正在壮大我们充满激情的创意人员和建设者团队，其使命是让所有人都能接触到设计。 Figma 的平台可帮助团队将想法变为现实——无论您是在集思广益、创建原型、将设计转化为代码，还是利用人工智能进行迭代。从创意到产品，Figma 使团队能够简化工作流程、加快行动速度，并在世界任何地方实时协作。如果您热衷于塑造设计和协作的未来，请加入我们！ \n 作为安全工程师",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:10:17+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "0a79387e9791",
-   "title": "员工固件工程师",
-   "desc": "资深固件工程师 \n Lunar 的嵌入式/固件工程师将负责我们产品固件和软件的整个产品开发生命周期，它们是我们设计的功能、适应性和优化的重要来源。我们正在寻找对更可持续的未来充满热情并希望将这一愿景变为现实的人才。理想的候选人会兴奋并准备好与专门的跨职能团队密切合作，以提供创新",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:10:15+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "2723e2fd3e35",
-   "title": "皮革材料开发人员",
-   "desc": "关于 QUINCE 团结起来 \n Quince 是希望聚集在一起挑战现状的建设者、创造者、创新者和运营商的目的地。我们的使命很简单：以真正低廉的价格、公平且可持续地生产真正高质量的必需品。我们通过独特的制造商对消费者 (M2C) 模式来实现这一使命，消除传统零售中增加成本并导致消费者支付超出其需要的费用的各个环节。我们寻找、建立关系并直接与他们合作",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:10:14+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "24c16709d9f2",
-   "title": "供应合作伙伴经理",
-   "desc": "关于该角色 \n 我们正在招聘一名供应合作伙伴经理，作为纳什与其一些最具战略意义的交付提供商之间的关键运营纽带。您将管理与每个交付提供商的关系，对持续绩效负责，监控集成运行状况，并启用和确保无缝的运营可扩展性。 \n 该职位在内部和外部成功、运营、产品、销售和工程的交叉点上具有独特的地位，并将在",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:10:12+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "f92ed36f7d35",
-   "title": "远程医疗医生",
-   "desc": "About Solace 中产生明显的影响 \n 美国的医疗保健从根本上崩溃了。该系统非常复杂，以至于 88% 的美国成年人不具备在​​没有帮助的情况下驾驭该系统所需的健康素养。 Solace 将患者与专家倡导者配对，并为他们提供做出更好决策并获得更好结果的工具，从而消除了医疗保健的繁文缛节。 \n 我们是一家 C 轮初创公司，成立于 2022 年，得到了 Inspired Capital、Craft Ventures、Torch Capital、Menlo Ventures、Signalfire 和 IVP 的支持。我们的美国",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T03:10:10+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "dcdc1e2b622d",
-   "title": "亚太地区客户工程师",
-   "desc": "Cresta 释放了客户体验的真正潜力，将每次对话转化为竞争优势。 Cresta 的统一人工智能平台结合了对话式人工智能代理、实时人工代理增强和全面的对话智能，以推动每个渠道的收入和效率提升。包括美国联合航空、考克斯通讯和万豪在内的世界领先公司每天都使用 Cresta 来推动世界一流的客户体验。  \r\n 诞生于 Sta",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T03:10:07+00:00",
-   "salary": "$216",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "5472adb60776",
-   "title": "产品增长策略师",
-   "desc": "地点：远程 — 任何地方（向全球任何地方的申请人开放） \r\n Fueled 是一家领先的数字战略、设计和工程机构。我们是一支 300 多人的团队，为 Google、Apple、纽约时报、ESPN、维多利亚的秘密、米高梅度假村、Albertsons 和 CLEAR 等品牌设计和构建了数百种数字产品和体验。 \r\n 作为 Fueled 的产品增长策略师，您将帮助领先的组织发现改善用户获取的机会，",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:05:12+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "c4a7562075da",
-   "title": "客户解决方案架构师 (AMER)",
-   "desc": "Supabase 是 Postgres 开发平台，由开发人员为开发人员构建。我们提供完整的后端解决方案，包括数据库、身份验证、存储、边缘功能、实时和矢量搜索。所有服务都经过深度集成，旨在实现增长。 \r\n 我们正在寻找一位客户解决方案架构师 (CSA)，以帮助推动 Supabase 在各种客户中的采用：从致力于首次发布的敏捷初创公司到具有大规模工作负载的知名品牌。",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-20T03:05:11+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": true
-  },
-  {
-   "id": "8dac2a2fcec0",
-   "title": "战略销售经理",
-   "desc": "Figma 正在壮大我们由充满激情的创意人员和构建者组成的团队，其使命是让所有人都能使用设计。 Figma 的平台可帮助团队将想法变为现实——无论您是在集思广益、创建原型、将设计转化为代码，还是利用人工智能进行迭代。从创意到产品，Figma 使团队能够简化工作流程、加快行动速度，并在世界任何地方实时协作。如果您热衷于塑造设计和协作的未来，请加入我们！ \r\n Figma 正在寻找",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-20T03:05:08+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
    "id": "039e86a75f9c",
    "title": "[报价] 定制登陆页面/网站 - 8-12 美元，交付时间24h",
    "desc": "[已删除]",
@@ -1846,17 +2627,6 @@
    "cat": "misc",
    "source": "海外在招",
    "published": "2026-11-20T02:40:50+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "1f653f35bc15",
-   "title": "[招聘]",
-   "desc": "",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-20T01:57:28+00:00",
    "salary": "",
    "remote": false,
    "web3": false
@@ -1906,28 +2676,6 @@
    "web3": false
   },
   {
-   "id": "ca178468fde0",
-   "title": "[招聘] 女士运动服技术设计师/服装技术员 – 澳大利亚墨尔本",
-   "desc": "嗨！在墨尔本寻找技术设计师或服装技术人员来帮助： \n技术包：平面、BOM、施工说明和分级规格表\n\n工厂样品合身审查（墨尔本亲自进行）\n\n审查和构建我已经起草的技术包\n\n款式包括合身弹力单品：背心、运动文胸、长袖和喇叭打底裤，材质为尼龙/氨纶和棉/氨纶。\n\n必须有运动服或弹力针织品的经验！\n\n评论或 .谢谢！",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-19T23:33:52+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "14980268208c",
-   "title": "（招聘）女士运动服技术设计师/服装技术员 – 澳大利亚墨尔本",
-   "desc": "[已删除]",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-19T23:32:19+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
    "id": "d15c050884c0",
    "title": "LF：兼职远程工作 [offer]",
    "desc": "[已删除]",
@@ -1935,17 +2683,6 @@
    "source": "海外在招",
    "published": "2026-11-19T23:25:38+00:00",
    "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "17023f3e0d0c",
-   "title": "[Hiring] 远程男士造型师/全套风格的形象顾问大修（衣橱、头发、仪容）| 240 美元以上，面议",
-   "desc": "我是南加州一个三十多岁的人，我想要彻底的风格重置。我正在寻找一位经验丰富的造型师或形象顾问来了解整个情况（我的身材、我现在的衣服、我的头发和我的仪容），并帮助我找到一种适合我的风格，而且实际上很适合我。我在公司工作，希望在工作和个人时间上提升自己的形象。\n\n**你不会为我购物。** 我会自己买所有东西。你的工作是帮助我挑选合适的物品",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-19T22:50:19+00:00",
-   "salary": "$240",
    "remote": true,
    "web3": false
   },
@@ -1979,17 +2716,6 @@
    "source": "海外在招",
    "published": "2026-11-19T22:45:44+00:00",
    "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "6a3231fed913",
-   "title": "[招聘] 进攻性网络安全工程师 - 远程（预计 12 美元以上/小时）",
-   "desc": "[已删除]",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-19T22:43:39+00:00",
-   "salary": "$12",
    "remote": true,
    "web3": false
   },
@@ -2049,17 +2775,6 @@
    "web3": false
   },
   {
-   "id": "4f608c7661a7",
-   "title": "招聘 - 有一份在线零工吗？",
-   "desc": "[已删除]",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-19T21:24:51+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
    "id": "3ee50ac27575",
    "title": "[任务] 8 美元为我的品牌提供推荐视频。",
    "desc": "[已删除]",
@@ -2093,17 +2808,6 @@
    "web3": false
   },
   {
-   "id": "808b01b6a856",
-   "title": "[招聘] 招聘：高级游戏开发人员和高级 Node.js 后端开发人员 | 24-40 美元/小时",
-   "desc": "[已删除]",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-19T20:06:06+00:00",
-   "salary": "$24-40/hr",
-   "remote": false,
-   "web3": false
-  },
-  {
    "id": "1523dfd8b7c2",
    "title": "[招聘] 远程 Shopify 商店助理（美国/英国品牌） | 160-360 美元",
    "desc": "[已删除]",
@@ -2122,6 +2826,17 @@
    "source": "海外在招",
    "published": "2026-11-19T19:50:15+00:00",
    "salary": "USD 6.4 - 12",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "de1324b02dbc",
+   "title": "[招聘] 160 美元（10 小时，每 20 小时）|全面商业收购|开始工作前需要签订保密协议和雇佣合同 |职位设计师",
+   "desc": "你好你好。我叫 JJ，我正在创建一个音频戏剧叙事小说播客。我正在寻找可以设计自定义标题并将其放置在已创建的封面艺术作品之上的人。完整标题为 3 个单词/16 个字符。我并不是在寻求创建完整的字体系列。我只是在寻找自定义静态标题。下面提到了所需的交付成果。 \n\n为了避免泄露实际标题（在合同签订后将与艺术作品一起共享",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-19T19:46:16+00:00",
+   "salary": "$160",
    "remote": false,
    "web3": false
   },
@@ -2148,6 +2863,17 @@
    "web3": false
   },
   {
+   "id": "7d1e5734d3bf",
+   "title": "工程主管、增长 — Clover Health",
+   "desc": "在 Clover，业务支持团队引领我们的技术进步，同时确保强大的安全性和合规性。我们提供用户友好的企业应用程序，管理复杂的数据生态系统，并在整个组织内提供高效的技术解决方案。我们的目标很简单：我们让企业能够轻松地做适合 Clover 的事情。 \n 我们正在聘请一名工程主管来负责 Clover 收购之旅背后的技术，通过公共网站和潜在客户开发",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-19T19:30:14+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
    "id": "8400560d274c",
    "title": "[报价]我将在 Final Cut Pro 中以 1 美元的价格编辑和制作您的视频",
    "desc": "请务必根据需要提供素材、音效和音乐。工作范围可以是任何范围，只要安全、合法、合理即可。\n\n我只在 Mac 上使用 Final Cut Pro。我在 Apple Motion（After Effects 等效）方面的能力有限，尽管我可以尝试在合理的努力范围内创建一些东西。\n\n我这样做的原因是我想通过为有需要的人提供免费服务并提供现成的材料来改进我的技术和创作流程。双赢 trans",
@@ -2170,14 +2896,14 @@
    "web3": false
   },
   {
-   "id": "18f42f3b8c6a",
-   "title": "[招聘]个人帐户通才评估员（Android 智能手机用户）",
-   "desc": "[已删除]",
-   "cat": "misc",
+   "id": "03580e51a13e",
+   "title": "工程主管、临床运营 — Clover Health",
+   "desc": "在 Clover，业务支持团队引领我们的技术进步，同时确保强大的安全性和合规性。我们提供用户友好的企业应用程序，管理复杂的数据生态系统，并在整个组织内提供高效的技术解决方案。我们的目标很简单：我们让企业能够轻松地做适合 Clover 的事情。 \n 我们正在聘请一名工程主管来构建系统，帮助我们的临床团队在现场和会员家中提供服务。 You wil",
+   "cat": "tech",
    "source": "海外在招",
-   "published": "2026-11-19T19:16:35+00:00",
+   "published": "2026-11-19T19:15:15+00:00",
    "salary": "",
-   "remote": false,
+   "remote": true,
    "web3": false
   },
   {
@@ -2187,17 +2913,6 @@
    "cat": "misc",
    "source": "海外在招",
    "published": "2026-11-19T19:10:25+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "9b74a5c70d17",
-   "title": "[招聘] 5-SKU 男装商店（卡塔尔/海湾合作委员会网关）的自由 Shopify 开发人员",
-   "desc": "寻找一位经验丰富的自由职业 Shopify 开发人员，为在卡塔尔/海湾合作委员会推出的传统男装品牌建立一个干净、简约的电子商务商店。\n\n工作范围：\n\n主题设置和样式：使用我们的品牌颜色、版式和英雄横幅图像自定义一个干净的、编辑性的 Shopify 主题（例如，Dawn 或类似的简约主题 - 灵感来自 Buck Mason / Todd Snyder）。\n\n目录：5 种产品 (SKU)，每种产品有 3-4 种颜色（包括色样和尺码选择）。\n\n页面：首页、商店/C",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-19T19:05:10+00:00",
    "salary": "",
    "remote": false,
    "web3": false
@@ -2445,6 +3160,17 @@
    "web3": true
   },
   {
+   "id": "5e60c3e48096",
+   "title": "高级软件工程师 嘉宾兼主持人 — Airbnb",
+   "desc": "Airbnb 诞生于 2007 年，当时两位房东在旧金山的家中迎接了三位房客，此后已经发展到拥有超过 500 万房东，在全球几乎每个国家接待了超过 20 亿名房客。房东每天都会提供独特的住宿和体验，让房客能够以更真实的方式与社区建立联系。您将加入的社区： \n Airbnb 的使命是创造一个任何人都可以归属于任何地方的世界。对于这一使命至关重要的是，",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-19T18:30:15+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
    "id": "dc6cce4f3aab",
    "title": "[任务] 游戏研磨者，主要从事手机游戏，例如Dokkan/Optc/Bbs",
    "desc": "​\n\n正如标题所述。目前，我正在为我的朋友们种龙珠dokkan，但我不介意玩其他游戏，例如《皇室战争》、《饼干跑》等。如果你告诉我游戏、你想让我磨什么以及一个合适的价格，我就可以做到。 \n\n如果是像ps5这样的控制台我可以尝试吗？例如，我目前正在同时磨怪物猎人蛋和口袋妖怪（我同时处理多个任务），但我总是有时间提供帮助。\n\n注意：我现在处于英国时间，因此如果您有许多相同的游戏，请注意（例如 3",
@@ -2467,15 +3193,15 @@
    "web3": false
   },
   {
-   "id": "2e3d87772376",
-   "title": "业务开发、VIP 获取主管 | Phantom",
-   "desc": "Business Development, VIP Acquisition Lead | Phantom\n\n 🌍 Remote: 全球远程 (Worldwide)\n 🇨🇳 中国候选人: 需确认 (原文显示不明)\n 💼 类型: 全职\n 💰 薪资: 具有竞争力的基本薪资 + 基于绩效的丰厚收入\n 🗓 源发布日期: \n\n ⚠️ 注意: 行业波动风险和潜在合规风险，Web3 领域需谨慎评估。\n\n岗位职责:\n• 获取高价值交易者：利用现有关系网络，通过推荐、定向外展等方式将个人 VIP 客户引入 Phantom。\n• 主导获客流程：负责潜在客户挖掘、资格筛选、产品定位、商务谈判及转化，并对获客结果负责。\n• 构建有吸引力的客户方案：了解每位交易者的目标与偏好，协同内部团队开发能赢得业务的方案。\n• 推动活跃与持续增长：协助 VIP 团队支持入职流程，帮助客户成为活跃交易者，深化对高级交易平台的使用。\n• 维护长期关系：作为值得信赖的商业联系人，预判客户需求，解决采用障碍，识别扩大交易活动和推荐的机会。\n• 内部代表客户：与产品、增长、营销和支持团队合作，将客户反馈转化为改善",
-   "cat": "web3",
+   "id": "98fa994450f8",
+   "title": "工程经理、外部搜索和人工智能优化 — Airbnb",
+   "desc": "Airbnb 于 2007 年诞生，当时两位房东在旧金山的家中迎接了三位房客，此后已经发展到拥有超过 500 万房东，在全球几乎每个国家接待了超过 20 亿名房客。房东每天都会提供独特的住宿和体验，让房客能够以更真实的方式与社区建立联系。您将加入的社区： \n 增长平台（营销技术）团队的愿景是推动长期可持续增长",
+   "cat": "tech",
    "source": "海外在招",
-   "published": "2026-11-19T18:05:53+00:00",
+   "published": "2026-11-19T18:15:04+00:00",
    "salary": "",
    "remote": true,
-   "web3": true
+   "web3": false
   },
   {
    "id": "ab4fa1efbc0f",
@@ -2489,6 +3215,17 @@
    "web3": false
   },
   {
+   "id": "d1e8c23079ec",
+   "title": "工程经理、产品工程 — Lattice",
+   "desc": "这是莱迪思的工程部门 \n 莱迪思的工程团队不断努力改进我们的产品和工艺。我们使用现代、尖端的技术堆栈，并且喜欢尝试新技术，当它们帮助我们向客户提供优质产品时。我们致力于开发可维护、健壮且高性能的代码。我们高度协作，不断迭代，并与设计师和产品经理密切合作。我们不仅优先考虑出色的技术架构，还优先考虑了一个令人惊叹的 ",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-19T18:00:20+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
    "id": "2c47ce72f8de",
    "title": "[任务] 我是一个有钱有势的人。我正在寻找为那些在工作中不是超级主导并且愿意的人做与业务相关的任务",
    "desc": "[已删除]",
@@ -2497,6 +3234,17 @@
    "published": "2026-11-19T17:53:41+00:00",
    "salary": "",
    "remote": false,
+   "web3": false
+  },
+  {
+   "id": "2c74e19e9b0c",
+   "title": "高级数据工程师技术基础 — Airbnb",
+   "desc": "Airbnb 诞生于 2007 年，当时两位房东在旧金山的家中欢迎了三位房客，此后已经发展到超过 500 万房主，在全球几乎每个国家/地区接待了超过 20 亿的房客。房东每天都会提供独特的住宿和体验，让房客能够以更真实的方式与社区建立联系。高级数据工程师，企业核心数据集，技术基础 \n 您将加入的社区 \n 在 Airbnb，值得信赖的数据为busine",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-19T17:45:24+00:00",
+   "salary": "",
+   "remote": true,
    "web3": false
   },
   {
@@ -2511,6 +3259,39 @@
    "web3": false
   },
   {
+   "id": "d112c75331c7",
+   "title": "Velocity、销售总监 - 美国和欧洲 — Storyblok",
+   "desc": "Storyblok 提供支持，它是一款无头 CMS，使营销人员和开发人员能够充满乐趣地进行创作并充满信心地进行发布。它使您能够在任何地方提供结构化且一致的内容：网站、应用程序、人工智能搜索等。 \n Virgin Media O2、Oatly 和 TomTom 等传奇品牌使用 Storyblok 来产生更大、更快的市场影响。 \n  �   \n 它能为您带来什么 \n 您将加入一家不断发展的公司，为许多“第一”做出贡献。再加上这些好处： \n \n 每月远程工作",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-19T17:30:23+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "e1127cdd8e3e",
+   "title": "[招聘] 创意设计实习生 | 6 个月实习 |提供津贴",
+   "desc": "我们正在寻找一位富有创造力和热情的创意设计实习生，他喜欢视觉叙事、内容创作以及通过设计将想法变为现实。\n\n如果您有审美眼光，喜欢尝试创意概念，并希望获得实践经验，那么这个机会适合您！\n\n职责：\n\n\\- 内容创作和创意设计。\n\n\\- 设计教育图形和视觉资产。\n\n\\- 开发和维护品牌形象。\n\n\\- 确保品牌一致性",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-19T17:28:34+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "0a44bf1ff732",
+   "title": "编剧并需要一份工作",
+   "desc": "[已删除]",
+   "cat": "writing",
+   "source": "海外在招",
+   "published": "2026-11-19T17:21:14+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "d87c652d9288",
    "title": "[优惠]我将成为您的专业虚拟助理，每小时 5 美元",
    "desc": "前面可见。您有生意吗？一直忙于工作吗？正在寻找可以为您处理所有任务的虚拟助理吗？\n\n别再犹豫了！\n\n我是一名专业虚拟助理，拥有 5 年以上的实践经验，曾与多家企业、机构、自由职业者合作过。 **成为一名退伍军人是我的热情，这使我比许多其他兼职退伍军人更加专业和合格**\n\n**可根据要求提供产品组合！**\n\n**我能做什么？**\n\n**平面设计**\n\n* Fl",
@@ -2519,6 +3300,17 @@
    "published": "2026-11-19T17:19:49+00:00",
    "salary": "$5 per hour",
    "remote": false,
+   "web3": false
+  },
+  {
+   "id": "a55b2171ee12",
+   "title": "Staff 软件工程师（界面） — Netlify",
+   "desc": "关于团队 \n 作为 Netlify 的一名高级软件工程师，您将加入一个重视持续学习、相互支持和共同成长的协作团队。我们共同创建工具，帮助开发人员更快、更直观地构建并产生更大的影响。我们的体验团队拥有 Netlify 的核心产品体验，即人类或代理与平台交互的各种方式，从基于 React 的 Web 应用程序到 CLI、MCP、SDK 和 API。如果用户直接与之交互，",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-19T17:15:52+00:00",
+   "salary": "",
+   "remote": true,
    "web3": false
   },
   {
@@ -2550,6 +3342,17 @@
    "cat": "misc",
    "source": "海外在招",
    "published": "2026-11-19T17:01:44+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "2ed56074facc",
+   "title": "公共部门副总裁 — Bitwarden",
+   "desc": "Bitwarden 为个人、团队和商业组织提供开源密码管理解决方案，促进更好的互联网安全。 \n Bitwarden 正在寻找一位公共部门销售副总裁来建立和领导我们的公共部门业务。您将负责联邦、州、地方和教育 (SLED) 市场的战略和执行，建立公共部门卖家团队，并建立政府买家所依赖的合作伙伴、渠道和合同工具关系。哟",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-19T17:00:54+00:00",
    "salary": "",
    "remote": true,
    "web3": false
@@ -2665,6 +3468,17 @@
    "web3": false
   },
   {
+   "id": "818bf05f9f50",
+   "title": "高级销售培训和支持经理 — Tebra",
+   "desc": "Tebra 仅通过来自 Tebra 官方电子邮件地址（@ tebra.com、@ Patientpop.com 或 @kareo.com）的电子邮件或通过我们的申请人跟踪系统 Greenhouse 与候选人建立联系。我们只会要求您通过我们的官方申请门户提供敏感的个人信息，而不是通过社交媒体或短信。我们不通过即时消息进行采访。关于角色 \n 我们正在寻找一位经验丰富的高级销售培训和支持经理来拥有持续的",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-19T16:45:08+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
    "id": "bcde96dd8a95",
    "title": "[优惠] 24 美元 - 美国测试人员需要测试应用程序并提供反馈",
    "desc": "[已删除]",
@@ -2687,6 +3501,17 @@
    "web3": false
   },
   {
+   "id": "6de0b5f987af",
+   "title": "企业销售总监 — Abnormal",
+   "desc": "企业销售区域总监 \n 这是你的时刻 \n 瑞典。挪威。丹麦。芬兰。四个市场，一个地区，以及一支已经获胜的精英卖家团队。 Abnormal 是世界上发展最快的网络安全公司之一，我们正在寻找一位区域总监，以将北欧地区提升到一个新的水平。 \n 该地区的每个 CISO 都面临着同样的问题：攻击者正在使用人工智能来突破为不同时代构建的防御。异常的存在就是为了改变这一点。你会",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-19T16:30:11+00:00",
+   "salary": "$160K",
+   "remote": true,
+   "web3": false
+  },
+  {
    "id": "fab4cb816a4f",
    "title": "[Offer] 中国选品 / 淘宝代购向导 + 网站安全检查与加固、小脚本自动化 — $8 起",
    "desc": "[已删除]",
@@ -2695,6 +3520,17 @@
    "published": "2026-11-19T16:27:02+00:00",
    "salary": "$8",
    "remote": false,
+   "web3": false
+  },
+  {
+   "id": "870d91edf118",
+   "title": "高级客户主管 II — Collibra",
+   "desc": "加入 Collibra 的销售团队，担任高级企业客户经理 II，- 东海岸 \n 通过推动 Collibra 在您指定的东海岸地区的发展来对 Collibra 产生影响，并成为将 Collibra 的价值和愿景带给客户和潜在客户的指导力量。作为我们企业销售团队的一员，您将管理东海岸地区 Collibra 的一些最大客户和潜在客户。在此职位中，您将利用您在企业 SaaS 销售方面的知识来建立可信的",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-19T16:15:12+00:00",
+   "salary": "",
+   "remote": true,
    "web3": false
   },
   {
@@ -2742,6 +3578,61 @@
    "web3": false
   },
   {
+   "id": "2b86caa7e586",
+   "title": "工程师 软件定义车辆模拟和开发 — NIKI 数字工程",
+   "desc": "NIKI 正在寻找技术大学系/科学学院/工程师学院或类似学科的毕业生来支持和开发软件定义车辆的复杂系统仿真过程。成为NIKI数字工程的一员！如果您已经完成学业或获得博士学位，并且正在寻找新的挑战、跨学科和多元化的团队以及项目，请将您的简历发送给我们。我们的策略是将专业知识转化为实践。 TWT 是我们值得信赖的长期合作伙伴",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-19T16:00:34+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "b0089c2deeb7",
+   "title": "营销和传播官 — NIKI 数字工程",
+   "desc": "NIKI 正在寻找媒体与传播、新闻、营销、公共关系或类似学科的毕业生，以获得对战略营销和传播实践的令人兴奋的见解。成为 NIKI 数字工程的会员！如果您已经完成学业并正在寻找新的挑战、跨学科和多元化的团队以及项目，请将您的简历发送给我们。我们的策略是将专业知识转化为实践。 TWT 是我们值得信赖的长期合作伙伴，分享和支持",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-19T16:00:27+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "188c82104ff6",
+   "title": "博士后坎。物理计算机科学 — NIKI 数字工程",
+   "desc": "NIKI 正在寻找博士后/博士/博士候选人。汽车行业工业项目的物理学、计算机科学或类似学科。成为NIKI数字工程的一员！如果您是正在寻找新挑战、跨学科和多元化团队和项目的博士后/博士/博士生，请将您的简历发送给我们。我们的策略是将专业知识转化为实践。 TWT 是我们值得信赖的长期合作伙伴，分享并支持我们的愿景。通过密切的日常合作，我们",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-19T16:00:21+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "7f4bf952128c",
+   "title": "业务开发助理 — Bybit",
+   "desc": "关于我们 \n \n Bybit成立于2018年，是全球领先的加密货币交易所和数字金融平台之一，为200多个国家和地区的超过8000万用户提供服务。凭借世界一流的技术和用户至上的理念，Bybit 提供了一个涵盖交易、支付、财富管理、托管、机构服务和 Web3 的无缝生态系统，将用户与数字金融的未来连接起来。 \n  �   \n 我们的核心价值观决定了我们的建设方式。我们听着，汽车",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-19T16:00:20+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "957746b94591",
+   "title": "在加尔各答寻找本地修复者 – 2027 年 1 月至 3 月付费摄影助理 – 印度加尔各答",
+   "desc": "[已删除]",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-19T16:00:19+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "043e99ac73c9",
    "title": "AI 培训运营虚拟助理",
    "desc": "项目概述\n我们正在寻找可靠、注重细节的虚拟助理来帮助管理和",
@@ -2749,6 +3640,17 @@
    "source": "海外在招",
    "published": "2026-11-19T16:00:06+00:00",
    "salary": "USD 24 - 200",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "24c691fe3d55",
+   "title": "在加尔各答寻找本地修复者 – 2027 年 1 月至 3 月",
+   "desc": "[已删除]",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-19T15:56:52+00:00",
+   "salary": "",
    "remote": false,
    "web3": false
   },
@@ -2762,6 +3664,50 @@
    "salary": "$12",
    "remote": false,
    "web3": false
+  },
+  {
+   "id": "98a7694fc788",
+   "title": "企业客户经理 — Ping Identity",
+   "desc": "关于 Ping Identity：  \n 在 Ping Identity，我们坚信要为所有用户提供安全、无缝的数字体验，而不需妥协。我们称之为数字自由。这不仅仅是我们为客户提供的东西。这是激励我们公司的事情。人们来到这里并不是为了加入一种建立在数字自由基础上的文化。他们来培育它。  \n 我们的智能云身份平台让人们可以随时随地购物、工作、办理银行业务和互动。在没有 f",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-19T15:45:01+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "f17dda9df0b6",
+   "title": "前端工程师、UX/UI — BeyondTrust",
+   "desc": "BeyondTrust 的地方，您可以通过您所做的工作将您的目标变为现实，通过我们的网络安全 SaaS 产品组合创建一个更安全的世界。 \n 我们灵活、信任和持续学习的文化意味着您的成长以及您对我们成功的影响将得到认可。你周围的人会挑战、支持和激励你成为最好的自己。 \n 角色 \n Web 开发团队是 Brand 的一部分，拥有 Beyondtrust.com end to",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-19T15:30:02+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "2302ade582f6",
+   "title": "[招聘]美国远程工作人员",
+   "desc": "寻找对远程工作感兴趣的人。\n\n工资：每月1200美元\n\n付款方式：每周\n\n年龄：20+\n\n个人电脑或笔记本电脑\n\n有兴趣吗？给我留言，然后我们来讨论一下工作的事情。",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-19T15:21:35+00:00",
+   "salary": "$1200",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "304d9eea509e",
+   "title": "GSI 解决方案架构全球主管 — Rubrik 求职板",
+   "desc": "Global Partner Engineering，是 Rubrik 合作伙伴业务背后的技术引擎。我们与全球系统集成商、渠道合作伙伴、托管服务提供商和技术联盟合作，帮助他们大规模构建、销售和支持 Rubrik。 \n 我们的 GSI 团队与世界上最大的集成商合作。我们与他们的实践共同创建联合解决方案，帮助他们的从业者通过认证，并与我们的现场团队合作赢得大型、复杂的交易。合作伙伴是核心",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-19T15:15:01+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
   },
   {
    "id": "6d22eb5ec1ef",
@@ -2786,6 +3732,61 @@
    "web3": false
   },
   {
+   "id": "844e4331ba75",
+   "title": "比荷卢经济联盟区域 MSP 合作伙伴经理 — Everpure",
+   "desc": "Everpure (NYSE: P)，我们已经从存储先驱发展成为数据平台，在 2026 财年结束时实现了 30 亿美元的收入，这是其第一个季度达到 10 亿美元，并在 2027 财年加速增长。我们的战略议程涵盖定义下一个技术时代的公司——超大规模企业、人工智能实验室、人工智能硬件供应链、数据平台提供商和更广泛的人工智能生态系统。 \n 这种类型的工作——改变世界的工作——是科技行业的基础。所以，如果您准备好抓住机会",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-19T15:00:02+00:00",
+   "salary": "$3",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "ddbc36aca361",
+   "title": "内容审核员 - 美国",
+   "desc": "每次搜索都代表有人在寻找可靠的信息。他们依赖于准确、可信且与当地环境相关的搜索结果。但是，只有具有深厚研究专业知识和文化知识的人类评估者验证并纠正这些信息，搜索引擎才会学会返回值得信赖的信息。在构建人们可以使用的搜索系统时，您的语言准确性、事实核查的严谨性以及对您的文化如何交流和重视信息的理解是不可替代的",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-19T14:58:42+00:00",
+   "salary": "$11/hour",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "25b35d8220d0",
+   "title": "GSI 专业卖家，身份弹性（全球） — Rubrik 工作委员会",
+   "desc": "该职位将负责 Rubrik 在美洲的战略 GSI 和咨询合作伙伴的身份弹性入市动议。您将把 GSI 关系转化为来源管道、共同开发联合解决方案以及跨 Active Directory、Okta 和 Entra ID 的身份保护和恢复的封闭收入，并使 Rubrik 成为每个 GSI 标准身份安全、网络恢复和零信任产品的一部分。 \n 主要职责： \n\n 管道和收入 \n \n 拥有季度管道",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-19T14:45:01+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "d3fde0ff0b61",
+   "title": "全球项目综合营销经理 — 异常",
+   "desc": "关于角色 \n 全球项目整合营销经理将 GTM 活动策略转化为针对优先行业、高管受众和企业客户的有针对性的项目。您将拥有一个明确的垂直、执行和威胁情报计划组合，这些计划可以建立信誉、吸引采购委员会并生成渠道。 \n 您将与活动经理和区域团队合作，领导项目规划、执行和衡量。您将构建可重复的程序",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-19T14:30:02+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
+   "id": "f0345c3e0360",
+   "title": "[招聘]中档科幻/嘻哈书籍的矢量和印刷布局设计师（第一个里程碑320美元；第二个里程碑720美元）",
+   "desc": "[已删除]",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-19T14:23:17+00:00",
+   "salary": "$320",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "83de96b40913",
    "title": "[招聘]全职远程人工智能视频创作者和短片广告编辑器 - $640+/月美元",
    "desc": "",
@@ -2793,6 +3794,17 @@
    "source": "海外在招",
    "published": "2026-11-19T14:19:57+00:00",
    "salary": "$640",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "278ad8084a81",
+   "title": "经理，全球分销 — Rubrik 工作委员会",
+   "desc": "我们的团队处于 Rubrik 进入市场的核心。我们拥有销售、交易台和财务的报价到现金体验，确保销售代表和合作伙伴可以在世界任何地方快速、准确地报价和订购。我们与销售运营、交易台、财务、供应链和分销商合作伙伴合作，将复杂的订单和定价场景转变为清晰、可重复的流程。\n\n我们重视清晰的思维、主人翁精神以及让该领域的工作变得更轻松的偏见。如果您在截止日期前茁壮成长",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-19T14:15:02+00:00",
+   "salary": "",
    "remote": true,
    "web3": false
   },
@@ -2806,6 +3818,17 @@
    "salary": "",
    "remote": true,
    "web3": false
+  },
+  {
+   "id": "7453981e021a",
+   "title": "企业客户主管（亚特兰大/田纳西州） — Everpure",
+   "desc": "Everpure (NYSE: P)，我们已经从存储先驱发展成为数据平台，在 2026 财年结束时实现了 30 亿美元的收入，这是其第一个季度达到 10 亿美元，并在 2027 财年加速增长。我们的战略议程涵盖定义下一个技术时代的公司——超大规模企业、人工智能实验室、人工智能硬件供应链、数据平台提供商和更广泛的人工智能生态系统。 \n 这种类型的工作——改变世界的工作——是科技行业的基础。所以，如果您准备好抓住机会",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-19T14:00:02+00:00",
+   "salary": "$3",
+   "remote": true,
+   "web3": true
   },
   {
    "id": "7db617503372",
@@ -2828,6 +3851,17 @@
    "salary": "$24–$80",
    "remote": false,
    "web3": false
+  },
+  {
+   "id": "6352e463fd2a",
+   "title": "企业解决方案工程师，东部 — Glean",
+   "desc": "关于 Glean： \n  �   \n Glean 是工作人工智能平台，可帮助每个人利用人工智能更智能地工作。最初是业界最先进的企业搜索，现已发展成为一个全面的工作人工智能生态系统，在一个安全、开放的平台上为智能搜索、人工智能助手和可扩展的人工智能代理提供支持。凭借 100 多个企业 SaaS 连接器、灵活的 LLM 选择和强大的 API，Glean 为组织提供了在整个业务中管理、扩展和定制 AI 的基础设施，而无需",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-19T13:45:02+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
   },
   {
    "id": "16b3b3904a75",
@@ -2863,6 +3897,17 @@
    "web3": false
   },
   {
+   "id": "d9b0e95d86f9",
+   "title": "收入支持经理 — Legion",
+   "desc": "工作概述 \n Legion 为零售、酒店、设施管理和制造领域的小时工企业构建人工智能驱动的劳动力管理软件。 \n 我们正在聘请一名收入支持经理来负责我们的市场推广团队如何学习、销售和改进。您将建立缩短斜坡的入职流程、运行支持节奏、向现场推出新产品并强化一致的销售方法。您将根据生产力、胜率和 pi",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-19T13:30:02+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
    "id": "16915a880db7",
    "title": "",
    "desc": "嗨！我看到你的帖子正在寻找视频编辑器。\n\n我叫帕拉维，是一名视频编辑。我可以编辑 Instagram Reels、YouTube Shorts、长视频、宣传视频和产品广告。我还从事动态图形、过渡、颜色分级、声音编辑和字幕工作。\n\n我很乐意与您的团队合作，帮助创建引人入胜的高质量内容。\n\n如果您目前正在招聘，请告诉我。我很乐意分享我的工作并讨论机会",
@@ -2871,6 +3916,17 @@
    "published": "2026-11-19T13:23:03+00:00",
    "salary": "",
    "remote": false,
+   "web3": false
+  },
+  {
+   "id": "895b46ab9dce",
+   "title": "销售开发代表 — Bitwarden",
+   "desc": " 来衡量所有这些  \n Bitwarden 是全球数百万用户值得信赖的身份安全领导者，使企业、开发人员和个人能够在任何地方安全地管理和共享敏感信息。 Bitwarden 通过密码管理、秘密管理以及无密码和密钥创新，让所有用户可以轻松地在其设备上扩展强大的安全性。该公司总部位于加利福尼亚州圣巴巴拉。请访问 bitwarden.com 了解更多信息。  \n 作为外向销售开发",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-19T13:15:01+00:00",
+   "salary": "",
+   "remote": true,
    "web3": false
   },
   {
@@ -2907,6 +3963,28 @@
    "web3": false
   },
   {
+   "id": "1939cf8566d8",
+   "title": "[招聘]美国独立工作室寻求桌面卡牌游戏开发者/平衡器和54张牌游戏的布局艺术家",
+   "desc": "大家好！\n\nWicked Phantom Games 正在准备我们的首款实体卡牌游戏《Familiar Fugitives: A Game of Magical Hide & Seek》，以进行公开游戏测试。\n\n这是一款 2-4 名玩家的碰运气游戏（30-45 分钟，54 张扑克牌大小的牌 + 代币），玩家将魔法生物营救到藏身处以获得能力，同时在守望者突袭之前管理热、烟和噪音暴露轨迹。\n\n我们正在招聘美国承包商担任两个带薪职位：\n\n* 桌面开发者/平衡器：对 54 卡进行压力测试",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-19T13:03:28+00:00",
+   "salary": "$400",
+   "remote": false,
+   "web3": true
+  },
+  {
+   "id": "4d4364ad72db",
+   "title": "企业客户成功经理 — BeyondTrust",
+   "desc": "BeyondTrust，您可以通过您所做的工作实现您的目标，通过我们的网络安全 SaaS 产品组合创建一个更安全的世界。 \n 我们灵活、信任和持续学习的文化意味着您的成长以及您对我们成功的影响将得到认可。你周围的人会挑战、支持和激励你成为最好的自己。 \n 角色 \n 作为企业客户成功经理，您负责 tu",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-19T13:00:02+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
    "id": "088e62df9676",
    "title": "语文老师",
    "desc": "语文老师 \n\n来源: BOSS直聘\n团队: \n网易有道信息技术（杭州）有限公司\n薪资: 时薪 64-68 元\n摘要: 教育培训行业，语文老师，语文/作文课程，有教师资格证，兼职日结\n\n #远程工作 #招聘 \n\n “远程工作者”不是招聘方，仅筛选整理网络信息，请自行甄别，投递请访问来源链接联系招聘方。",
@@ -2936,6 +4014,17 @@
    "source": "海外在招",
    "published": "2026-11-19T12:46:04+00:00",
    "salary": "时薪 44-96",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "cb0fca78e881",
+   "title": "客户成功经理 — Ping Identity",
+   "desc": "关于 Ping Identity：  \n 在 Ping Identity，我们坚信要为所有用户提供安全、无缝的数字体验，而不需妥协。我们称之为数字自由。这不仅仅是我们为客户提供的东西。这是激励我们公司的事情。人们来到这里并不是为了加入一种建立在数字自由基础上的文化。他们来培育它。  \n 我们的智能云身份平台让人们可以随时随地购物、工作、办理银行业务和互动。没有 f",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-19T12:45:01+00:00",
+   "salary": "",
    "remote": true,
    "web3": false
   },
@@ -2995,24 +4084,13 @@
    "web3": false
   },
   {
-   "id": "cf0196db0ea0",
-   "title": "初高中主讲",
-   "desc": "初高中主讲 \n\n来源: 智联招聘\n团队: 北京高途云集教育科技有限公司\n薪资: 7-14k\n摘要: 教育培训行业，学科主讲老师，初高中课程，一对一教学，有教师资格证，兼职\n\n #远程工作 #招聘 \n\n “远程工作者”不是招聘方，仅筛选整理网络信息，请自行甄别，投递请访问来源链接联系招聘方。",
-   "cat": "misc",
+   "id": "f6d1dc799a38",
+   "title": "L1 技术支持工程师（西班牙语） — Abnormal",
+   "desc": "关于角色 \n 您是一位积极进取、以客户为中心的技术支持专业人员，热衷于解决高风险环境中的复杂问题。凭借 4 年以上的经验，您在支持企业客户、推动技术调查和倡导持续产品改进方面拥有良好的记录。 \n 您对电子邮件和 SaaS 安全领域不断变化的威胁形势感到振奋，并且很高兴能够支持一个使用行为 AI 来阻止 at",
+   "cat": "tech",
    "source": "海外在招",
-   "published": "2026-11-19T12:28:41+00:00",
+   "published": "2026-11-19T12:30:02+00:00",
    "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "1acb2dab3768",
-   "title": "音乐标注评测",
-   "desc": "音乐标注评测 \n\n来源: BOSS直聘\n团队: \n北京安捷智合科技有限公司\n薪资: 日薪 240-320 元\n摘要: 人工智能行业，数据标注，音视频标注，音乐结构标注，兼职月结\n\n #远程工作 #招聘 \n\n “远程工作者”不是招聘方，仅筛选整理网络信息，请自行甄别，投递请访问来源链接联系招聘方。",
-   "cat": "data",
-   "source": "海外在招",
-   "published": "2026-11-19T12:26:41+00:00",
-   "salary": "日薪 240-320",
    "remote": true,
    "web3": false
   },
@@ -3028,12 +4106,34 @@
    "web3": false
   },
   {
+   "id": "9912b9da9678",
+   "title": "指定技术支持工程师 - West — Glean",
+   "desc": "About Glean 的平台： \n  �   \n Glean 是工作人工智能平台，可帮助每个人利用人工智能更智能地工作。最初是业界最先进的企业搜索，现已发展成为一个全面的工作人工智能生态系统，在一个安全、开放的平台上为智能搜索、人工智能助手和可扩展的人工智能代理提供支持。凭借 100 多个企业 SaaS 连接器、灵活的 LLM 选择和强大的 API，Glean 为组织提供了在整个业务中管理、扩展和定制 AI 的基础设施 - withou",
+   "cat": "web3",
+   "source": "海外在招",
+   "published": "2026-11-19T12:15:01+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": true
+  },
+  {
    "id": "673a2027cf12",
    "title": "中/高级人工智能电影视频编辑器 - EverAI",
    "desc": "​\n\n📍 德国/完全远程\n\n💼 自由职业者 / 长期 B2B\n\n🧠 经验：4-6 年以上视频制作、视觉特效或数字艺术经验\n\nEverAI 正在寻找经验丰富的 **AI 电影视频编辑器**，以使用最新的生成式 AI 工具创建叙事驱动的视频内容。\n\n您将掌控从概念和提示到生成、编辑、合成和最终交付的整个制作过程。\n\n**他们正在寻找的工具和技能：** • Kling、Seedance 和其他 AI 视频模型\n\n• Premiere Pro / Aftere",
    "cat": "design",
    "source": "海外在招",
    "published": "2026-11-19T12:00:50+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "562471cd32e5",
+   "title": "社区版主 - Wisdo (1099) — Talkspace",
+   "desc": "在 Talkspace，我们致力于培育一个多元化、公平、包容和以归属感为中心的工作场所，让每个人都能蓬勃发展，同时在心理健康方面做出贡献。想要帮助超过 200 万人获得优质的心理保健吗？快来加入我们的使命，让每个人都能获得治疗！\n \n 我们正在寻找一名社区版主作为独立承包商 (1099) 加入我们的 Wisdo 团队。社区版主将帮助维护安全、支持性和包容性",
+   "cat": "support",
+   "source": "海外在招",
+   "published": "2026-11-19T12:00:02+00:00",
    "salary": "",
    "remote": true,
    "web3": false
@@ -3058,6 +4158,17 @@
    "published": "2026-11-19T11:54:56+00:00",
    "salary": "$39-$96",
    "remote": false,
+   "web3": false
+  },
+  {
+   "id": "c4166946d606",
+   "title": "客户成功经理 — Airtable",
+   "desc": "Airtable 帮助组织构建运行最重要的业务流程所需的应用程序和工作流程，而不受现成软件的限制。其灵活的平台结合了关系数据库、自定义应用程序、自动化和人工智能，为团队提供了围绕其实际工作方式创建解决方案的构建块。就像乐高积木一样，我们的客户可以使用 Airtable 构建几乎无限的东西。这种灵活性就是为什么超过 500,000 个器官",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-19T11:45:01+00:00",
+   "salary": "",
+   "remote": true,
    "web3": false
   },
   {
@@ -3215,17 +4326,6 @@
    "web3": false
   },
   {
-   "id": "f4dd60af7eeb",
-   "title": "移动开发人员 — Luscii",
-   "desc": "在 Luscii，我们在欧姆龙数字健康圈内开发了多种应用程序，包括 Luscii Thuismeten 应用程序和 OMRON Connect。我们共同开发技术，使医疗保健变得更容易获得，为患者和医疗保健专业人员提供更多空间来专注于护理。作为移动开发人员，您将通过开发和改进连接人员、设备和医疗保健的应用程序来为这一使命做出贡献。我们的数字健康解决方案使医疗保健专业人员能够监控",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-19T09:31:18+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
    "id": "e629dbc41a7d",
    "title": "有时，您只需要有人倾听",
    "desc": "[已删除]",
@@ -3245,6 +4345,17 @@
    "published": "2026-11-19T08:26:44+00:00",
    "salary": "",
    "remote": true,
+   "web3": false
+  },
+  {
+   "id": "db24238e1ba1",
+   "title": "[招聘] - 移动应用程序徽标设计 最低 16 美元/小时",
+   "desc": "大家好！ \n\n这是我第一次发表这种性质的文章，所以如果我遗漏了重要信息，请告诉我。\n\n我住在澳大利亚，目前正在设计一个应用程序来帮助那些在外工作的人 (先进先出)。 \n\n当谈到艺术时，我的创造力水平似乎停止了。我想要为应用程序设计一个徽标，以及可以放在文档侧面/背景上的东西等。它将成为应用程序的外观，以及它的社交媒体帐户。 \n\n我不是艾什么的粉丝",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-19T08:12:59+00:00",
+   "salary": "$16/hr",
+   "remote": false,
    "web3": false
   },
   {
@@ -3457,6 +4568,17 @@
    "web3": false
   },
   {
+   "id": "1030a24d94d7",
+   "title": "电影海报设计师 $240 [招聘]",
+   "desc": "嗨！我正在找人为一部独立的恐怖/惊悚电影设计海报。薪酬为 240 美元，艺术家必须居住在美国。如果您有兴趣，请联系并发送作品集！",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-19T02:55:04+00:00",
+   "salary": "$240",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "a32b2b65b892",
    "title": "[任务] 招聘虚拟助理 – AI 产品摄影 ($3/小时)",
    "desc": "正在寻找可靠的虚拟助手来帮助我为我的手表业务创建专业的人工智能生成的产品图像。这项工作涉及使用参考照片生成一致、高质量的目录图像，具有干净的背景、多个角度和准确的产品细节。\n\n**薪资：** 3 美元/小时\n\n**每周预算：** $32\n\n**工作时间：** 10 小时/周\n\n**工作：** 远程、持续\n\n有AI图像生成经验者优先。必须注重细节，可靠，并且能够保持一致 imag",
@@ -3644,6 +4766,17 @@
    "web3": false
   },
   {
+   "id": "0d7f73d997d3",
+   "title": "[招聘] 3 个新应用程序图标 + 1 个图标刷新 – 总计 160 美元",
+   "desc": "\\[Hiring\\] 3 个新应用程序图标 + 1 个图标刷新 – 总计 160 美元 \n \n我正在建立 CoverAgent，这是一家房地产经纪人公司，旗下有多种相关产品。我只需要图标（没有完整的徽标）： \n \n1. 母品牌CoverAgent的新图标 \n2. 调用产品的新图标 \n3. 家庭追踪产品的新图标 \n4.现有图标的刷新（变色龙吉祥物 - 我将发送当前文件） \n \n我需要什么： \n\\- 图标一目了然地显示每个产品的用途，并且读起来很小（",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-18T19:25:52+00:00",
+   "salary": "$160",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "758c085c89a4",
    "title": "[优惠] 可以完成一些小任务",
    "desc": "[已删除]",
@@ -3666,17 +4799,6 @@
    "web3": false
   },
   {
-   "id": "8c5372061326",
-   "title": "美国/拉丁美洲双语虚拟助理",
-   "desc": "我们正在寻找位于**美国或拉丁美洲的可靠且有组织的虚拟助理，**",
-   "cat": "support",
-   "source": "海外在招",
-   "published": "2026-11-18T18:50:22+00:00",
-   "salary": "USD 6.4 - 12",
-   "remote": false,
-   "web3": false
-  },
-  {
    "id": "ad8e2700453b",
    "title": "[招聘]体育编辑炒作编辑、音乐会回顾和其他非常短的创意项目",
    "desc": "寻找一位能够进行**体育炒作编辑和音乐会回顾**的编辑，这些编辑实际上给人的感觉是：良好的节奏、音乐同步和讲故事，而不仅仅是对节拍的基本剪辑。\n\n* **付费：** 当我提供素材时，每次编辑 120 加元；当您采购素材时，每次编辑最多 160 加元\n* **格式：** 垂直和水平\n* **远程** 就可以了；首映是首选，但不是必需的\n* 从一次性项目开始，如果适合的话可以接受长期工作\n\n**我之前作品中想要的风格：*",
@@ -3695,17 +4817,6 @@
    "source": "海外在招",
    "published": "2026-11-18T18:35:36+00:00",
    "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "c4b09a50213d",
-   "title": "兼职主管外展 VA",
-   "desc": "我需要一个可靠的虚拟助理，他可以每个工作日花几个小时与 Prospe",
-   "cat": "support",
-   "source": "海外在招",
-   "published": "2026-11-18T18:33:57+00:00",
-   "salary": "USD 10000 - 30000",
    "remote": false,
    "web3": false
   },
@@ -3740,6 +4851,17 @@
    "published": "2026-11-18T18:22:05+00:00",
    "salary": "$160-240",
    "remote": false,
+   "web3": false
+  },
+  {
+   "id": "2469e4fc2e22",
+   "title": "[招聘] 一次性项目的自由标志设计师|独立游戏工作室（太空主题、电影）| 20 美元/小时，最长 20 小时（最多 400 美元）|重新",
+   "desc": " 大家好！我正在寻找一位专门从事徽标设计的自由图形设计师，为我的独立游戏工作室创建徽标。工作室名称目前保密，所以我会与我选择的设计师分享。\n\n\\*\\*请注意：\\*\\* 这是一项基于项目的单一自由职业。这不是一个空缺职位或基于 W2 的就业，并且当最终徽标和付款交付时，参与就结束了。\n\n\\*\\*样式\\*\\*\n\n太空主题、干净且具有电影感。考虑真实的照明、深度和材料",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-18T18:17:57+00:00",
+   "salary": "$20/hr",
+   "remote": true,
    "web3": false
   },
   {
@@ -3941,6 +5063,17 @@
    "web3": false
   },
   {
+   "id": "2195041c5923",
+   "title": "[招聘] 自由医疗博客作家（PT/DPT/OT 优先）– 就地移动和老龄化",
+   "desc": "[已删除]",
+   "cat": "writing",
+   "source": "海外在招",
+   "published": "2026-11-18T15:47:53+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "530de0de7a4f",
    "title": "[报价]我将制作 Canva 传单、整理 Excel 电子表格或更新您的网站，起价 16 美元",
    "desc": "[已删除]",
@@ -3948,17 +5081,6 @@
    "source": "海外在招",
    "published": "2026-11-18T15:40:39+00:00",
    "salary": "$16",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "0579d1fa3bde",
-   "title": "[任务]美国 TikTok 创作者需要约会短剧/视频博客 - 6 美元/视频 + 奖金",
-   "desc": "[已删除]",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-18T15:34:03+00:00",
-   "salary": "$6",
    "remote": false,
    "web3": false
   },
@@ -3974,28 +5096,6 @@
    "web3": false
   },
   {
-   "id": "9a3bcd8cae16",
-   "title": "[任务]需要一个熟悉克劳德的人kyc",
-   "desc": "[已删除]",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-18T15:17:56+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "85684ae83de8",
-   "title": "[报价] 营销人员建立我的投资组合，提供每周营销套餐（内容、规划、外展） - $16/周",
-   "desc": "[已删除]",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-18T14:43:38+00:00",
-   "salary": "$16",
-   "remote": false,
-   "web3": false
-  },
-  {
    "id": "9f01403faedf",
    "title": "🎉 很高兴宣布 CryptoJobsList 已收购 Crypto.Jobs 🤝",
    "desc": "🎉 很高兴地宣布 CryptoJobsList 已收购 Crypto.Jobs 🤝 \n\n这两个就业委员会都于 2017 年成立，当时加密货币行业还很小，找工作很困难。 Crypto.jobs 随后帮助超过 3,000 个团队进行招聘，其中包括 Consensys、CoinList 和 Parity。\n\n从今天开始，crypto.jobs 重定向到 CryptoJobsList，因此 Web3 招聘有了一个地方。每份工作在上线前都会经过专人审核，Crypto.jobs 的客户在招聘过程中不会出现任何中断。\n\n加密货币",
@@ -4005,83 +5105,6 @@
    "salary": "",
    "remote": false,
    "web3": true
-  },
-  {
-   "id": "0c85d37d770c",
-   "title": "[任务] 40 美元为我找一门课程！",
-   "desc": "嗨，\n\n如果您能找到一个提供免费课程的地方，将为我提供一封邮件或卡片。我将按照您希望的任何付款方式向您支付 40 美元。这个国家必须是荷兰、比利时或卢森堡！\n\n仅当我收到卡片或邮件时才会转帐 40 美元。欲了解更多信息，请随时dm！\n\n提醒：我希望这是合法的，所以我会合法地完成这门课程。请不要恶意私信。",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-18T14:23:00+00:00",
-   "salary": "$40",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "c7b59d8b8f21",
-   "title": "[任务] 40 美元，如果你能为我找到一门可以学习的课程！",
-   "desc": "[已删除]",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-18T14:21:33+00:00",
-   "salary": "$40",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "961af8b8b516",
-   "title": "[任务] 40 美元，如果你能为我找到一门免费课程来学习！",
-   "desc": "[已删除]",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-18T14:19:01+00:00",
-   "salary": "$40",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "9da45d8c7159",
-   "title": "[任务] 40 美元，如果你能为我找到一个免费课程来注册到！",
-   "desc": "[已删除]",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-18T14:10:12+00:00",
-   "salary": "$40",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "075c99844a79",
-   "title": "[任务]快速可靠的技术帮助：Cisco Packet Tracer、Linux、Python 和网络实验室",
-   "desc": "[已删除]",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-18T14:05:10+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "c20c57be9bc7",
-   "title": "[任务]如果你能为我找到一个免费课程来报名的话，40 美元！",
-   "desc": "[已删除]",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-18T14:01:53+00:00",
-   "salary": "$40",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "f4ce4ffa4989",
-   "title": "[任务]40 美元告诉我如何获得学生电子邮件",
-   "desc": "[已删除]",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-18T13:57:34+00:00",
-   "salary": "$40",
-   "remote": false,
-   "web3": false
   },
   {
    "id": "a210d1e538aa",
@@ -4117,68 +5140,13 @@
    "web3": false
   },
   {
-   "id": "fb4cee40f5cd",
-   "title": "初高中文理授课教师",
-   "desc": "初高中文理授课教师 \n\n来源: BOSS直聘\n团队: \n枣庄慧点波伴学教育科技有限公司\n薪资: 10-12k\n摘要: 教育培训行业，授课老师，初高中文理课程，一对一/小班授课，学情跟进，答疑辅导，测试复盘\n\n #远程工作 #招聘 \n\n “远程工作者”不是招聘方，仅筛选整理网络信息，请自行甄别，投递请访问来源链接联系招聘方。",
-   "cat": "tech",
+   "id": "6c43f2a2d7dc",
+   "title": "[招聘]付费研究和分析作家| $240–400 trial + optional article column",
+   "desc": "[已删除]",
+   "cat": "writing",
    "source": "海外在招",
-   "published": "2026-11-18T12:18:23+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "aa9d645c9f35",
-   "title": "谷歌SEM\\SEO专员",
-   "desc": "谷歌SEM\\SEO专员 \n\n来源: 智联招聘\n团队: 石家庄润尼贸易有限公司\n薪资: 12-24k\n摘要: 跨境电商行业，广告优化师，SEO 优化师，Google Ads，独立站 SEO 运营，鞋服箱包商品，英语读写\n\n #远程工作 #招聘 \n\n “远程工作者”不是招聘方，仅筛选整理网络信息，请自行甄别，投递请访问来源链接联系招聘方。",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-18T12:14:02+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "620f96af64cd",
-   "title": "电商客服销售跟单",
-   "desc": "电商客服销售跟单 \n\n来源: 智联招聘\n团队: 青岛友乐国际人力资源服务有限公司\n薪资: 5-7k\n摘要: 跨境电商行业，集聚类商品，电商客服，商品发布，客户咨询，商品跟单，英语读写，跨时区协作（墨尔本）\n\n #远程工作 #招聘 \n\n “远程工作者”不是招聘方，仅筛选整理网络信息，请自行甄别，投递请访问来源链接联系招聘方。",
-   "cat": "support",
-   "source": "海外在招",
-   "published": "2026-11-18T12:10:40+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "ed29e564a885",
-   "title": "会计助理",
-   "desc": "会计助理 \n\n来源: 智联招聘\n团队: 青岛友乐国际人力资源服务有限公司\n薪资: 6-8k\n摘要: 人力资源行业，会计助理，日常簿记工作，应付应收，库存管控，文书工作，英语交流能力，夜班，QuickBooks\n\n #远程工作 #招聘 \n\n “远程工作者”不是招聘方，仅筛选整理网络信息，请自行甄别，投递请访问来源链接联系招聘方。",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-18T12:04:45+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "0237bdf3c36d",
-   "title": "[报价]软件工程师正在寻找有价值的项目/演出",
-   "desc": "我知道我的代理网站上的价格并不便宜，但我愿意接受报价来填补我剩下的时间。\n\n我主要从事全栈 Web 开发，但我实际上可以根据您的需求和预算从事任何编程/IT 任务，我们可以讨论它是否合适。\n\n您还可以在 lasang 上发表不和谐的言论。 （包括点）",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-18T11:57:40+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "74c12e40db36",
-   "title": "[报价] 自由内容作家（小说/非小说散文、博客文章、信息资料、销售页面等）- 每个字仅需 0 美元！",
-   "desc": "我是一名自由内容作家，拥有超过 6 年的经验。我涉足了多个领域，在这样做的过程中，我学会了关注并特别关注客户的需求。确保快速TAT。\n\n我的强项：\n\n* SEO写作\n* 剧本创作\n* 博客发布\n* 信息资料\n* 销售页面\n* 文章写作\n\n价格：仅每个字 0 美元。 （我愿意写一个付费样本！）\n\n作品集：[",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-18T11:57:35+00:00",
-   "salary": "$0",
+   "published": "2026-11-18T11:43:35+00:00",
+   "salary": "$240–400",
    "remote": false,
    "web3": false
   },
@@ -4205,17 +5173,6 @@
    "web3": false
   },
   {
-   "id": "2869a34d73e6",
-   "title": "[报价]我会以 4 美元的价格完成小型在线任务",
-   "desc": "[已删除]",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-18T11:31:13+00:00",
-   "salary": "$4",
-   "remote": false,
-   "web3": false
-  },
-  {
    "id": "78e296967488",
    "title": "Buildkite：高级客户成功经理",
    "desc": "总部：美国\n \n 网址： \n\n 关于建筑风筝 \n Buildkite 的 CI 平台受到世界领先工程团队的信赖，帮助交付每天超过 10 亿人使用的软件。 Canva、Meta、Mistral AI 和 NVIDIA 等公司依靠 Buildkite 在他们的基础设施、我们的基础设施或两者上运行构建、测试和部署 - 为他们提供速度、可靠性和灵活性，让他们充满信心地交付。 \n 关于角色 \n 作为 Sunrise 的 B",
@@ -4224,28 +5181,6 @@
    "published": "2026-11-18T11:30:37+00:00",
    "salary": "",
    "remote": true,
-   "web3": false
-  },
-  {
-   "id": "3f2c4b56e315",
-   "title": "[任务]📢我们正在招聘！ |灵活的兼职机会",
-   "desc": "[已删除]",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-18T11:22:28+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "c77befd0c868",
-   "title": "[offer] 我创建网站、PowerPoint 演示文稿和 Excel 电子表格",
-   "desc": "[已删除]",
-   "cat": "data",
-   "source": "海外在招",
-   "published": "2026-11-18T11:18:42+00:00",
-   "salary": "",
-   "remote": false,
    "web3": false
   },
   {
@@ -4271,24 +5206,13 @@
    "web3": true
   },
   {
-   "id": "3add61d99db6",
-   "title": "[报价]我会将您的 YouTube 视频、播客或笔记转换为可立即发布的时事通讯和 LinkedIn/X 帖子 – 28 美元/包（24 小时交付）",
+   "id": "3ff5bbd4c9d2",
+   "title": "[招聘] 我们正在招聘创意设计专业人士！ 💰 固定工资：8,000 美元/月",
    "desc": "[已删除]",
-   "cat": "misc",
+   "cat": "design",
    "source": "海外在招",
-   "published": "2026-11-18T10:52:17+00:00",
-   "salary": "$28",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "23b80264ab7d",
-   "title": "[报价]我会为您进行复制粘贴、简单的 Google 研究和基本列表制作$8/小时",
-   "desc": "[已删除]",
-   "cat": "data",
-   "source": "海外在招",
-   "published": "2026-11-18T10:43:07+00:00",
-   "salary": "$8/hr",
+   "published": "2026-11-18T11:04:06+00:00",
+   "salary": "$8,000",
    "remote": false,
    "web3": false
   },
@@ -4299,6 +5223,17 @@
    "cat": "tech",
    "source": "海外在招",
    "published": "2026-11-18T10:10:51+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "00bbdbe525fb",
+   "title": "[招聘] 寻找有执照的 PT/DPT 或 OT 来撰写医疗保健和移动博客文章",
+   "desc": "[已删除]",
+   "cat": "writing",
+   "source": "海外在招",
+   "published": "2026-11-18T10:05:36+00:00",
    "salary": "",
    "remote": false,
    "web3": false
@@ -4359,17 +5294,6 @@
    "web3": true
   },
   {
-   "id": "0aaff348511b",
-   "title": "越南本地配送商城运营",
-   "desc": "越南本地配送商城运营\n\n 🌍 Remote: 全球远程（需在中国协作）\n 🇨🇳 中国候选人: 接受，明确寻找在中国远程协作的人员\n 💼 类型: 兼职 / 按月合作\n 💰 薪资: 3,000–5,000 元/月\n 🗓 源发布日期: \n\n ⚠️ 注意: 岗位涉及跨境业务及非平台官方雇主，请自行核实公司背景；薪资为人民币结算，注意汇率及支付稳定性。\n\n岗位职责:\n• 安排促销、新品和复购活动\n• 与当地团队一起选商品、核对进价和毛利，确认库存与配送能力，再把活动落实到页面、文案和人员分工\n• 每周结合订单和客户反馈做复盘，把有效做法教给当地同事\n\n岗位要求:\n• 独立经营过实物商城\n• 有社区团购、小程序商城或本地零售经验更好\n• 能够日常用中文邮件和文档沟通\n\n 📌 来源: eleduck\n 🔗 申请: \n\n #RemoteJobs #eleduck #电商运营",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-18T08:03:23+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
    "id": "e2eb688b73a0",
    "title": "[坐班兼职招聘]AI 产品交互设计师（兼 UI）、软件测试工程师（AI 应用方向）",
    "desc": "坐标杭州，目前有个兼职项目在找人，还缺一名产品（兼 UI）、一名测试。\r\n工期大概是一个月左右，需要坐班。地址在[西湖区教工路]附近。招聘的要求如下：\r\n\r\nAI 产品交互设计师（兼 UI）\r\n1. 根据产品经理提供的初步 PRD 和核心业务逻辑，完善功能细节、操作流程、交互规则及\r\n异常场景，形成可落地的产品方案。\r\n2. 独立完成页面结构、用户操作路径及功能交互设计，优化产品使用体验。\r\n3. 完成产品原型及高保真 UI 设计，确保界面美观、风格统一，符合 AI 产品的设计趋势。\r\n4. 输出必要的交互说明和设计规范，配合研发解决设计相关问题。\r\n\r\n软件测试工程师（AI 应用方向）\r\n1. 有 Web 产品功能测试和接口测试经验，能从需求和设计稿拆出用例，从开发第一周就准备数据、跟进联调并分批回归。\r\n2. 能用不同角色独立跑通 xxx，核对各端状态和数据是否一致。\r\n3. 能覆盖跨租户越权、重复发布、断网刷新、生成失败和恢复等异常场景，能用接口响应、日志和测试数据提供可复现的缺陷记录。\r\n4. 能使用真实模型和固定样本核验路径、评分和报告是否有依据，判断哪些差异属于正常波动。能",
@@ -4381,39 +5305,6 @@
    "web3": false
   },
   {
-   "id": "0a4b83925feb",
-   "title": "[招聘]数据融合系统软件工程师/分析师（助理–高级）– 圣路易斯，密苏里州 | 波音",
-   "desc": "[已删除]",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-18T07:44:08+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "ad1e947e41ca",
-   "title": "职位名称：双语虚拟助理（英语和西班牙语）",
-   "desc": "我们正在寻找一位可靠且有组织性、精通英语和西班牙语的虚拟助理",
-   "cat": "support",
-   "source": "海外在招",
-   "published": "2026-11-18T07:42:05+00:00",
-   "salary": "USD 1.6 - 6.4",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "5714851111cd",
-   "title": "VIP客服 | Bitunix Exchange",
-   "desc": "VIP 客服 | Bitunix exchange\n\n 🌍 Remote: 全球远程\n 🇨🇳 中国候选人: 不明确（需联系确认）\n 💼 类型: 全职\n 💰 薪资: 面议\n 🗓 源发布日期: \n\n ⚠️ 注意: 行业属于加密/CEX，存在政策波动与合规风险；中国候选人接受度不明确，请先通过 Telegram 确认是否接受中国大陆用户。\n\n岗位职责:\n• 作为指定 VIP 客户的主要服务对接人，为客户提供专业、及时、个性化的服务。\n• 独立负责 VIP 客户的咨询、投诉及复杂问题处理，确保问题得到及时跟进和有效解决。\n• 与产品、技术、交易、风控、合规等内部团队保持紧密合作，推动客户问题得到有效解决。\n• 持续提升 VIP 客户服务质量，识别常见问题并提出优化建议。\n\n岗位要求:\n• 具备 2 年及以上客服工作经验，有加密货币交易所、金融科技或金融服务行业经验者优先。\n• 熟悉加密货币交易所基本业务，包括充值、提现、现货交易、合约交易及账户相关操作。\n• 具备较强的问题分析和解决能力，能够独立处理复杂问题。\n• 能够接受轮班工作安排，包括周末及公共假期。\n\n 📮 联系方",
-   "cat": "web3",
-   "source": "海外在招",
-   "published": "2026-11-18T07:02:30+00:00",
-   "salary": "面议",
-   "remote": true,
-   "web3": true
-  },
-  {
    "id": "65e3c717c842",
    "title": "招聘：全职视频编辑",
    "desc": "我们正在 Axturo 招聘视频编辑！ 🎬 \n \n很高兴与大家分享，我们正在再次扩大我们的团队，并且我们正在寻找有才华的视频编辑加入我们。 \n \n如果您有兴趣，请花几分钟仔细阅读职位详细信息，只有在您真正认为这个机会符合您的技能和经验时才进行申请。 \n \n我们希望确保它适合双方。这将有助于节省每个人的时间。 \n \n薪资：40k-50k/月 \n地点：远程 \n \n在这里申请：",
@@ -4422,6 +5313,28 @@
    "published": "2026-11-18T06:35:54+00:00",
    "salary": "",
    "remote": true,
+   "web3": false
+  },
+  {
+   "id": "9f0c33fa7d95",
+   "title": "[招聘]徽标矢量图形设计师/插画师（$40 - $96）",
+   "desc": "寻找图形设计师/插画师，为我的独立出版公司创建一个由两部分组成、可打印的矢量版权页系统（SVG、EPS、AI 和透明 PNG）。\n\n我脑子里有一个设计和一个模型来演示这个概念。只要历史真实性仍然存在，就可以追溯或重新设计。主要标志是一台 18 世纪的印刷机和镶嵌在漩涡花饰中的工作台（供扉页和网页使用）。独立的 18 世纪木刻印刷店招牌，带有古体字体缩写",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-18T04:02:05+00:00",
+   "salary": "$40 - $96",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "a6774bb6db76",
+   "title": "我正在为我的 BL 故事寻找一位支持作家",
+   "desc": "[已删除]",
+   "cat": "writing",
+   "source": "海外在招",
+   "published": "2026-11-18T03:38:59+00:00",
+   "salary": "",
+   "remote": false,
    "web3": false
   },
   {
@@ -4513,17 +5426,6 @@
    "web3": false
   },
   {
-   "id": "ff869433d636",
-   "title": "[招聘]",
-   "desc": "**寻找 2 个短视频编辑器和 2 个长视频编辑器 – 远程**\n\n我们正在建立一个不断发展的视频编辑机构，目前正在寻找**4位才华横溢的视频编辑**加入我们的团队。\n\n**可用职位：**\n\n* 2 个短视频编辑器（Reels、TikTok、YouTube Shorts）\n* 2 个长视频编辑器（YouTube 视频、播客等）\n\n**要求：**\n\n* 良好的英语沟通能力。\n* 有视频编辑经验。\n* 能够按时完成并遵循指示。\n* 良好的关注",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-17T21:34:23+00:00",
-   "salary": "",
-   "remote": true,
-   "web3": false
-  },
-  {
    "id": "88f6b140e0c5",
    "title": "Hiring] AI 视频创作者 – 25 个视频/月 |长期合作",
    "desc": "嘿！\n\n以下是我们希望创建的内容类型的一些示例：\n\n对于所有视频，我们将提供必要的照片和视频内容，以及总体概念和创意方向。您将负责 AI 生成、编辑和最终制作。\n\n我们正在寻找具有电影视觉效果、流畅的摄像机运动和对细节的关注的逼真、高质量的视频。\n\n您以前有过这样的工作吗",
@@ -4601,6 +5503,28 @@
    "web3": false
   },
   {
+   "id": "f5c6edb2333d",
+   "title": "[招聘]插画师、数字艺术家和概念艺术家",
+   "desc": "[已删除]",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-17T17:59:54+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "7febff03756b",
+   "title": "[招聘]安克雷奇创意总监阿拉斯加",
+   "desc": "我们正在招聘一位位于阿拉斯加安克罗奇的创意总监。这是一个现场职位。我们将支付所有搬家费用。请参阅下面的链接，如有任何问题请随时与我联系！谢谢 \n\n**薪资：** 每年 72,000 美元至 80,000 美元以上，另加支付的搬迁费用。\n\n[",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-17T17:25:44+00:00",
+   "salary": "$72,000-$80,000",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "8bb1c35f10f6",
    "title": "Prospex CRM：高级软件工程师",
    "desc": "总部：埃及、土耳其、巴林\n \n 网址： \n\n 高级软件工程师 关于我们的客户 我们的客户是一家快速发展的采购和技术公司，总部位于利雅得，业务遍及沙特阿拉伯和巴林。我们正在构建创新的解决方案，以简化采购流程、增强企业能力并创造有意义的影响。为什么加入我们？我们正在寻找有才华、有成长意识、渴望接受新挑战的人才。我们培养潜力并培养潜力",
@@ -4618,6 +5542,17 @@
    "cat": "misc",
    "source": "海外在招",
    "published": "2026-11-17T16:20:35+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "1bcf1e45a052",
+   "title": "您好 我有兴趣聘请一名社交媒体自由平面设计师 [招聘]",
+   "desc": "[已删除]",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-17T16:14:34+00:00",
    "salary": "",
    "remote": false,
    "web3": false
@@ -4667,13 +5602,13 @@
    "web3": false
   },
   {
-   "id": "74109dbf31b0",
-   "title": "[招聘] 高级 .NET 开发人员 – AWS 云和开发运营（10 年以上）",
-   "desc": "[已删除]",
-   "cat": "tech",
+   "id": "5cd295d4c236",
+   "title": "[招聘]电影海报设计师（约$240平）",
+   "desc": "您好，我需要一位设计师为我即将进入电影节的短片制作电影海报。我有一堆高质量的剧照可供使用，还有一些已经在 Photoshop 中制作的模型。我更喜欢以前制作过高质量海报的人。请链接您的作品集，谢谢！",
+   "cat": "design",
    "source": "海外在招",
-   "published": "2026-11-17T14:28:07+00:00",
-   "salary": "",
+   "published": "2026-11-17T14:07:56+00:00",
+   "salary": "$240",
    "remote": false,
    "web3": false
   },
@@ -4685,6 +5620,17 @@
    "source": "海外在招",
    "published": "2026-11-17T13:34:16+00:00",
    "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "40e150f02b74",
+   "title": "[招聘] 高级动作设计师和创意技术专家 — 美国 | $56–$96/小时",
+   "desc": "[已删除]",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-17T13:07:08+00:00",
+   "salary": "$56–$96/hour",
    "remote": false,
    "web3": false
   },
@@ -4744,6 +5690,17 @@
    "web3": false
   },
   {
+   "id": "094b5815a91f",
+   "title": "[招聘] 动漫 YouTube 频道编剧 – 长期角色 🎬",
+   "desc": "嘿！我正在为我的动漫频道寻找编剧。这是一个长期职位（想想几年，而不仅仅是一个剧本），欢迎初学者，但只有在您认为自己可以胜任这项工作时才可以申请） \n\n**📌关于角色**\n\n视频通常为 15-20 分钟，但您可以自由选择长度\n\n我将提供免费的材料、指导和培训来帮助您提高\n\n基于视频表现的奖金\n\n**💰 支付**\n\n每个脚本启动 32 美元\n\n一旦您需要更少的重写，每个脚本的费用就会上涨到 40-48 美元a",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-17T12:04:30+00:00",
+   "salary": "$32",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "6e29987dc759",
    "title": " - 图正在招聘高级金融投资组合分析师，服务",
    "desc": "- 图正在招聘高级金融投资组合分析师，服务 \n- Robinhood 正在招聘高级客户端平台工程师 \n- Very 正在招聘业务开发主管 \n- Coinflow 正在招聘外汇操盘经理 \n- Alchemy 正在招聘安全运营工程师",
@@ -4777,17 +5734,6 @@
    "web3": false
   },
   {
-   "id": "1eb1dcf47377",
-   "title": "Full stacked web开发人员现在需要快速工作可以做任何事情，只需要一些快速现金$",
-   "desc": "嘿，我是一名全栈网络开发人员，我需要快速获得一些现金，我只需要 100 美元，因为你知道 GTA 6 但我可以做任何事情，只需要 100",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-17T11:05:39+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
    "id": "ce2e50a632c4",
    "title": "移动人工智能客户支持聊天机器人",
    "desc": "我正在构建一个移动应用程序，我需要一个嵌入为聊天界面的 AI 助手，它可以可靠地",
@@ -4799,34 +5745,12 @@
    "web3": false
   },
   {
-   "id": "b26eeae7514e",
-   "title": "如何申请朝九晚五的自由职业者",
-   "desc": "",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-17T09:51:56+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
    "id": "661f2cfc773a",
    "title": "💗招聘人员要求您提供专业推荐信。👀",
    "desc": "💗 招聘人员要求您提供专业推荐信。接下来会发生什么？ 👀 \n\n有些公司在做出招聘决定之前会联系前任经理或同事。\n\n他们通常试图了解与您一起工作的感觉，确认您的经验的各个方面，并更多地了解您如何处理职责。\n\n 🔜 那么，你应该如何准备呢？ \n\n• 选择相关参考文献。 \n与您密切合作并可以谈论您的实际贡献的人比",
    "cat": "misc",
    "source": "海外在招",
    "published": "2026-11-17T09:46:15+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "8b2caa1dc9ab",
-   "title": "成为一名自由职业者需要什么。",
-   "desc": "Hello 的人更有用，所以我的问题很简单： \n1. 要成为一名自由职业者，需要什么条件？ \n2. 在与组织或个人客户合作之前，您需要具备哪些技能？ \n3、开始工作之前需要做什么？ \n4. 您会给新的自由职业者什么法律建议？ \n5. 市场怎么样？在第一份工作成功完成后，什么能让你脱颖而出并继续追求更多？ \n6. 当来访者试图表现得聪明时应该怎么做？\n\n感谢您抽出时间",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-17T09:34:43+00:00",
    "salary": "",
    "remote": false,
    "web3": false
@@ -4876,34 +5800,12 @@
    "web3": false
   },
   {
-   "id": "5a6cd38deb24",
-   "title": "在班加罗尔寻找化妆师的SMM",
+   "id": "c93449faa778",
+   "title": "寻找工作",
    "desc": "[已删除]",
-   "cat": "marketing",
+   "cat": "misc",
    "source": "海外在招",
-   "published": "2026-11-17T08:03:10+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "128f313935f8",
-   "title": "[招聘]寻找 SEO/营销机构的 Rerral 合作伙伴。",
-   "desc": "我们是一家 SEO 和营销机构，我们的外展书籍每天大约有 10 次会议。我们正在寻找推荐合作伙伴来为我们带来客户，我想坦白说明一切是如何运作的。\n\n我们的客户只有在开始看到结果后才付款，这通常需要 1 到 2 个月，有时甚至长达 3 个月。我们可能会收取少量可退还押金来过滤掉不认真的潜在客户。我们的平均聘用费约为每月 560 美元，定价因每个客户的范围而异。\n\n您可以选择 tw",
-   "cat": "marketing",
-   "source": "海外在招",
-   "published": "2026-11-17T07:49:09+00:00",
-   "salary": "$560",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "32e96f88161e",
-   "title": "无需等待职位发布即可找到第一个自由客户的 20 人方法",
-   "desc": "第一个客户是最难的，因为你没有什么可指出的：没有作品集，没有评论。等待工作职位的过程很慢，而且您会与看到同一职位的其他人竞争。这是一个不依赖于任何一个的方法。\n\n1. 选择一种客户。不是“小企业”。比如“我所在城市的牙医”或“拥有自己的在线商店的独立咖啡烘焙商”。它越窄，下面的每一步就越容易。\n2. 按姓名列出该组中的 20 个真实企业或人员。你",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-17T06:15:11+00:00",
+   "published": "2026-11-17T04:16:42+00:00",
    "salary": "",
    "remote": false,
    "web3": false
@@ -4920,17 +5822,6 @@
    "web3": false
   },
   {
-   "id": "7507276e449b",
-   "title": "[招聘] 精通英语、具备 Web 开发知识的来电者 | $1600–$3200/月",
-   "desc": "我们目前正在招募符合以下要求的候选人。\n\n要求：\n\n母语水平的英语水平。\n\n良好的口头沟通和信心。\n\nWeb 开发知识或经验。\n\n能够进行技术讨论和采访。 \n\n首选地点：英国、美国、加拿大、欧洲、拉丁美洲、伊朗和叙利亚\n\n薪酬：每月 1600-3200 美元，具体取决于专业知识。付款条件将在入职前讨论。 \n\n有兴趣并且有资格吗？\n\n向我发送 DM ",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-17T03:43:19+00:00",
-   "salary": "$1600–$3200/Mo",
-   "remote": false,
-   "web3": false
-  },
-  {
    "id": "c5991bb75b92",
    "title": "- Robinhood 正在招聘应用程序开发人员，Workday",
    "desc": " - Robinhood 正在招聘应用程序开发人员 Workday \n- Ripio 正在招聘营销运营和 CRM 高级人员 \n- 海象基金会正在招聘整合营销主管 \n- Galaxy Digital 正在招聘 2027 年研究实习生 - 纽约市 \n- Immutable 正在招聘高级安全工程师（产品安全）",
@@ -4939,6 +5830,17 @@
    "published": "2026-11-17T03:42:52+00:00",
    "salary": "",
    "remote": false,
+   "web3": false
+  },
+  {
+   "id": "456e7975d1d4",
+   "title": "**标题：** [招聘] YouTube Deep Dives 的长篇真实犯罪脚本作家 – 每个脚本最高 560 美元，远程",
+   "desc": "大家好！我们是 NIA Production，一家拥有并运营自己内部频道的 YouTube 公司。我们拥有 90 多名员工，在全球范围内招聘，并且正在快速发展。您可以在 [nia-production.com]（ \n\n我们正在开始一种新的形式：**单主题深入探讨**。每个视频都深度报道了一个黑暗案件，并包含大量镜头。我们正在寻找一位能够彻底研究案例并将其转化为自始至终吸引注意力的剧本的作家。\n\n**评分和",
+   "cat": "writing",
+   "source": "海外在招",
+   "published": "2026-11-17T02:38:31+00:00",
+   "salary": "$560",
+   "remote": true,
    "web3": false
   },
   {
@@ -4972,6 +5874,28 @@
    "published": "2026-11-17T00:00:17+00:00",
    "salary": "",
    "remote": true,
+   "web3": false
+  },
+  {
+   "id": "126ec85cb8c8",
+   "title": "[招聘] 商业消防喷淋设计师 – 付费指导 (NFPA 13 / SprinkCAD)",
+   "desc": "[已删除]",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-16T21:21:39+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "e3c457d551f6",
+   "title": "[HIRING] Scriptwriter & Researcher for YouTube Channel - 5M+ Subscribers",
+   "desc": "嗨！我是 Yes Theory 的前编辑（[1000 万+订阅者]（正在寻找 **一名专门从事健康与保健的研究员和剧本作家。**\n\n我和我的商业伙伴正在创办一个制作工作室，为 YouTube 上的一些顶级健康与保健创作者制作迷你纪录片（[与此类似]（。 \n\n我无法在此说出创作者的名字，但其中一位主要创作者拥有超过 500 万订阅者。\n\n我们将从一些测试项目开始（付费",
+   "cat": "writing",
+   "source": "海外在招",
+   "published": "2026-11-16T19:35:56+00:00",
+   "salary": "$0.1",
+   "remote": false,
    "web3": false
   },
   {
@@ -5041,35 +5965,13 @@
    "web3": false
   },
   {
-   "id": "30f2e460c926",
-   "title": "🎬寻找内容创作者！我是一名自由视频编辑，专门从事 Instagram Reels、YouTube Shorts 和 TikTok 视频。我可以帮助",
-   "desc": "",
+   "id": "a1adf9056dc5",
+   "title": "[招聘] 帮助设计 1980 年代的体育标志和品牌（36 美元/小时）",
+   "desc": "我们回来了，第三次就是魅力！\n\n我希望为我即将成立的体育教练组织委托至少一个标志设计。我们希望这一努力能够产生补充现有品牌并适合我们当前视觉语言的设计。最终结果将是一个完整的标志包，让人想起 70 年代至 80 年代的体育运动。\n\n我们有剩余设计的草图，希望最终确定。我们需要帮助的是清理草图并将其数字化为格式",
    "cat": "design",
    "source": "海外在招",
-   "published": "2026-11-16T18:16:19+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "d8209e873a03",
-   "title": "需要视频编辑器ASAAPPP（每个视频 = INR 800）",
-   "desc": "嗨，我需要一个视频编辑器，可以为此帐户编辑短片视频/影片 - [ \n持续时间 - 30-120 秒 \n补偿 - 每个视频 800 卢比 \n每周需要发布 3 到 4 个视频\n\n如果您具有良好的视频编辑技能，并且能够始终如一地交付（准时是关键）（到目前为止还没有与编辑人员有良好的经验），那么请在此处分享您的作品集或发表评论。\n\n我们可以基于",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-16T18:14:37+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
-   "id": "c42ce049cf4a",
-   "title": "最近的编辑项目 - 一个 30 分钟的视频，包含 24 小时的挑战。🔥寻找编辑器？👀DM'S 开放📥",
-   "desc": "",
-   "cat": "writing",
-   "source": "海外在招",
-   "published": "2026-11-16T18:02:35+00:00",
-   "salary": "",
+   "published": "2026-11-16T17:42:05+00:00",
+   "salary": "$36/hr",
    "remote": false,
    "web3": false
   },
@@ -5082,6 +5984,17 @@
    "published": "2026-11-16T17:29:29+00:00",
    "salary": "",
    "remote": true,
+   "web3": false
+  },
+  {
+   "id": "0c8caa38e49a",
+   "title": "聘请学术代笔！",
+   "desc": "[已删除]",
+   "cat": "writing",
+   "source": "海外在招",
+   "published": "2026-11-16T16:25:16+00:00",
+   "salary": "",
+   "remote": false,
    "web3": false
   },
   {
@@ -5118,13 +6031,13 @@
    "web3": false
   },
   {
-   "id": "3939be23720a",
-   "title": "寻找卷轴编辑器工作",
-   "desc": "讨论全职机会嘿伙计们， \n我正在寻找担任编辑的机会 \n[我的作品集]( \n许多不同领域的项目： \n[广告]( \n[个人品牌医生]( \n[医生建议]( \n[房地产]( \n[代理业务咨询](",
-   "cat": "marketing",
+   "id": "eff6937f8ab4",
+   "title": "[招聘]有史以来最简单的任务",
+   "desc": "我们需要事先交谈，所以如果您无法发消息，请敲我或在下面留下您的评论 \n美国 \n工资是16美元 \n需要： 5 分钟的时间 \n完成人数：800 人。",
+   "cat": "misc",
    "source": "海外在招",
-   "published": "2026-11-16T14:40:33+00:00",
-   "salary": "",
+   "published": "2026-11-16T15:03:33+00:00",
+   "salary": "$16",
    "remote": false,
    "web3": false
   },
@@ -5140,17 +6053,6 @@
    "web3": false
   },
   {
-   "id": "48b777cd6217",
-   "title": "寻找学生视频编辑器用于活动/商业拍摄",
-   "desc": "嗨！ \n我正在寻找可以帮助我制作竞选视频的人，最好是喜欢视频编辑的人，尤其是纪录片类型的人。 \n该项目时长约为 4-6 分钟。我们将提供原始视频片段，您的任务是根据我们所需的输出和创意方向编辑和组合所有内容。\n\n这是向学生和有抱负的视频编辑者开放的。这只是针对该特定活动视频的一次性、基于项目的委托。\n\n如果",
-   "cat": "design",
-   "source": "海外在招",
-   "published": "2026-11-16T13:18:16+00:00",
-   "salary": "",
-   "remote": false,
-   "web3": false
-  },
-  {
    "id": "0456a683d08d",
    "title": "嗨，Vlad。这是我最新的演示之一（我的个人网站正在开发中）。",
    "desc": "",
@@ -5159,17 +6061,6 @@
    "published": "2026-11-16T12:58:39+00:00",
    "salary": "",
    "remote": true,
-   "web3": false
-  },
-  {
-   "id": "0518e507e300",
-   "title": "[招聘] 房地产经纪人、收入的短格式/长格式编辑器分享",
-   "desc": "",
-   "cat": "writing",
-   "source": "海外在招",
-   "published": "2026-11-16T12:27:21+00:00",
-   "salary": "",
-   "remote": false,
    "web3": false
   },
   {
@@ -5195,6 +6086,28 @@
    "web3": false
   },
   {
+   "id": "b25d22a3f44f",
+   "title": "[招聘]健康应用程序的远程 TikTok 脚本编写者，欢迎学生，每小时 12 至 20 美元",
+   "desc": "您在 TikTok 上花费太多时间吗？好的。我们想为此付钱给你。\n\n我们是 Llama Luna，Waterllama 和 Foodllama 背后的小团队，这两个 iOS 应用程序帮助人们养成健康的习惯。我们的创作者负责拍摄。你负责处理想法：吸引人的地方、故事和让人们停止滚动的文字。\n\n仅担任写作角色。没有相机，没有露面，没有从您的帐户发帖。\n\n你会做什么：\n\n* 编写简短的 TikTok 脚本（15 至 60 秒）：引子、故事、结局\n* 现货",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-16T11:19:55+00:00",
+   "salary": "$12",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "750d9e980ec4",
+   "title": "[招聘] 健康应用远程 TikTok 编剧，欢迎学生，按小时付费",
+   "desc": "[已删除]",
+   "cat": "marketing",
+   "source": "海外在招",
+   "published": "2026-11-16T11:15:44+00:00",
+   "salary": "",
+   "remote": true,
+   "web3": false
+  },
+  {
    "id": "6794b425ca91",
    "title": "💗 ATS 会自动拒绝您的简历吗？",
    "desc": "💗 ATS 会自动拒绝您的简历吗？ \n\n您可能已经看到这样的说法：大多数简历在招聘人员阅读之前就被申请人跟踪系统拒绝了。\n\n但这并不是所有 ATS 的工作原理。\n\nATS 主要是公司用来收集、组织和管理应用程序的工具。\n\n一些系统支持根据雇主定义的标准进行自动筛选，而其他系统还提供人工智能辅助功能。\n\n这里有一些值得了解的事情：没有通用的 ATS 分数或 mag",
@@ -5215,6 +6128,39 @@
    "salary": "",
    "remote": false,
    "web3": true
+  },
+  {
+   "id": "52e633940ac1",
+   "title": "[招聘]编辑和平面设计师",
+   "desc": "[已删除]",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-16T07:01:44+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "4f8ae103991e",
+   "title": "寻求平面设计师职位-4年经验",
+   "desc": "[已删除]",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-16T06:58:57+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "528e56cc4a70",
+   "title": "[招聘] 北阿坎德邦付费拍摄：模特、摄影师、MUA、造型师、设计师、作家、视频编辑",
+   "desc": "我们正在北阿坎德邦的一家 24/7 商店进行拍摄，并组建了一支创意团队。这是付费拍摄。\n\n所需角色：\n\n\\-时装设计师\n\n\\- 时装模特（女/男）\n\n\\- 摄影师\n\n\\- 作家/文案\n\n\\- 视频编辑器\n\n\\- 化妆师（MUA）\n\n\\- 造型师\n\n预算分配为 9600 美元。\n\n如需申请，请提供您位于北阿坎德邦的城市和简短的介绍。\n\n完整的详细信息（日期、时间、付款）将很快与入围人员共享。北阿坎德邦的创作者优先。",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-16T06:42:24+00:00",
+   "salary": "9600 USD",
+   "remote": false,
+   "web3": false
   },
   {
    "id": "793345d7ca53",
@@ -5239,12 +6185,34 @@
    "web3": false
   },
   {
+   "id": "7d57dce5ce31",
+   "title": "体育和名人频道的 YouTube 编剧|正在进行的工作",
+   "desc": "\\[Hiring\\] YouTube 体育和名人频道编剧 |每 1,000 字脚本 96 美元（每字 12 美分）|进行中\n\n我们制作有关嘻哈、NBA、WWE、一级方程式赛车、足球、UFC、拳击、NFL 和老名人的 YouTube 长视频。我们的频道拥有超过 1500 万订阅者，并且我们正在招聘编剧。\n\n工作\n\n\\- 约1,000字的脚本\n\n\\- 分配后 24 至 96 小时内到期\n\n\\- 每个脚本都附带其源列表\n\n研究对我们来说最重要。我们需要挖掘的作家",
+   "cat": "writing",
+   "source": "海外在招",
+   "published": "2026-11-16T05:43:14+00:00",
+   "salary": "$96",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "0e6bee888588",
    "title": "- Flow Traders 正在招聘高级软件工程师 - 交易后平台",
    "desc": "- Flow Traders 正在招聘高级软件工程师 - 交易后平台 \n- Stripe 正在招聘 UI 平台后端工程师 \n- Ripple 正在招聘客户经理（德语） \n- Kraken 正在招聘全栈工程师 - 成长与实验 - Krak \n- BVNK 正在招聘安全运营和风险自动化工程师",
    "cat": "tech",
    "source": "海外在招",
    "published": "2026-11-16T03:32:30+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "32ca89e39e4b",
+   "title": "[招聘] 自由职业 YouTube 真实犯罪编剧",
+   "desc": "[已删除]",
+   "cat": "writing",
+   "source": "海外在招",
+   "published": "2026-11-16T02:15:14+00:00",
    "salary": "",
    "remote": false,
    "web3": false
@@ -5257,6 +6225,39 @@
    "source": "海外在招",
    "published": "2026-11-16T02:08:32+00:00",
    "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "fd94bc605f09",
+   "title": "[招聘] YouTube 缩略图设计师，也可以做包装（标题 + 文字创意）|每个缩略图 40–80 美元 |远程",
+   "desc": "**关于我们**\n我们运营一个 YouTube 频道，教人们如何进入数据分析师职业并不断成长。每个视频都是长篇且具有教育意义，专为职业生涯中期的专业人士制作。\n\n我们正在寻找一位缩略图设计师，他可以帮助打包，而不仅仅是构建缩略图。申请表显示了我们所追求的风格。\n\n**你会做什么**\n* 阅读视频脚本并提出视频标题和缩略图文本\n* 围绕一个独立的缩略图设计 i",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-16T01:43:55+00:00",
+   "salary": "$40–80",
+   "remote": true,
+   "web3": false
+  },
+  {
+   "id": "c5d281397fd3",
+   "title": "需要自由徽标设计师 – 人工智能和技术品牌识别项目（招聘）（$80/小时）",
+   "desc": "[已删除]",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-16T00:28:02+00:00",
+   "salary": "$80/hr",
+   "remote": false,
+   "web3": false
+  },
+  {
+   "id": "64b5143ff33d",
+   "title": "[招聘]健康补品品牌的品牌和包装设计师",
+   "desc": "大家好！我正在印度打造一个保健品品牌，正在寻找标志、品牌、视觉识别和包装设计师。\n\n我已经有了情绪板、参考资料和明确的创意方向，所以你不会从头开始。我一直是一位艺术鉴赏家，并且真正喜欢探索不同的设计风格。 \n我的目标是打造有趣又可信的产品，采用优质的、受制药启发的包装和光滑的 3D 玻璃状元素。我们的目标是更广泛的受众 acr",
+   "cat": "tech",
+   "source": "海外在招",
+   "published": "2026-11-15T23:03:59+00:00",
+   "salary": "240 USD",
    "remote": false,
    "web3": false
   },
@@ -5280,6 +6281,17 @@
    "published": "2026-11-15T21:14:09+00:00",
    "salary": "",
    "remote": true,
+   "web3": false
+  },
+  {
+   "id": "11663e61e841",
+   "title": "工作搜索建议请",
+   "desc": "[已删除]",
+   "cat": "misc",
+   "source": "海外在招",
+   "published": "2026-11-15T20:51:39+00:00",
+   "salary": "",
+   "remote": false,
    "web3": false
   },
   {
@@ -5357,6 +6369,17 @@
    "published": "2026-11-15T10:00:05+00:00",
    "salary": "",
    "remote": false,
+   "web3": false
+  },
+  {
+   "id": "bbc8d4b4abd9",
+   "title": "[招聘] 编辑和图形设计师",
+   "desc": "希望与经验丰富的图形和编辑设计师联系以获得远程合同机会！\n\n这项工作包括审查图形设计、布局、海报、封面和品牌材料，评估其质量并提供反馈。\n\n寻找在平面设计、编辑设计、出版物设计或艺术指导方面具有专业经验的人。有 Adob​​e InDesign、Illustrator、Photoshop 或 Figma 经验者优先。\n\n费用为 44-80 美元/小时，具体取决于经验。 F",
+   "cat": "design",
+   "source": "海外在招",
+   "published": "2026-11-15T09:14:05+00:00",
+   "salary": "$44–$80/hr",
+   "remote": true,
    "web3": false
   },
   {
@@ -5503,6 +6526,17 @@
    "web3": false
   },
   {
+   "id": "88f3e3483ed1",
+   "title": "可用于撰写工作。",
+   "desc": "[已删除]",
+   "cat": "writing",
+   "source": "海外在招",
+   "published": "2026-11-14T09:36:42+00:00",
+   "salary": "",
+   "remote": false,
+   "web3": false
+  },
+  {
    "id": "253a97209fe6",
    "title": "[招聘]每小时获得 6-12 美元的报酬，用手机记录您的真实实践工作（32 个国家/地区）",
    "desc": "[已删除]",
@@ -5514,80 +6548,14 @@
    "web3": false
   },
   {
-   "id": "78549cd97b60",
-   "title": "常用前缀 |高级软件工程师|希腊雅典 / 远程 |全职| $64k 至 $128k + 股权 + 奖金 我们正在招聘高级软件",
-   "desc": "",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-13T19:37:57+00:00",
-   "salary": "$64k",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "94dd88d988e8",
-   "title": "Joulent |公司大脑人工智能工程师 |旧金山 |现场|全职| 140,000 美元至 184,000 美元基础费用加上奖金和股权 我们正在招聘一名人工智能引擎",
-   "desc": "",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-13T18:34:24+00:00",
-   "salary": "$140k",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "242713a366c1",
-   "title": "Bonfire Analytics |高级数据科学家、资深数据科学家 |纽约州纽约 (FiDi) |现场/混合 |全职| $112K-$180K + 0.05%-0.",
-   "desc": "",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-13T18:09:19+00:00",
-   "salary": "$112K",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "c4087b5c1aa3",
-   "title": "内容创建者 - YouTube",
-   "desc": "重要提示：没有介绍视频的申请将不予考虑。 \n 职位概述 创建有关软件、数字营销和人工智能工具的引人入胜的 YouTube 教程，每月通过我们的 YouTube 频道 Metics Media 覆盖全球数百万人。 \n 关于我们 Metics Media 是一个完全远程的小型团队，为超过 700,000 名订阅者制作有关软件、数字营销和人工智能工具的高质量 YouTube 视频。我们的使命很简单：让技术变得简单",
+   "id": "c2a3a57609bd",
+   "title": "出租 |自由内容作家 |博客文章、个人散文、时事通讯和创意写作 |起价 0.1 美元/字",
+   "desc": "Heyy 大家！我是凯西，一位专门从事个人论文、讲故事和引人入胜的对话内容的作家！我目前正在寻找自由写作机会，包括一次性项目和正在进行的合作。我的写作特别注重通过相关的经历、用自然、人性化的声音讲述深思熟虑的故事来与读者建立联系。我在 Medium 上发表过作品，也创作过原创小说。 :) \n\n**博客文章和文章**\n\n起始价格：每张 0.1 美元",
    "cat": "design",
    "source": "海外在招",
-   "published": "2026-11-13T17:29:57+00:00",
-   "salary": "$68k - $124k",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "b0eee0287c63",
-   "title": "*机密医疗保健人工智能初创公司 |高级全栈工程师（前端）|纽约 |混合（3 天现场）|全职| $128K–$160K",
-   "desc": "- 6 年以上专业软件工程经验，主要是前端。\n- 丰富的 React 和 TypeScript 生产经验。\n- 扎实的 UI 架构、状态管理和性能优化技能。\n- 使用 TanStack 查询/路由器或类似工具的经验。\n- 能够拥有端到端的功能，包括后端 API。\n- 能够轻松使用人工智能编码代理并严格审查其输出。有医疗保健、支付、计费或 B2B SaaS 经验者优先。 *地点：* 必须",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-13T14:47:49+00:00",
-   "salary": "$128K",
-   "remote": true,
-   "web3": false
-  },
-  {
-   "id": "78794901b791",
-   "title": "寻找全职人工智能工程师或前沿部署工程师作为新毕业生",
-   "desc": "大家好，\n\n我是 UST Global 的人工智能工程师实习生。我正在美国寻找全职人工智能工程师或 FDE 或 AI FDE 职位。我是一名符合 STEM OPT 资格的国际学生（目前正在进行 OPT），需要赞助才能继续。\n\n我已经构建了端到端的代理系统，并且正在从事一个单独的多代理项目，即使作为我目前公司的实习生也是如此。\n\n我附上我的简历和 GitHub 给任何对我的能力感兴趣的人！\n\n[恢复](",
-   "cat": "tech",
-   "source": "海外在招",
-   "published": "2026-11-13T14:47:33+00:00",
-   "salary": "",
+   "published": "2026-11-14T03:23:07+00:00",
+   "salary": "$0.1",
    "remote": false,
-   "web3": false
-  },
-  {
-   "id": "51830e8e9c7e",
-   "title": "Bechtel |渗透测试仪|远程或现场（美国+许多国家/地区）|我们正在从第一任",
-   "desc": "",
-   "cat": "misc",
-   "source": "海外在招",
-   "published": "2026-11-13T14:21:47+00:00",
-   "salary": "",
-   "remote": true,
    "web3": false
   }
  ]
