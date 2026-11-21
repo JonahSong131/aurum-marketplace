@@ -1,7 +1,15 @@
 {
- "updated": "2026-11-21T10:41:11+00:00",
- "count": 108,
+ "updated": "2026-11-21T18:44:23+00:00",
+ "count": 109,
  "jobs": [
+  {
+   "id": "b5385d17e789",
+   "title": "招聘：AI UGC视频编辑器 (Google Flow + CapCut)",
+   "cat": "design",
+   "salary": "$16.",
+   "published": "2026-11-21T13:40:21+00:00",
+   "source": "海外在招"
+  },
   {
    "id": "3cffdc37a0a2",
    "title": "加入我们的人工智能工作频道：",
