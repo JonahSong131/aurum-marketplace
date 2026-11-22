@@ -1,7 +1,15 @@
 {
- "updated": "2026-11-22T00:58:42+00:00",
- "count": 109,
+ "updated": "2026-11-22T10:46:32+00:00",
+ "count": 110,
  "jobs": [
+  {
+   "id": "a71f67bbbdd4",
+   "title": "Bridge #Marketing",
+   "cat": "web3",
+   "salary": "面议",
+   "published": "2026-11-22T01:21:18+00:00",
+   "source": "海外在招"
+  },
   {
    "id": "b5385d17e789",
    "title": "招聘：AI UGC视频编辑器 (Google Flow + CapCut)",
