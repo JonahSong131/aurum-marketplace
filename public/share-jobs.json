@@ -1,7 +1,71 @@
 {
- "updated": "2026-11-23T01:26:05+00:00",
- "count": 110,
+ "updated": "2026-11-23T11:51:28+00:00",
+ "count": 116,
  "jobs": [
+  {
+   "id": "e5e374adedd5",
+   "title": "寻找编辑、动作设计师或 3D 艺术家？",
+   "cat": "design",
+   "salary": "",
+   "published": "2026-11-23T10:07:18+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "5d058cc859ea",
+   "title": "BD负责人（中台） | HOTCOIN",
+   "cat": "web3",
+   "salary": "USD 2400 - 4000",
+   "published": "2026-11-23T09:02:03+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "7214d6d92fa2",
+   "title": "商业运营 | HOTCOIN",
+   "cat": "web3",
+   "salary": "USD 1600 - 4000",
+   "published": "2026-11-23T09:01:02+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "95f20455d943",
+   "title": "🔥 Вакансии Менеджмент, Тимлид 🔥",
+   "cat": "misc",
+   "salary": "",
+   "published": "2026-11-23T08:00:56+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "7421e7801bf4",
+   "title": "🔥 Вакансии Менеджмент, Тимлид 🔥",
+   "cat": "misc",
+   "salary": "",
+   "published": "2026-11-23T08:00:52+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "62488b66a637",
+   "title": "客服 | Eather",
+   "cat": "web3",
+   "salary": "USD 960 - 1200",
+   "published": "2026-11-23T06:42:03+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "1428a3ed1789",
+   "title": "海外商务拓展 (BD) | Hotcoin",
+   "cat": "web3",
+   "salary": "面议",
+   "published": "2026-11-23T06:22:45+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "35bc27987979",
+   "title": "同步运营 | HOTCOIN",
+   "cat": "web3",
+   "salary": "面议",
+   "published": "2026-11-23T06:21:20+00:00",
+   "source": "海外在招"
+  },
   {
    "id": "a71f67bbbdd4",
    "title": "Bridge #Marketing",
@@ -123,14 +187,6 @@
    "source": "海外在招"
   },
   {
-   "id": "7421e7801bf4",
-   "title": "Менеджер по бронированию",
-   "cat": "misc",
-   "salary": "",
-   "published": "2026-11-17T12:04:09+00:00",
-   "source": "海外在招"
-  },
-  {
    "id": "e7f8f539d717",
    "title": "BD助理| HOTCOIN",
    "cat": "web3",
@@ -152,14 +208,6 @@
    "cat": "design",
    "salary": "$5.2",
    "published": "2026-11-17T09:00:05+00:00",
-   "source": "海外在招"
-  },
-  {
-   "id": "35bc27987979",
-   "title": "同步运营 | HOTCOIN",
-   "cat": "web3",
-   "salary": "面议",
-   "published": "2026-11-17T08:44:25+00:00",
    "source": "海外在招"
   },
   {
