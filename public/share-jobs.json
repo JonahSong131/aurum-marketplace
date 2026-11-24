@@ -1,7 +1,71 @@
 {
- "updated": "2026-11-23T23:27:26+00:00",
- "count": 117,
+ "updated": "2026-11-24T08:30:20+00:00",
+ "count": 125,
  "jobs": [
+  {
+   "id": "1c5d5e6599d9",
+   "title": "财务经理 |",
+   "cat": "web3",
+   "salary": "USD 5600 - 8000",
+   "published": "2026-11-24T06:41:29+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "367c8179355d",
+   "title": "内控经理",
+   "cat": "web3",
+   "salary": "",
+   "published": "2026-11-24T06:01:47+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "0956957afdf1",
+   "title": "运营负责人 | Miya - 猎头",
+   "cat": "web3",
+   "salary": "USD 3040 - 4000",
+   "published": "2026-11-24T05:22:35+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "927aa93e8f6f",
+   "title": "商学院院长",
+   "cat": "web3",
+   "salary": "USD 2800 - 4000",
+   "published": "2026-11-24T05:21:37+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "474a47bc2531",
+   "title": "客服专员 | HOTCOIN",
+   "cat": "web3",
+   "salary": "USD 960 - 1600",
+   "published": "2026-11-24T03:42:05+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "13555d67f7b7",
+   "title": "增长运营实习生 | HOTCOIN",
+   "cat": "tech",
+   "salary": "400 USD",
+   "published": "2026-11-24T03:41:00+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "10c00adc4b86",
+   "title": "#SEO与品牌内容运营实习生 | Hotcoin",
+   "cat": "web3",
+   "salary": "USD 160 - 400",
+   "published": "2026-11-24T02:21:19+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "af6f93028fc3",
+   "title": "BD（现货）/ 市场 | HOTCOIN",
+   "cat": "web3",
+   "salary": "",
+   "published": "2026-11-24T01:22:06+00:00",
+   "source": "海外在招"
+  },
   {
    "id": "69f4d75f40dd",
    "title": "[offer] 照片编辑和自定义 YouTube 缩略图 | 4 美元起",
