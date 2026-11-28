@@ -1,7 +1,39 @@
 {
- "updated": "2026-11-28T01:08:11+00:00",
- "count": 139,
+ "updated": "2026-11-28T11:24:19+00:00",
+ "count": 143,
  "jobs": [
+  {
+   "id": "0d5e1143900a",
+   "title": "AI 视频制作师 | FineStar",
+   "cat": "web3",
+   "salary": "",
+   "published": "2026-11-28T10:31:25+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "9d72b760c6e0",
+   "title": "求职（视频编辑）",
+   "cat": "design",
+   "salary": "",
+   "published": "2026-11-28T07:00:15+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "738a93970dbe",
+   "title": "美术主管",
+   "cat": "web3",
+   "salary": "5600-9040 USD",
+   "published": "2026-11-28T03:03:15+00:00",
+   "source": "海外在招"
+  },
+  {
+   "id": "b1148c81431c",
+   "title": "AIGC短视频全能设计师 | 顶尖人力公司",
+   "cat": "web3",
+   "salary": "2800-5600 USD",
+   "published": "2026-11-28T03:01:20+00:00",
+   "source": "海外在招"
+  },
   {
    "id": "7b6fcc927d12",
    "title": "商务运营/市场 (DeFi) | Bifrost",
